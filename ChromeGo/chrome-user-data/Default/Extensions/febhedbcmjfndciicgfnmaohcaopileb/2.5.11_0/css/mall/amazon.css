@@ -1,0 +1,14 @@
+/* 由clear造成的空白bug */
+#smzdm_panel{
+    height: 40px;
+    clear: none;
+}
+#smzdm_panel > ul{
+    position: absolute;
+    z-index: 99;
+}
+
+.a-box-inner.a-padding-null{
+    background: #fff;
+    z-index: 9999;
+}

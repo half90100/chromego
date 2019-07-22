@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "bg_compiled.js" ]
+   },
+   "description": "This extension shows the related pages of the AdWords API and Google Ads API websites based on the current Google Ads UI web page.",
+   "icons": {
+      "128": "assets/shimesu-icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhZVbQbqu/+gR64vy5uwvocEbGvElj4pl9rf7U91+l0PR+AxNURACtR+Bwb88om7scbu/+m+Isv5doS/uEvU71vGmnB8IH/0oGN0EQYHNmGj/mHFyGOGlhOcZCBVvYeXD3aPoPjEVKtjNEfIw1HpBjMAIKzAszsdrIk3uI0NNG3U9/gs5R1WldPxs9EDcZJX+w7mNQ2ixdoVUsEPXczq+bQypMbh1UYBO2/bRjXF0Ydmj036yJr7xbhktvWrvXg8H49M92cW6ZPlczEJYfTDNGi4iDudJOJ3h5LZegKk1zxsqe00QN4XGejoeBDW7pSEcnCft+784HNk7RQJs3lNaCwIDAQAB",
+   "manifest_version": 2,
+   "name": "AdWords & Google Ads API Web Navi",
+   "page_action": {
+      "default_icon": "assets/shimesu-icon-128.png",
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "tabs", "declarativeContent" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}

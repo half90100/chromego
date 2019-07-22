@@ -1,0 +1,208 @@
+{
+    "transAddr": {
+        "resultCode": 0,
+        "description": "转运地址信息【该字段是虚构的】",
+        "msg": "返回成功",
+        "aid": "2088002455596400",
+        "data": [{
+            "id": "20802928803315",
+            "list": [{
+                "address1": "2208 NW Birdsdale Ave. #14",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Gresham",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "OR",
+                "state": "美国",
+                "telephone": "503-328-9376",
+                "wareHouseName": "俄勒冈免税州仓",
+                "wareHouseNo": "ORPX",
+                "zipCode": "97030-6526"
+            }, {
+                "address1": "2650 River Ave # D",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Rosemead",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "CA",
+                "state": "美国",
+                "telephone": "626-280-4888",
+                "wareHouseName": "加州仓",
+                "wareHouseNo": "CAPX",
+                "zipCode": "91770"
+            }],
+            "name": "百通",
+            "status": 0,
+            "isSet": 0
+        }, {
+            "id": "2088502928803315",
+            "list": [{
+                "address1": "2208 NW Birdsdale Ave. #14",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Gresham",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "OR",
+                "state": "美国",
+                "telephone": "503-328-9376",
+                "wareHouseName": "俄勒冈免税州仓",
+                "wareHouseNo": "ORPX",
+                "zipCode": "97030-6526"
+            }, {
+                "address1": "2650 River Ave # D",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Rosemead",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "CA",
+                "state": "美国",
+                "telephone": "626-280-4888",
+                "wareHouseName": "加州仓",
+                "wareHouseNo": "CAPX",
+                "zipCode": "91770"
+            }],
+            "name": "递四方",
+            "status": 0,
+            "isSet": 0
+        }, {
+            "id": "20885029282343318",
+            "list": [{
+                "address1": "2208 NW Birdsdale Ave. #14",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Gresham",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "OR",
+                "state": "美国",
+                "telephone": "503-328-9376",
+                "wareHouseName": "俄勒冈免税州仓",
+                "wareHouseNo": "ORPX",
+                "zipCode": "97030-6526"
+            }, {
+                "address1": "2650 River Ave # D",
+                "address2": "BVKOGYD",
+                "areaName": "AMERICA",
+                "city": "Rosemead",
+                "firstName": "NFRDPIGJ",
+                "lastName": "BVKOGYD",
+                "province": "CA",
+                "state": "美国",
+                "telephone": "626-280-4888",
+                "wareHouseName": "加州仓",
+                "wareHouseNo": "CAPX",
+                "zipCode": "91770"
+            }],
+            "name": "海淘客",
+            "status": 0,
+            "isSet": 1
+        }, {
+            "id": "2088301345047652",
+            "list": [{
+                "address1": "5160 Rivergrade Road",
+                "address2": "K0679",
+                "areaName": "AMERICA",
+                "city": "Baldwin Park",
+                "firstName": "SYCSB",
+                "lastName": "rekcxbqu",
+                "province": "CA",
+                "state": "美国",
+                "telephone": "626-415-4695",
+                "wareHouseName": "加州仓库",
+                "wareHouseNo": "LAX",
+                "zipCode": "91706"
+            }, {
+                "address1": "301 NW Third Ave",
+                "address2": "K0679",
+                "areaName": "AMERICA",
+                "city": "Portland",
+                "firstName": "SYCSB",
+                "lastName": "rekcxbqu",
+                "province": "OR",
+                "state": "美国",
+                "telephone": "503-664-4847",
+                "wareHouseName": "俄勒冈免税州仓",
+                "wareHouseNo": "ORG",
+                "zipCode": "97209"
+            }, {
+                "address1": "1980 Route 27",
+                "address2": "K0679",
+                "areaName": "AMERICA",
+                "city": "Edison",
+                "firstName": "SYCSB",
+                "lastName": "rekcxbqu",
+                "province": "NJ",
+                "state": "美国",
+                "telephone": "732-372-7766",
+                "wareHouseName": "新泽西免税州仓",
+                "wareHouseNo": "NJY",
+                "zipCode": "08817"
+            }, {
+                "address1": "201 Ruthar Dr. Suite 7",
+                "address2": "K0679",
+                "areaName": "AMERICA",
+                "city": "Newark",
+                "firstName": "SYCSB",
+                "lastName": "rekcxbqu",
+                "province": "DE",
+                "state": "美国",
+                "telephone": "626-506-7585",
+                "wareHouseName": "特拉华免税州仓",
+                "wareHouseNo": "DEL",
+                "zipCode": "19711"
+            }, {
+                "address1": "14547 155th St",
+                "address2": "K0679",
+                "areaName": "AMERICA",
+                "city": "Jamaica",
+                "firstName": "SYCSB",
+                "lastName": "rekcxbqu",
+                "province": "NY",
+                "state": "美国",
+                "telephone": "212-574-4908",
+                "wareHouseName": "纽约州仓",
+                "wareHouseNo": "NYC",
+                "zipCode": "11434"
+            }],
+            "name": "斑马物流",
+            "status": 0,
+            "isSet": 0
+        }, {
+            "id": "2088502819319682",
+            "list": [{
+                "address1": "3760 W CENTURY BLVD",
+                "address2": "APAGAA",
+                "areaName": "AMERICA",
+                "city": "INGLEWOOD",
+                "firstName": "XXIASQYE",
+                "lastName": "APAGAA",
+                "province": "CA",
+                "state": "美国",
+                "telephone": "626-689-2000",
+                "wareHouseName": "CA加州仓",
+                "wareHouseNo": "YJ01",
+                "zipCode": "90303-1106"
+            }, {
+                "address1": "215 Lisa Dr",
+                "address2": "APAGAA",
+                "areaName": "AMERICA",
+                "city": "New Castle",
+                "firstName": "XXIASQYE",
+                "lastName": "APAGAA",
+                "province": "DE",
+                "state": "美国",
+                "telephone": "626-689-2000",
+                "wareHouseName": "DE免税州仓",
+                "wareHouseNo": "YJ02",
+                "zipCode": "19720-4193"
+            }],
+            "name": "友家速递",
+            "status": 0,
+            "isSet": 1
+        }]
+    }
+}

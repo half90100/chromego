@@ -1,0 +1,9 @@
+/* 边框贴底线 */
+#smzdm_panel{
+    margin-bottom: 7px !important;
+}
+
+/* 修复提交按钮超出边框 */
+#smzdm_panel .btn{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "Viac o Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Pridaj PageRank banner na tvoju stránku"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Denne dosahuje (v miliónoch)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Denná návštevnosť a trend rebríčka"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Denné zhliadnutie na užívateľa"
+   },
+   "AlexaRank": {
+      "message": "Alexa pozícia návštevnosti"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Návštevnosť podľa hladania (v percentách)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Spätné odkazy"
+   },
+   "Cache": {
+      "message": "V pamäťi"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org prvý odkaz bol %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google posledný odkaz bol %VALUE%"
+   },
+   "Cancel": {
+      "message": "Zrušiť"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Skontroluj online PageRank na vašom webe"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO lišta"
+   },
+   "City": {
+      "message": "Mesto"
+   },
+   "ClickMore": {
+      "message": "Klikni pre viacej informácií"
+   },
+   "ClickPR": {
+      "message": "Klikni ak chceš vložiť túto PageRank ikonku na tvoju stránku"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Porovnaj - Rank"
+   },
+   "CompeteUV": {
+      "message": "Porovnaj - Unikátni návštevníci"
+   },
+   "Content": {
+      "message": "Obsah"
+   },
+   "Country": {
+      "message": "Krajina"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Developer"
+   },
+   "DomainInfo": {
+      "message": "Info o doméne"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Prispejte ak sa páči"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Vlož email..."
+   },
+   "Feedback": {
+      "message": "Ohlasy"
+   },
+   "FirstDisplay": {
+      "message": "Prvá stránka po otvorení"
+   },
+   "Follow_me": {
+      "message": "Následuj ma"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Free Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocation"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Hľadaj %DOMAIN% z obsahu Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Pomôžte s prekladom do iných jazykov"
+   },
+   "History": {
+      "message": "Obnov históriu"
+   },
+   "History_New": {
+      "message": "Čo je nové ?"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% je k dispozícii"
+   },
+   "Length": {
+      "message": "Počet znakov"
+   },
+   "LinkExternal": {
+      "message": "Externé odkazy"
+   },
+   "LinkInternal": {
+      "message": "Interné odkazy"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Viac info"
+   },
+   "MoreIdx": {
+      "message": "Klikni pre zobrazenie indexov stránky %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Kliknite pre viac informácií..."
+   },
+   "MoreLink": {
+      "message": "Spätné linky indexované stránkou %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% neznámy"
+   },
+   "NotFound2": {
+      "message": "Nenašiel"
+   },
+   "NumIndex": {
+      "message": "Stránky indexované %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Spätné odkazy indexované %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Nastavenia"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Pripoj"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Udalosť"
+   },
+   "PageInfo": {
+      "message": "Info stránky"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Veľmi rýchla"
+   },
+   "PageLevel2": {
+      "message": "Rýchla"
+   },
+   "PageLevel3": {
+      "message": "Priemer"
+   },
+   "PageLevel4": {
+      "message": "Pomalá"
+   },
+   "PageLevel5": {
+      "message": "Veľmi pomalá"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Content loaded"
+   },
+   "PageLong": {
+      "message": "Koľko"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "Presmeruj"
+   },
+   "PageRequest": {
+      "message": "Žiadať"
+   },
+   "PageResponse": {
+      "message": "Odpoveď"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "If this is your site, perhaps you need to optimize the web site or %LINK%migrate to a faster server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Rýchlosť webu"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% of web pages in the world are faster."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% of web pages in the world are slower."
+   },
+   "PageSum": {
+      "message": "Sum"
+   },
+   "PageTime1": {
+      "message": "Čas nahratia webu:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Seconds"
+   },
+   "PageTimings": {
+      "message": "Časy nahratia stránky (ms)"
+   },
+   "PageWhen": {
+      "message": "Štart"
+   },
+   "PagesIndexed": {
+      "message": "Pages indexed"
+   },
+   "Percentage": {
+      "message": "Percentage"
+   },
+   "PrPlugin": {
+      "message": "Pridaj na svoju stránku"
+   },
+   "PrivacyNote": {
+      "message": "Ochrana súkromia: Vaše súkromie je pre nás dôležité. Nikdy nebudeme poskytovať Vašu e-mailovú adresu a odhlásiť sa môžete kedykoľvek. "
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Páči sa ti toto rozšírenie ? Prosím \u003Ca href=\"%LINK%\" target=_blank>ohodnoť nás\u003C/a> piatimi hviezdičkami Chrome Web Store. Thank you! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Používaš to? Hodnoť!"
+   },
+   "RateIt2": {
+      "message": "Hodnoť"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Doporučenie"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO Štatistiky"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Ulož & Zavri"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Šírka webu"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "Specified URL"
+   },
+   "Sub_email": {
+      "message": "Odoberať E-mailom:"
+   },
+   "Subscribe": {
+      "message": "Odoberať"
+   },
+   "SubscribeTo": {
+      "message": "Odoberať ChromeFans.org"
+   },
+   "Support": {
+      "message": "Technická podpora"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Tools"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Vyťaženie"
+   },
+   "TrafficGraphs": {
+      "message": "Grafy vyťaženia"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Nehodnotené"
+   },
+   "WebmasterTools": {
+      "message": "Webmaster Aplikácie"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Prečo odoberať?"
+   },
+   "id": {
+      "message": "sk"
+   },
+   "id_folder": {
+      "message": "sk"
+   },
+   "md5_calc": {
+      "message": "Zdarma MD5 Hash kalkulátor"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

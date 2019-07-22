@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "bg.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon-19.png",
+      "default_popup": "popup.html",
+      "default_title": "惠惠购物助手™"
+   },
+   "content_scripts": [ {
+      "js": [ "js/loader.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/extension_3_1_chrome.css" ],
+      "js": [ "js/extension_3_1_ext.js" ],
+      "matches": [ "*://*.taobao.com/*", "*://*.tmall.com/*", "*://*.tmall.hk/*", "*://*.vip.com/*", "*://*.jumei.com/*", "*://*.jumeiglobal.com/*", "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "【网易出品】在您网购浏览商品的同时，自动对比其他优质电商同款商品价格，并提供商品价格历史，帮您轻松抄底，聪明网购不吃亏！",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "48": "images/icon-32.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVSZDtwMzshNGh7m1AgDeFP8hAHOy7vfeW92AJLKrMJxJE2ZSq+eiYV0ZqkewzlLkanqyeCxK//n/AWLaj4kkG1Qw4Mbd6p/ELK2Gpn/QkDDkG6W1SU4MGqs8zIKkei2cTY0rgzH7EXXHTvo/97PaX9I9ftY/CQVPYd1KLKapClQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "惠惠购物助手",
+   "options_page": "options.html",
+   "permissions": [ "http://*/*", "https://*/*", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "4.3.9.8",
+   "web_accessible_resources": [ "images/*.png", "images/*.gif" ]
+}

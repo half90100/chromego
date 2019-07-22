@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon_38.png"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "简单好用的新浪微博图床,支持选择/拖拽/粘贴上传图片,并生成图片地址,HTML,UBB和Markdown等格式,支持浏览和删除历史记录",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgj9EbZMWHx54MA4qqTTXxMq2WiKz4CsdUdxnDHSxBwh224F4IkD3N4me5mftSJGl/7yH1AH77BjEw7/sRUIk+PVHm4aquyGGlLamvAw7AzpsJ4GkVigZozev2f5hyT+9tlG7TccGxgPZJarTxM7pr/rMVK1CTqXEdQCWQsAlx4sKdW0KVRX/dujtvbzR1Sul1irGZdKN409iUckQ4qxc7ZR60LmWCLYxuSwBY/o1hA78xYdIt14QYJJWZibRaegtX8BO7Kj9WjOuheE0v2OxVFB+U/Y9FOpS4hXGNU/0uErbSuEniMwtcCSSGGZRz2J1jyh1+wBe9bouL7kq1S4xDQIDAQAB",
+   "manifest_version": 2,
+   "name": "新浪微博图床",
+   "options_page": "option.html",
+   "permissions": [ "storage", "notifications", "tts", "webRequest", "webRequestBlocking", "*://*/", "tabs", "contextMenus", "webNavigation", "clipboardWrite", "clipboardRead" ],
+   "short_name": "新浪微博图床",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6"
+}

@@ -1,0 +1,130 @@
+{
+    "amazon": {
+        "id": "amazon",
+        "name": "amazon",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$35免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "asos": {
+        "id": "asos",
+        "name": "asos",
+        "taxtip": "无欧洲消费税",
+        "shiptip": "直邮中国，全球免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "nordstrom": {
+        "id": "nordstrom",
+        "name": "nordstrom",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "walgreens": {
+        "id": "walgreens",
+        "name": "walgreens",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$25免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "bhphotovideo": {
+        "id": "bhphotovideo",
+        "name": "B&H",
+        "taxtip": "NY有消费税，其余州无",
+        "shiptip": "实时结算运费",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "sixpm": {
+        "id": "sixpm",
+        "name": "6pm",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "drugstore": {
+        "id": "drugstore",
+        "name": "drugstore",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$35免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "rei": {
+        "id": "rei",
+        "name": "REI",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$50免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "iherb": {
+        "id": "iherb",
+        "name": "iHerb",
+        "taxtip": "消费税按州收取",
+        "shiptip": "直邮中国，运费$12/单(须7磅内+$80内)",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "saksfifthavenue": {
+        "id": "saksfifthavenue",
+        "name": "Saks",
+        "taxtip": "消费税按州收取",
+        "shiptip": "实时结算运费",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "net-a-porter": {
+        "id": "net-a-porter",
+        "name": "NET-A-PORTER",
+        "taxtip": "实时结算中国关税",
+        "shiptip": "直邮中国，运费$15/单",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "gnc": {
+        "id": "gnc",
+        "name": "GNC",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内运费$1/单",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "gymboree": {
+        "id": "gymboree",
+        "name": "GYMBOREE",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$75免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "diapers": {
+        "id": "diapers",
+        "name": "diapers",
+        "taxtip": "消费税按州收取",
+        "shiptip": "美国境内满$35免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "puritan": {
+        "id": "puritan",
+        "name": "Puritan's Pride",
+        "taxtip": "无美国消费税",
+        "shiptip": "美国境内运费$4.95/单",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    },
+    "albeebaby": {
+        "id": "albeebaby",
+        "name": "AlbeeBABY",
+        "taxtip": "NY/NJ有消费税，其余州无",
+        "shiptip": "美国境内满$49免邮",
+        "cardsupport": "支持国内卡消费",
+        "isShow": "true"
+    }
+}

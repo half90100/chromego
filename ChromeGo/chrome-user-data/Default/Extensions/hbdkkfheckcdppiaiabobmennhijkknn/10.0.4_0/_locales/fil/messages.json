@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Idagdag ang pindutan ng PageRank sa iyong site"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Pang-araw-araw na Abot (bawat milyong)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Pang-araw-araw na Ranggo Trend ng Trapiko"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Pang-araw-araw na Pageview bawat User"
+   },
+   "AlexaRank": {
+      "message": "Alexa Traffic Ranggo"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Mga Pagbisita sa paghahanap (porsyento)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinks"
+   },
+   "Cache": {
+      "message": "Naka-cache"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org unang naka-cache na sa %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google huling naka-cache na sa %VALUE%"
+   },
+   "Cancel": {
+      "message": "Kanselahin"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Agad na suriin ang PageRank ng iyong mga pahina ng web online"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "City"
+   },
+   "ClickMore": {
+      "message": "Mag-click dito upang makakuha ng higit pang impormasyon"
+   },
+   "ClickPR": {
+      "message": "Mag-click dito upang ilagay ang ang PageRank icon na ito sa iyong site"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Makipagkumpitensya - Ranggo"
+   },
+   "CompeteUV": {
+      "message": "Makipagkumpitensya - Mga Natatanging Bisita"
+   },
+   "Content": {
+      "message": "Nilalaman"
+   },
+   "Country": {
+      "message": "Bansa"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Developer"
+   },
+   "DomainInfo": {
+      "message": "Impormasyon ng domain"
+   },
+   "DomainLookup": {
+      "message": "Paghahanap ng domain"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Mag-donate kung gusto mo"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Ipasok ang iyong email..."
+   },
+   "Feedback": {
+      "message": "Feedback"
+   },
+   "FirstDisplay": {
+      "message": "Ang unang ipinakita pahina kapag ang extension binuksan"
+   },
+   "Follow_me": {
+      "message": "Sumunod kayo sa akin"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Free Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocation Lokasyon"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Mag-click dito upang maghanap ng %DOMAIN% mula sa mga nilalaman ng Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Tulungan isalin sa iyong wika"
+   },
+   "History": {
+      "message": "I-update ang Kasaysayan"
+   },
+   "History_New": {
+      "message": "Anong bagong"
+   },
+   "HtmlTag_Alt": {
+      "message": "ALT na teksto"
+   },
+   "HtmlTag_Body": {
+      "message": "Katawan ng teksto"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta paglalarawan"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keyword"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Pamagat"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "Available ang %FILE%"
+   },
+   "Length": {
+      "message": "Haba"
+   },
+   "LinkExternal": {
+      "message": "Panlabas na mga link"
+   },
+   "LinkInternal": {
+      "message": "Mga panloob na link"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Higit pang mga detalye"
+   },
+   "MoreIdx": {
+      "message": "Mag-click dito upang tingnan ang mga pahina na-index ng %SITE%"
+   },
+   "MoreInfo": {
+      "message": "I-click ang pindutan para sa karagdagang mga detalye ..."
+   },
+   "MoreLink": {
+      "message": "Mag-click dito upang tingnan ang mga backlink-index ng %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "Hindi nahanap ang %FILE%"
+   },
+   "NotFound2": {
+      "message": "Hindi nahanap ang"
+   },
+   "NumIndex": {
+      "message": "Mga pahinang na-index ng %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Backlink-index ng %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site na"
+   },
+   "Options": {
+      "message": "Mga Setting"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Ikabit"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Pangyayari"
+   },
+   "PageInfo": {
+      "message": "Page Info"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Napakabilis"
+   },
+   "PageLevel2": {
+      "message": "Mabilis"
+   },
+   "PageLevel3": {
+      "message": "Karaniwan"
+   },
+   "PageLevel4": {
+      "message": "Mabagal"
+   },
+   "PageLevel5": {
+      "message": "Napaka-mabagal"
+   },
+   "PageLoadEvt": {
+      "message": "Ng pag-load ng kaganapan"
+   },
+   "PageLoaded": {
+      "message": "Nilalaman load"
+   },
+   "PageLong": {
+      "message": "Haba"
+   },
+   "PageRank": {
+      "message": "PageRank Katayuan"
+   },
+   "PageRedirect": {
+      "message": "Pag-redirect"
+   },
+   "PageRequest": {
+      "message": "Humiling"
+   },
+   "PageResponse": {
+      "message": "Tugon"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "Kung ito ang iyong site, marahil kailangan mong optimize ang mga website o %LINK%lumipat sa isang mas mabilis na server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Bilis ng Pahina"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% ng mga web page sa mundo ay mas mabilis."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% ng mga web page sa mundo ay mas mabagal."
+   },
+   "PageSum": {
+      "message": "Kabuuan"
+   },
+   "PageTime1": {
+      "message": "Oras ng Pagkarga ng Pahina:"
+   },
+   "PageTime2": {
+      "message": "%NUM% segundo"
+   },
+   "PageTimings": {
+      "message": "Timings ng load ng pahina (ms)"
+   },
+   "PageWhen": {
+      "message": "Simulan ang oras"
+   },
+   "PagesIndexed": {
+      "message": "Pahinang na-index"
+   },
+   "Percentage": {
+      "message": "Bahagdan"
+   },
+   "PrPlugin": {
+      "message": "Plug-in para sa Iyong Site"
+   },
+   "PrivacyNote": {
+      "message": "PATAKARAN SA PRIVACY: Ang inyong privacy ay mahalaga sa amin. Hindi namin ibenta o magrenta ang iyong email address at maaari kang mag-unsubscribe sa anumang oras."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Gusto mo ba ang extension na ito? Mangyaring \u003Ca href=\"%LINK%\" target=_blank> rate \u003C/ a> sa 5 bituin sa Chrome Web Store. Salamat sa iyo! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Tulad ng sa extension na ito? -Rate ito!"
+   },
+   "RateIt2": {
+      "message": "Rate ito"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Rekomendasyon"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO Stats"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "I-save at Isara"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Site malawak"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "Tinukoy na URL"
+   },
+   "Sub_email": {
+      "message": "Mag-subscribe sa pamamagitan ng E-mail:"
+   },
+   "Subscribe": {
+      "message": "Sumuskribi"
+   },
+   "SubscribeTo": {
+      "message": "Mag-subscribe sa ChromeFans.org"
+   },
+   "Support": {
+      "message": "Teknikal na suporta"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Mga Tools"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Nangungunang Web Hosting"
+   },
+   "Traffic": {
+      "message": "Trapiko"
+   },
+   "TrafficGraphs": {
+      "message": "Trapiko graph"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Unranked"
+   },
+   "WebmasterTools": {
+      "message": "Mga Tool ng Webmaster"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "WHOIS Paghahanap"
+   },
+   "Why_sub": {
+      "message": "Bakit Mag-subscribe?"
+   },
+   "id": {
+      "message": "fil"
+   },
+   "id_folder": {
+      "message": "fil"
+   },
+   "md5_calc": {
+      "message": "Libreng MD5 Hash Calculator"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

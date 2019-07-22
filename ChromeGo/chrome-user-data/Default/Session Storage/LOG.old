@@ -1,0 +1,7 @@
+2019/07/22-09:49:23.013 1d0c Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/07/22-09:49:23.013 1d0c Recovering log #9
+2019/07/22-09:49:23.014 1d0c Level-0 table #12: started
+2019/07/22-09:49:23.018 1d0c Level-0 table #12: 63083 bytes OK
+2019/07/22-09:49:23.019 1d0c Recovering log #11
+2019/07/22-09:49:23.019 1d0c Reusing old log Session Storage/000011.log 
+2019/07/22-09:49:23.020 1d0c Delete type=0 #9

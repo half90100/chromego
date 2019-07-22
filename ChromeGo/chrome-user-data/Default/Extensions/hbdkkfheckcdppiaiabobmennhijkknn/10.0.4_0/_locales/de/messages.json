@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "Über Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Fügen Sie das PageRank Symbol Ihrer Seite ein"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Täglich erreicht (per Million)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Täglicher Trend des Traffic-Ranges"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Täglich gesehene Seiten pro Benutzer"
+   },
+   "AlexaRank": {
+      "message": "Alexa Traffic Rang"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Besuche (Prozent)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinks"
+   },
+   "Cache": {
+      "message": "Zwischengespeichert"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org erste Speicherung am %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google hat die Seite am %VALUE% zwischengespeichert"
+   },
+   "Cancel": {
+      "message": "Abbrechen"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Direkte Überprüfung deines PageRank online"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "Stadt"
+   },
+   "ClickMore": {
+      "message": "Klicke hier für mehr Informationen"
+   },
+   "ClickPR": {
+      "message": "Klicke hier, um den PageRank auf deiner Seite einzufügen"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Compete - Rang"
+   },
+   "CompeteUV": {
+      "message": "Compete - Unterschiedliche Besucher"
+   },
+   "Content": {
+      "message": "Inhalt"
+   },
+   "Country": {
+      "message": "Land"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Entwickler:"
+   },
+   "DomainInfo": {
+      "message": "Domain informationen"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Spende wenn du willst"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Geben Sie Ihre E-Mail Adresse ein..."
+   },
+   "Feedback": {
+      "message": "Feedback"
+   },
+   "FirstDisplay": {
+      "message": "Die erste Seite welche öffnet, wenn die Erweiterung gestartet wird"
+   },
+   "Follow_me": {
+      "message": "Follow me"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Freier Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocation Ort"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Klicke hier um den Google Plus Inhalt von %DOMAIN% zu suchen."
+   },
+   "HelpTranslate": {
+      "message": "Helfe uns das Programm in deine Sprache zu übersetzen"
+   },
+   "History": {
+      "message": "Update History"
+   },
+   "History_New": {
+      "message": "Was ist neu"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alternativer Text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body Text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta Beschreibung"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta Keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta Robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Titel"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% ist verfügbar"
+   },
+   "Length": {
+      "message": "Länge"
+   },
+   "LinkExternal": {
+      "message": "Externe Links"
+   },
+   "LinkInternal": {
+      "message": "Interne Links"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Mehr Details"
+   },
+   "MoreIdx": {
+      "message": "Klicke hier um die indexierten Seiten von %SITE% zu sehen"
+   },
+   "MoreInfo": {
+      "message": "Klicken für mehr Details..."
+   },
+   "MoreLink": {
+      "message": "Klicke hier um die Backlinks von %SITE% zu sehen"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% nicht gefunden"
+   },
+   "NotFound2": {
+      "message": "Nicht gefunden"
+   },
+   "NumIndex": {
+      "message": "Seiten indexiert von %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Backlinks indexiert von %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Optionen"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Connect"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Ereignis"
+   },
+   "PageInfo": {
+      "message": "Seiten Info"
+   },
+   "PageInteractive": {
+      "message": "Interactiv"
+   },
+   "PageLevel1": {
+      "message": "Sehr schnell"
+   },
+   "PageLevel2": {
+      "message": "Schnell"
+   },
+   "PageLevel3": {
+      "message": "Durchschnittlich"
+   },
+   "PageLevel4": {
+      "message": "Langsam"
+   },
+   "PageLevel5": {
+      "message": "sehr Langsam"
+   },
+   "PageLoadEvt": {
+      "message": "Lädt Ereignis"
+   },
+   "PageLoaded": {
+      "message": "Inhalt geladen"
+   },
+   "PageLong": {
+      "message": "Länge"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "Weiterleigung"
+   },
+   "PageRequest": {
+      "message": "Antwort"
+   },
+   "PageResponse": {
+      "message": "Response"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "Wenn das Ihre Internetseit ist, vielleicht sollten Sie Ihre Internetseite optimieren oder %LINK%auf einen schnelleren Server umziehen.\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Geschwindigkeit"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% der Internetseiten welche schneller sind."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% der Internetseiten welche langsamer sind."
+   },
+   "PageSum": {
+      "message": "Summe"
+   },
+   "PageTime1": {
+      "message": "Seiten Ladezeit:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Sekunden"
+   },
+   "PageTimings": {
+      "message": "Seitenladezeit (ms)"
+   },
+   "PageWhen": {
+      "message": "Startzeit"
+   },
+   "PagesIndexed": {
+      "message": "Seiten indexiert"
+   },
+   "Percentage": {
+      "message": "Prozent"
+   },
+   "PrPlugin": {
+      "message": "Plug-in für Ihre Seite"
+   },
+   "PrivacyNote": {
+      "message": "PRIVACY POLICY: Ihre Privatsphäre ist uns wichtig! Ihre Adresse wird nicht veröffentlicht und sie können die E-Mails jederzeit abbestellen!"
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Mögen Sie diese Erweiterung? Bitte \u003Ca href=\"%LINK%\" target=_blank>bewerte sie\u003C/a> mit 5 Sternen im Chrome Web Store. Danke! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Sie mögen diese Erweiterung? Bewerte Sie!"
+   },
+   "RateIt2": {
+      "message": "Bewerten"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Empfehlungen"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO Statistiken"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Speichern & Schließen"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Seitenweit"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "Spezieler URL"
+   },
+   "Sub_email": {
+      "message": "Abonieren per E-mail:"
+   },
+   "Subscribe": {
+      "message": "Abonieren"
+   },
+   "SubscribeTo": {
+      "message": "Abonieren via ChromeFans.org"
+   },
+   "Support": {
+      "message": "Technischer Support"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Bildschirmauflösung Statistiken & Überprüfung"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Werkzeuge"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Traffic"
+   },
+   "TrafficGraphs": {
+      "message": "Traffic Graphen"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Nicht gelistet"
+   },
+   "WebmasterTools": {
+      "message": "Webmaster-Tools"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster-Resourcen von Suchmaschinen"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Warum Abonieren?"
+   },
+   "id": {
+      "message": "de"
+   },
+   "id_folder": {
+      "message": "de"
+   },
+   "md5_calc": {
+      "message": "Freier MD5-Hash Rechner"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rang"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rang"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

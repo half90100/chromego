@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_icon": "assets/img/logo26.png",
+      "default_popup": "html/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-1.10.1.js", "vue.js", "bottomBar.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "connect-src *; script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "“什么值得买”是一个中立的，致力于帮助广大网友买到更有性价比网购产品的推荐类博客。本插件为官方推送插件，欢迎使用",
+   "homepage_url": "http://www.smzdm.com",
+   "icons": {
+      "128": "assets/img/logo128.png",
+      "16": "assets/img/logo26.png",
+      "48": "assets/img/logo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZZ06MZGoKWhEeZ7tahUeuteb6myYmQ1vH1uT7WOew5PiOG+nsJ0D/v5TB45cZuOlDBLB9iqfE9hL7Q1v0IQzKhNuF4j6O1HkHRroNYVkULzpkZ1iHojg4M6ccb3x2YmAdojo/NDfGJZ22TNl1jVldEmSwErXppgkBSCVlLeQD5wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "什么值得买 实时推送",
+   "options_page": "html/options.html",
+   "permissions": [ "http://*.smzdm.com/", "https://*.smzdm.com/", "notifications", "contextMenus", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.11",
+   "web_accessible_resources": [ "/icons/*.*", "/css/*.*", "/assets/*.*" ]
+}

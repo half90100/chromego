@@ -1,0 +1,351 @@
+{
+   "app_name": {
+      "description": "the name of the extension",
+      "inMozDTD": true,
+      "message": "Markdown Here"
+   },
+   "app_slogan": {
+      "description": "shown as subtitle for Markdown Here in the browser extensions list",
+      "message": "Scrivi la tua email in Markdown, quindi rendila bella."
+   },
+   "context_menu_item": {
+      "description": "Text shown on the context menu.",
+      "inMozDTD": true,
+      "message": "Commuta Markdown"
+   },
+   "context_menu_item_shortcut": {
+      "description": "The shortcut key for the context menu. Must be one of the letters in the context menu item text. If you excluded '&' in 'context_menu_item_with_shortcut', then you can leave this blank.",
+      "inMozDTD": true,
+      "message": "k"
+   },
+   "context_menu_item_with_shortcut": {
+      "description": "Text shown on the context menu. The '&' comes before the shortcut character. If a shortcut key doesn't make sense for your language/locale/keyboard, you can just leave out the '&'.",
+      "message": "Commuta Mar&kdown"
+   },
+   "currently_in_use": {
+      "description": "Indicates the syntax highlighting theme that the user is currently using",
+      "message": "Currently in use"
+   },
+   "cursor_into_compose": {
+      "message": "Please put the cursor into the compose box."
+   },
+   "forgot_to_render_back_button": {
+      "description": "Text on the Back (cancel) button of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "inMozDTD": true,
+      "message": "Indietro"
+   },
+   "forgot_to_render_prompt_close_hover": {
+      "description": "Text that shows when the user hovers over the 'X' that will close the prompt",
+      "message": "Ignora questa notifica"
+   },
+   "forgot_to_render_prompt_info": {
+      "description": "Informational part of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "Sembra che tu abbia scritto questa email in Markdown ma dimenticato di abbellirla."
+   },
+   "forgot_to_render_prompt_question": {
+      "description": "Question part of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "Inviarla lo stesso?"
+   },
+   "forgot_to_render_prompt_title": {
+      "description": "Title of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "Forget to toggle Markdown?"
+   },
+   "forgot_to_render_send_button": {
+      "description": "Text on the Send (continue) button of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "inMozDTD": true,
+      "message": "Invia"
+   },
+   "invalid_field": {
+      "description": "Shown in an alert dialog if the user tries to render a field that cannot be rendered",
+      "message": "The selected field is not valid for Markdown rendering. Please use a rich editor."
+   },
+   "new_changelist_items": {
+      "description": "Used to highlight the part of the changelist that is new. There will typically be multiple items in the list, so this should be considered plural.",
+      "message": "NEW"
+   },
+   "nothing_to_render": {
+      "description": "Error message shown to user if there's nothing found to revert or render.",
+      "message": "Nulla da trasformare o da ripristinare"
+   },
+   "options_page__advanced_title": {
+      "description": "A section title",
+      "message": "Advanced and Miscellaneous"
+   },
+   "options_page__advanced_usage": {
+      "message": "For lots more info and advanced usage, see the \u003Ca href=\"https://github.com/adam-p/markdown-here\" target=\"_blank\">Markdown Here project page\u003C/a>. You should also explore the options below."
+   },
+   "options_page__basic_usage": {
+      "message": "Basic Usage"
+   },
+   "options_page__changes_saved": {
+      "description": "message that shows when user changes have been saved",
+      "message": "Changes saved"
+   },
+   "options_page__click_toggle": {
+      "description": "A step in the basic usage instructions",
+      "message": "Right-click in the email and then click \"Markdown Toggle\". (Or click the \u003Cimg src=\"images/icon16.png\"/> button on the toolbar.\u003Cspan class=\"hotkey-display-wrapper\"> Or press \u003Cspan class=\"hotkey-display\">\u003Ckbd>CTRL\u003C/kbd>+\u003Ckbd>ALT\u003C/kbd>+\u003Ckbd>M\u003C/kbd>\u003C/span>\u003C/span>)"
+   },
+   "options_page__contributing_1": {
+      "message": "\u003Cstrong>If you have ever put a code block into an email, then you can help make Markdown Here better.\u003C/strong> \u003Ca href=\"https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md\u003C/a>"
+   },
+   "options_page__contributing_2": {
+      "message": "Help make Markdown Here available in your language. \u003Ca href=\"https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md#translation\" target=\"_blank\">Translations are welcome.\u003C/a>"
+   },
+   "options_page__contributing_title": {
+      "description": "A section title",
+      "message": "Contributing"
+   },
+   "options_page__donate_plea_1": {
+      "message": "Once you decide Markdown Here is pretty sweet, please help me to buy some flowers for my wife so she's not too upset about how much time I spend working on it. \u003Cstrong>Thank you!\u003C/strong>"
+   },
+   "options_page__donate_plea_2": {
+      "message": "\u003Cstrong>Help make Markdown Here better!\u003C/strong>"
+   },
+   "options_page__donate_plea_3": {
+      "message": "\u003Cstrong>Help support the development of Markdown Here!\u003C/strong>"
+   },
+   "options_page__donate_plea_4": {
+      "message": "You know what makes it easier to keep Markdown Here working on Chrome, Firefox, Thunderbird, Postbox, Safari, Opera, Gmail, Yahoo, Hotmail, Blogger, Evernote, etc.? \u003Cstrong>Coffee!\u003C/strong>"
+   },
+   "options_page__footer_1": {
+      "description": "part of the page footer text",
+      "message": "\u003Cem>Markdown Here\u003C/em> is open source. To ask questions, report bugs, request features, or contribute, visit the \u003Ca target=\"_blank\" href=\"https://github.com/adam-p/markdown-here\">Github project page\u003C/a> or the \u003Ca target=\"_blank\" href=\"https://groups.google.com/forum/?fromgroups=#!forum/markdown-here\">\"markdown-here\" Google Group\u003C/a>."
+   },
+   "options_page__footer_2": {
+      "description": "part of the page footer text",
+      "message": "Created by \u003Ca target=\"_blank\" href=\"http://adam-p.github.com/\">Adam Pritchard\u003C/a>."
+   },
+   "options_page__forgot_to_render_1": {
+      "message": "Currently only supported in the Gmail web interface and Thunderbird (and Postbox and Icedove)."
+   },
+   "options_page__forgot_to_render_2": {
+      "message": "When you send an email, this checks the content to see if it looks like you wrote it in Markdown, but forgot to render it (i.e., click \"Markdown Toggle\") before sending. This may need to be disabled if it interferes with your ability to send email."
+   },
+   "options_page__forgot_to_render_3": {
+      "message": "If you find yourself disabling this, \u003Cem>please\u003C/em> let me know why and how it could be better. Create \u003Ca href=\"https://groups.google.com/forum/#!forum/markdown-here\" target=\"_blank\">a post on the \"markdown-here\" Google Group\u003C/a> or \u003Ca href=\"https://github.com/adam-p/markdown-here/issues\" target=\"_blank\">an issue in the Github project\u003C/a>. Thanks."
+   },
+   "options_page__forgot_to_render_label": {
+      "description": "Label for the checkbox that enables the forgot-to-render feature",
+      "message": "\u003Cb>Enable \"forgot-to-render\" check.\u003C/b>"
+   },
+   "options_page__gfm_line_breaks_enabled_label": {
+      "description": "Label for the checkbox that enables the support of 'Github-flavored Markdown' line breaks.",
+      "message": "\u003Cb>Enable GFM line breaks.\u003C/b>"
+   },
+   "options_page__ggroup": {
+      "message": "Ask a question, start a discussion, or just say hi in the \u003Ca href=\"https://groups.google.com/forum/?fromgroups=#!forum/markdown-here\" target=\"_blank\">markdown-here Google Group\u003C/a>."
+   },
+   "options_page__header_anchors_enabled_1": {
+      "message": "This is great if you want to put a table of contents or other internal links into your content. \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks#wiki-header-anchors\" target=\"_blank\">Learn about how to use it in the MDH wiki.\u003C/a>"
+   },
+   "options_page__header_anchors_enabled_2": {
+      "message": "It's disabled by default because it \u003Ca href=\"https://github.com/adam-p/markdown-here/issues/155\" target=\"_blank\">creates visual noise in Thunderbird\u003C/a>. (And most people probably won't use the feature.)"
+   },
+   "options_page__header_anchors_enabled_label": {
+      "description": "Label for the checkbox that enables the automatic header anchors feature. This means that an 'anchor' is created at every heading (H1, H2, etc.) in the user's Markdown. The user can then create links that will jump to these anchors, like in the table of contents of a document.",
+      "message": "\u003Cb>Enable automatic header anchors.\u003C/b>"
+   },
+   "options_page__hotkey_alt_key": {
+      "description": "label for the Alt key",
+      "message": "ALT"
+   },
+   "options_page__hotkey_ctrl_key": {
+      "description": "label for the Ctrl key",
+      "message": "CTRL"
+   },
+   "options_page__hotkey_note_1": {
+      "message": "Chrome: You must reload your email web page for the new hotkey setting to take effect."
+   },
+   "options_page__hotkey_note_2": {
+      "message": "Firefox and Thunderbird: You must restart the application for the new hotkey setting to take effect."
+   },
+   "options_page__hotkey_note_3": {
+      "message": "You must use an alphanumeric key for the shortcut (varies by language and keyboard)."
+   },
+   "options_page__hotkey_note_4": {
+      "message": "The Windows key and the OS X &#8984; key cannot be used in the shortcut."
+   },
+   "options_page__hotkey_note_5": {
+      "message": "To disable the use of this hotkey, leave the \"key\" text box empty."
+   },
+   "options_page__hotkey_plus": {
+      "description": "plus sign that connects the hotkey buttons",
+      "message": "+"
+   },
+   "options_page__hotkey_shift_key": {
+      "description": "label for the Shift key",
+      "message": "SHIFT"
+   },
+   "options_page__hotkey_title": {
+      "description": "A section title",
+      "message": "Hotkey (aka keyboard shortcut)"
+   },
+   "options_page__hotkey_warning": {
+      "description": "warning shown if the user chooses an illegal hotkey value",
+      "message": "Is the key an alphanumeric value?"
+   },
+   "options_page__markdown_toggle_button_text": {
+      "description": "button text for Markdown Toggle button",
+      "message": "Markdown Toggle"
+   },
+   "options_page__mdh_wiki": {
+      "message": "Visit the \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki\" target=\"_blank\">Markdown Here wiki\u003C/a> for info about \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Compatibility\" target=\"_blank\">where else MDH works\u003C/a> and more \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks\" target=\"_blank\">tips and tricks\u003C/a>."
+   },
+   "options_page__next_steps": {
+      "message": "If you're interested in what the future holds for Markdown Here, check out the \u003Ca href=\"https://github.com/adam-p/markdown-here#next-steps\" target=\"_blank\">Next Steps section\u003C/a> of the README."
+   },
+   "options_page__note_default_client_styles": {
+      "message": "Some email editors and browsers impose their own styles. Those may not be apparent here."
+   },
+   "options_page__note_options_sync": {
+      "message": "Changes are automatically saved and synchronized (if sync is enabled in your browser)."
+   },
+   "options_page__note_syntax_styles_after_primary": {
+      "message": "The syntax highlighting styles are applied after the primary styling, and so take precedence."
+   },
+   "options_page__notes_title": {
+      "description": "section title",
+      "message": "Notes"
+   },
+   "options_page__other_donation_options": {
+      "description": "Link to a page that provides other ways to donate",
+      "message": "Other donation options"
+   },
+   "options_page__page_title": {
+      "message": "Markdown Here Options"
+   },
+   "options_page__pretty_cool": {
+      "description": "A step in the basic usage instructions",
+      "message": "The message should now look pretty cool. Send it to your friends!"
+   },
+   "options_page__preview_markdown": {
+      "description": "This doesn't need to be translated, unless you want to make it more relevant to your language. The raw Markdown used for previewing user styling changes. Also shows users what can be done with Markdown. Please note that the double dollar signs ($$) are needed to make a single dollar sign in the application.",
+      "message": "```javascript\u003Cbr>\nfunction syntaxHighlighting() {\u003Cbr>\n&nbsp; var n = 33;\u003Cbr>\n&nbsp; var s = \"hello, こんにちは\";\u003Cbr>\n&nbsp; console.log(s);\u003Cbr>\n}\u003Cbr>\n```\u003Cbr>\n\u003Cbr>\n* plain\u003Cbr>\n* *emphasis*\u003Cbr>\n&nbsp; * **strong emphasis**\u003Cbr>\n&nbsp; &nbsp; * ~~strikethrough~~\u003Cbr>\n* `inline code`\u003Cbr>\n\u003Cbr>\n1. Numbered list\u003Cbr>\n&nbsp;&nbsp;&nbsp;1. Numbered sub-list\u003Cbr>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Numbered sub-sub-list\u003Cbr>\n2. [Link](https://www.google.com)\u003Cbr>\n\u003Cbr>\n\u003Cbr>\nAn image: ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png)\n\u003Cbr>\n\u003Cbr>\n> Block quote.&nbsp; \u003Cbr>\n> *With* **some** `markdown`.\u003Cbr>\n\u003Cbr>\nIf **TeX Math** support is enabled, this is the quadratic equation:&nbsp;\u003Cbr>\n$$-b \\pm \\sqrt{b^2 - 4ac} \\over 2a$$\u003Cbr>\n\u003Cbr>\n# Header 1\u003Cbr>\n## Header 2\u003Cbr>\n### Header 3\u003Cbr>\n#### Header 4\u003Cbr>\n##### Header 5\u003Cbr>\n###### Header 6\u003Cbr>\n&nbsp; \u003Cbr>\n| Tables        | Are           | Cool  |\u003Cbr>\n| ------------- |:-------------:| -----:|\u003Cbr>\n| column 3 is   | right-aligned | $$1600 |\u003Cbr>\n| column 2 is   | centered      |   $$12 |\u003Cbr>\n| zebra stripes | are neat      |    $$1 |\u003Cbr>\n\u003Cbr>\nHere's a horizontal rule:\u003Cbr>\n\u003Cbr>\n---\u003Cbr>\n\u003Cbr>\n```\u003Cbr>\ncode block\u003Cbr>\nwith no highlighting\u003Cbr>\n```\u003Cbr>\n\u003Cbr>\n"
+   },
+   "options_page__preview_title": {
+      "description": "section title for the Markdown preview section",
+      "message": "Preview"
+   },
+   "options_page__primary_css_title": {
+      "description": "section title",
+      "message": "Primary Styling CSS"
+   },
+   "options_page__reload_restart": {
+      "description": "A step in the basic usage instructions",
+      "message": "Reload your email web page or restart your web browser."
+   },
+   "options_page__reset_primary_css": {
+      "description": "text on button to reset Primary Styling CSS",
+      "message": "Reset to Default"
+   },
+   "options_page__resources_cheatsheet_link": {
+      "message": "If you're new to Markdown, the \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet\" target=\"_blank\">Markdown Here Cheatsheet\u003C/a> will make you a prostar."
+   },
+   "options_page__resources_title": {
+      "description": "A section title",
+      "message": "Resources and Links"
+   },
+   "options_page__start_new_message": {
+      "description": "A step in the basic usage instructions",
+      "message": "Start a new email message."
+   },
+   "options_page__syntax_highlighting_css_title": {
+      "description": "section title",
+      "message": "Syntax Highlighting CSS"
+   },
+   "options_page__syntax_highlighting_theme_label": {
+      "description": "label for the syntax highlighting theme combox box",
+      "message": "Theme:"
+   },
+   "options_page__tex_math_customization_1": {
+      "description": "Note: Double dollar signs ($$) are necessary to get a single dollar sign.",
+      "message": "If this feature is enabled, text between dollar signs — \u003Ccode>$$\u003C/code> — will be interpreted as mathematical formulae. For example, \u003Ccode>$$\\Delta$$\u003C/code> would be rendered as a delta symbol."
+   },
+   "options_page__tex_math_customization_2": {
+      "message": "For render customization options, see the \u003Ca href=\"https://developers.google.com/chart/infographics/docs/formulas\" target=\"_blank\">Google Charts documentation\u003C/a> for this service."
+   },
+   "options_page__tex_math_customization_3": {
+      "message": "A good resource for creating TeX formulae is the \u003Ca href=\"https://www.codecogs.com/latex/about.php\" target=\"_blank\">CodeCogs Equation Editor\u003C/a>."
+   },
+   "options_page__tex_math_customization_4": {
+      "message": "Formulae are rendered to images, so email recipients will have to enable images to be shown to see the rendering."
+   },
+   "options_page__tex_math_customization_5": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "If you customize the rendering tag, you can (and should) use either or both of \u003Ccode>{mathcode}\u003C/code> and \u003Ccode>{urlmathcode}\u003C/code> as placeholders."
+   },
+   "options_page__tex_math_customization_5_1": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}. Note: Double dollar signs ($$) are necessary to get a single dollar sign.",
+      "message": "\u003Ccode>{mathcode}\u003C/code>: The text between the \u003Ccode>$$\u003C/code> symbols — i.e., the raw TeX formula; like \u003Ccode>\\Delta\u003C/code>."
+   },
+   "options_page__tex_math_customization_5_2": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "\u003Ccode>{urlmathcode}\u003C/code>: The URL-encoded form of the TeX formula; like \u003Ccode>%5CDelta\u003C/code>."
+   },
+   "options_page__tex_math_customization_6": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "If you customize the \u003Ccode>&lt;img&gt;\u003C/code> tag, you should include an \u003Ccode>alt\u003C/code> attribute that has as human-readable a value as possible, like \u003Ccode>{mathcode}\u003C/code>. This value of this attribute will be used for the plaintext version of the email (when sent from Gmail and Thunderbird), and used by screen readers for sight-impaired recipients."
+   },
+   "options_page__tex_math_customization_heading": {
+      "description": "heading for customization and use info",
+      "message": "\u003Cstrong>Customization and Use:\u003C/strong>"
+   },
+   "options_page__tex_math_privacy_heading": {
+      "description": "heading for warnings about TeX math privacy concerns",
+      "message": "\u003Cstrong>Privacy Issues:\u003C/strong>"
+   },
+   "options_page__tex_math_privacy_issue_1": {
+      "description": "one of the TeX math privacy concerns",
+      "message": "To generate the image for the formula, a request is sent to Google. That effectively means that you are sharing your formula with Google. It also means that recipients of your message will be making a request to Google to have the image rendered."
+   },
+   "options_page__tex_math_privacy_issue_2": {
+      "description": "one of the TeX math privacy concerns",
+      "message": "If you customize the formula rendering tag, you should use a secure (https://) path. Not all rendering services provide a secure option."
+   },
+   "options_page__tex_math_reset_button": {
+      "description": "text on button to reset TeX math option",
+      "message": "Reset to Default"
+   },
+   "options_page__tex_math_title": {
+      "message": "TeX Mathematical Formulae Support"
+   },
+   "options_page__type_some_markdown": {
+      "description": "A step in the basic usage instructions",
+      "message": "Type some Markdown into the email.\u003Cbr/>Try this: \u003Ccode>_Hello_ `Markdown` **Here**!\u003C/code>"
+   },
+   "plain_text_compose": {
+      "description": "Shown in an alert dialog if the user has their email compose app set to plain text",
+      "message": "You are using a plain-text compose editor. You must change to a rich editor to use Markdown Here."
+   },
+   "toggle_button_text": {
+      "description": "Text shown underneath the render toggle button. Make it as short as possible.",
+      "inMozDTD": true,
+      "message": "Commuta MD"
+   },
+   "toggle_button_tooltip": {
+      "description": "text shown when user hovers mouse over Markdown Toggle button",
+      "inMozDTD": true,
+      "message": "Clicca per commutare la trasformazione Markdown"
+   },
+   "toggle_button_tooltip_disabled": {
+      "description": "text shown when user hover mouse over disabled Markdown Toggle button",
+      "inMozDTD": true,
+      "message": "Il campo selezionato non è valido per la trasformazione Markdown"
+   },
+   "unrendering_modified_markdown_warning": {
+      "description": "Warning shown to the user if she tries to revert some rendered Markdown that they've modified since rendering. The user will lose their modifications if they proceed.",
+      "message": "The rendered Markdown appears to have been modifed.\nIf you unrender it, your changes since rendering will be lost.\n\nAre you sure you wish to unrender?"
+   },
+   "upgrade_notification_changes_tooltip": {
+      "description": "Tooltip text on the link that opens the changes list",
+      "message": "Clicca per vedere i cambiamenti in questa versione"
+   },
+   "upgrade_notification_dismiss_tooltip": {
+      "description": "Tooltip text on the link that dismisses the notification",
+      "message": "Ignora questa notifica"
+   },
+   "upgrade_notification_text": {
+      "description": "Text on the notification shown when Markdown Here has been updated",
+      "message": "Markdown Here aggiornato"
+   }
+}

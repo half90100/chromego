@@ -1,0 +1,221 @@
+<html lang="zh-CN" style="overflow:hidden">
+<head>
+    <meta charset="UTF-8" />
+    <title>什么值得买</title>
+    <link rel="stylesheet" href="../css/css.css">
+</head>
+<body class="popup_body" style="overflow:hidden">
+    <div class="container">
+        <div class="row" ms-controller="ribbonRange">
+            <!-- 登录前 -->
+            <div ms-if="!isLogin" class="login">
+                <a ms-on-click="login()">登录</a>
+                <span>|</span> 
+                <a ms-on-click="register()">注册</a>            </div>
+            <!-- /登录前 -->
+
+            <!-- 登录后 -->
+            <div ms-if="isLogin">
+                <span>您好，{{ userinfo.nickname }}&nbsp;&nbsp;<a ms-on-click="logout()">退出</a></span>            </div>
+            <!-- /登录后 -->
+
+            <div class="rightCorner">
+                <a ms-on-click="tipoff()" class="b3">爆料</a>
+                <a ms-visible="!isSignIn" ms-on-click="signIn()" class="b4" href="javascript:;" >签到</a>
+                <a ms-visible="isSignIn" class="b5">已签到</a>            </div>
+        </div>
+        <a ms-controller="logoRange" class="span13" href="http://www.smzdm.com/?utm_source=chrome&utm_medium=Push&utm_Term=Logo&utm_Content= " target="_blank">
+            <img ms-src="background" />        </a>
+        <ul ms-controller="tabsRange" class="nav nav-tabs">
+            <li ms-class-active="tabId === 0">
+                <a ms-click-on='changeTab(0)'>所有提醒({{ unread }}/{{ count }})</a>            </li>
+            <li ms-class-active="tabId === 1">
+                <a ms-click-on='changeTab(1)'>我的收藏</a>            </li> 
+            <li class="notice">
+                <input id="search_input" class="search" ms-duplex="searchStr"  ms-on-keydown="searchKey($event)" />
+                <button ms-on-click="searchBtn()" ms-class="icon-search"></button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <!-- 推送 --> 
+            <div class="tab-pane fade notify" ms-controller="notifyRange" ms-class-active="active" ms-class-in="activeIn">
+                <div class="notify_detail" ms-on-scroll="scroll($event)">
+                    <!-- 列表 -->
+                    <div class="row-fluid" ms-repeat-msg="list" ms-class-fade="msg.fade">
+                        <div class="span3">
+                            <div class="notify_img">
+                                <div class="notify_img_detail">
+                                    <a ms-on-click="toInfo($event, msg.url)" ms-attr-href="msg.url">
+                                        <img ms-src="msg.img">                                    </a>                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="span8">
+                            <span ms-if="msg.top === 0" class="new pull-left"></span>
+                            <h4>
+                                <a ms-on-click="toInfo($event, msg.url)" ms-attr-href="msg.url">
+                                    {{ msg.title }}<span class="price">{{ msg.price }}</span>                                </a>                            </h4>
+                        </div>
+                        
+                        <div class="btnBox">
+                            <div class="like">
+                                <span ms-if="msg.tag_str">
+                                    相关：<a ms-repeat-el="msg.tag_str" ms-on-click="toInfo($event, el.data)" href="javascript:;">{{ el.html }}&nbsp;</a>                                </span>
+&nbsp;                            </div>
+                            <div class="pull-left">
+                                <span ms-if="msg.meta">
+                                    <a ms-if="msg.mall_link" ms-on-click="toInfo($event, msg.mall_link)" href="javascript:;">{{ msg.meta | truncate(20) }}</a>
+                                    <span ms-if="!msg.mall_link">{{ msg.meta | truncate(20) }}</span>
+                                    &nbsp;&nbsp;|&nbsp;&nbsp;                                </span>
+                                <span>{{ msg.time }}</span>                            </div>
+                            <div class="pull-right">
+                                <a ms-on-click="toInfo($event, msg.btnurl)" ms-if="msg.btnurl" ms-attr-href="msg.btnurl" class="icon-buy">直达链接</a>
+                                <a ms-on-click="share(msg, $index)" class="icon-share"></a>
+                                <a ms-on-click="addFav(msg, $index, this)" ms-class="icon-fave" ms-class-1="icon-fave-ed:msg.fav"> </a>                             </div>
+                        </div>
+                    </div>
+                    <!-- /列表 -->
+                </div>
+                <div class="footer">
+                    <a class="pull-right icon-base" ms-on-click="optionCheck()" target="_blank"></a>
+                    <button class="pull-right b1" ms-on-click="disturb()" ms-class-sel="noti_desktop == 'off'" ms-title="noti_desktop == 'on'?'点击关闭消息通知':'点击打开消息通知'">勿扰模式</button>
+                    <button class="pull-left b1" ms-on-click="clear()">清空</button>
+                    <button class="pull-left b2" ms-on-click="more()">更多</button>
+                </div>
+            </div>
+            <!-- /通知 -->
+
+            <!-- 收藏夹 -->
+            <div class="tab-pane fade fav" ms-controller="favoritesRange" ms-class-active="active" ms-class-in="active">
+                <div class="fav_notify">
+                    <!-- 顶部导航 -->
+                    <ul class="nav nav-tabs">
+                        <li class="fav_li border" ms-on-mouseover="moveMagic(item)" ms-on-mouseout="restore(item)" ms-repeat-item = "favList"  ms-class-active="tabActive.id === item.id">
+                            <a ms-on-click="change(item)">{{ item.title }}</a><div ms-if="item.submenu"><span ms-on-click="change(item.submenu.subone)">{{ item.submenu.subone.title }}</span><span ms-on-click="change(item.submenu.subtwo)">{{ item.submenu.subtwo.title }}</span></div>
+                        </li>
+                        <!-- 滑动线 -->
+                        <li class="magic-line" ms-css-left='magicleft'></li>
+                        <!-- /滑动线 -->
+                    </ul>
+                    <!-- /顶部导航 -->
+                    
+                    <!-- 空内容提示 -->
+                    <div class="mes_empty" ms-if="empty">
+                        您在该频道下暂时还没有收藏哦~<br/>请到我们的<a ms-attr-href="tabActive.url" target="_blank">{{tabcache()}}</a>看看吧！                    </div>
+                    <!-- /空内容提示 -->
+
+                    <!-- 列表 -->
+                    <div class="row-fluid ffav" ms-repeat-msg="list" ms-class-fade="msg.fade">
+                        <div class="span3" ms-if="msg.article_img">
+                            <div class="notify_img">
+                                <div class="notify_img_detail">
+                                    <a ms-on-click="toInfo($event, msg.article_url)" ms-attr-href="msg.article_url">
+                                        <img ms-src="msg.article_img">                                    </a>                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="span8"> 
+                            <h4>
+                                <a ms-on-click="toInfo($event,msg.article_url)" ms-attr-href="msg.article_url">
+                                    {{ msg.article_title }}<span class="price" ms-if="msg.article_price">{{ msg.article_price }}</span>                                </a>                            </h4>
+                        </div>
+                        
+                        <div class="btnBox">
+                        
+                            <div class="like" >
+                                <span ms-if="msg.article_tags_html" >
+                                   <span ms-if="msg.related"> 相关：<a ms-repeat-el="msg.article_tags_html" ms-on-click="toInfo($event, el.data)" href="javascript:;">{{ el.html }}&nbsp;</a></span>
+                                </span>
+							</div>
+                            
+                            <div class="pull-left">
+                                <span ms-if="msg.mes">
+                                    <a ms-if="msg.mall_link" ms-on-click="toInfo($event, msg.mall_link)" href="javascript:;">{{ msg.mes | truncate(20) }}</a>
+                                    <span ms-if="!msg.mall_link">{{ msg.mes | truncate(20) }}</span>
+                                    &nbsp;&nbsp;|&nbsp;&nbsp;                                </span>
+                                <span>{{ msg.fav_time }}</span>                            </div>
+                            <div class="pull-right"> 
+                                <a ms-if="msg.article_link" ms-on-click="toInfo($event,msg.article_link)" ms-attr-href="msg.article_link" class="icon-buy">直达链接</a>
+                                <a ms-on-click="share(msg, $index)" class="icon-share"></a>
+                                <a ms-on-click="remove(msg)" class="icon-fave icon-fave-ed"></a>                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="footer">
+                    <a class="pull-right icon-base" ms-on-click="optionCheck()" target="_blank"></a>
+                    <button class="pull-right b1" ms-on-click="disturb()" ms-class-sel="noti_desktop == 'off'" ms-title="noti_desktop == 'on'?'点击关闭消息通知':'点击打开消息通知'">勿扰模式</button>
+                    <button class="pull-left b2" ms-on-click="more()" >更多</button>
+                </div>  
+            </div>
+            <!-- /收藏夹 -->
+        </div>
+    </div>
+<!-- 登录弹窗 -->
+    <div class="modal loginRange" ms-controller="loginRange" ms-class-in="isShow">
+        <div class="modal-header">
+            <a class="close" ms-on-click='hide()'>×</a>
+        </div>
+        <!-- 验证消息 -->
+        <div class="mes">
+            <span><label class="error">{{ msg }}</label></span>
+        </div>
+        <!-- /验证消息 -->
+        <form method="post" novalidate="novalidate" class="form-horizontal">
+
+            <div class="control-group">
+                <label class="control-label">账户</label>
+                <div class="controls">
+                    <input id="login_username" ms-duplex="info.username" ms-on-keydown="inputSub($event)" type="text" placeholder="请输入您的手机号或邮箱" class="required" tabindex="1" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">密码</label>
+                <div class="controls">
+                    <input id="login_password" ms-duplex="info.password" ms-on-keydown="inputSub($event)" type="password" placeholder="请输入您的密码" class="required" tabindex="2" />
+                </div>
+            </div>
+
+            <div ms-visible="check" class="control-group">
+                <label class="control-label">验证码</label>
+                <div class="controls">
+                    <input ms-duplex="info.checkcode" ms-on-keydown="inputSub($event)" type="text" style="width:120px;" placeholder="请输入验证码" tabindex="3" /> 
+                    <img ms-on-click="changeCheckcode()" ms-src="{{ checklink }}" />
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label"></label>
+                <div class="controls">
+                    <input  type="checkbox" ms-on-click="changeSave()" class="savelogin" ms-attr-checked="info.isSave" />
+                    <span class="savelogin_span">30天内自动登录</span>
+                    <span class="savelogin_info">没有账号？<a href="https://zhiyou.smzdm.com/user/register/mobile" target="_blank">快速注册</a>
+                    </span><br />
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary submit" ms-on-click="submit()">{{btnStr}}</button>
+            
+            <div class="login_info">
+                注：目前本插件不支持联合登录功能。联合登录用户，请登录什么值得买网站后<a href="http://zhiyou.smzdm.com/user/login/third" target="_blank">绑定网站ID</a>，并以网站ID登录插件。
+            </div>
+        </form>
+    </div>
+    <!-- /登录弹窗 -->
+    
+    <!-- 提示弹窗 -->
+    <div class="modal alert" ms-controller="alertRange" ms-class-in="active">
+        <div class="modal-header">
+            <a ms-on-click="hide()" class="close">×</a>
+          <h3>小提示！</h3>
+        </div>
+        <div class="modal-body">{{ message }}</div>
+        <button ms-if="buttonShow" ms-on-click="agree()">我知道了，同意跳转</button>
+    </div>
+    <!-- /提示弹窗 -->
+    
+    <!-- 遮挡区 -->
+    <div class="modal-backdrop in" ms-controller="backdropRange" ms-if="active"></div>
+    <!-- /遮挡区 -->
+</body>
+<script src="../js/app.js"></script>
+</html>

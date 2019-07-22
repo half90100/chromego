@@ -1,0 +1,295 @@
+.red {
+    border: 1px red solid;
+}
+.blue {
+    border: 1px blue solid;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html * {
+    font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color:rgba(121,126,136,1);
+}
+
+header {
+    height: 88px;
+    min-width: 1037px;
+    background:rgba(240,245,251,1);
+}
+
+header .wrapper {
+    width: 1037px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header .wrapper a>img {
+    width: 160px;
+    height: 46px;
+    margin: 20px 0 0 0;
+}
+
+header .wrapper .title {
+    width:240px;
+    height:40px;
+    font-size:30px;
+    color:rgba(121,126,136,1);
+    line-height: 88px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+header .wrapper .menu {
+    height:24px;
+    font-size:18px;
+    color:rgba(121,126,136,1);
+    line-height:24px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header .wrapper .menu .item {
+    margin-left: 38px;
+}
+
+#setting-container {
+    width: 1037px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#setting-container .setting-list {
+    width: 240px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+#setting-container .setting-list .item {
+    margin-bottom: 40px;
+}
+
+#setting-container .setting-list .item label {
+    height:21px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+    line-height:21px;
+}
+
+#setting-container .setting-list .item .option {
+    margin-top: 14px;
+}
+
+#setting-container .setting-result {
+    width: 740px;
+}
+
+#setting-container .setting-result .result-txt {
+    height: 92px;
+}
+
+#setting-container .setting-result .result-txt .wrapper {
+    height: 92px;
+    display: none;
+}
+
+#setting-container .setting-result .result-txt.active .wrapper {
+    display: block;
+}
+
+#setting-container .setting-result .result-txt img {
+    width: 30px;
+    height: 30px;
+}
+
+#setting-container .setting-result .demo-screen {
+    width: 680px;
+    height: 389px;
+    padding: 37px 29px 90px 32px;
+    box-sizing: content-box;
+    background: url(../images/setting/default_screen.png) no-repeat;
+}
+
+#setting-container .setting-result .demo-screen img {
+    width: 100%;
+}
+
+.capsule {
+    height: 36px;
+    width: 144px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.capsule div {
+    background:rgba(226,230,235,1);
+    width:72px;
+    height:36px;
+    font-size:14px;
+    line-height: 38px;
+    text-align: center;
+    color:rgba(121,126,136,1);
+    cursor: pointer;
+}
+
+.capsule div.active {
+    background:rgba(69,166,255,1);
+    color:rgba(255,255,255,1);
+}
+
+.switch {
+    width: 72px;
+    height: 32px;
+    background: url(../images/setting/icons/switch_close.png) center center no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.switch.active {
+    background: url(../images/setting/icons/switch_open.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.tips {
+    width: 1037px;
+    height: 330px;
+    background:rgba(243,243,243,1);
+    color:rgba(102,102,102,1);
+    margin: 0 auto;
+    padding: 30px;
+    font-family:PingFangSC-Regular;
+}
+
+.tips .title {
+    height:21px;
+    font-size:16px;
+    font-weight: 900;
+    line-height:21px;
+    font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.tips .tip-item {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.tips .chat-with-qq {
+    width:120px;
+    height:36px;
+    background:rgba(215,243,255,1);
+    border-radius:3px;
+    border:1px solid rgba(74,144,226,1);
+    padding: 7px 16px;
+    color:rgba(102,102,102,1);
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.tips .chat-with-qq img {
+    width: 22px;
+    height:22px;
+    margin-right: 6px;
+}
+.tips .chat-with-qq span {
+    font-size: 14px;
+}
+
+.tips #suggest {
+    font-size:14px;
+    font-weight:400;
+    color:rgba(69,166,255,1);
+    text-decoration: underline;
+}
+
+.tips #tip-1 {
+    margin-bottom: 40px;
+}
+
+.tips #tip-2 {
+    margin-top: 20px;
+}
+.copy-remind-tle {
+    float: left;
+    margin-left: 12px;
+    font-size: 16px;
+    color: #999;
+    display: none;
+}
+.tips #tip-2 .copy-content {
+    width: 560px;
+    height: 100px;
+    background:rgba(255,255,255,1);
+    border-radius:4px;
+    border: 0;
+    padding: 12px 16px;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(136,136,136,1);
+    line-height:20px;
+}
+.tips #tip-2 #copy-input {
+    position: fixed;
+    bottom: -1px;
+    right: -1px;
+    float: left;
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.tips #tip-2 .btn {
+    margin-left: 30px;
+    width:146px;
+    height:57px;
+    background:rgba(69,166,255,1);
+    border-radius:4px;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 57px;
+    cursor: pointer;
+}
+.tips #tip-2 .btn.copyss {
+    background-color: #28DCA6;
+}
+
+.qrcode-list {
+    width: 1037px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.qrcode-list img {
+    width: 530px;
+    height: 220px;
+}

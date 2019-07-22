@@ -1,0 +1,2 @@
+!function(){var i=null,e=function(e){e.fromExtension=!0,i&&i.target.postMessage(e,i.origin)},n=LPPlatform.requestFrameworkInitializer(e),r=function(e){var r=e.data,o=r&&r.data;r.type&&(null===i&&(e.origin===window.origin||"undefined"!=typeof bg&&bg.get("base_url")===e.origin+"/")&&(i={target:e.source,origin:e.origin}),i&&i.target===e.source&&i.origin===e.origin&&(r.fromExtension||o&&o.cmd&&"FederatedLogin"!==o.cmd[0]&&"getVersion"!==o.cmd||n(r)))};window.addEventListener("message",r,!0)}();
+//# sourceMappingURL=sourcemaps/fedlogin-connector.js.map

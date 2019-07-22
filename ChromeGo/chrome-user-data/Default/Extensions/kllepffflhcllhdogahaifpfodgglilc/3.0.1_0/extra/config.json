@@ -1,0 +1,1387 @@
+{
+    "website": {
+        "amazon": {
+            "name": "amazon",
+            "tips": {
+                "size": {
+                    "id": "haitao_size_tip_1",
+                    "query": "#size-chart-url",
+                    "posquery": "#size-chart-url",
+                    "relquery": "#variation_size_name",
+                    "condition": true,
+                    "pos": "right",
+                    "x": 10,
+                    "y": -10,
+                    "triangle": "left",
+                    "text": "国际尺码转换"
+                },
+                "price": {
+                    "query": "#size-chart-url",
+                    "condition": true,
+                    "left": 2,
+                    "top": -10,
+                    "triangle": "left"
+                },
+                "help": [{
+                    "id": "haitao_help_tips_1",
+                    "query": "#snsDeliveryInputButton",
+                    "posquery": "#snsDeliveryInputButton",
+                    "condition": true,
+                    "x": -10,
+                    "y": -12,
+                    "triangle": "right",
+                    "html": "定期购买可享9.5折",
+                    "expandDirection": "right",
+                    "posAlign": "right"
+                }, {
+                    "id": "haitao_help_tips_2",
+                    "query": "#debug #cart-active-items p[testid='item-addon-badge']",
+                    "posquery": "#cart-active-items p[testid='item-addon-badge']",
+                    "condition": true,
+                    "x": -10,
+                    "y": -12,
+                    "triangle": "left",
+                    "html": "订单满$25才可购买add-on商品！",
+                    "expandDirection": "left"
+                }],
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": ".availGreen ~ b a",
+                    "posquery": ".availGreen ~ b",
+                    "condition": false,
+                    "x": 0,
+                    "y": -43,
+                    "triangle": "bottom",
+                    "text": "Amazon自营，值得信赖"
+                }, {
+                    "id": "haitao_others_tips_1_2",
+                    "query": "#merchant-info a",
+                    "posquery": "#merchant-info",
+                    "condition": false,
+                    "x": 150,
+                    "y": -38,
+                    "triangle": "bottom",
+                    "text": "Amazon自营，值得信赖"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#addonMessageBox",
+                    "posquery": "#addonMessageBox .addonFlagBig",
+                    "condition": true,
+                    "x": 95,
+                    "y": -7,
+                    "triangle": "left",
+                    "text": "订单满",
+                    "textHtml": "$25",
+                    "aftertext": "才可购买add-on商品！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#clipped .button",
+                    "posquery": "#clipped .button",
+                    "condition": true,
+                    "x": 118,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "该商品可使用优惠券，点击",
+                    "textHtml": " “Clip Coupon” ",
+                    "aftertext": "即可！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "body > .checkout .a-container .a-spacing-base",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 336,
+                    "y": 1,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#AddressType",
+                    "posquery": ".fl ~ .a-declarative",
+                    "condition": true,
+                    "pos": "right",
+                    "x": 10,
+                    "y": -8,
+                    "triangle": "left",
+                    "text": "选填项，不填写也没有问题哦！"
+                }, {
+                    "id": "haitao_others_tips_6",
+                    "query": "#cbcc_content_container sup",
+                    "posquery": "#cbcc_content_container sup",
+                    "condition": true,
+                    "pos": "left",
+                    "x": -200,
+                    "y": -40,
+                    "triangle": "bottom",
+                    "text": "美国信用卡专享，国内用户请忽视它！"
+                }, {
+                    "id": "haitao_others_tips_7",
+                    "query": "#enterAddressFullName2222",
+                    "posquery": "#enterAddressFullName2222",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 310,
+                    "y": -46,
+                    "triangle": "bottom",
+                    "text": "First Name（名）在前，Last Name（姓）在后"
+                }, {
+                    "id": "haitao_others_tips_8",
+                    "query": ".a-spacing-base legend",
+                    "posquery": ".a-spacing-base legend",
+                    "condition": true,
+                    "pos": "right",
+                    "x": 0,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "账单地址可以和收货地址一致，直接选“",
+                    "textHtml": "Yes",
+                    "aftertext": "”就可以了！"
+                }, {
+                    "id": "haitao_others_tips_9",
+                    "query": "#AVS #addr_0",
+                    "posquery": ".a-spacing-base[for='addr_0'] .fake-block",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 120,
+                    "y": -20,
+                    "triangle": "bottom",
+                    "text": "确认地址填写正确，直接使用原始地址“",
+                    "textHtml": "Original address",
+                    "aftertext": "”即可！"
+                }, {
+                    "id": "haitao_others_tips_10",
+                    "query": "#billingaddressselectpagecontent .addressBlock2",
+                    "posquery": "#billingaddressselectpagecontent .addressBlock1 input[type='image']",
+                    "condition": false,
+                    "pos": "right",
+                    "x": 10,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "将转运地址作为账单地址。点此按钮即可！"
+                }, {
+                    "id": "haitao_others_tips_11",
+                    "query": "#cart-page-wrap #cart-gutter-addon",
+                    "posquery": "#cart-page-wrap #cart-gutter-addon",
+                    "condition": true,
+                    "x": -205,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "订单满",
+                    "textHtml": "$25",
+                    "aftertext": "才可购买add-on商品！"
+                }, {
+                    "id": "haitao_others_tips_13",
+                    "query": "#cart-active-items .couponsavings .txtnormal~span a",
+                    "condition": true,
+                    "posAlign": "right",
+                    "class": "haitao_detail_coupons",
+                    "classflag": "haitao_detail_coupons",
+                    "isOnlyOne": "false",
+                    "x": -30,
+                    "y": -12,
+                    "triangle": "right",
+                    "text": "您忘记使用优惠劵了！点击",
+                    "textHtml": " “Clip Coupon” ",
+                    "aftertext": "即可！"
+                }, {
+                    "id": "haitao_others_tips_14",
+                    "query": "#hl-feedback #addon-message",
+                    "posquery": "#hl-feedback #addon-message",
+                    "condition": true,
+                    "pos": "left",
+                    "x": -200,
+                    "y": 8,
+                    "triangle": "right",
+                    "text": "订单满",
+                    "textHtml": "$25",
+                    "aftertext": "才可购买add-on商品！"
+                }, {
+                    "id": "haitao_others_tips_15",
+                    "query": "#primeAutomaticPopoverAdContent .ap_custom_close .primeEvent",
+                    "posquery": "#primeAutomaticPopoverAdContent .ap_custom_close .primeEvent",
+                    "condition": true,
+                    "pos": "left",
+                    "x": -50,
+                    "y": -50,
+                    "triangle": "left",
+                    "text": "Prime 有免费2日送货服务，试用期过后不取消将收费。怕麻烦请选！",
+                    "textHtml": "No Thanks",
+                    "aftertext": "！"
+                }, {
+                    "id": "haitao_others_tips_16",
+                    "query": "#add-to-cart-button",
+                    "posquery": "#add-to-cart-button",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": -135,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_17",
+                    "query": "#twisterAddToCartOrig",
+                    "posquery": "#twisterAddToCartOrig",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -120,
+                    "y": -5,
+                    "triangle": "right",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_17_1",
+                    "query": "#addToCartSpan",
+                    "posquery": "#addToCartSpan",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "right",
+                    "x": -20,
+                    "y": -10,
+                    "triangle": "right",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_18",
+                    "query": "#gutterCartViewForm input[name='proceedToCheckout']",
+                    "posquery": "#gutterCartViewForm input[name='proceedToCheckout']",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "right",
+                    "x": -15,
+                    "y": -3,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_19",
+                    "query": "#buybutton input[name='placeYourOrder']",
+                    "posquery": "#buybutton input[name='placeYourOrder']",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "right",
+                    "x": 120,
+                    "y": -46,
+                    "triangle": "bottom",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_19_2",
+                    "query": "#right-grid input[name='placeYourOrder1']",
+                    "posquery": "#right-grid input[name='placeYourOrder1']",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 50,
+                    "y": -49,
+                    "triangle": "bottom",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_20",
+                    "query": "#hlb-page-container #hlb-ptc-btn",
+                    "posquery": "#hlb-page-container #hlb-ptc-btn",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "right",
+                    "x": 120,
+                    "y": -46,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_21",
+                    "query": "#checkoutDisplayPage .pay .a-container .a-spacing-base",
+                    "posquery": ".a-spacing-base legend",
+                    "condition": true,
+                    "pos": "left",
+                    "haitao_sbTip": "haitao_sbTip",
+                    "x": 333,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "单币/双币信用卡",
+                    "aftertext": "付款"
+                },{
+                    "id": "haitao_others_tips_23",
+                    "query": "#spc-form",
+                    "posquery": "#spc-form input[name='claimCode']",
+                    "condition": true,
+                    "pos": "bottom",
+                    "x": 0,
+                    "y": 45,
+                    "triangle": "top",
+                    "text": "这里填写优惠码"
+                }]
+            }
+        },
+        "asos": {
+            "name": "asos",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": ".add-to-bag",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 240,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".pay-securely-now",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "classflag": "haitao_others_tips_2",
+                    "isOnlyOne": "false",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": -5,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#divsubmit .place-order",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 240,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "点击后就付款啦！"
+                }]
+            }
+        },
+        "nordstrom": {
+            "name": "nordstrom",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#addToBagButton",
+                    "posquery": "#addToBagButton",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 40,
+                    "y": -50,
+                    "triangle": "bottom",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".sbCOBtnsTopWrap .sbCOButton1 img[alt=CHECKOUT]",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 10,
+                    "y": -50,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": ".sbCheckoutBtnImg img",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": -4,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#ctl00_mainContentPlaceHolder_orderSubmitPanel_submitOrderButton img",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 55,
+                    "y": 40,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }]
+            }
+        },
+        "walgreens": {
+            "name": "walgreens",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#add-to-cart-overlay img",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": -10,
+                    "y": -45,
+                    "triangle": "bottom",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2_1",
+                    "query": ".proceedTochkoutBtn input[type=image]",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 30,
+                    "y": -50,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_2_2",
+                    "query": ".promoCodeRtSection .proceedTochkoutBtn input[type=image]",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 30,
+                    "y": 50,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#submitTop",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 10,
+                    "y": -50,
+                    "triangle": "bottom",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#leftNavShippingInfo .shipPageTitleWrap .shipAddress",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 196,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#leftNavPayment .font2em",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 160,
+                    "y": -7,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "bhphotovideo": {
+            "name": "bhphotovideo",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#productRight .addToCartButton input",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 10,
+                    "y": 55,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".checkoutTotal .beginCheckout",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 65,
+                    "y": 65,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#placeOrderButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 0,
+                    "y": -50,
+                    "triangle": "bottom",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#checkout .billShipSection .leftContainer > div .chkotHdr h2.chkotH2",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 145,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#checkout .paymentMethodSection  .chkotHdr h2.chkotH2",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 140,
+                    "y": -2,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "sixpm": {
+            "name": "6pm",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#addToCart",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": -140,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#proceed1",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 65,
+                    "y": -32,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#proceed2",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": 15,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#submitOrderButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 40,
+                    "y": -35,
+                    "triangle": "bottom",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#shipAdr h3.cih",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 158,
+                    "y": -6,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_6",
+                    "query": "#pymtInfo h3.cih",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 181,
+                    "y": -5,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "drugstore": {
+            "name": "drugstore",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#divAddBtn input",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 15,
+                    "y": 45,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".h-f-2col-left-innerbody-right #CheckBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 25,
+                    "y": -47,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#h-f-2col-innerbody-wrapper #CheckBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 130,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#tbl_place_your_order input[type='image']",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "right",
+                    "posAlign": "left",
+                    "x": 5,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#frmAddBillShip .tblBillShip",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 458,
+                    "y": -38,
+                    "triangle": "bottom",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_6",
+                    "query": "#frmAddBillShip .ChkPaymentInfo h4",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 150,
+                    "y": -9,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "rei": {
+            "name": "rei",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#cartFormButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 0,
+                    "y": 40,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".subtotalAndButtons .buttons .primary",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "right",
+                    "posAlign": "left",
+                    "x": 35,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#payment #submitOrderButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "right",
+                    "posAlign": "left",
+                    "x": 25,
+                    "y": -5,
+                    "triangle": "left",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#pageContent form[name='chk'] .shipAddress",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 229,
+                    "y": -32,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#pageContent form[name='chk']  #gr_gc",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 504,
+                    "y": -30,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "iherb": {
+            "name": "iherb",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": ".addToCartBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 0,
+                    "y": 35,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#checkoutBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 35,
+                    "y": -48,
+                    "triangle": "bottom",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#btnPlaceOrder",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -165,
+                    "y": -5,
+                    "triangle": "right",
+                    "text": "点击后就付款啦！"
+                }]
+            }
+        },
+        "saksfifthavenue": {
+            "name": "saksfifthavenue",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#plainAdd input[type=image]",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": -130,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#jsStartCheckout",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#jsReviewSubmit",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -15,
+                    "y": 45,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#jsShippingAddressWrap .checkout-heading",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 58,
+                    "y": -40,
+                    "triangle": "bottom",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#jsPaymentMethodWrap .checkout-heading",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 63,
+                    "y": -2,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "net-a-porter": {
+            "name": "net-a-porter",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": ".add-to-bag",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "right",
+                    "x": 30,
+                    "y": -3,
+                    "triangle": "left",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#top_right_purchase_path_progress .primary-button",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_2_2",
+                    "query": "#below_shopping_bag .primary-button",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -115,
+                    "y": 0,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#processPayment",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -160,
+                    "y": -3,
+                    "triangle": "right",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#jsPaymentMethodWrap .checkout-heading",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 63,
+                    "y": -2,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "gnc": {
+            "name": "gnc",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#remindmeBlock .addToCart",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "right",
+                    "x": 10,
+                    "y": -2,
+                    "triangle": "left",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".proceed-to-checkout",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 35,
+                    "y": 32,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_2_2",
+                    "query": "#proceedtocheckoutbut",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 35,
+                    "y": 33,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": ".sendOrderButton .send-order-bottom",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 0,
+                    "y": 35,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_3_2",
+                    "query": ".sendOrderButton .send-order-top",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 0,
+                    "y": 35,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#monetate_lightbox_0",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 160,
+                    "y": 108,
+                    "triangle": "",
+                    "text": "海淘请选择美国官网，商品美国价更优哦！（美国官网是.com那个）"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#checkout-address .shipping-options .title",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 208,
+                    "y": 10,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_6",
+                    "query": "#checkout-payment .pay-methods-wrap .section-header",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 242,
+                    "y": 5,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "gymboree": {
+            "name": "gymboree",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#add-to-bag-button",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": -5,
+                    "y": 35,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#checkout-button",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -110,
+                    "y": -6,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_2_2",
+                    "query": "#regularCheckout",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 20,
+                    "y": 35,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#placeOrderForm .buttonsPlaceholder .buttonOrange",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -160,
+                    "y": -7,
+                    "triangle": "right",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#step_shipping .middle .sectionHeader h2",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 160,
+                    "y": -40,
+                    "triangle": "bottom",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#step_billingInfo  #editBillingAddressSection .right h3",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 120,
+                    "y": -42,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "bottom",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "diapers": {
+            "name": "diapers",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#AddCartButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 40,
+                    "y": 55,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": ".checkoutButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 45,
+                    "y": 50,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_2_2",
+                    "query": ".fiveBackCapMessageBox .checkoutButton",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -110,
+                    "y": 4,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": ".checkoutTitleBox .placeBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -160,
+                    "y": 8,
+                    "triangle": "right",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_3_2",
+                    "query": ".checkoutInfoBtm .placeBtn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 55,
+                    "y": 60,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": ".shippingPage .checkoutTitle",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 55,
+                    "y": -40,
+                    "triangle": "bottom",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": ".paymentPage #paymentInfo .itemsTitle",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 145,
+                    "y": -44,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "puritan": {
+            "name": "puritan",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": "#null",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 0,
+                    "y": 40,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "form[name='CalcShipAndTax'] img[alt='Begin Checkout']",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 0,
+                    "y": 40,
+                    "triangle": "top",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": "#CompleteOrder",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -125,
+                    "y": -5,
+                    "triangle": "right",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#page-title-container > #page-title > .first",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 196,
+                    "y": 0,
+                    "triangle": "left",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#mainContent #PaymentMethods",
+                    "condition": true,
+                    "pos": "left",
+                    "x": 228,
+                    "y": -5,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        },
+        "albeebaby": {
+            "name": "albeebaby",
+            "tips": {
+                "others": [{
+                    "id": "haitao_others_tips_1",
+                    "query": ".itemOrderBox .qty~td input[type='image']",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "x": 50,
+                    "y": 50,
+                    "triangle": "top",
+                    "text": "加入购物车！"
+                }, {
+                    "id": "haitao_others_tips_2",
+                    "query": "#ys_proceedContainer .ysco_img_btn",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -108,
+                    "y": 3,
+                    "triangle": "right",
+                    "text": "去结算！"
+                }, {
+                    "id": "haitao_others_tips_3",
+                    "query": ".ys_pageActions input[name='eventName.reviewContinueEvent']",
+                    "posquery": "",
+                    "condition": true,
+                    "class": "haitao_emphasis",
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 7,
+                    "y": 47,
+                    "triangle": "top",
+                    "text": "点击后就付款啦！"
+                }, {
+                    "id": "haitao_others_tips_4",
+                    "query": "#yahoo-store-checkout #ys_shipBillShippingInfo",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": -29,
+                    "y": -35,
+                    "triangle": "bottom",
+                    "text": "如使用转运，请此页填写转运公司地址"
+                }, {
+                    "id": "haitao_others_tips_5",
+                    "query": "#yahoo-store-checkout #ys_shipBillBillingInfo #ys_paymentMethod",
+                    "posquery": "",
+                    "condition": true,
+                    "pos": "left",
+                    "posAlign": "left",
+                    "x": 136,
+                    "y": -49,
+                    "haitao_sbTip": "haitao_sbTip",
+                    "triangle": "left",
+                    "text": "支持",
+                    "textHtml": "双币信用卡",
+                    "aftertext": "付款"
+                }]
+            }
+        }
+    },
+    "exchangeRate": {
+        "USD": "6.2",
+        "defaultRate": "6.5"
+    },
+    "extraUrl": "http://www.haiwen.com/tms/template/haitao",
+    "javascript": [
+        "test.js"
+    ],
+    "css": [
+        "/extra/haitao.css"
+    ],
+    "popup": {
+        "css": [
+            "/extra/popup.css"
+        ],
+        "height": 100,
+        "width": 840
+    },
+    "template": {
+        "shopInfo": "/extra/shopInfo.json",
+        "shipping": "/extra/shipping.json",
+        "shippingName": "/extra/shippingName.json",
+        "priceDetail": "/extra/template/priceDetail.html",
+        "shipCompare": "/extra/template/shipCompare.html",
+        "trackTable": "/extra/template/trackTable.html",
+        "feed": "/extra/template/feed.html",
+        "priceTotal": "/extra/template/priceTotal.html",
+        "size": "/extra/template/size.html",
+        "transPage": "/extra/template/transPage.html",
+        "guide": "/extra/template/guide.html",
+        "translate": "/extra/template/translate.html",
+        "inputtrans": "/extra/template/inputtrans.html",
+        "shopInfoTip": "/extra/template/shopInfoTip.html",
+        "transaddress": "/extra/template/transaddress.html",
+        "addrNotify": "/extra/template/addrNotify.html",
+        "helpTips": "/extra/template/helpTip.html",
+        "sidebar": "/extra/template/sidebar.html",
+        "zhuanxiang": "/extra/template/zhuanxiang.html"
+    }
+}

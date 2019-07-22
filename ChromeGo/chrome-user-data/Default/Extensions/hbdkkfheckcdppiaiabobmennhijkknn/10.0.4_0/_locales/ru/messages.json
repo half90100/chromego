@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "О Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Добавить кнопку PageRank на ваш сайт"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Ежедневная аудитория (на миллион)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Ежедневная Traffic Rank Тенденция"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Ежедневный просмотр страниц на 1-го пользователя"
+   },
+   "AlexaRank": {
+      "message": "Alexa Ранг Трафика"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Посещения (процент)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Обратные ссылки"
+   },
+   "Cache": {
+      "message": "Страницы в кэше"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Первый кэш Archive.org на %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Последний кэш Google на %VALUE%"
+   },
+   "Cancel": {
+      "message": "Отмена"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Instantly check PageRank of your web pages online"
+   },
+   "ChromeSeobar": {
+      "message": "Панель инструментов Chrome SEO"
+   },
+   "City": {
+      "message": "Город"
+   },
+   "ClickMore": {
+      "message": "Нажмите, чтобы получить больше информации"
+   },
+   "ClickPR": {
+      "message": "Нажмите, чтобы получить кнопку PageRank для вашего сайта"
+   },
+   "Close": {
+      "message": "Закрыть"
+   },
+   "CompeteRank": {
+      "message": "Compete - Ранг"
+   },
+   "CompeteUV": {
+      "message": "Compete - Уникальные посещения"
+   },
+   "Content": {
+      "message": "Содержимое"
+   },
+   "Country": {
+      "message": "Страна"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Показывает статус Web Rank текущей веб страницы, ..."
+   },
+   "Developer": {
+      "message": "Разработчик:"
+   },
+   "DomainInfo": {
+      "message": "Информация о домене"
+   },
+   "DomainLookup": {
+      "message": "Данные домена"
+   },
+   "Donate": {
+      "message": "Поддержать"
+   },
+   "DonateBitcoin": {
+      "message": "Поддержать через Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Поддержать"
+   },
+   "DonatePaypal": {
+      "message": "Поддержать через Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Введите ваш email..."
+   },
+   "Feedback": {
+      "message": "Обратная связь"
+   },
+   "FirstDisplay": {
+      "message": "The first displayed page when extension opened"
+   },
+   "Follow_me": {
+      "message": "Следуйте за мной"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Онлайн тест пинга"
+   },
+   "GeoLocation": {
+      "message": "Местоположение"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Нажмите для поиска %DOMAIN% на основе содержимого Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Помочь с переводом на русский язык"
+   },
+   "History": {
+      "message": "История обновлений"
+   },
+   "History_New": {
+      "message": "Что нового?"
+   },
+   "HtmlTag_Alt": {
+      "message": "Альтернативный текст"
+   },
+   "HtmlTag_Body": {
+      "message": "Основной текст"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Описание"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Ключевые слова"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Название"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% доступен"
+   },
+   "Length": {
+      "message": "Длина"
+   },
+   "LinkExternal": {
+      "message": "Внешние ссылки"
+   },
+   "LinkInternal": {
+      "message": "Внутренние ссылки"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% вне индекса"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Больше информации"
+   },
+   "MoreIdx": {
+      "message": "Нажмите для просмотра проиндексированных страниц %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Нажмите, чтобы увидеть подробную информацию..."
+   },
+   "MoreLink": {
+      "message": "Нажмите, чтобы посмотреть проиндексированые обратные ссылки %SITE%"
+   },
+   "NA": {
+      "message": "Не доступно"
+   },
+   "NotFound": {
+      "message": "%FILE% не найден"
+   },
+   "NotFound2": {
+      "message": "Не найдено"
+   },
+   "NumIndex": {
+      "message": "Проиндексированных страниц в %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Проиндексированных обратных ссылок в %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "Локально расположенные"
+   },
+   "Options": {
+      "message": "Настройки"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Соединение"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Событие"
+   },
+   "PageInfo": {
+      "message": "Информация страницы"
+   },
+   "PageInteractive": {
+      "message": "Диалог"
+   },
+   "PageLevel1": {
+      "message": "Очень быстро"
+   },
+   "PageLevel2": {
+      "message": "Быстро"
+   },
+   "PageLevel3": {
+      "message": "Нормально"
+   },
+   "PageLevel4": {
+      "message": "Медленно"
+   },
+   "PageLevel5": {
+      "message": "Очень медленно"
+   },
+   "PageLoadEvt": {
+      "message": "Загрузка события"
+   },
+   "PageLoaded": {
+      "message": "Загрузка содержимого"
+   },
+   "PageLong": {
+      "message": "Длина"
+   },
+   "PageRank": {
+      "message": "PageRank Checker"
+   },
+   "PageRedirect": {
+      "message": "Переадресация"
+   },
+   "PageRequest": {
+      "message": "Запрос"
+   },
+   "PageResponse": {
+      "message": "Ответ"
+   },
+   "PageSite": {
+      "message": "Информация о сайте"
+   },
+   "PageSlowInfo": {
+      "message": "Если это ваш сайт, возможно, вам нужно оптимизировать его или %LINK% перейти на более быстрый сервер."
+   },
+   "PageSpeed": {
+      "message": "Скорость страницы"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% веб-страниц в мире быстрее."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% веб-страниц в мире медленнее."
+   },
+   "PageSum": {
+      "message": "Сумма"
+   },
+   "PageTime1": {
+      "message": "Время загрузки страницы:"
+   },
+   "PageTime2": {
+      "message": "%NUM% сек"
+   },
+   "PageTimings": {
+      "message": "Скорость загрузки страницы (мс)"
+   },
+   "PageWhen": {
+      "message": "Время начала"
+   },
+   "PagesIndexed": {
+      "message": "Страниц в индексе"
+   },
+   "Percentage": {
+      "message": "Процентное отношение"
+   },
+   "PrPlugin": {
+      "message": "Кнопка для вашего сайта"
+   },
+   "PrivacyNote": {
+      "message": "Политика конфиденциальности: Ваша конфиденциальность важна для нас. Мы не продаём и не передаём данные вашей электронной почты, вы можете отписаться в любой момент."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Вам нравится это расширение? Пожалуйста \u003Ca href=\"%LINK%\" target=_blank>оцените его\u003C/a> на 5 звёзд в Интернет-магазине Chrome. Спасибо! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Понравилось расширение? Оцените его!"
+   },
+   "RateIt2": {
+      "message": "Нравится это?"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Рекомендации"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "Статистика SEO"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Сохранить и Закрыть"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Ширина сайта"
+   },
+   "Social": {
+      "message": "В социальных сетях (SNS)"
+   },
+   "SpecURL": {
+      "message": "Специфический URL"
+   },
+   "Sub_email": {
+      "message": "Подписка по электронной почте:"
+   },
+   "Subscribe": {
+      "message": "Подписаться"
+   },
+   "SubscribeTo": {
+      "message": "Подписаться на ChromeFans.org"
+   },
+   "Support": {
+      "message": "Техподдержка"
+   },
+   "Tag": {
+      "message": "Тег"
+   },
+   "Tool_GEOIP": {
+      "message": "Георасположение IP адреса"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Тренды"
+   },
+   "Tool_ScreenRes": {
+      "message": "Счетчик и статистика резрешений экрана"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Инструменты"
+   },
+   "Tools_SEO": {
+      "message": "Инструменты SEO"
+   },
+   "Tools_Web": {
+      "message": "Веб-инструменты"
+   },
+   "TopHosting": {
+      "message": "Топ Хостеров"
+   },
+   "Traffic": {
+      "message": "Трафик"
+   },
+   "TrafficGraphs": {
+      "message": "График трафика"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Без рейтинга"
+   },
+   "WebmasterTools": {
+      "message": "Инструменты для веб-мастеров"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu | Инструменты для веб-мастеров"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing | Инструменты для веб-мастеров"
+   },
+   "Webmaster_Google": {
+      "message": "Google | Инструменты для веб-мастеров"
+   },
+   "Webmaster_SE": {
+      "message": "Ресурсы вебмастера для поисковых систем"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex | Инструменты для веб-мастеров"
+   },
+   "Whois": {
+      "message": "Информация о домене"
+   },
+   "Why_sub": {
+      "message": "Зачем подписываться?"
+   },
+   "id": {
+      "message": "ru"
+   },
+   "id_folder": {
+      "message": "ru"
+   },
+   "md5_calc": {
+      "message": "Калькулятор хеша MD5"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

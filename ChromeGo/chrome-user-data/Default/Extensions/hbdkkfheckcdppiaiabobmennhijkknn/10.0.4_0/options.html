@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Open SEO Stats Options</title>
+<script type="text/javascript" src="jsr/lib/jquery-1.8.0.min.js"></script> 
+<script type="text/javascript" src="jsr/en_public-chrome.js"></script>
+<script type="text/javascript" src="jsr/en_private.js"></script> 
+<script type="text/javascript" src="jsr/en_options.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div id="option_page">
+
+<!-- Top bar -->
+<div id="option_topmenu">
+<div id="option_left"><span id="lbl_option"></span></div>
+<div id="option_right">
+  <a href="#" id="lnk_save"></a> &nbsp; &nbsp; 
+  <a href="#" id="lnk_cancel"></a>
+</div></div>
+
+<!-- logo -->
+<div id="option_toplogo">
+  <div id="tbl_area">
+    <table id="toptable">
+    <tr>
+    <td class="logo_left"><div class="divimg"><img src="image/logo-64.png" alt=""></div></td>
+    <td class="logo_right"><span id="lbl_title"></span></td>
+    </tr>
+    </table>
+  </div>
+  <div id="do_you_like">
+  </div>
+</div>
+
+<!-- Options -->
+<div id="options_section">
+  <p><span id="lbl_title_desc"></span></p>
+
+  <div class="options_title"><img src="image/icon-cache.png" class="icon_32" ALT=""> <span id="lbl_cache"></span></div>
+  <div class="options_item" id="ctrl_cache">
+   
+  </div>
+  <br>
+  <div class="options_title"><img src="image/icon-tabbar.png" class="icon_32" ALT=""> <span id="lbl_first_open"></span></div>
+  <div class="options_item">
+    <label for="f_firstopenseostats"><input type="radio" name="f_firstopen" id="f_firstopenseostats" value="seostats"> <span id="lbl_firstopenseostats"></span></label><br>
+    <label for="f_firstopentraffic"><input type="radio" name="f_firstopen" id="f_firstopentraffic" value="traffic"> <span id="lbl_firstopentraffic"></span></label><br>
+    <label for="f_firstopensiteinfo"><input type="radio" name="f_firstopen" id="f_firstopensiteinfo" value="siteinfo"> <span id="lbl_firstopensiteinfo"></span></label><br>
+    <label for="f_firstopenpageinfo"><input type="radio" name="f_firstopen" id="f_firstopenpageinfo" value="pageinfo"> <span id="lbl_firstopenpageinfo"></span></label><br>
+    <label for="f_firstopenlinks"><input type="radio" name="f_firstopen" id="f_firstopenlinks" value="links"> <span id="lbl_firstopenlinks"></span></label><br>
+    <label for="f_firstopenpagespeed"><input type="radio" name="f_firstopen" id="f_firstopenpagespeed" value="pagespeed"> <span id="lbl_firstopenpagespeed"></span></label><br>
+    <label for="f_firstopenwebtools"><input type="radio" name="f_firstopen" id="f_firstopenwebtools" value="webtools"> <span id="lbl_firstopenwebtools"></span></label><br><br>
+    <label for="f_debugmode"><input type="checkbox" name="f_debugmode" id="f_debugmode"> Developer mode</label>
+    
+  </div>
+  
+  <div class="options_item">
+    <button id="btn_save"></button>
+    <button id="btn_cancel"></button>
+  </div>  
+</div>
+
+<!-- Subscribe -->
+<div id="options_subscribe">
+  <div class="options_title"><img src="image/icon_subscribe.png" class="icon_32" ALT=""> <span id="lbl_subscribe"></span></div>
+  <div class="options_item">
+    <form class="email" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=chromefans', 'popupwindow', 'scrollbars=yes,width=560,height=520');return true">
+      <a href="http://feedburner.google.com/fb/a/mailverify?uri=chromefans&loc=en_US" title="" id="lnk_submail" target=_blank><span id="lbl_submail">12</span></a><br>
+      <input type="text" style="width:170px" name="email" id="email" />
+      <input type="hidden" value="chromefans" name="uri"/>
+      <input type="hidden" name="loc" value="en_US" />
+      <input type="submit" class="submit" id="btn_sub" value="Subscribe" /> &nbsp; 
+      <a href="http://www.chromefans.org/about/why-subscribe.htm?ref=ext_pr" target=_blank id="lnk_why" class="why"> <span id="lbl_why"></span></a><br>
+      <span id="lbl_privacy"></span>
+    </form>    
+  </div>
+</div>
+
+<!-- other links -->
+<div id="options_subscribe">
+  <div class="options_title"><img src="image/logo-32.png" class="icon_32" ALT=""> <span id="lbl_about"></span></div>
+
+  <div class="options_item">
+    <img src="image/icon-home.png" alt="" class="icon_16"> <span><a href="http://pagerank.chromefans.org/?ref=ext_pr" title="" id="lnk_home"></a></span><br>
+      <img src="image/icon-follow.png" class="icon_16" ALT=""> <span id="lbl_follow"></span>
+        <a href="https://www.facebook.com/openseostats" title="Facebook" target=_blank><img src="image/icon-facebook.png" class="icon_16" alt="Facebook"></a>
+        <a href="http://www.chromefans.org/?ref=ext_pr" target=_blank title="http://www.ChromeFans.org"><img src="image/icon-site-h.png" class="icon_16" ALT=""></a>
+        <a href="https://twitter.com/#!/lovechrome" target=_blank title="Twitter"><img src="image/icon-twitter-h.png" class="icon_16" alt="Twitter"></a>
+        <a href="http://feeds.feedburner.com/chromefans" target=_blank title="RSS"><img src="image/icon-rss-h.png" class="icon_16" alt="RSS"></a>
+        <a href="http://feedburner.google.com/fb/a/mailverify?uri=chromefans" target=_blank title="Email"><img src="image/icon-email-h.png" class="icon_16" alt="Email"></a><br>
+    
+    <img src="image/icon-donate.png" alt="" class="icon_16"> <span id="lbl_donate"></span><br>
+    <img src="image/icon-rate.png" alt="" class="icon_16"> <span><a href="https://chrome.google.com/extensions/detail/mhaaapflafeapcmgbphlmealldkomfbe/reviews" target=_blank title="Like this extension? Rate it!" id="lnk_rateit">Like this extension? Rate it!</a></span><br>
+    <img src="image/icon-email16.png" alt="" class="icon_16"> <a href="mailto:pr@chromefans.org" title="pr@chromefans.org" id="a_feedback" target="_blank"><span id="lbl_feedback"></span> <span class="r">pr@chromefans.org</span></a><br>
+  </div>
+</div>
+
+</div>
+</body>

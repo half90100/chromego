@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "lib/sea.js", "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "zh_CN"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "straightGoogle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "蓝灯SSR为使用谷歌产品用户量身打造。可访问谷歌google搜索，gmail邮箱，google+等谷歌服务，chrome扩展自动更新。蓝灯SSR提供翻墙功能，比VPN方便。访问项目主页获取功能更全安卓，ios，windows科学上网软件",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz6rx1PFuzkddpx77vI0WrGj0RDAKU9wkYpabNjR70Sl02CdJPsI2l4dSiujiyMdduClMPt94RzzhVsgAoODpi3CuvvUBjUI7CRJAc1u11fE6io3YDKKdNXDIxHK/7O8cLA2N6mpqp6iEOQM2EWyt9lnShtRv5cYBeWMWOXc4seXXE7nLcnA03MfQWm8dg0E80XJcdwo1Eguv/AHIzPZhZL2T+k1h+3awDMjyik/wzuw7+yjImLjuW1mCMa2gHWB+Z1swopj3AOk6Mg39D6zcOgL2l7SDeWu1TrkHHH08eVHAEF9sntL2IRvH0s+/106GRkwWGd2UYxGBV3AYvTh8uQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0",
+   "name": "蓝灯SSR-谷歌版",
+   "options_page": "options.html",
+   "permissions": [ "proxy", "tabs", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications", "\u003Call_urls>", "http://*/*", "https://*/*", "ftp://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3",
+   "web_accessible_resources": [ "first.html" ]
+}

@@ -1,0 +1,6 @@
+/* 修复由于clear引发的空白bug,调整间距 */
+#smzdm_panel{
+    clear: none;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}

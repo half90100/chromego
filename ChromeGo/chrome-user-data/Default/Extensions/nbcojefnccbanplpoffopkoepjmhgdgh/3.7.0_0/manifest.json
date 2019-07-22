@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_icon": "images/symbol-disabled48.png",
+      "default_popup": "popup.html",
+      "default_title": "Hoxx VPN"
+   },
+   "description": "Hoxx VPN Proxy service to unblock blocked websites and encrypt your connection. Completely free.",
+   "icons": {
+      "128": "images/symbol128.png",
+      "16": "images/symbol16.png",
+      "48": "images/symbol48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyBOGQWu4k68N8UGboJvTkJtQVwAxK63tVL+D3SvTpJKivWCtRI9ktwACMbf6FktASUEkLY4IH/Sqn3J+S92kbgTIPi7nO7ZtMrQMnFocpFErVn54lftj+5q+RC7k58Inx7yAjWJiPNiegHJ9igafDwQo9AnOTh+5zux9oeAVvNLRCjrFmsGKksQGIKKoGed3LYpTgWwQVryenCe8RO0nty6otzG62DnYBRpISEhQszkx5x41z6NICGT+WM9H0iq2cnoz6lN8co1FxXzJGN2Cj445/bwl2JWPvLCsYjGVhwwg9EhU0yI7o2C0VSvtnlYVihjKWgXH/UR3m+YpTvqrHQIDAQAB",
+   "manifest_version": 2,
+   "name": "Hoxx VPN Proxy",
+   "permissions": [ "proxy", "storage", "webRequest", "webRequestBlocking", "notifications", "\u003Call_urls>", "tabs", "management" ],
+   "short_name": "Hoxx VPN",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.7.0"
+}

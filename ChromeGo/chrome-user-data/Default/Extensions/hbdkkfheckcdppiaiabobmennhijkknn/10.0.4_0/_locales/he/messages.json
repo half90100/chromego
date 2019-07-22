@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "הוסף כפתור דירוג הדף בגוגל לאתר שלך"
+   },
+   "AlexaDR": {
+      "message": "אלקסה - חשיפה יומית (למיליון גולשים)"
+   },
+   "AlexaDTRT": {
+      "message": "אלקסה - דירוג תנועה יומי לאתר"
+   },
+   "AlexaPV": {
+      "message": "אלקסה - תצוגות דף יומיות למבקר באתר"
+   },
+   "AlexaRank": {
+      "message": "דירוג תנועה של אלקסה"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "אלקסה - ביקורים מחיפוש (אחוזים)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "קישורים נכנסים"
+   },
+   "Cache": {
+      "message": "מטמון"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org היסטוריה ראשונה %VALUE%"
+   },
+   "CacheLast": {
+      "message": "תמונת האתר האחרונה בגוגל %VALUE%"
+   },
+   "Cancel": {
+      "message": "ביטול"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "בדוק און-ליין מהו דירוג הדפים באתר שלך"
+   },
+   "ChromeSeobar": {
+      "message": "סרגל קידום ואופטימיזציה לאתרים לדפדפן כרום"
+   },
+   "City": {
+      "message": "עיר"
+   },
+   "ClickMore": {
+      "message": "לחץ כאן לקבלת מידע נוסף"
+   },
+   "ClickPR": {
+      "message": "לחץ כאן להטמעת כפתור PR באתרך"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "מתחרה - דירוג"
+   },
+   "CompeteUV": {
+      "message": "מתחרה - ביקורים ייחודיים"
+   },
+   "Content": {
+      "message": "תוכן"
+   },
+   "Country": {
+      "message": "מדינה"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "מפתח"
+   },
+   "DomainInfo": {
+      "message": "מידע דומיין"
+   },
+   "DomainLookup": {
+      "message": "פרטי דומיין"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "הרגש חופשי לתרום משהו"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "הכנס את שימך"
+   },
+   "Feedback": {
+      "message": "משוב"
+   },
+   "FirstDisplay": {
+      "message": "הדף הראשון המוצג כאשר התוסף מופעל"
+   },
+   "Follow_me": {
+      "message": "עקוב אחרי"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Free Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocation מיקום"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "לחץ כאן לחיפוש %DOMAIN% ממאגר התוכן של Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "עזור לנו לתרגם את התוסף לשפתך"
+   },
+   "History": {
+      "message": "עדכון היסטוריה"
+   },
+   "History_New": {
+      "message": "מה חדש"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt טקסט"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% זמין"
+   },
+   "Length": {
+      "message": "אורך"
+   },
+   "LinkExternal": {
+      "message": "קישורים חיצוניים"
+   },
+   "LinkInternal": {
+      "message": "קישורים פנימיים"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "מידע נוסף"
+   },
+   "MoreIdx": {
+      "message": "לחץ כאן לצפיה בדפים שנכנסו לאינדקס %SITE%"
+   },
+   "MoreInfo": {
+      "message": "לחץ כאן לפרטים נוספים..."
+   },
+   "MoreLink": {
+      "message": "לחץ כאן לצפיה בקישורים החוזרים שקוטלגו על ידי %SITE%"
+   },
+   "NA": {
+      "message": "לא זמין"
+   },
+   "NotFound": {
+      "message": "%FILE% לא נמצא"
+   },
+   "NotFound2": {
+      "message": "לא נמצא"
+   },
+   "NumIndex": {
+      "message": "דפים נכנסו לאינדקס על ידי %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "קישורים חוזרים באינדקס %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "אפשרויות"
+   },
+   "PR": {
+      "message": "דירוג הדף"
+   },
+   "PageConnect": {
+      "message": "חיבור"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "ארוע"
+   },
+   "PageInfo": {
+      "message": "מידע על דף האינטרנט"
+   },
+   "PageInteractive": {
+      "message": "אינטראקטיבי"
+   },
+   "PageLevel1": {
+      "message": "מהיר מאוד"
+   },
+   "PageLevel2": {
+      "message": "מהיר"
+   },
+   "PageLevel3": {
+      "message": "ממוצע"
+   },
+   "PageLevel4": {
+      "message": "איטי"
+   },
+   "PageLevel5": {
+      "message": "איט מאוד"
+   },
+   "PageLoadEvt": {
+      "message": "ארוע טעינה"
+   },
+   "PageLoaded": {
+      "message": "תוכן נטען"
+   },
+   "PageLong": {
+      "message": "אורך"
+   },
+   "PageRank": {
+      "message": "סטאטוס דירוג אתר"
+   },
+   "PageRedirect": {
+      "message": "הפנייה"
+   },
+   "PageRequest": {
+      "message": "בקשה"
+   },
+   "PageResponse": {
+      "message": "תגובה"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "אם זהו האתר שלך יתכן ואתה צריך לייעל את מהירותו או %LINK% migrate to a faster server\u003C/A>. "
+   },
+   "PageSpeed": {
+      "message": "מהירות הדף"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% מהאתרים בעולם מהירים יותר."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% מהאתרים בעולם איטיים יותר."
+   },
+   "PageSum": {
+      "message": "סך"
+   },
+   "PageTime1": {
+      "message": "זמן טעינת הדף:"
+   },
+   "PageTime2": {
+      "message": "שניות %NUM% "
+   },
+   "PageTimings": {
+      "message": "תזמון טעינת הדף (מ&#034;ש)"
+   },
+   "PageWhen": {
+      "message": "זמן התחלה"
+   },
+   "PagesIndexed": {
+      "message": "עמודים עודכנו באינדקס"
+   },
+   "Percentage": {
+      "message": "אחוזים"
+   },
+   "PrPlugin": {
+      "message": "תוסף לאתר שלך"
+   },
+   "PrivacyNote": {
+      "message": "מדיניות פרטיות: הפרטיות שלך חשובה לנו. לעולם לא נמכור, נשכיר או נמסור את כתובת המייל שלך. בכל עת באפשרותך להסיר עצמך מהדיוור."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "אהבת את התוסף? אנא \u003Ca href=\"%LINK%\" target=_blank>דרג אותו\u003C/a> עם חמישה כוכבים בדף התוספים של גוגל. תודה רבה! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "אהבת את התוסף? דרג אותו!"
+   },
+   "RateIt2": {
+      "message": "דרג עכשיו"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "המלצות"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO מידע"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "שמור וסגור"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "כל האתר"
+   },
+   "Social": {
+      "message": "רשתות חברתיות (SNS)"
+   },
+   "SpecURL": {
+      "message": "קישור מוגדר"
+   },
+   "Sub_email": {
+      "message": "הרשם דרך מייל:"
+   },
+   "Subscribe": {
+      "message": "הרשם"
+   },
+   "SubscribeTo": {
+      "message": "הרשם ל ChromeFans.org"
+   },
+   "Support": {
+      "message": "תמיכה טכנית"
+   },
+   "Tag": {
+      "message": "תגית"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "כלי מילות המפתח של גוגל"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "אבחון וסטטיסטיקות רזולוצית מסך"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C אבחון קישורים"
+   },
+   "Tools": {
+      "message": "כלים"
+   },
+   "Tools_SEO": {
+      "message": "SEO כלי"
+   },
+   "Tools_Web": {
+      "message": "כלי אינטרנט"
+   },
+   "TopHosting": {
+      "message": "חברות אירוח אתרים מובילות"
+   },
+   "Traffic": {
+      "message": "תנועה"
+   },
+   "TrafficGraphs": {
+      "message": "גרפים של תנועה"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "לא מדורג"
+   },
+   "WebmasterTools": {
+      "message": "כלי מנהיל אתרים"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu י אתרים של בינג"
+   },
+   "Webmaster_Bing": {
+      "message": "כלי מנהלי אתרים של בינג"
+   },
+   "Webmaster_Google": {
+      "message": "כלי מנהלי אתרים של גוגל"
+   },
+   "Webmaster_SE": {
+      "message": "מאגרי מנועי חיפוש למנהלי אתרים"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex י אתרים של בינג"
+   },
+   "Whois": {
+      "message": "WHOIS חיפוש"
+   },
+   "Why_sub": {
+      "message": "למה להרשם?"
+   },
+   "id": {
+      "message": "he"
+   },
+   "id_folder": {
+      "message": "he"
+   },
+   "md5_calc": {
+      "message": "Free MD5 Hash Calculator"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon19.png",
+      "default_popup": "html/popup2.html",
+      "default_title": "购物党全网自动比价工具"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/main.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "浏览商品页面时，自动查询180天历史价格、比较同款商品的全网最低价、提示促销和隐藏优惠券、一旦降价还能通过微信提醒你，海淘、二手房和Steam游戏也能比价！",
+   "homepage_url": "http://www.gwdang.com",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBwjD45pqZDb15jtxB0jo3JpVTuZQeIcIn4a87TEicX7+9Lb1aXob2uIlnQzd+3Dft3Uo+CvYM3jnEZYQ+HVNOhAPRxCroU6PZln2jYSxOVozTMV/DoWoNxxxdz0uoSlRjWHq1phtpaqKjp/fC6YC+6+Tsk/xj7a5ZPC4sHU6W7wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "19",
+   "name": "购物党自动比价工具",
+   "optional_permissions": [  ],
+   "options_page": "html/setting.html",
+   "permissions": [ "http://*/*", "https://*/*", "cookies", "storage", "webRequest", "sessions", "webRequestBlocking", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.10.1",
+   "web_accessible_resources": [ "js/chrome.js", "js/btype.js", "css/*.css", "images/*.png", "images/*/*.jpg", "images/*/*.gif", "images/*/*/*.png" ]
+}

@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "O PageRank statusu"
+   },
+   "AddTo": {
+      "message": "Dodajte PageRank dugme na svoju stranicu"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Dnevni domet (po milijunu)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Dnevni trend prometa"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Dnevni broj pregleda stranice po posjetitelju"
+   },
+   "AlexaRank": {
+      "message": "Alexa Rank prometa"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Rank prometa u Traffic u državi"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Rank prometa u %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Posjete preko pretrage (u postotcima)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Povratni linkovi"
+   },
+   "Cache": {
+      "message": "Cached"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org prvi put cache na dan %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google posljednji put cache na dan %VALUE%"
+   },
+   "Cancel": {
+      "message": "Otkaži"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Brzo provjerite PageRank svojih web stranica"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "Grad"
+   },
+   "ClickMore": {
+      "message": "Kliknite ovdje za više informacija"
+   },
+   "ClickPR": {
+      "message": "Kliknite ovdje kako biste stavili PageRank ikonu na svoju stranicu"
+   },
+   "Close": {
+      "message": "Zatvori"
+   },
+   "CompeteRank": {
+      "message": "Compete - Rank"
+   },
+   "CompeteUV": {
+      "message": "Compete - jedinstveni posjetitelji"
+   },
+   "Content": {
+      "message": "Sadržaj"
+   },
+   "Country": {
+      "message": "Država"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Programer"
+   },
+   "DomainInfo": {
+      "message": "Informacije o domeni"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donirajte"
+   },
+   "DonateBitcoin": {
+      "message": "Donirajte preko Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Donirajte ako Vam se sviđa dodatak"
+   },
+   "DonatePaypal": {
+      "message": "Donirajte preko Paypal"
+   },
+   "DonateSend": {
+      "message": "molimo pošaljite donacije na"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Upišite svoj E-mail..."
+   },
+   "Feedback": {
+      "message": "Povratne informacije"
+   },
+   "FirstDisplay": {
+      "message": "Prva stranica koja se prikazuje kada se otvori dodatak"
+   },
+   "Follow_me": {
+      "message": "Prati me"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Besplatni Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Informacije Geo lokacije"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Kliknite ovdje za pretragu %DOMAIN% iz sadržaja sa servisa Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Pomozite prevesti na vaš jezik"
+   },
+   "History": {
+      "message": "Povijest ažuriranja"
+   },
+   "History_New": {
+      "message": "What's new"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% je dostupan"
+   },
+   "Length": {
+      "message": "Dužina"
+   },
+   "LinkExternal": {
+      "message": "Eksterni linkovi"
+   },
+   "LinkInternal": {
+      "message": "Interni linkovi"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Statistika linkova"
+   },
+   "MoreDetails": {
+      "message": "Više detalja"
+   },
+   "MoreIdx": {
+      "message": "Kliknite ovdje da vidite stranice indeksirane od %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Kliknite na dugme za više detalja..."
+   },
+   "MoreLink": {
+      "message": "Kliknite ovdje da vidite povratne linkove indeksirane od %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% ne postoji"
+   },
+   "NotFound2": {
+      "message": "Ne postoji"
+   },
+   "NumIndex": {
+      "message": "Stranice indeksirane od %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Povratni linkovi indeksirani od %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Opcije"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Connect"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Informacije o stranici"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Very fast"
+   },
+   "PageLevel2": {
+      "message": "Fast"
+   },
+   "PageLevel3": {
+      "message": "Average"
+   },
+   "PageLevel4": {
+      "message": "Slow"
+   },
+   "PageLevel5": {
+      "message": "Very slow"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Content loaded"
+   },
+   "PageLong": {
+      "message": "Length"
+   },
+   "PageRank": {
+      "message": "PageRank status"
+   },
+   "PageRedirect": {
+      "message": "Redirect"
+   },
+   "PageRequest": {
+      "message": "Request"
+   },
+   "PageResponse": {
+      "message": "Response"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "If this is your site, perhaps you need to optimize the web site or %LINK%migrate to a faster server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Brzina stranice"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% web stranica u svijetu su brže."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% web stranica u svijetu su sporije."
+   },
+   "PageSum": {
+      "message": "Sum"
+   },
+   "PageTime1": {
+      "message": "Učitavanje stranice:"
+   },
+   "PageTime2": {
+      "message": "%NUM% sekundi"
+   },
+   "PageTimings": {
+      "message": "Page load timings (ms)"
+   },
+   "PageWhen": {
+      "message": "Start time"
+   },
+   "PagesIndexed": {
+      "message": "Indeksirane strane"
+   },
+   "Percentage": {
+      "message": "Postotak"
+   },
+   "PrPlugin": {
+      "message": "Dodatak za vašu stranicu"
+   },
+   "PrivacyNote": {
+      "message": "POLITIKA PRIVATNOSTI: Vaša privatnost nam je važna. Nikada nećemo prodati ili pokazati trećoj strani adresu vašeg E-mail računa i možete se odjaviti u svakom trenutku."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Da li vam se sviđa ovaj dodatak? \u003Ca href=\"%LINK%\" target=_blank>Ocijenite\u003C/a> sa 5 zvijezdica u Chrome web dućanu. Hvala! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Sviđa vam se ovaj dodatak? Ocijenite!"
+   },
+   "RateIt2": {
+      "message": "Ocijenite"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Recommendation"
+   },
+   "SEChina": {
+      "message": "Kineska tražilica"
+   },
+   "SEChinaL": {
+      "message": "Najveća tražilica u Kini"
+   },
+   "SEJapan": {
+      "message": "Japanska tražilica"
+   },
+   "SEOStats": {
+      "message": "SEO statistike"
+   },
+   "SERussinL": {
+      "message": "Najveća tražilica u Russiji"
+   },
+   "SEWorld": {
+      "message": "Najveća svjetska tražilica"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Spremi i zatvori"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Sigurnost stranice"
+   },
+   "Sitewide": {
+      "message": "Na cijeloj stranici"
+   },
+   "Social": {
+      "message": "Društvene mreže (SNS)"
+   },
+   "SpecURL": {
+      "message": "Navedeni URL"
+   },
+   "Sub_email": {
+      "message": "Pretplatite se preko svog  E-mail:"
+   },
+   "Subscribe": {
+      "message": "Pretplatite se"
+   },
+   "SubscribeTo": {
+      "message": "Pretplatite se na ChromeFans.org"
+   },
+   "Support": {
+      "message": "Tehnička podrška"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Alati"
+   },
+   "Tools_SEO": {
+      "message": "SEO alati"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Promet"
+   },
+   "TrafficGraphs": {
+      "message": "Grafikoni prometa"
+   },
+   "TrafficStats": {
+      "message": "Statistika prometa"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Nerangirano"
+   },
+   "WebmasterTools": {
+      "message": "Webmaster Tools"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Zašto se pretplatiti?"
+   },
+   "id": {
+      "message": "hr"
+   },
+   "id_folder": {
+      "message": "hr"
+   },
+   "md5_calc": {
+      "message": "Besplatan kalkulator za MD5 Hash"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

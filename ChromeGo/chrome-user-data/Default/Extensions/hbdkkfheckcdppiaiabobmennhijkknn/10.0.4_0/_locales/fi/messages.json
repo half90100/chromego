@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 tuntia"
+   },
+   "1Day": {
+      "message": "1 päivä"
+   },
+   "1Hour": {
+      "message": "1 tunti"
+   },
+   "2years": {
+      "message": "2 vuotta"
+   },
+   "3Days": {
+      "message": "3 päivää"
+   },
+   "6months": {
+      "message": "6 kuukautta"
+   },
+   "7Days": {
+      "message": "7 päivää"
+   },
+   "AboutPageRank": {
+      "message": "Tietoa Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Lisää PageRank-painike sivullesi"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Päivittäin tavoitetut (miljoonissa)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Päivittäinen liikennesijoituskehitys"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Päivittäinen sivunäyttö käyttäjää kohden"
+   },
+   "AlexaRank": {
+      "message": "Alexa - Liikennesijoitus"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa liikennesijoitus maassa"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa liikennesijoitus kohteessa %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Käyntien haku (prosenttia)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Takaisinlinkitykset"
+   },
+   "Cache": {
+      "message": "Välimuistissa"
+   },
+   "CacheDisable": {
+      "message": "Poista välimuisti käytöstä"
+   },
+   "CacheDuration": {
+      "message": "Välimuistin kesto"
+   },
+   "CacheFirst": {
+      "message": "Archive.org:n vanhin tarkistus %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Googlen uusin tarkistus %VALUE%"
+   },
+   "Cancel": {
+      "message": "Peruuta"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Tarkista heti sivujesi PageRank"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO -työkalupalkki"
+   },
+   "City": {
+      "message": "Kaupunki"
+   },
+   "ClickMore": {
+      "message": "Napsauta tästä saadaksesi lisätietoja"
+   },
+   "ClickPR": {
+      "message": "Napsauta tästä pistääksesi PageRank-kuvakkeen sivullesi"
+   },
+   "Close": {
+      "message": "Sulje"
+   },
+   "CompeteRank": {
+      "message": "Kilpailu - Sijoitus"
+   },
+   "CompeteUV": {
+      "message": "Kilpailu - Yksittäiset vierailijat"
+   },
+   "Content": {
+      "message": "Sisältö"
+   },
+   "Country": {
+      "message": "Maa"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Tekijä"
+   },
+   "DomainInfo": {
+      "message": "Domain-tiedot"
+   },
+   "DomainLookup": {
+      "message": "Domain-haku"
+   },
+   "Donate": {
+      "message": "Lahjoita"
+   },
+   "DonateBitcoin": {
+      "message": "Lahjoita Bitcoineja"
+   },
+   "DonateIt": {
+      "message": "Lahjoita, jos pidät"
+   },
+   "DonatePaypal": {
+      "message": "Lahjoita Paypalillä"
+   },
+   "DonateSend": {
+      "message": "lähetä lahjoitukset käyttäjälle"
+   },
+   "DonateTxt": {
+      "message": "Jos tämä laajennus on auttanut sinua, harkitse lahjoituksen antamista sen kehittäjille."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Syötä sähköpostiosoite..."
+   },
+   "Feedback": {
+      "message": "Palaute"
+   },
+   "FirstDisplay": {
+      "message": "Ensimmäiseksi näytettävä sivu, kun laajennus avataan"
+   },
+   "Follow_me": {
+      "message": "Seuraa minua"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Ilmainen Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geosijainti"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Napsauta tähän hakeaksesi %DOMAIN% Google Plussan sisällöstä"
+   },
+   "HelpTranslate": {
+      "message": "Auta kääntämään kielellesi"
+   },
+   "History": {
+      "message": "Päivityshistoria"
+   },
+   "History_New": {
+      "message": "Mitä uutta"
+   },
+   "HtmlTag_Alt": {
+      "message": "Vaihtoehtoinen teksti"
+   },
+   "HtmlTag_Body": {
+      "message": "Leipäteksti"
+   },
+   "HtmlTag_Bold": {
+      "message": "Lihavoitu/Voimakas"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Kursivoitu/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta-kuvaus"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta-avainsanat"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Otsikko"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% on saatavissa"
+   },
+   "Length": {
+      "message": "Pituus"
+   },
+   "LinkExternal": {
+      "message": "Ulkoiset linkit"
+   },
+   "LinkInternal": {
+      "message": "Sisäiset linkit"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Lisää tietoa"
+   },
+   "MoreIdx": {
+      "message": "Napsauta tästä nähdäksesi %SITE%-palvelun indeksoimat sivut"
+   },
+   "MoreInfo": {
+      "message": "Napsauta tästä saadaksesi lisätietoja..."
+   },
+   "MoreLink": {
+      "message": "Napsauta tästä nähdäksesi %SITE%-palvelun indeksoimat takaisinlinkitykset"
+   },
+   "NA": {
+      "message": "ei saatavilla"
+   },
+   "NotFound": {
+      "message": "%FILE% ei löytynyt"
+   },
+   "NotFound2": {
+      "message": "Ei löytynyt"
+   },
+   "NumIndex": {
+      "message": "Sivut indeksoinut %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Takaisinlikitykset indeksoinut %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Asetukset"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Yhdistä"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Tapahtuma"
+   },
+   "PageInfo": {
+      "message": "Sivun tiedot"
+   },
+   "PageInteractive": {
+      "message": "Vuorovaikutteinen"
+   },
+   "PageLevel1": {
+      "message": "Hyvin nopea"
+   },
+   "PageLevel2": {
+      "message": "Nopea"
+   },
+   "PageLevel3": {
+      "message": "Keskinkertainen"
+   },
+   "PageLevel4": {
+      "message": "Hidas"
+   },
+   "PageLevel5": {
+      "message": "Hyvin hidas"
+   },
+   "PageLoadEvt": {
+      "message": "Lataustapahtuma"
+   },
+   "PageLoaded": {
+      "message": "Sisältö ladattu"
+   },
+   "PageLong": {
+      "message": "Pituus"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "Uudelleenohjaus"
+   },
+   "PageRequest": {
+      "message": "Pyyntö"
+   },
+   "PageResponse": {
+      "message": "Vastaus"
+   },
+   "PageSite": {
+      "message": "Sivuston tiedot"
+   },
+   "PageSlowInfo": {
+      "message": "Jos tämä on sivustosi, sinun pitää ehkä optimoida sitä tai %LINK% siirtyä nopeammalle palvelimelle\u003C/>."
+   },
+   "PageSpeed": {
+      "message": "Sivun nopeus"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% maailman nettisivuista ovat nopeampia."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% maailman nettisivuista ovat hitaampia."
+   },
+   "PageSum": {
+      "message": "Summa"
+   },
+   "PageTime1": {
+      "message": "Sivun latausaika:"
+   },
+   "PageTime2": {
+      "message": "%NUM% sekuntia"
+   },
+   "PageTimings": {
+      "message": "Sivun latausajat (ms)"
+   },
+   "PageWhen": {
+      "message": "Aloitusaika"
+   },
+   "PagesIndexed": {
+      "message": "Indeksoidut sivut"
+   },
+   "Percentage": {
+      "message": "Osuus"
+   },
+   "PrPlugin": {
+      "message": "Liitännäinen omalle sivullesi"
+   },
+   "PrivacyNote": {
+      "message": "TIETOSUOJAKÄYTÄNTÖ: Yksityisyytesi on meille tärkeää. Emme koskaan myy tai vuokraa sähköpostiosoitettasi. Voit peruuttaa tilauksen milloin tahansa."
+   },
+   "Rank": {
+      "message": "Sijoitus"
+   },
+   "Rate5Stars": {
+      "message": "Pidätkö tästä laajennuksesta? \u003Ca href=\"%LINK%\" target=_blank>Arvostele se\u003C/a> 5 tähdellä Chrome Web Storessa. Kiitos! :-)"
+   },
+   "RateCaution": {
+      "message": "Varoitus"
+   },
+   "RateExcellent": {
+      "message": "Erinomainen maine"
+   },
+   "RateGood": {
+      "message": "Hyvä maine"
+   },
+   "RateIt": {
+      "message": "Pidätkö tästä laajennuksesta? Arvostele!"
+   },
+   "RateIt2": {
+      "message": "Arvostele"
+   },
+   "RateNortonsec": {
+      "message": "Nortonin turvaama"
+   },
+   "RatePoor": {
+      "message": "Huono maine"
+   },
+   "RateSafe": {
+      "message": "Turvallinen"
+   },
+   "RateUnsat": {
+      "message": "Keskinkertainen maine"
+   },
+   "RateUntested": {
+      "message": "Testaamaton"
+   },
+   "RateVerypoor": {
+      "message": "Erittäin huono maine"
+   },
+   "RateWarning": {
+      "message": "Varoitus"
+   },
+   "Rating": {
+      "message": "Luokitus"
+   },
+   "Recommendation": {
+      "message": "Suositus"
+   },
+   "SEChina": {
+      "message": "Kiinalainen hakukone"
+   },
+   "SEChinaL": {
+      "message": "Kiinan suurin hakukone"
+   },
+   "SEJapan": {
+      "message": "Japanilainen hakukone"
+   },
+   "SEOStats": {
+      "message": "SEO-tilastot"
+   },
+   "SERussinL": {
+      "message": "Venäjän suurin hakukone"
+   },
+   "SEWorld": {
+      "message": "Maailman suurin hakukone"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Tallenna ja sulje"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Sivustonlaajuinen"
+   },
+   "Social": {
+      "message": "Sosiaalinen (SNS)"
+   },
+   "SpecURL": {
+      "message": "Määritelty URL"
+   },
+   "Sub_email": {
+      "message": "Tilaa sähköpostilla:"
+   },
+   "Subscribe": {
+      "message": "Tilaa"
+   },
+   "SubscribeTo": {
+      "message": "Tilaa ChromeFans.org"
+   },
+   "Support": {
+      "message": "Tekninen tuki"
+   },
+   "Tag": {
+      "message": "Tägi"
+   },
+   "Tool_GEOIP": {
+      "message": "IP-osoitteen maantieteellinen sijainti"
+   },
+   "Tool_GG_Key": {
+      "message": "Google-avainsanatyökalu"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Näyttöresoluution tilastot & tarkistaja"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP-käyttäjäagenttitarkistaja"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C-linkintarkistaja"
+   },
+   "Tools": {
+      "message": "Työkalut"
+   },
+   "Tools_SEO": {
+      "message": "SEO-työkalut"
+   },
+   "Tools_Web": {
+      "message": "Web-apuohjelmat"
+   },
+   "TopHosting": {
+      "message": "Suosituimmat Web-hostaajat"
+   },
+   "Traffic": {
+      "message": "Kävijämäärä"
+   },
+   "TrafficGraphs": {
+      "message": "Liikennekaaviot"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Ei-rankattu"
+   },
+   "WebmasterTools": {
+      "message": "Verkkovastaavan työkalut"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidun verkkovastaavan työkalut"
+   },
+   "Webmaster_Bing": {
+      "message": "Bingin verkkovastaavan työkalut"
+   },
+   "Webmaster_Google": {
+      "message": "Googlen verkkovastaavan työkalut"
+   },
+   "Webmaster_SE": {
+      "message": "Hakukoneiden resurssit verkkovastaaville"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandexin verkkovastaavan työkalut"
+   },
+   "Whois": {
+      "message": "WHOIS-tarkastus"
+   },
+   "Why_sub": {
+      "message": "Miksi tilata?"
+   },
+   "id": {
+      "message": "fi"
+   },
+   "id_folder": {
+      "message": "fi"
+   },
+   "md5_calc": {
+      "message": "Ilmainen MD5 Hash -laskin"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 小時"
+   },
+   "1Day": {
+      "message": "1 天"
+   },
+   "1Hour": {
+      "message": "1 小時"
+   },
+   "2years": {
+      "message": "兩年"
+   },
+   "3Days": {
+      "message": "3 天"
+   },
+   "6months": {
+      "message": "六個月"
+   },
+   "7Days": {
+      "message": "7 天"
+   },
+   "AboutPageRank": {
+      "message": "關於 Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "添加PageRank 檢測按鈕到你的網站"
+   },
+   "AlexaDR": {
+      "message": "Alexa - 日均IP (每百萬)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - 日均流量排名"
+   },
+   "AlexaPV": {
+      "message": "Alexa - 日均頁面瀏覽量排名"
+   },
+   "AlexaRank": {
+      "message": "Alexa 全球流量排名"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa 國別流量排名"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa %COUNTRY-NAME% 流量排名"
+   },
+   "AlexaSV": {
+      "message": "Alexa - 搜索來源(百分比)"
+   },
+   "AnchorText": {
+      "message": "錨點文字(Anchor text)"
+   },
+   "Backlinks": {
+      "message": "外鏈"
+   },
+   "Cache": {
+      "message": "網頁緩存"
+   },
+   "CacheDisable": {
+      "message": "禁止緩存"
+   },
+   "CacheDuration": {
+      "message": "緩存有效期限"
+   },
+   "CacheFirst": {
+      "message": "Archive.org 首次緩存時間: %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google 最新緩存時間: %VALUE%"
+   },
+   "Cancel": {
+      "message": "取消"
+   },
+   "CheckFullStats": {
+      "message": "查看 %SITE% 的詳細網站分析報告"
+   },
+   "CheckOnline": {
+      "message": "實時在線檢查網頁的PageRank 值"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO 工具列"
+   },
+   "City": {
+      "message": "城市"
+   },
+   "ClickMore": {
+      "message": "點此獲取更多信息"
+   },
+   "ClickPR": {
+      "message": "點此將 PageRank 按鈕圖標嵌到你的網站"
+   },
+   "Close": {
+      "message": "關閉"
+   },
+   "CompeteRank": {
+      "message": "Compete - 排名"
+   },
+   "CompeteUV": {
+      "message": "Compete - 獨立用戶"
+   },
+   "Content": {
+      "message": "内容"
+   },
+   "Country": {
+      "message": "國家"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "顯示當前網頁的排名和 SEO 統計數據，主要包括排名、Cache、backlinks 等。"
+   },
+   "Developer": {
+      "message": "開發人員"
+   },
+   "DomainInfo": {
+      "message": "網域資料"
+   },
+   "DomainLookup": {
+      "message": "網域查找"
+   },
+   "Donate": {
+      "message": "捐款"
+   },
+   "DonateBitcoin": {
+      "message": "使用 Bitcoin 捐款"
+   },
+   "DonateIt": {
+      "message": "喜歡它？歡迎捐款"
+   },
+   "DonatePaypal": {
+      "message": "使用 Paypal 捐款"
+   },
+   "DonateSend": {
+      "message": "請發送到下列地址"
+   },
+   "DonateTxt": {
+      "message": "如果這個擴充功能能幫助到你，歡迎捐款贊助開發者。"
+   },
+   "EnterURL": {
+      "message": "請輸入網站地址"
+   },
+   "Enter_email": {
+      "message": "輸入你的郵件地址..."
+   },
+   "Feedback": {
+      "message": "回饋"
+   },
+   "FirstDisplay": {
+      "message": "擴充彈出時，首先顯示的頁面"
+   },
+   "Follow_me": {
+      "message": "關注我"
+   },
+   "FormerName": {
+      "message": "曾用名"
+   },
+   "Free_ping": {
+      "message": "免費在線 Ping"
+   },
+   "GeoLocation": {
+      "message": "IP 地理定位資訊"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "點擊搜索Google Plus 上有關 %DOMAIN% 的話題"
+   },
+   "HelpTranslate": {
+      "message": "Help translate into your language"
+   },
+   "History": {
+      "message": "更新歷史"
+   },
+   "History_New": {
+      "message": "最近更新"
+   },
+   "HtmlTag_Alt": {
+      "message": "ALT 文本"
+   },
+   "HtmlTag_Body": {
+      "message": "正文"
+   },
+   "HtmlTag_Bold": {
+      "message": "粗體"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "斜體"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta 描述"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta 關鍵字"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta Robots"
+   },
+   "HtmlTag_Title": {
+      "message": "標題"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% 有效"
+   },
+   "Length": {
+      "message": "長度"
+   },
+   "LinkExternal": {
+      "message": "外部連結"
+   },
+   "LinkInternal": {
+      "message": "內部連結"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "連結分析"
+   },
+   "MoreDetails": {
+      "message": "更多細節"
+   },
+   "MoreIdx": {
+      "message": "點此查看 %SITE% 的頁面收錄詳細情況"
+   },
+   "MoreInfo": {
+      "message": "點擊此按鈕查詢更多資訊"
+   },
+   "MoreLink": {
+      "message": "點此查看 %SITE% 的外鏈(Backlinks)詳細情況"
+   },
+   "NA": {
+      "message": "未知"
+   },
+   "NotFound": {
+      "message": "%FILE% 不存在"
+   },
+   "NotFound2": {
+      "message": "不存在"
+   },
+   "NumIndex": {
+      "message": "%SITENAME% 的頁面收錄數: %VALUE%"
+   },
+   "NumLink": {
+      "message": "%SITENAME% 的外鏈數: %VALUE%"
+   },
+   "Onsite": {
+      "message": "站內技術"
+   },
+   "Options": {
+      "message": "選項"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "連接"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "事件"
+   },
+   "PageInfo": {
+      "message": "網頁資訊"
+   },
+   "PageInteractive": {
+      "message": "交互"
+   },
+   "PageLevel1": {
+      "message": "超快"
+   },
+   "PageLevel2": {
+      "message": "快速"
+   },
+   "PageLevel3": {
+      "message": "普通速度"
+   },
+   "PageLevel4": {
+      "message": "慢速"
+   },
+   "PageLevel5": {
+      "message": "超慢"
+   },
+   "PageLoadEvt": {
+      "message": "Load 事件"
+   },
+   "PageLoaded": {
+      "message": "內容加載"
+   },
+   "PageLong": {
+      "message": "開始"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "重定向"
+   },
+   "PageRequest": {
+      "message": "請求"
+   },
+   "PageResponse": {
+      "message": "響應"
+   },
+   "PageSite": {
+      "message": "站點資訊"
+   },
+   "PageSlowInfo": {
+      "message": "如果這是你的網站，你可能需要進行優化，或將它%LINK%遷移到更快的伺服器\u003C/A>。"
+   },
+   "PageSpeed": {
+      "message": "網頁速度"
+   },
+   "PageSpeedFaster": {
+      "message": "全球 %NUM% 的網頁加載速度超過了本網頁。 "
+   },
+   "PageSpeedSlower": {
+      "message": "加載速度戰勝了全球 %NUM% 的網頁。 "
+   },
+   "PageSum": {
+      "message": "小計"
+   },
+   "PageTime1": {
+      "message": "網頁加載時間:"
+   },
+   "PageTime2": {
+      "message": "%NUM% 秒"
+   },
+   "PageTimings": {
+      "message": "頁面加載細節統計（毫秒 ms)"
+   },
+   "PageWhen": {
+      "message": "開始"
+   },
+   "PagesIndexed": {
+      "message": "頁面收錄"
+   },
+   "Percentage": {
+      "message": "百分比"
+   },
+   "PrPlugin": {
+      "message": "站長插件"
+   },
+   "PrivacyNote": {
+      "message": "隱私聲明: 我們高度尊重你的隱私。我們永遠不會將你的Email 地址共享給任何第三方，在訂閱之後，你可以隨時退訂。"
+   },
+   "Rank": {
+      "message": "排名"
+   },
+   "Rate5Stars": {
+      "message": "喜歡這個擴充功能嗎？請在Google 線上應用商店給它\u003Ca href=\"%LINK%\" target=_blank>打個五星評價\u003C/a> 吧，非常謝謝！:-)"
+   },
+   "RateCaution": {
+      "message": "嚴重"
+   },
+   "RateExcellent": {
+      "message": "極佳"
+   },
+   "RateGood": {
+      "message": "較好"
+   },
+   "RateIt": {
+      "message": "喜歡這個擴充功能？請給它五星評分吧！"
+   },
+   "RateIt2": {
+      "message": "評分"
+   },
+   "RateNortonsec": {
+      "message": "諾頓安全保證"
+   },
+   "RatePoor": {
+      "message": "較差"
+   },
+   "RateSafe": {
+      "message": "安全"
+   },
+   "RateUnsat": {
+      "message": "一般"
+   },
+   "RateUntested": {
+      "message": "未測試"
+   },
+   "RateVerypoor": {
+      "message": "極差"
+   },
+   "RateWarning": {
+      "message": "警告"
+   },
+   "Rating": {
+      "message": "評分"
+   },
+   "Recommendation": {
+      "message": "推薦"
+   },
+   "SEChina": {
+      "message": "中文搜索引擎"
+   },
+   "SEChinaL": {
+      "message": "中國最大的搜索引擎"
+   },
+   "SEJapan": {
+      "message": "日文搜索引擎"
+   },
+   "SEOStats": {
+      "message": "SEO 統計"
+   },
+   "SERussinL": {
+      "message": "俄羅斯最大的搜索引擎"
+   },
+   "SEWorld": {
+      "message": "全球最大的搜索引擎"
+   },
+   "SSEName": {
+      "message": "社會化網絡搜尋引擎"
+   },
+   "SSESearch": {
+      "message": "社會化網絡搜尋"
+   },
+   "SaveClose": {
+      "message": "保存 & 關閉"
+   },
+   "SecNorton": {
+      "message": "諾頓網頁安全"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "網站安全"
+   },
+   "Sitewide": {
+      "message": "全站範圍"
+   },
+   "Social": {
+      "message": "SNS 营销"
+   },
+   "SpecURL": {
+      "message": "單個頁面"
+   },
+   "Sub_email": {
+      "message": "通過郵件訂閱："
+   },
+   "Subscribe": {
+      "message": "訂閱"
+   },
+   "SubscribeTo": {
+      "message": "訂閱到 ChromeFans.org"
+   },
+   "Support": {
+      "message": "技術支援"
+   },
+   "Tag": {
+      "message": "標籤"
+   },
+   "Tool_GEOIP": {
+      "message": "IP 地理位置查詢"
+   },
+   "Tool_GG_Key": {
+      "message": "Google 關鍵詞工具"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google 搜尋趨勢"
+   },
+   "Tool_ScreenRes": {
+      "message": "螢幕分辨率檢查和統計"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP 用戶代理(User Agent) 檢查"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C 連結檢查"
+   },
+   "Tools": {
+      "message": "工具"
+   },
+   "Tools_SEO": {
+      "message": "SEO 工具"
+   },
+   "Tools_Web": {
+      "message": "在線實用工具"
+   },
+   "TopHosting": {
+      "message": "主機排行"
+   },
+   "Traffic": {
+      "message": "流量"
+   },
+   "TrafficGraphs": {
+      "message": "流量圖"
+   },
+   "TrafficStats": {
+      "message": "流量統計"
+   },
+   "URL": {
+      "message": "網頁位址"
+   },
+   "Unranked": {
+      "message": "無評級"
+   },
+   "WebmasterTools": {
+      "message": "網站管理員工具"
+   },
+   "Webmaster_Baidu": {
+      "message": "百度站長平台"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing 網站管理員工具"
+   },
+   "Webmaster_Google": {
+      "message": "Google 網站管理員工具"
+   },
+   "Webmaster_SE": {
+      "message": "各大搜尋引擎提供的站長工具"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex 網站管理員工具"
+   },
+   "Whois": {
+      "message": "WHOIS 網域查詢"
+   },
+   "Why_sub": {
+      "message": "為什麼要訂閱?"
+   },
+   "id": {
+      "message": "zh-tw"
+   },
+   "id_folder": {
+      "message": "zh_TW"
+   },
+   "md5_calc": {
+      "message": "免費 MD5 雜湊計算"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu 百度"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete 流量排名"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast 流量排名"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo! 奇摩"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

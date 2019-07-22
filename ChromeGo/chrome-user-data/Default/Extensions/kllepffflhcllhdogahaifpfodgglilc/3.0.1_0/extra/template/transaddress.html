@@ -1,0 +1,39 @@
+<div class="haitao_transaddr_selwrap">
+    {{#isNew}}
+    <select name="" id="haitao_sel_transComp">
+        {{#addrList}}
+        <option value="{{id}}">{{name}}</option>
+        {{/addrList}}
+    </select>
+    <span>请根据您选择的转运公司，填写正确的转运信息！</span>
+    {{/isNew}} {{#isEdit}}
+    <strong>{{name}}</strong>
+    <span>请按照您注册的转运公司正确填写信息！</span>
+    {{/isEdit}}
+</div>
+{{#isNew}}
+<div class="haitao_transaddr_judgewrap">
+    <a href="" class="haitao_judge_yes">已有友家速递账号</a>
+    <a target="_blank" href="http://www.youjiaus.net/" class="haitao_judge_no">没有友家速递账号</a>
+</div>
+{{/isNew}}
+<form class="haitao_transaddr_usercodewrap">
+    <div class="haitao_transaddr_formcontrol">
+        <label for="fn">First Name</label>
+        <input type="text" name="fn" id="fn" />
+    </div>
+    <div class="haitao_transaddr_formcontrol">
+        <label for="ln">Last Name</label>
+        <input type="text" name="ln" id="ln" />
+    </div>
+    <div class="haitao_transaddr_formcontrol">
+        <label for="ap">地址二</label>
+        <input type="text" name="ap" id="ap" />
+    </div>
+    <div class="haitao_transaddr_formaction">
+        <button type="submit" class="submit btn">保存信息</button>
+        {{#isNew}}
+        <a target="_blank" href=""><i class="icon"></i>我不会填</a>
+        {{/isNew}}
+    </div>
+</form>

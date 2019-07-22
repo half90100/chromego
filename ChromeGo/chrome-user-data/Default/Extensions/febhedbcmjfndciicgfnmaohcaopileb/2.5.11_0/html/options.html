@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>插件配置</title>
+    <link rel="stylesheet" href="../css/css.css" />
+</head>
+<body class="options_body">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <!-- 导航区 -->
+            <div ms-controller="navbarRange" class="container">
+                <a class="brand" href="#">{{ name }}</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="#">设置</a>
+                        </li>
+                        <li>
+                            <a href="#" ms-on-click="about()">关于本插件</a>
+                        </li>
+                        <li>
+                            <a href="http://www.smzdm.com/about" target="_blank">关于什么值得买</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /导航区 -->
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <!-- 基本设置 -->
+        <section ms-controller="baseRange" class="basic">
+            <div class="page-header">
+                <h2>基本设置 <small>插件各种开关的设置</small></h2>
+            </div>
+            <hr />
+            <small class="tip">开启弹窗是为了更好方便快捷的抢到什么值得买推荐的宝贝，手慢了宝贝就没有啦！</small>
+            <small class="tips"></small>
+            
+            <div class="row-fluid">
+                
+                <!-- 桌面提醒 -->
+                <div class="span4 desktop">
+                    <h4>是否开启桌面提醒</h4>
+                    <p></p>
+                    <div class="onoffswitch">
+                        <input type="checkbox" ms-on-change="changeCheckBox('noti_desktop')" ms-attr-checked="option.desktop == 'on'" class="onoffswitch-checkbox" id="noti_desktop">
+                        <label class="onoffswitch-label" for="noti_desktop">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </label>
+                    </div>
+                    <button class="btn btn-info" ms-on-click="showReminder()">
+                        <i class="icon-plus icon-white"></i>观看弹窗样式
+                    </button>
+                </div>
+                
+                <!-- 声音提醒 -->
+                <div class="span4 reminder">
+                    <h4>是否开启声音提醒</h4>
+                    <p></p>
+                    <div class="onoffswitch">
+                        <input type="checkbox" ms-on-change="changeCheckBox('noti_sound')" ms-attr-checked="option.sound == 'on'" class="onoffswitch-checkbox" id="noti_sound">
+                        <label class="onoffswitch-label" for="noti_sound">
+                            <div class="onoffswitch-inner"></div>
+                            <div class="onoffswitch-switch"></div>
+                        </label>
+                    </div>
+                    <button class="btn btn-info" ms-class-disabled="isPlay" ms-on-click="audition()">
+                        <i ms-if="!isPlay" class="icon-play icon-white"></i>{{ audiBtn }}
+                    </button>
+                </div>
+                
+                <!-- 信息保留条数 -->
+                <div class="span4 list">
+                    <h4>最近信息保留条数</h4>
+                    <p></p>
+                    <div class="row-fluid">
+                        <div class="btn-group span12" data-toggle="buttons-radio" data-default="100" data-toggle-name="noti_switch" id="message_limit">
+                            <button class="btn btn-primary" ms-click="changeCount('50')" ms-class-active="option.count === '50'">50条</button>
+                            <button class="btn btn-primary" ms-click="changeCount('100')" ms-class-active="option.count === '100'">100条</button>
+                            <button class="btn btn-primary" ms-click="changeCount('200')" ms-class-active="option.count === '200'">200条</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 安静时间 -->
+                <div class="span4 quiet">
+                    <h4>设置安静时间段</h4>
+                    <p></p>
+                    <div class="row-fluid muteTime">
+                        <select ms-duplex="option.closureTime" ms-on-change="changeclosureTime()">
+                            <option>0:00</option><option>1:00</option><option>2:00</option><option>3:00</option><option>4:00</option><option>5:00</option><option>6:00</option><option>7:00</option><option>8:00</option><option>9:00</option><option>10:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option><option>22:00</option><option>23:00</option>
+                        </select>
+                        <select ms-duplex="option.beginTime" ms-on-change="changeBeginTime()">
+                            <option>0:00</option><option>1:00</option><option>2:00</option><option>3:00</option><option>4:00</option><option>5:00</option><option>6:00</option><option>7:00</option><option>8:00</option><option>9:00</option><option>10:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option><option>22:00</option><option>23:00</option>
+                        </select>
+                        <div class="onoffswitch">
+                            <input type="checkbox" ms-on-change="changeCheckBox('noti_time')" ms-attr-checked="option.muteTime == 'on'" class="onoffswitch-checkbox" id="noti_time">
+                            <label class="onoffswitch-label" for="noti_time">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 链接打开形式 -->
+                <div class="span4 list" ms-if="baidubrowser">
+                    <h4>链接打开形式</h4>
+                    <p></p>
+                    <div class="row-fluid">
+                        <div class="btn-group span12" data-toggle="buttons-radio" data-default="100" data-toggle-name="open_back" id="open_back">
+                            <button class="btn btn-primary" ms-click="changeCheckBox('open_back')" ms-class-active="option.open_back === 'off'">前台打开</button>
+                            <button class="btn btn-primary" ms-click="changeCheckBox('open_back')" ms-class-active="option.open_back === 'on'">后台打开</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- /基本设置 -->
+        <br />
+        <!-- 推送设置 -->
+        <section ms-controller="pullRange" class="pull">
+            
+            <div class="page-header">
+                <h2>推送定制 <small>选择你想接收的内容</small></h2>
+            </div>
+            <hr />
+            
+            <div class="row-fluid">
+            
+                <!-- 每日精选 -->
+                <div class="row-fluid">
+                    <h3>每日精选 <small>每天由小编精挑细选的优质内容，值得您看看</small></h3><br />
+                    <div class="span2">
+                        <div class="onoffswitch">
+                            <input type="checkbox" ms-on-change="changeBasic()" class="onoffswitch-checkbox" id="88888" ms-attr-checked="basic == 'on'">
+                            <label class="onoffswitch-label" for="88888">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+            
+                <!-- 特色 -->
+                <div class="row-fluid">
+                    <h3>特色推荐</h3><br />
+                    <div class="span2" ms-repeat-el="specialList">
+                        <h4>{{ el.title }}</h4>
+                        <div class="onoffswitch">
+                            <input type="checkbox" ms-on-change="changeEnable(el)" class="onoffswitch-checkbox" ms-attr-id="el.id" ms-attr-checked="el.value == 'on'">
+                            <label class="onoffswitch-label" ms-attr-for="el.id">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="span2">
+                        <h4>其他</h4>
+                        <div class="onoffswitch">
+                            <input type="checkbox" ms-on-change="changeOther()" class="onoffswitch-checkbox" id="99999" ms-attr-checked="other == 'on'">
+                            <label class="onoffswitch-label" for="99999">
+                                <div class="onoffswitch-inner"></div>
+                                <div class="onoffswitch-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    -->
+                </div>
+                <hr />
+                
+                <!-- 分类 -->
+                <div class="row-fluid">
+                    <div class="row-fluid">
+                        <h3>分类定制</h3>
+                        
+                        <div class="page-header">
+                        <h4>所在地区选择</h4>
+                        <div class="btn-group span12">
+                            <button class="btn btn-primary" ms-class-active="option.locus === 'cn;global'" ms-click="changeLocus('cn;global')">全部</button>
+                            <button class="btn btn-primary" ms-class-active="option.locus === 'cn'" ms-click="changeLocus('cn')">仅国内</button>
+                            <button class="btn btn-primary" ms-class-active="option.locus === 'global'" ms-click="changeLocus('global')">仅国外</button>
+                        </div>
+                        </div>
+                        
+                        <div class="span2" ms-repeat-el="categoryList">
+                            <h4>{{ el.title }}</h4>
+                            <div class="onoffswitch">
+                                <input type="checkbox" ms-on-change="changeEnable(el)" class="onoffswitch-checkbox" ms-attr-id="el.id" ms-attr-checked="el.value == 'on'">
+                                <label class="onoffswitch-label" ms-attr-for="el.id">
+                                    <div class="onoffswitch-inner"></div>
+                                    <div class="onoffswitch-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <hr />
+                </div>
+            </div>
+        </section>
+        <!-- /推送设置 -->
+        
+        <!-- 关键字订阅 -->
+        <section ms-controller="keywordRange">
+            <div class="page-header">
+                <h2>关键字订阅</h2>
+            </div>
+            <hr />
+            <textarea ms-on-blur="onBlur()" ms-duplex="keyword" class="row-fluid" placeholder="请输入要定制的关键字并以逗号分隔，如：iPad，信用卡，乐高"></textarea>
+        </section>
+        <!-- /关键字订阅 -->
+        <div class="yhxy">
+            <a href="https://www.smzdm.com/user/register/provisions/" target="_blank">请阅读用户协议</a>
+        </div>
+
+        <!-- 关于本插件弹出框 -->
+        <div class="modal fade" ms-class-in="isShow" ms-controller="aboutRange">
+            <div class="modal-header">
+                <a class="close" ms-on-click="hide()">×</a>
+                <h3>感谢使用“{{ name }}”插件！</h3>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs">
+                    <li ms-class-active="tabId === 0"><a ms-on-click="changeTab(0)">当前版本</a></li>
+                    <li ms-class-active="tabId === 1"><a ms-on-click="changeTab(1)">更新历史</a></li>
+                    <li ms-class-active="tabId === 2"><a ms-on-click="changeTab(2)">意见反馈</a></li>
+                </ul>
+                <div class="tab-content">
+                    <!-- 当前版本 -->
+                    <div class="tab-pane fade" ms-class-active="tabId === 0" ms-class-in="tabId === 0">
+                        <h3>当前版本 {{ current.version }}</h3>  <small>{{ current.dateline }}</small>
+                        <div class="row-fluid">
+                            <div ms-if="current.new" class="span2">
+                                <span class="label label-success">新功能</span>
+                            </div>
+                            <div ms-if="current.new" class="span10" style="margin-top:2px;"><p ms-html="current.new"></p></div>
+                            <div ms-if="current.ui" class="span2">
+                                <span class="label label-success">UI更新</span>
+                            </div>
+                            <div ms-if="current.ui" class="span10" style="margin-top:2px;"><p ms-html="current.ui"></p></div>
+                            <div ms-if="current.bug" class="span2">
+                                <span class="label label-success">BUG修复</span>
+                            </div>
+                            <div ms-if="current.bug" class="span10" style="margin-top:2px;"><p ms-html="current.bug"></p></div>
+                        </div>
+                    </div>
+                    <!-- /当前版本 -->
+                    <!-- 更新历史 -->
+                    <div class="tab-pane fade" ms-each-el="update" ms-class-active="tabId === 1" ms-class-in="tabId === 1">
+                        <h3>{{ el.version }}</h3>  <small>{{ el.dateline }}</small>
+                        <div class="row-fluid">
+                            <div ms-if="el.new" class="span2">
+                                <span class="label label-success">新功能</span>
+                            </div>
+                            <div ms-if="el.new" class="span10" style="margin-top:2px;"><p ms-html="el.new"></p></div>
+                            <div ms-if="el.ui" class="span2">
+                                <span class="label label-success">UI更新</span>
+                            </div>
+                            <div ms-if="el.ui" class="span10" style="margin-top:2px;"><p ms-html="el.ui"></p></div>
+                            <div ms-if="el.bug" class="span2">
+                                <span class="label label-success">BUG修复</span>
+                            </div>
+                            <div ms-if="el.bug" class="span10" style="margin-top:2px;"><p ms-html="el.bug"></p></div>
+                        </div>
+                    </div>
+                    <!-- /更新历史 -->
+                    <!-- 意见反馈表单 -->
+                    <div class="tab-pane fade" ms-class-active="tabId === 2" ms-class-in="tabId === 2">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <div class="control-group">
+                                    <label class="control-label" for="question_desc">意见描述</label>
+                                    <div class="controls">
+                                        <textarea class="input-xlarge required" marxlength="1000" id="question_desc" ms-duplex="question_desc" rows="5" placeholder="请详细描述您的问题，这样会有助于我们的开发人员尽快锁定并解决问题"></textarea>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="os_version">环境信息</label>
+                                    <div class="controls">
+                                        <input type="text" class="input-xlarge required" maxlength="100" id="os_version" ms-duplex="os_version" placeholder="OS信息以及Chrome版本信息">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="username">联系人姓名</label>
+                                    <div class="controls">
+                                        <input type="text" class="input-xlarge required" maxlength="50" id="username" ms-duplex="username" placeholder="或者在'什么值得买'的注册名">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="contact_info">联系方式</label>
+                                    <div class="controls">
+                                        <input type="text" class="input-xlarge required email" maxlength="100" id="contact_info" ms-duplex="contact_info" placeholder="您的邮箱地址">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary submit" ms-class-disabled="isSubmit" ms-attr-disabled="isSubmit" ms-on-click="submit()" >{{ btnStr }}</button>
+                            </fieldset>
+                        </form>
+                        <div class="error" style="text-align:center">{{ error }}</div>
+                    </div>
+                    <!-- /意见反馈表单 -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" ms-on-click="hide()">关闭</a>
+                <a target="_blank" href="https://chrome.google.com/webstore/detail/%E4%BB%80%E4%B9%88%E5%80%BC%E5%BE%97%E4%B9%B0-%E5%AE%9E%E6%97%B6%E6%8E%A8%E9%80%81/febhedbcmjfndciicgfnmaohcaopileb/reviews?hl=zh-CN" class="btn btn-primary">如果您喜欢这个插件，请到Chrome商店为我们评分！</a>
+            </div>
+        </div>
+        <!-- /关于本插件弹出框 -->
+        <!-- 提示框 -->
+        <div class="modal alert" ms-controller="alertRange" ms-class-in="active">
+            <div class="modal-header">
+                <a ms-on-click="hide()" class="close">×</a>
+                <h3>小提示！</h3>
+            </div>
+            <div class="modal-body">{{ message }}</div>
+        </div>
+        <!-- /提示框 -->
+        <!-- 遮挡区 -->
+        <div class="modal-backdrop in" ms-controller="backdropRange" ms-if="active"></div>
+        <!-- /遮挡区 -->
+    </div>
+</body>
+<script src="../js/app.js"></script>
+</html>

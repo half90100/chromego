@@ -1,0 +1,49 @@
+<div id="haitao_totalPrice_tip" class="haitao_font haitao_triangle haitao_tips {{triangle}} {{unfold}}" style="{{pos}}:{{left}}px;top:{{top}}px;">
+	<div class="haitao_tips_title haitao-stat" data-stat="web.list.price">
+		<span class="haitao_tips_left">
+			订单总价约：<span class="haitao_yellow">￥<span class="haiao_totalPrice_GoodsPrice">{{chinaPrice}}</span></span>，到手价约：<span class="haitao_yellow">￥<span class="haiao_totalPrice_PlusShipPrice">{{totalPrice}}</span></span>
+		</span>
+		<span class="haitao_tips_right">
+			明细 <em></em>
+		</span>
+	</div>
+	<div class="haitao_tips_detail">
+		<div>
+			<table class="haitao_totalPrice_table haitao_table">
+				<tr>
+					<th class="haitao_name_td">商品名</th>
+					<th class="haitao_sinPrice_td">商品单价</th>
+					<th class="haitao_quantity_td">数量</th>
+					<th class="haitao_shipPrice_td">美国境内运费</th>
+					<th class="haitao_coupon_td">优惠劵</th>
+				</tr>
+				{{#goodList}}
+				<tr>
+					<td class="haitao_name_td"><div class="haitao_ellipsis">{{name}}</div></td>
+					<td class="haitao_sinPrice_td">${{singlePrice}}</td>
+					<td class="haitao_quantity_td">{{quantity}}</td>
+					<td class="haitao_shipPrice_td">${{shipPrice}}</td>
+					<td class="haitao_coupon_td">${{coupon}}</td>
+				</tr>
+				{{/goodList}}
+			</table>
+			<div class="haitao_detail_item">
+				<div class="haitao_trans_item">国际转运费：￥<span class="haitao_totalPrice_shipPrice">{{shippingCompanyCost}}</span></div>
+				<div class="haitao_trans_item haitao_trans_item_right">
+					<span class="haitao_bz_color">(按<span class="haitao_totalPrice_calShippingWeight">{{shippingCompanyWeight}}</span>磅算)</span>
+				</div>
+				<!--div class="haitao_trans_item haitao_trans_item_right">
+					<select id="haitao_total_ship_sel" class="haitao_sel">
+						{{#shipList}}
+							<option value="{{id}}" {{defaultShip}}>{{name}}</option>
+						{{/shipList}}
+					</select>
+				</div-->
+				<div class="haitao_sel_transChannel haitao_trans_item_right"></div>
+				<div class="haitao_sel_transComp haitao_trans_item_right"></div>
+			</div>
+			<div class="haitao_detail_item">当前汇率：{{currentRate}}<span class="haitao_bz_color">（实时）</span></div>
+			<div class="haitao_detail_item">到手总价：<span class="haitao_bz_color">￥<span class="haiao_totalPrice_PlusShipPrice">{{totalPrice}}</span></span></div>
+		</div>
+	</div>
+</div>

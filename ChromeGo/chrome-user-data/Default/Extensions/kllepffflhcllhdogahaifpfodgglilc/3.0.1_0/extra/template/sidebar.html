@@ -1,0 +1,114 @@
+<div id="haitao_sidebar" class="haitao_font">
+    <div class="haitao_sidebar_logo">
+        <div class="haitao_sidebar_air"></div>
+        <p><span>工具箱</span></p>
+    </div>
+    <div class="haitao_sidebar_top haitao-stat" data-stat="web.help.top"></div>
+    <div class="haitao_sidebar_transaddress haitao_transaddress haitao-stat" data-stat="web.help.transaddress"><i></i>
+        <span>填写转运地址</span>
+    </div>
+    <div class="haitao_sidebar_panel">
+        <div class="haitao_si_title">海淘神器工具箱</div>
+        {{#isShow}}
+        <div class="haitao_sidebar_intro">
+            <div class="haitao_si_sub_title">此商家可信任，支持以下服务：</div>
+            <div class="haitao_si_item haitao_si_card" tip="{{cardsupport}}"><i></i>支付</div>
+            <div class="haitao_si_item haitao_si_fee" tip="{{shiptip}}"><i></i>邮费</div>
+            <div class="haitao_si_item haitao_si_tax" tip="{{taxtip}}"><i></i>消费税</div>
+            <div class="popup haitao_si_tip haitao_si_tip_card">
+                <div class="ks-popup-content">{{cardsupport}}</div>
+            </div>
+            <div class="popup haitao_si_tip haitao_si_tip_fee">
+                <div class="ks-popup-content">{{shiptip}}</div>
+            </div>
+            <div class="popup haitao_si_tip haitao_si_tip_tax">
+                <div class="ks-popup-content">{{taxtip}}</div>
+            </div>
+        </div>
+        {{/isShow}}
+        <div class="haitao_sidebar_oper">
+            <label>
+                <div class="haiao_chk_text">划词翻译</div>
+                <div class="haitao_chk haitao_switch_trans haitao-stat {{#isTranslate}}haitao_chk_checked{{/isTranslate}}" data-stat="web.help.fanyi">
+                    <div class="haitao_chk_circle"></div>
+                </div>
+            </label>
+            <label>
+                <div class="haiao_chk_text">助手提示</div>
+                <div class="haitao_chk haitao_switch_tips haitao-stat {{#isShowTips}}haitao_chk_checked{{/isShowTips}}" data-stat="web.help.xinxi">
+                    <div class="haitao_chk_circle"></div>
+                </div>
+            </label>
+            <label>
+                <div class="haiao_chk_text">桌面提醒</div>
+                <div class="haitao_chk haitao_switch_pushnotify haitao-stat {{#isShowPushNotify}}haitao_chk_checked{{/isShowPushNotify}}" data-stat="web.help.pushnotify">
+                    <div class="haitao_chk_circle"></div>
+                </div>
+            </label>
+        </div>
+        <div class="haitao_sidebar_help haitao-clearfix">
+            <label class="haitao_transPage_lable"><a href="javascript:void(0);" class="haitao_transPage haitao-stat" data-stat="web.help.transPage"><i></i>全页翻译</a>
+            </label>
+            <label class="haitao_transaddress_lable">
+                <a href="javascript:void(0);" class="haitao_transaddress haitao-stat" data-stat="web.help.transaddress"><i></i>管理转运地址</a>
+            </label>
+        </div>
+        <div class="haitao_sidebar_help haitao-clearfix">
+            <label class="haitao_chima_lable"><a href="javascript:void(0);" class="haitao_chima haitao-stat" data-stat="web.help.chima"><i></i>尺码转换</a>
+            </label>
+            <label class="haitao_newuser_lable"><a href="javascript:void(0);" class="haitao_newuser haitao-stat" data-stat="web.help.zhidao"><i></i>下单教程</a>
+            </label>
+        </div>
+    </div>
+</div>
+<div id="haitao_sidebar_scrollTop" class="haitao_font haitao_sidebar_top haitao-stat" data-stat="web.help.top">top</div>
+<div id="haitao_sidebar_tool" class="haitao_font haitao-stat">
+    <a target="_blank" title="转运公司问题反馈" href="http://ur.taobao.com/survey/view.htm?id=2261" class="haitao_sidebar_feedback" data-stat="web.help.feedback"></a>
+    <a target="_blank" title="海淘神器客服" href="http://portal.manjushri.alibaba.com/portal/portal/init.jspa?instanceCode=ALIR00001700&scenceCode=SCEN00005175&digest=485829f7035f0531475ad6165cd81b59" class="haitao_sidebar_robot" data-stat="web.help.robot"></a>
+</div>
+
+
+
+<div class="container feedback" id="haitao_feedback_dialog">
+    <div class="hd">
+        <p class="title">亲爱的【一淘海淘神器】用户</p>
+        <p class="detail">请在下面填写你的转运物流环节遇到的问题或好的意见建议，您的支持是我们前进的动力，十分感谢！</p>
+    </div>
+
+    <a tabindex="0" href='javascript:void("关闭")' role="button" class="haitao-ks-dialog-close">
+        <span class="haitao-ks-dialog-close-x">关闭</span>
+    </a>
+
+    <div class="bd">
+        <form action="" class="info">
+            <div class="control select">
+                <label for="trans_company">转运公司：</label>
+                <select id="trans_company" id="trans_company" name="trans_company">
+                    <option value='328'>友家</option>
+                    <option value='329'>4PX</option>
+                    <option value='330'>百通</option>
+                    <option value='331' selected>斑马</option>
+                </select>
+
+                <input type="text" name="trans_num" id="trans_num" placeholder="转运单号">
+                <span class="tip">（<b class="required">*</b>必填项）</span>
+            </div>
+            <div class="control">
+                <label for="description">问题描述：</label>
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="请填写联系转运公司客服依然没有处理好的问题，催单的问题一律不回"></textarea>
+            </div>
+            <div class="control">
+                <label for="email"><b class="required">*</b>联系邮箱：</label>
+                <input class="large" type="text" name="email" id="email" placeholder="电子邮箱">
+                <span class="tip">（<b class="required">*</b>必填项）</span>
+                <p class="tip warn">请填入正确格式的电子邮箱</p>
+            </div>
+            <div class="control btns">
+                <a href="#" class="btn reset">重置</a>
+                <a href="#" class="btn submit">提交</a>
+                <span class="tip">（两个工作日内回复）</span>
+                <span class="tip success">（提交成功，两秒后自动关闭）</span>
+            </div>
+        </form>
+    </div>
+</div>

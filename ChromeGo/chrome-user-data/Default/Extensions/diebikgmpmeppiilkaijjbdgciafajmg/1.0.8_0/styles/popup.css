@@ -1,0 +1,270 @@
+@import url(./assets/fonts.css);
+@import url(./assets/toggler.css);
+@import url(./assets/select-box.css);
+@import url(./assets/button.css);
+@import url(./assets/global-message.css);
+@import url(./assets/remote-view.css);
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'PT Sans', Arial, sans-serif;
+	height: 100%;
+}
+
+a {
+	transition: color 0.2s;
+}
+
+ol {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.popup {
+	background: #fff;
+	font-size: 14px;
+	padding: 20px;
+	color: #2c3f4f;
+	position: relative;
+	min-height: 300px;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.popup_enabled {
+	overflow: auto;
+}
+
+.active-editor {
+	padding: 5px;
+	text-align: right;
+	font-size: 0.8em;
+	background: #ecf0f1;
+	margin: -20px;
+	margin-bottom: 14px;
+}
+
+.activity {
+	border: 0;
+	padding: 0;
+	position: relative;
+	margin:0 0 20px;
+	z-index: 2;
+}
+
+.activity label {
+	display: block;
+	line-height: 1;
+	font-size: 1.8em;
+}
+
+.activity em {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1;
+	margin-top: 0.6em;
+	font-style: normal;
+	color: #95a5a6;
+}
+
+.activity .toggler {
+	position: absolute;
+	right: -3px;
+	margin-bottom: -1px;
+	z-index: 2;
+}
+
+.update-direction {
+	padding: 2px 7px 4px;
+	border-radius: 4px;
+	background: #5eafe0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.update-direction__icon {
+	display: inline-block;
+}
+
+.update-direction__icon:before {
+	font-family: 'Font Awesome';
+	content: '\f0ec';
+	display: inline-block;
+	width: 1.5em;
+	text-align: center;
+	font-size: 12px;
+}
+
+[data-direction="to browser"] .update-direction__icon:before {
+	content: '\f178';
+}
+
+[data-direction="to editor"] .update-direction__icon:before {
+	content: '\f177';
+}
+
+.file-list {
+	list-style-type: none;
+	display: block;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+.file-list__item {
+	margin-bottom: 20px;
+}
+
+.file-list__item:last-child {
+	margin-bottom: 0;
+}
+
+.file__browser {
+	margin-bottom: 4px;
+	padding-left: 10px;
+}
+
+.file-list__item_user .file__browser {
+	/* color: #e57c2c; */
+	font-weight: bold;
+}
+
+.file__remove {
+	display: inline-block;
+	margin-left: 10px;
+	color: #bf382e;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 10px;
+	position: relative;
+	top: 1px;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.file__remove:hover {
+	color: #e64b3f;
+}
+
+.file__remove:before {
+	font-family: 'Font Awesome';
+	content: '\f00d';
+	display: inline-block;
+	font-size: 1.4em;
+	padding: 4px;
+	margin: -4px;
+	position: relative;
+	top: -1px;
+}
+
+.file-list__item:hover .file__remove {
+	opacity: 1;
+}
+
+.file__browser-addon {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.7em;
+	margin-top: 2px;
+	color: #95a5a6;
+}
+
+.error-message {
+	font-size: 12px;
+	background: #e64b3f;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.error-message a {
+	outline: none;
+	color: inherit;
+}
+
+.error-log-link {
+	font-size: 11px;
+	text-align: center;
+	color: #bdc3c7;
+}
+
+.error-log-link > a {
+	color: inherit;
+}
+
+.error-log-link > a:hover {
+	color: #e64b3f;
+}
+
+.offscreen {
+	position: absolute;
+	left: -9999px;
+	visibility: hidden;
+}
+
+.inactive-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 1;
+	text-align: center;
+	padding-top: 200px;
+	transition: opacity 0.3s;
+}
+
+.inactive-overlay > p {
+	margin: 0 0 0.3em;
+}
+
+.popup_enabled .inactive-overlay {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.getting-started-link {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #999;
+}
+
+.getting-started-link:hover {
+	color: #000;
+}
+
+.getting-started-link::after {
+	font-family: 'Font Awesome';
+	content: '\f105';
+	margin-left: 5px;
+	display: inline-block;
+	margin-top: 0.1em;
+}
+
+.livestyle-homepage-link {
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #3498db;
+}
+
+.livestyle-homepage-link:hover {
+	color: #2980b9;
+}
+
+.message_file-proto {
+	color: #95a5a6;
+	font-size: 0.85em;
+}
+
+.hidden {
+	display: none;
+}

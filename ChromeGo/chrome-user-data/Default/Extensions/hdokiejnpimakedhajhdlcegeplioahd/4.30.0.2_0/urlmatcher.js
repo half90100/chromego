@@ -1,0 +1,2 @@
+var LPTools=LPTools||{};!function(r){r.createUrlPattern=l,r.allUrls=u;var e,n,t=new RegExp("^"+"(\\*|(?:\\*\\.)?(?:[^/*]+))?"+"/"+"(.*)"+"$");function l(r){var e=t.exec(r);if(!e)return null;var n=e[1],l=e[2];return n?a(n,l):null}function a(r,e){var n="^";return r&&("*"===r?n+="[^/]+?":(r.match(/^\*\./)&&(n+="[^/]*?",r=r.substring(2)),n+=r.replace(/\./g,"\\."))),e&&("*"===e?n+="(/.*)?":"/"!==e[0]&&(n+="/",n+=e.replace(/\*/g,".*?"),n+="/?")),n+="$",new RegExp(n)}function u(){return/(http|https|file|ftp):\/\/.+/}}(LPTools);
+//# sourceMappingURL=sourcemaps/urlmatcher.js.map

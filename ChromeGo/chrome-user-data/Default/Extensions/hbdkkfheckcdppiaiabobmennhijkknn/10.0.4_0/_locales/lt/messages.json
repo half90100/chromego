@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Valandų"
+   },
+   "1Day": {
+      "message": "1 Dieną"
+   },
+   "1Hour": {
+      "message": "1 Valandą"
+   },
+   "2years": {
+      "message": "2 Metus"
+   },
+   "3Days": {
+      "message": "3 Dienas"
+   },
+   "6months": {
+      "message": "6 Mėnesius"
+   },
+   "7Days": {
+      "message": "7 Dienas"
+   },
+   "AboutPageRank": {
+      "message": "Apie atvirą  SEO statistiką"
+   },
+   "AddTo": {
+      "message": "Pridėkite PageRank mygtuką į savo svetainę"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Dienos pasiekimai(vienam milijonui)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Dienos srauto reitingo tendencija"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Dienos Puslapių peržiūrų skaičius vienam vartotojui"
+   },
+   "AlexaRank": {
+      "message": "Alexa Srauto reitingas"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Srauto reitingas šalyje"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Srauto reitingas %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Paieškos apsilankymai (procentais)"
+   },
+   "AnchorText": {
+      "message": "Inkarinis tekstas"
+   },
+   "Backlinks": {
+      "message": "Atgalinės nuorodos"
+   },
+   "Cache": {
+      "message": "Laikinai išsaugotas"
+   },
+   "CacheDisable": {
+      "message": "Išjungti laikiną bylų saugojimą (Cache)"
+   },
+   "CacheDuration": {
+      "message": "Laikino bylų saugojimo (Cashe) trukmė"
+   },
+   "CacheFirst": {
+      "message": "Archive.org pirmasis laikinai išsaugotas %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google paskutinis laikinai išsaugotas %VALUE%"
+   },
+   "Cancel": {
+      "message": "Atšaukti"
+   },
+   "CheckFullStats": {
+      "message": "Patikrinkite pilną šio %SITE% tinklalapio statistiką"
+   },
+   "CheckOnline": {
+      "message": "Akimirksniu patikrinkite savo puslapių PageRank internete"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Įrankių juosta"
+   },
+   "City": {
+      "message": "Miestas"
+   },
+   "ClickMore": {
+      "message": "Paspauskite čia, kad gauti daugiau informacijos"
+   },
+   "ClickPR": {
+      "message": "Spauskite čia norėdami įdėti šią PageRank piktogramą savo svetainėje"
+   },
+   "Close": {
+      "message": "Uždaryti"
+   },
+   "CompeteRank": {
+      "message": "Lyginti - Reitingą"
+   },
+   "CompeteUV": {
+      "message": "Lyginti - Unikalius lankytojus"
+   },
+   "Content": {
+      "message": "Turinys"
+   },
+   "Country": {
+      "message": "Šalis"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Autorius:"
+   },
+   "DomainInfo": {
+      "message": "Domeno informacija"
+   },
+   "DomainLookup": {
+      "message": "Ieškoti Domeno"
+   },
+   "Donate": {
+      "message": "Paaukoti"
+   },
+   "DonateBitcoin": {
+      "message": "Paaukoti per Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Paaukokite jei Jums patinka"
+   },
+   "DonatePaypal": {
+      "message": "Paaukoti per Paypal"
+   },
+   "DonateSend": {
+      "message": "siųskite auką"
+   },
+   "DonateTxt": {
+      "message": "Jei šis plėtinys padėjo jums, prašome  prisidėti prie jo plėtros."
+   },
+   "EnterURL": {
+      "message": "Įveskite tinklalapio URL"
+   },
+   "Enter_email": {
+      "message": "Įveskite savo el. pašto adresą..."
+   },
+   "Feedback": {
+      "message": "Grįžtamasis ryšys"
+   },
+   "FirstDisplay": {
+      "message": "Pirmas rodomas puslapis, kai plėtinys atidarytas"
+   },
+   "Follow_me": {
+      "message": "Sekti"
+   },
+   "FormerName": {
+      "message": "Ankstesnis pavadinimas"
+   },
+   "Free_ping": {
+      "message": "Nemokamas PING'as internete"
+   },
+   "GeoLocation": {
+      "message": "Geografinė vieta"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Spauskite čia norėdami ieškoti %DOMAIN%  iš Google Plus turinio"
+   },
+   "HelpTranslate": {
+      "message": "Padėkite išversti į savo kalbą"
+   },
+   "History": {
+      "message": "Atnaujinti istoriją"
+   },
+   "History_New": {
+      "message": "Kas naujo"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Pavadinimas (Title)"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% yra galima"
+   },
+   "Length": {
+      "message": "Ilgis"
+   },
+   "LinkExternal": {
+      "message": "Išorinės nuorodos"
+   },
+   "LinkInternal": {
+      "message": "Vidinės nuorodos"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nesekti"
+   },
+   "LinksStats": {
+      "message": "Nuorodų statistika"
+   },
+   "MoreDetails": {
+      "message": "Detaliau"
+   },
+   "MoreIdx": {
+      "message": "Spauskite čia norėdami peržiūrėti puslapių indeksavimą pagal %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Dėl papildomos informacijos, spauskite mygtuką..."
+   },
+   "MoreLink": {
+      "message": "Spauskite čia norėdami peržiūrėti atgalinių nuorodų indeksavimą pagal %SITE%"
+   },
+   "NA": {
+      "message": "N/G"
+   },
+   "NotFound": {
+      "message": "%FILE% nerastas"
+   },
+   "NotFound2": {
+      "message": "Nerasta"
+   },
+   "NumIndex": {
+      "message": "Puslapiai indeksuoti pagal %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Atgalinės nuorodos indeksuotos pagal %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "Sveiainėje"
+   },
+   "Options": {
+      "message": "Nustatymai"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Prijungimas"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Įvykis"
+   },
+   "PageInfo": {
+      "message": "Puslapio informacija"
+   },
+   "PageInteractive": {
+      "message": "Interaktyvumas"
+   },
+   "PageLevel1": {
+      "message": "Labai greitas"
+   },
+   "PageLevel2": {
+      "message": "Greitas"
+   },
+   "PageLevel3": {
+      "message": "Vidutinis"
+   },
+   "PageLevel4": {
+      "message": "Lėtas"
+   },
+   "PageLevel5": {
+      "message": "Labai lėtas"
+   },
+   "PageLoadEvt": {
+      "message": "Įvykio įkėlimas"
+   },
+   "PageLoaded": {
+      "message": "Turinio įkelimas"
+   },
+   "PageLong": {
+      "message": "Laikas"
+   },
+   "PageRank": {
+      "message": "PageRank Statusas"
+   },
+   "PageRedirect": {
+      "message": "Nukreipimas"
+   },
+   "PageRequest": {
+      "message": "Užklausa"
+   },
+   "PageResponse": {
+      "message": "Atsakas"
+   },
+   "PageSite": {
+      "message": "Svetainės informacija"
+   },
+   "PageSlowInfo": {
+      "message": "Jei tai jūsų svetainė, galbūt jums reikia optimizuoti interneto svetainę arba %LINK% perkelti į greitesnį serverį\u003C/a>."
+   },
+   "PageSpeed": {
+      "message": "Puslapio greitis"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% tinklalapių pasaulyje yra greitesni."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% tinklalapių pasaulyje yra lėtesni."
+   },
+   "PageSum": {
+      "message": "Suma"
+   },
+   "PageTime1": {
+      "message": "Puslapio įkėlimo laikas:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Skundžių"
+   },
+   "PageTimings": {
+      "message": "Puslapio įkėlimo laikas (ms)"
+   },
+   "PageWhen": {
+      "message": "Pradžios laikas"
+   },
+   "PagesIndexed": {
+      "message": "Indeksuota puslapių"
+   },
+   "Percentage": {
+      "message": "Proncentinis dydis"
+   },
+   "PrPlugin": {
+      "message": "Įdiekite į savo svetainę"
+   },
+   "PrivacyNote": {
+      "message": "Privatumo politika: Jūsų privatumas mums yra svarbus. Mes niekada neparduosime ar išnuomuosime Jūsų elektroninio pašto adreso. Jūs galite bet kada atsisakyti prenumeratos."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Ar Jums patinka šis plėtinys? Prašau \u003Ca href=\"%LINK%\" target=_blank>įvertinti\u003C/a> 5 žvaigždutėmis Chrome internetinėje parduotuvėje. Ačiū! :-)"
+   },
+   "RateCaution": {
+      "message": "Dėmesio"
+   },
+   "RateExcellent": {
+      "message": "Puiki reputacija"
+   },
+   "RateGood": {
+      "message": "Gera reputacija"
+   },
+   "RateIt": {
+      "message": "Patinka šis plėtinys? Įvertink!"
+   },
+   "RateIt2": {
+      "message": "Įvertink"
+   },
+   "RateNortonsec": {
+      "message": "Apsaugota Norton"
+   },
+   "RatePoor": {
+      "message": "Prasta reputacija"
+   },
+   "RateSafe": {
+      "message": "Saugiai"
+   },
+   "RateUnsat": {
+      "message": "Nepatenkinama reputacija"
+   },
+   "RateUntested": {
+      "message": "Nepatikrinta"
+   },
+   "RateVerypoor": {
+      "message": "Labai prasta reputacija"
+   },
+   "RateWarning": {
+      "message": "Įspėjimas"
+   },
+   "Rating": {
+      "message": "Reitingas"
+   },
+   "Recommendation": {
+      "message": "Rekomendacijos"
+   },
+   "SEChina": {
+      "message": "Kinijos paieškos sistema"
+   },
+   "SEChinaL": {
+      "message": "Didžiausia pasaulinė paieškos sistema Kinijoje"
+   },
+   "SEJapan": {
+      "message": "Japonijos paieškos sistema"
+   },
+   "SEOStats": {
+      "message": "SEO Statistika"
+   },
+   "SERussinL": {
+      "message": "Didžiausia pasaulinė paieškos sistema Rusijoje"
+   },
+   "SEWorld": {
+      "message": "Didžiausia pasaulinė paieškos sistema"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Išsaugoti ir uždaryti"
+   },
+   "SecNorton": {
+      "message": "Norton Saugus tinklalapis"
+   },
+   "SecSiteadv": {
+      "message": "McAfee Svetainės prižiūra"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Svetainės apsauga"
+   },
+   "Sitewide": {
+      "message": "Svetainės erdvė"
+   },
+   "Social": {
+      "message": "Socialiniai tinklai (SNS)"
+   },
+   "SpecURL": {
+      "message": "Apibūdintas URL"
+   },
+   "Sub_email": {
+      "message": "Prenumeruoti el. paštu:"
+   },
+   "Subscribe": {
+      "message": "Pasirašykite"
+   },
+   "SubscribeTo": {
+      "message": "Pasirašykite ChromeFans.org"
+   },
+   "Support": {
+      "message": "Techninė pagalba"
+   },
+   "Tag": {
+      "message": "Žymė"
+   },
+   "Tool_GEOIP": {
+      "message": "Geografinės IP vietos"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Raktinių žodžių įrankis"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Kryptys"
+   },
+   "Tool_ScreenRes": {
+      "message": "Ekrano rezoliucijos statistika"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent tikrinimas"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Nourodų tikrinimas"
+   },
+   "Tools": {
+      "message": "Įrankiai"
+   },
+   "Tools_SEO": {
+      "message": "SEO Įrankiai"
+   },
+   "Tools_Web": {
+      "message": "Tinklalapio paslaugos"
+   },
+   "TopHosting": {
+      "message": "Geriausias Web Hosting"
+   },
+   "Traffic": {
+      "message": "Srautas"
+   },
+   "TrafficGraphs": {
+      "message": "Srauto grafikas"
+   },
+   "TrafficStats": {
+      "message": "Srauto statistika"
+   },
+   "URL": {
+      "message": "Adresas"
+   },
+   "Unranked": {
+      "message": "Nereitinguotas"
+   },
+   "WebmasterTools": {
+      "message": "Žiniatinklio administratoriaus irankiai"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Tinklo administratoriaus įrankiai"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Tinklo administratoriaus įrankiai"
+   },
+   "Webmaster_Google": {
+      "message": "Google Tinklo administratoriaus įrankiai"
+   },
+   "Webmaster_SE": {
+      "message": "Paieškos sistemų tinklo administratorių resursai"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Tinklo administratoriaus įrankiai"
+   },
+   "Whois": {
+      "message": "WHOIS tikrinimas"
+   },
+   "Why_sub": {
+      "message": "Kodėl pasirašyti?"
+   },
+   "id": {
+      "message": "lt"
+   },
+   "id_folder": {
+      "message": "lt"
+   },
+   "md5_calc": {
+      "message": "Nemokamas MD5 Hash skaičiuotuvas"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

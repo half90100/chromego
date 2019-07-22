@@ -1,0 +1,16 @@
+/* 清除背景色，添加间距 */
+#smzdm_panel{
+    background: none;
+    margin-left:10px;
+	margin-bottom:0;
+}
+#smzdm_panel > ul{
+    background: none;
+}
+/* 添加背景色 */
+#smzdm_panel > ul > li{
+    background-color: #fff;
+}
+#smzdm_panel > ul > li#smzdm_panel_logo{
+    background-color: #fff;
+}

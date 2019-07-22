@@ -1,0 +1,236 @@
+html{overflow-x:hidden; overflow-y:auto;}
+body{font-size:63%;font-family:sans-serif;background-color:#fff;color:#333;margin:0px;padding:0px;
+overflow-x:hidden;
+overflow-y:auto;
+}
+
+
+#content{color:#303942;width:564px;}
+a{color:#303942;text-decoration: none;}
+a:hover{color:#202932;text-decoration: none;}
+
+.icon_16{width:16px;height:16px;vertical-align:middle;border:0px;}
+.clear{clear:both}
+.center{text-align:center}
+.b{font-weight:bold}
+.r{color:#f00}
+.g{color:#0f0}
+.g8{color:#080}
+.nowrap{white-space:nowrap;}
+.right{text-align:right}
+.w20{width:20%}
+.w30{width:30%}
+.err{font-size:1.4em;color:#f00}
+.tips{font-size:1.4em;color:#060}
+.top{vertical-align:top}
+.middle{vertical-align:middle}
+.noshow{display:none}
+
+
+/*Page: SEO Stats*/
+#table_2cols{width:560px;margin:0px;border-spacing:0px;}
+#table_2cols .col{width:275px;}
+#table_2cols .space{width:10px;}
+
+.report_title{color:#505962;height:24px;font-size:1.2em;font-weight:bold;border:1px solid #E0E0E0;background:-webkit-gradient(linear,0% 0,0% 100%,from(#f7f7f7),to(#eeeeee));}
+.report_title_txt{margin:6px 0px 0px 8px}
+.report_items{margin:0px 0px 0px 0px;border:1px solid #DBDBDB;border-top:0px;padding:0px 0px 0px 0px}
+.report_space{height:9px;margin:0px;padding:0px;}
+.report_space2{height:21px;margin:0px;padding:0px;}
+.report_tbl{width:100%;font-size:1.2em;border-spacing:0;border-collapse:collapse;padding:0px;}
+.report_tbl TD{height:20px;}
+.report_tbl TR{border-top:1px solid #eeeeee;}
+.report_tbl .noborder{border-top:0px;}
+.report_tbl .tr_a{background:#ffffff}
+.report_tbl .tr_b{background:#fdfdfd}
+.report_tbl TR:hover{	background: #f7f7f7;}
+#tbl_backlinks{margin-bottom:0px}
+#tbl_sns{margin-bottom:1px}
+.td_1{width:20px;padding-left:4px;}
+
+/*
+#checkfullstats{font-size:1.2em;text-align:center;margin:10px;}
+#checkfullstats A{background:#146FA5;color:#fff;padding:3px 10px;margin:0px auto;}
+*/
+#checkfullstatsbtn{width:400px;margin:10px auto 0 auto;border:1px solid #2d53af;border-radius: 2px;
+cursor: pointer;
+text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+background-image: -webkit-linear-gradient(top,#5689db 0%,#4d7bd6 100%);
+box-shadow: 0 2px 0 0 rgba(255,255,255,.06) inset,0 2px 3px 0 rgba(0,0,0,.2);
+}
+#checkfullstatsbtn:hover{background-image: -webkit-linear-gradient(top,#669eff 0%,#5286ff 100%);}
+#checkfullstats{margin:0px;padding:2px;font-size:1.3em;line-height:180%;text-align:center;overflow:hidden;}
+#checkfullstats A{color:#f0f0f0;text-decoration: none;word-break: break-all;height:24px;overflow:hidden;display:block}
+#checkfullstats A:hover{color:#f0f0f0}
+
+
+
+#add_pr{white-space:nowrap;}
+#add_pr_txt{width:217px;overflow:hidden;}
+
+.td_2{white-space:nowrap;width:130x;}
+.td_2_txt{overflow:hidden;width:130px;}
+.td_3{width:80px;white-space:nowrap;text-align:right;}
+.td_3_txt{width:80px;overflow:hidden;text-align:right;padding-right:2px;}
+
+.td_2_gg{white-space:nowrap;width:120px;}
+.td_2_gg_txt{overflow:hidden;width:120px;}
+.td_3_gg{white-space:nowrap;text-align:right;}
+.td_3_gg_txt{overflow:hidden;text-align:right;padding-right:2px;}
+
+.td_2_ip{white-space:nowrap;width:60px;}
+.td_2_ip_txt{overflow:hidden;width:60px;}
+.td_3_ip{white-space:nowrap;text-align:right;}
+.td_3_ip_txt{float:right;width:150px;overflow:hidden;text-align:right;padding-right:2px;}
+
+.td_2_ch{white-space:nowrap;width:80px;}
+.td_2_ch_txt{overflow:hidden;width:80px;}
+.td_3_ch{width:130px;white-space:nowrap;text-align:right;}
+.td_3_ch_txt{float:right;width:130px;overflow:hidden;text-align:right;padding-right:2px;}
+
+.td_2_tf{white-space:nowrap;width:450px;}
+.td_2_tf_txt{overflow:hidden;width:450px;}
+.td_3_tf{width:130px;white-space:nowrap;text-align:left;}
+.td_3_tf_txt{float:right;width:130;overflow:hidden;text-align:right;padding-right:2px;}
+
+#geoip_whois,#geoip_whois2{float:right}
+
+.ext_tips{color:#aaa;}
+
+#traffic_ctrl{text-align:center;height:25px;margin:0px;padding:0px;}
+#f_traffic_type{width:510px;margin:4px 2px;height:20px}
+#f_traffic_btn{width:16px;height:16px;border:0px;margin:2px 0px 0px 0px;background:url(image/icon-search.png) no-repeat;cursor:pointer;}
+#traffic_img{text-align:center;margin:0px;padding:0px;height:191px;}
+/*#traffic_img img{width:510px;height:210px;margin:2px auto;}*/
+#traffic_img .loading,
+#traffic_img .icon_tr_alexa{width:510px;height:185px;margin:2px auto;}
+#traffic_img .icon_tr_compete{width:470px;height:165px;margin:10px auto;}
+
+
+/* Report Icons */
+.icon_flag{width:16px;height:11px}
+.imgicon{width:16px;height:16px}
+#img_bl_google_w, 
+#img_idx_google, 
+#img_ch_google, 
+#img_rank_ggpr{background:url(image/icon-google-g.png) top right no-repeat}
+#img_bl_alexa,
+#img_rank_alexa,
+#img_tf_alexa_cnt,
+#img_tf_alexa{background:url(image/icon-alexa-g.png) top right no-repeat}
+#img_rank_compete,
+#img_tf_compete{background:url(image/icon-compete-g.png) top right no-repeat}
+#img_tf_quantcast{background:url(image/icon-quantcast-g.png) top right no-repeat}
+#img_ch_archive{background:url(image/icon-archive-g.png) top right no-repeat}
+#img_idx_bing,
+#img_bl_bing{background:url(image/icon-bing-g.png) top right no-repeat}
+#img_bl_ose{background:url(image/icon-ose-g.png) top right no-repeat}
+#img_idx_baidu{background:url(image/icon-baidu-g.png) top right no-repeat}
+#img_idx_goo{background:url(image/icon-goo-g.png) top right no-repeat}
+#img_idx_yahoo{background:url(image/icon-yahoo-g.png) top right no-repeat}
+#img_idx_yandex{background:url(image/icon-yandex-g.png) top right no-repeat}
+#img_addpr{background:url(image/icon-pr-g.png) top right no-repeat}
+#img_domain_whois{background:url(image/icon-whois-g.png) top right no-repeat}
+#img_domain_dns,
+#img_domain_dns2{background:url(image/icon-dns-g.png) top right no-repeat}
+#img_sns_facebook{background:url(image/icon-facebook-g.png) top right no-repeat}
+#img_sns_ggplus{background:url(image/icon-ggplus.png) top right no-repeat}
+#img_sns_twitter{background:url(image/icon-twitter.png) top right no-repeat}
+#img_sns_stumbles{background:url(image/icon-stumbles-g.png) top right no-repeat}
+#img_sns_delicious{background:url(image/icon-delicious-g.png) top right no-repeat}
+#img_geoip_ip2,
+#img_geoip_ip{background:url(image/icon-ip-g.png) top right no-repeat}
+#img_geoip_city2,
+#img_geoip_city{background:url(image/icon-city-g.png) top right no-repeat}
+#img_geoip_country2,
+#img_geoip_country{background:url(image/icon-country-g.png) top right no-repeat}
+#img_geoip_whois,
+#img_geoip_whois2{background:url(image/icon-whois-g.png) top right no-repeat}
+#img_on_builtwith{background:url(image/icon-builtwith-g.png) top right no-repeat}
+#img_on_robots{background:url(image/icon-robots-g.png) top right no-repeat}
+#img_on_sitemap{background:url(image/icon-sitemap-g.png) top right no-repeat}
+#img_on_source{background:url(image/icon-source-g.png) top right no-repeat}
+#img_sec_norton{background:url(image/icon-norton-g.png) top right no-repeat}
+#img_sec_siteadv{background:url(image/icon-siteadv-g.png) top right no-repeat}
+#img_sec_wot{background:url(image/icon-wot-g.png) top right no-repeat}
+#img_bl_sogou,
+#img_idx_sogou{background:url(image/icon-sogou-g.png) top right no-repeat}
+#img_bl_youdao,
+#img_idx_youdao{background:url(image/icon-youdao-g.png) top right no-repeat}
+#img_idx_360{background:url(image/icon-360-g.png) top right no-repeat}
+#img_idx_soso{background:url(image/icon-soso-g.png) top right no-repeat}
+#img_idx_ask{background:url(image/icon-ask-g.png) top right no-repeat}
+
+
+.report_tbl TR:hover #img_bl_google_w,
+.report_tbl TR:hover #img_idx_google,
+.report_tbl TR:hover #img_ch_google,
+.report_tbl TR:hover #img_rank_ggpr{background:url(image/icon-google.png) top right no-repeat}
+.report_tbl TR:hover #img_bl_alexa,
+.report_tbl TR:hover #img_tf_alexa,
+.report_tbl TR:hover #img_tf_alexa_cnt,
+.report_tbl TR:hover #img_rank_alexa{background:url(image/icon-alexa.png) top right no-repeat}
+.report_tbl TR:hover #img_bl_ose{background:url(image/icon-ose.png) top right no-repeat}
+.report_tbl TR:hover #img_rank_compete,
+.report_tbl TR:hover #img_tf_compete{background:url(image/icon-compete.png) top right no-repeat}
+.report_tbl TR:hover #img_tf_quantcast{background:url(image/icon-quantcast.png) top right no-repeat}
+.report_tbl TR:hover #img_ch_archive{background:url(image/icon-archive.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_bing,
+.report_tbl TR:hover #img_bl_bing{background:url(image/icon-bing.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_baidu{background:url(image/icon-baidu.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_goo{background:url(image/icon-goo.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_yahoo{background:url(image/icon-yahoo.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_yandex{background:url(image/icon-yandex.png) top right no-repeat}
+.report_tbl TR:hover #img_addpr{background:url(image/icon-pr.gif) top right no-repeat}
+.report_tbl TR:hover #img_domain_whois{background:url(image/icon-whois.png) top right no-repeat}
+.report_tbl TR:hover #img_domain_dns,
+.report_tbl TR:hover #img_domain_dns2{background:url(image/icon-dns.png) top right no-repeat}
+.report_tbl TR:hover #img_sns_facebook{background:url(image/icon-facebook.png) top right no-repeat}
+.report_tbl TR:hover #img_sns_ggplus{background:url(image/icon-ggplus-h.png) top right no-repeat}
+.report_tbl TR:hover #img_sns_twitter{background:url(image/icon-twitter-h.png) top right no-repeat}
+.report_tbl TR:hover #img_sns_stumbles{background:url(image/icon-stumbles.png) top right no-repeat}
+.report_tbl TR:hover #img_sns_delicious{background:url(image/icon-delicious.png) top right no-repeat}
+.report_tbl TR:hover #img_geoip_ip2,
+.report_tbl TR:hover #img_geoip_ip{background:url(image/icon-ip.png) top right no-repeat}
+.report_tbl TR:hover #img_geoip_city2,
+.report_tbl TR:hover #img_geoip_city{background:url(image/icon-city.png) top right no-repeat}
+.report_tbl TR:hover #img_geoip_country2
+.report_tbl TR:hover #img_geoip_country{background:url(image/icon-country.png) top right no-repeat}
+.report_tbl TR:hover #img_geoip_whois,
+.report_tbl TR:hover #img_geoip_whois2{background:url(image/icon-whois.png) top right no-repeat}
+
+.report_tbl TR:hover #img_on_builtwith{background:url(image/icon-builtwith.png) top right no-repeat}
+.report_tbl TR:hover #img_on_robots{background:url(image/icon-robots.png) top right no-repeat}
+.report_tbl TR:hover #img_on_sitemap{background:url(image/icon-sitemap.png) top right no-repeat}
+.report_tbl TR:hover #img_on_source{background:url(image/icon-source.png) top right no-repeat}
+.report_tbl TR:hover #img_sec_norton{background:url(image/icon-norton.png) top right no-repeat}
+.report_tbl TR:hover #img_sec_siteadv{background:url(image/icon-siteadv.png) top right no-repeat}
+.report_tbl TR:hover #img_sec_wot{background:url(image/icon-wot.png) top right no-repeat}
+.report_tbl TR:hover #img_bl_sogou,
+.report_tbl TR:hover #img_idx_sogou{background:url(image/icon-sogou.png) top right no-repeat}
+.report_tbl TR:hover #img_bl_youdao,
+.report_tbl TR:hover #img_idx_youdao{background:url(image/icon-youdao.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_360{background:url(image/icon-360.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_soso{background:url(image/icon-soso.png) top right no-repeat}
+.report_tbl TR:hover #img_idx_ask{background:url(image/icon-ask.png) top right no-repeat}
+
+
+#ssebtn{width:273px;margin:0px;bottom:36px;position:absolute;border:1px solid #2d53af;border-radius: 2px;
+cursor: pointer;
+text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+background-image: -webkit-linear-gradient(top,#5689db 0%,#4d7bd6 100%);
+box-shadow: 0 2px 0 0 rgba(255,255,255,.06) inset,0 2px 3px 0 rgba(0,0,0,.2);
+}
+#ssebtn:hover{background-image: -webkit-linear-gradient(top,#669eff 0%,#5286ff 100%);}
+#sse{margin:0px;padding:2px;font-size:1.3em;line-height:180%;text-align:center;overflow:hidden;}
+#sse A{color:#f0f0f0;text-decoration: none;word-break: break-word;}
+#sse A:hover{color:#f0f0f0}
+
+
+
+
+/*Version error*/
+.VerErr{font-size:1.3em;line-height:1.8em;width:500px;margin:10px auto;}
+.VerErr table{width:500px;border:0px;border-spacing:0px;}
+.VerErr table TD{vertical-align:top}
+.VerErr .warning{WIDTH:40px;padding-top:20px;}

@@ -1,0 +1,28 @@
+<div id="gwd_notifier" class="gwd-mini">
+    <a class="gwd-logo" href="http://www.gwdang.com?from=browser" target="_blank"><em class="gwd-icon "></em></a>
+    <a id="gwd_quan" class="gwd-close-module gwd-quan" href="{{quan.url}}" title="{{quan.title}}" target="_blank">
+        <em class="gwd-icon"></em>
+        <span class="gwd-icon gwd-new" style="display: {{quan.style}}"></span>
+    </a>
+    <a id="gwd_promo" class="gwd-close-module gwd-promo" href="{{promo.url}}" title="{{promo.title}}" target="_blank">
+        <em class="gwd-icon"></em>
+        <span class="gwd-icon gwd-new" style="display: {{promo.style}}"></span>
+    </a>
+    <div class="gwd-favor-module gwd-close-module">
+        <a id="gwd_favor" class="gwd-tab gwd-favor" href="http://www.gwdang.com/mine/collection?from=browser" title="查看我的全网收藏夹" target="_blank"><em class="gwd-icon"></em></a>
+        <div class="gwd-detail gwd-not-login gwd-loading" style="display:none">
+            <p class="gwd-detail-title">
+                <span class="gwd-detail-title-desc">我的全网收藏夹</span>
+                <a target="_blank" href="http://www.gwdang.com/mine/collection?from=browser" class="gwd-blue">查看全部(<em id="gwd_favor_num">0</em>个)</a>
+            </p>
+            <img class="gwd-loading-img" src="{{favor.loading}}" />
+            <p class="gwd-login-info">请先 <a class="gwd-blue" href="{{favor.login.gwdang}}" target="_self">登录</a> 购物党，或使用第三方账号：</p>
+            <p class="gwd-login-info"><a href="{{favor.login.sina}}" class="gwd-sina gwd-icon" target="_self"></a><a href="{{favor.login.qq}}" class="gwd-qq gwd-icon" target="_self"></a></p>
+            <ul id="gwd_favor_item_list" class="gwd-item-list">
+            </ul>
+        </div>
+    </div>
+    <a class="gwd-fold" id="gwd_close" href="javascript:">
+        <em class="gwd-icon"></em>
+    </a>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+<id>sogou.com.smzdm</id>
+<name>什么值得买</name>
+<version>2.5.11</version>
+<require_api_version>2</require_api_version>
+<description>“什么值得买”是一个中立的，致力于帮助广大网友买到更有性价比网购产品的推荐类博客。</description>
+<show_icon>true</show_icon>
+<background page="html/background.html" />
+<popup page="html/popup.html" width="510" height="600" />
+<option page='html/options.html' width='1140' height='600'></option>
+<author>smzdm</author>
+<permissions>
+    <permission>notifications</permission>
+</permissions>
+</extension>

@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "jsr/en_public-chrome.js", "jsr/en_project.js", "jsr/en_background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "image/logo-19.png",
+      "default_popup": "popup.html",
+      "default_title": "Open SEO Stats(Formerly: PageRank Status)"
+   },
+   "content_scripts": [ {
+      "js": [ "jsr/en_content-pagespeed.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_Description__",
+   "icons": {
+      "128": "image/logo-128.png",
+      "32": "image/logo-32.png",
+      "48": "image/logo-48.png",
+      "64": "image/logo-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZR2cXVshOp879X/MzlTrSSlfOjqJ+/Lew1M8gdk9VHPGaVdbRXMjKwsnlrVVYY+iXFTo8tJfYxkEoc2pFimIkI87Kq+zxx9C7xzW44l1ZJO//nvJ+P7PkoGVpD3ZClAW2LT0NYbKzgSuKzM48NenmfKjdHDBzhs8YE2yNFNL0swIDAQAB",
+   "manifest_version": 2,
+   "name": "Open SEO Stats(Formerly: PageRank Status)",
+   "options_page": "options.html",
+   "permissions": [ "webRequest", "tabs", "*://*/*" ],
+   "short_name": "Open SEO Stats",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "10.0.4",
+   "web_accessible_resources": [ "frame-seostats.html", "frame-siteinfo.html", "frame-pageinfo.html", "frame-pagespeed.html", "frame-webtools.html", "jsr/en_content.js" ]
+}

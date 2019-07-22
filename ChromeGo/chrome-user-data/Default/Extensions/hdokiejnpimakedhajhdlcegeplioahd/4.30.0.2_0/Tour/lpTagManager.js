@@ -1,0 +1,2 @@
+var lpTagManager=function(t,n){"use strict";var e=function(t){return this.steps=t,this.setup(),this};return e.prototype.setup=function(){this.steps.forEach(function(e){e.printTags&&(e.tag=new n({$parentEl:t(e.position.targetId),id:e.position.targetId}),e.tag.hide())})},e.prototype.showAllFuture=function(t){this.steps.forEach(function(n,e){n.printTags&&(e<t?n.tag.hide():n.tag.show())})},e.prototype.cleanup=function(){this.steps.forEach(function(t){t.tag&&t.tag.remove()})},e}(jQuery,LpTag);
+//# sourceMappingURL=sourcemaps/Tour/lpTagManager.js.map

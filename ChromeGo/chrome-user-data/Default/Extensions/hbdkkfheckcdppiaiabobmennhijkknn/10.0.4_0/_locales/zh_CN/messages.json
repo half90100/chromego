@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 小时"
+   },
+   "1Day": {
+      "message": "1 天"
+   },
+   "1Hour": {
+      "message": "1 小时"
+   },
+   "2years": {
+      "message": "两年"
+   },
+   "3Days": {
+      "message": "3 天"
+   },
+   "6months": {
+      "message": "六个月"
+   },
+   "7Days": {
+      "message": "7 天"
+   },
+   "AboutPageRank": {
+      "message": "关于 Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "添加 PageRank 检测按钮到你的网站"
+   },
+   "AlexaDR": {
+      "message": "Alexa - 日均IP (每百万)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - 日均流量排名"
+   },
+   "AlexaPV": {
+      "message": "Alexa - 日均页面浏览量排名"
+   },
+   "AlexaRank": {
+      "message": "Alexa 全球流量排名"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa 国别流量排名"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa %COUNTRY-NAME% 流量排名"
+   },
+   "AlexaSV": {
+      "message": "Alexa - 搜索来源 (百分比)"
+   },
+   "AnchorText": {
+      "message": "锚文本(Anchor text)"
+   },
+   "Backlinks": {
+      "message": "外链"
+   },
+   "Cache": {
+      "message": "缓存"
+   },
+   "CacheDisable": {
+      "message": "禁止缓存"
+   },
+   "CacheDuration": {
+      "message": "缓存有效期限"
+   },
+   "CacheFirst": {
+      "message": "Archive.org 首次缓存时间: %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google 最后缓存时间: %VALUE%"
+   },
+   "Cancel": {
+      "message": "取消"
+   },
+   "CheckFullStats": {
+      "message": "查看 %SITE% 的详细网站分析报告"
+   },
+   "CheckOnline": {
+      "message": "实时在线检查网页的 PageRank 值"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO 工具条"
+   },
+   "City": {
+      "message": "城市"
+   },
+   "ClickMore": {
+      "message": "点此获取更多信息"
+   },
+   "ClickPR": {
+      "message": "点此将 PageRank 按纽图标嵌到你的网站"
+   },
+   "Close": {
+      "message": "关闭"
+   },
+   "CompeteRank": {
+      "message": "Compete - 排名"
+   },
+   "CompeteUV": {
+      "message": "Compete - 独立用户"
+   },
+   "Content": {
+      "message": "内容"
+   },
+   "Country": {
+      "message": "国家"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "显示当前网页的排名和 SEO 统计数据，主要包括外链、索引数、缓存等。"
+   },
+   "Developer": {
+      "message": "开发者"
+   },
+   "DomainInfo": {
+      "message": "域名信息"
+   },
+   "DomainLookup": {
+      "message": "域名查找"
+   },
+   "Donate": {
+      "message": "捐款"
+   },
+   "DonateBitcoin": {
+      "message": "使用比特币捐款"
+   },
+   "DonateIt": {
+      "message": "喜欢它？欢迎捐款"
+   },
+   "DonatePaypal": {
+      "message": "使用 Paypal 捐款"
+   },
+   "DonateSend": {
+      "message": "请发送到下列地址"
+   },
+   "DonateTxt": {
+      "message": "如果这个扩展程序能帮助到你，欢迎捐款赞助开发者。"
+   },
+   "EnterURL": {
+      "message": "请输入网站地址"
+   },
+   "Enter_email": {
+      "message": "输入你的邮件地址..."
+   },
+   "Feedback": {
+      "message": "反馈"
+   },
+   "FirstDisplay": {
+      "message": "扩展弹出时，首先显示的页面"
+   },
+   "Follow_me": {
+      "message": "关注我"
+   },
+   "FormerName": {
+      "message": "曾用名"
+   },
+   "Free_ping": {
+      "message": "在线 Ping"
+   },
+   "GeoLocation": {
+      "message": "IP 地理信息"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "点击搜索 Google Plus 上有关 %DOMAIN% 的话题"
+   },
+   "HelpTranslate": {
+      "message": "帮我们将这个扩展翻译为你的本地语言"
+   },
+   "History": {
+      "message": "更新历史"
+   },
+   "History_New": {
+      "message": "最近更新"
+   },
+   "HtmlTag_Alt": {
+      "message": "ALT 文本"
+   },
+   "HtmlTag_Body": {
+      "message": "正文"
+   },
+   "HtmlTag_Bold": {
+      "message": "粗体"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "斜体"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta 描述信息"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta 关键词"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta Robots"
+   },
+   "HtmlTag_Title": {
+      "message": "标题"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% 存在"
+   },
+   "Length": {
+      "message": "长度"
+   },
+   "LinkExternal": {
+      "message": "出站链接数"
+   },
+   "LinkInternal": {
+      "message": "内部链接数"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "链接分析"
+   },
+   "MoreDetails": {
+      "message": "更多细节"
+   },
+   "MoreIdx": {
+      "message": "点此查看 %SITE% 的页面收录详细情况"
+   },
+   "MoreInfo": {
+      "message": "欲了解更多详细资料，请点此按纽..."
+   },
+   "MoreLink": {
+      "message": "点此查看 %SITE% 的外链(Backlinks)详细情况"
+   },
+   "NA": {
+      "message": "未知"
+   },
+   "NotFound": {
+      "message": "%FILE% 不存在"
+   },
+   "NotFound2": {
+      "message": "不存在"
+   },
+   "NumIndex": {
+      "message": "%SITENAME% 的页面收录数: %VALUE%"
+   },
+   "NumLink": {
+      "message": "%SITENAME% 的外链数: %VALUE%"
+   },
+   "Onsite": {
+      "message": "站内技术"
+   },
+   "Options": {
+      "message": "选项"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "连接"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "事件"
+   },
+   "PageInfo": {
+      "message": "网页信息"
+   },
+   "PageInteractive": {
+      "message": "交互"
+   },
+   "PageLevel1": {
+      "message": "超快"
+   },
+   "PageLevel2": {
+      "message": "很快"
+   },
+   "PageLevel3": {
+      "message": "速度一般"
+   },
+   "PageLevel4": {
+      "message": "很慢"
+   },
+   "PageLevel5": {
+      "message": "超慢"
+   },
+   "PageLoadEvt": {
+      "message": "Load 事件"
+   },
+   "PageLoaded": {
+      "message": "内容加载"
+   },
+   "PageLong": {
+      "message": "长度"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "重定向"
+   },
+   "PageRequest": {
+      "message": "请求"
+   },
+   "PageResponse": {
+      "message": "响应"
+   },
+   "PageSite": {
+      "message": "站点信息"
+   },
+   "PageSlowInfo": {
+      "message": "如果这是你的网站，你可能需要进行优化，或将它%LINK%迁移到更快的主机空间\u003C/A>。"
+   },
+   "PageSpeed": {
+      "message": "网页速度"
+   },
+   "PageSpeedFaster": {
+      "message": "全球 %NUM% 的网页加载速度超过了本网页。"
+   },
+   "PageSpeedSlower": {
+      "message": "加载速度战胜了全球 %NUM% 的网页。"
+   },
+   "PageSum": {
+      "message": "小计"
+   },
+   "PageTime1": {
+      "message": "网页加载时间:"
+   },
+   "PageTime2": {
+      "message": "%NUM% 秒"
+   },
+   "PageTimings": {
+      "message": "页面加载细节统计 (毫秒 ms)"
+   },
+   "PageWhen": {
+      "message": "开始"
+   },
+   "PagesIndexed": {
+      "message": "页面收录"
+   },
+   "Percentage": {
+      "message": "百分比"
+   },
+   "PrPlugin": {
+      "message": "站长插件"
+   },
+   "PrivacyNote": {
+      "message": "隐私声明: 我们高度尊重你的隐私。我们永远不会将你的 Email 地址共享给任何第三方，在订阅之后，你可以随时退订。"
+   },
+   "Rank": {
+      "message": "排名"
+   },
+   "Rate5Stars": {
+      "message": "喜欢这个扩展吗？请在 Google 网上应用商店给它 \u003Ca href=\"%LINK%\" target=_blank>打个五星评价\u003C/a> 吧，非常谢谢！:-)"
+   },
+   "RateCaution": {
+      "message": "严重"
+   },
+   "RateExcellent": {
+      "message": "极佳"
+   },
+   "RateGood": {
+      "message": "较好"
+   },
+   "RateIt": {
+      "message": "亲，喜欢这个扩展吗？请给它五星好评吧！"
+   },
+   "RateIt2": {
+      "message": "评分"
+   },
+   "RateNortonsec": {
+      "message": "Norton 安全保证"
+   },
+   "RatePoor": {
+      "message": "较差"
+   },
+   "RateSafe": {
+      "message": "安全"
+   },
+   "RateUnsat": {
+      "message": "一般"
+   },
+   "RateUntested": {
+      "message": "未测试"
+   },
+   "RateVerypoor": {
+      "message": "极差"
+   },
+   "RateWarning": {
+      "message": "警告"
+   },
+   "Rating": {
+      "message": "评级"
+   },
+   "Recommendation": {
+      "message": "推荐"
+   },
+   "SEChina": {
+      "message": "中文搜索引擎"
+   },
+   "SEChinaL": {
+      "message": "中国最大的搜索引擎"
+   },
+   "SEJapan": {
+      "message": "日文搜索引擎"
+   },
+   "SEOStats": {
+      "message": "SEO 分析"
+   },
+   "SERussinL": {
+      "message": "俄罗斯最大的搜索引擎"
+   },
+   "SEWorld": {
+      "message": "全球最大的搜索引擎"
+   },
+   "SSEName": {
+      "message": "社会化网络搜索引擎"
+   },
+   "SSESearch": {
+      "message": "社会化网络搜索"
+   },
+   "SaveClose": {
+      "message": "保存 & 关闭"
+   },
+   "SecNorton": {
+      "message": "诺顿网页安全"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "网站安全"
+   },
+   "Sitewide": {
+      "message": "全站范围"
+   },
+   "Social": {
+      "message": "SNS 营销"
+   },
+   "SpecURL": {
+      "message": "单个页面"
+   },
+   "Sub_email": {
+      "message": "通过邮件订阅："
+   },
+   "Subscribe": {
+      "message": "订阅"
+   },
+   "SubscribeTo": {
+      "message": "订阅到 ChromeFans.org"
+   },
+   "Support": {
+      "message": "技术支持"
+   },
+   "Tag": {
+      "message": "标签"
+   },
+   "Tool_GEOIP": {
+      "message": "IP 地理位置查询"
+   },
+   "Tool_GG_Key": {
+      "message": "Google 关键词工具"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google 趋势"
+   },
+   "Tool_ScreenRes": {
+      "message": "屏幕分辨率检查和统计"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP 用户代理(User Agent) 检查"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C 链接检查工具"
+   },
+   "Tools": {
+      "message": "实用工具"
+   },
+   "Tools_SEO": {
+      "message": "SEO 工具"
+   },
+   "Tools_Web": {
+      "message": "在线实用工具"
+   },
+   "TopHosting": {
+      "message": "主机排名"
+   },
+   "Traffic": {
+      "message": "流量"
+   },
+   "TrafficGraphs": {
+      "message": "流量图"
+   },
+   "TrafficStats": {
+      "message": "流量统计"
+   },
+   "URL": {
+      "message": "网址"
+   },
+   "Unranked": {
+      "message": "未评级"
+   },
+   "WebmasterTools": {
+      "message": "站长工具"
+   },
+   "Webmaster_Baidu": {
+      "message": "百度站长平台"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing 网站管理员工具"
+   },
+   "Webmaster_Google": {
+      "message": "Google 网站管理员工具"
+   },
+   "Webmaster_SE": {
+      "message": "各大搜索引擎提供的站长工具"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex 网站管理员工具"
+   },
+   "Whois": {
+      "message": "WHOIS 域名查询"
+   },
+   "Why_sub": {
+      "message": "为什么要订阅?"
+   },
+   "id": {
+      "message": "zh-cn"
+   },
+   "id_folder": {
+      "message": "zh_CN"
+   },
+   "md5_calc": {
+      "message": "免费 MD5 散列计算器"
+   },
+   "site_360": {
+      "message": "360 搜索"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu 百度"
+   },
+   "site_bing": {
+      "message": "Bing 必应"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith 建站技术"
+   },
+   "site_compete": {
+      "message": "Compete 流量排名"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google 谷歌"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast 流量排名"
+   },
+   "site_sogou": {
+      "message": "Sogou 搜狗"
+   },
+   "site_soso": {
+      "message": "Soso 搜搜"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo! 雅虎"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao 有道"
+   }
+}

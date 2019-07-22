@@ -1,0 +1,22 @@
+<ul class="items">
+    {{#items}}
+    <li class="item haitao-clearfix {{#isLast}} last {{/isLast}}">
+        <div class="left pic">
+            <a href="">
+                <img src="{{imgSrc}}" alt="{{imgAlt}}">
+            </a>
+        </div>
+        <div class="right">
+            <h5 class="title">{{title}}</h5>
+            <p class="brief">{{brief}}</p>
+            {{#hasCode}}
+            <p class="invite">
+                优惠码
+                <span class="code">{{code}}</span>
+                <a href="#" class="btn copy">复制优惠码</a>
+            </p>
+            {{/hasCode}}
+        </div>
+    </li>
+    {{/items}}
+</ul>

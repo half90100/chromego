@@ -1,0 +1,44 @@
+﻿[
+    {
+        "type": "extension",
+        "frameworkVersion": "1.0.1",
+        "guid": "{30950e6c-5572-484e-a9db-6d7e8d221ea4}",
+        "version": "2.5.4",
+        "name": "什么值得买 实时推送",
+        "title": {
+            "en": "smzdm",
+            "zh-cn": "什么值得买 实时推送"
+        },
+        "icon": "smzdm",
+        "service": {
+            "main": "html/background.htm",
+            "debug": false,
+            "start": "auto"
+        },
+        "actions": [
+            {
+                "type": "script",
+                "entryPoints": ["sidebar", "toolbar", "doc_end"],
+                "doc_end": ["jquery-1.10.1.js", "vue.js", "bottomBar.js"],
+                "main": "html/popup.htm",
+                "allowPin": false,
+                "stopOnClose": true,
+                "resizable": false,
+                "width": {
+                    "default": 515
+                },
+                "height": {
+                    "default": 600
+                },
+                "contextMenu": "menu.js"
+            }
+        ],
+        "config": "html/options.htm",
+        "permissions": {
+            "httpRequest": [
+                "*.smzdm.com", "https://ssl.google-analytics.com"
+            ],
+            "notifications": true
+        }
+    }
+]

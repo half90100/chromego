@@ -1,0 +1,648 @@
+{
+  "google" : {
+    "urlexp" : "http(s)?:\\/\\/www\\.google\\..*\\/.*[?#&]q=([^&]+)",
+    "rankometer" :  {
+      "url"   :"http(s)?:\\/\\/(www([0-9])?|encrypted)\\.(l\\.)?google\\..*\\/",
+      "reload": true,
+      "hide": true,
+      "xpath" : {
+        "block": [
+          "//div/ol/li[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'g', ' ' ) ) ]",
+          "//div/ol/li[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'g', ' ' ) ) ]",
+          "//div/ol/li[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'g', ' ' ) ) ]",
+          "//div/ol/div/li[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'g', ' ' ) ) ]"
+        ],
+        "insert" : [
+          "./div/div/div/cite",
+          "./div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div/div/div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div/div/div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite"
+        ],
+        "target" : [
+          "./div/h3[ contains( concat( ' ', normalize-space(@class), ' '), ' r ')]/descendant::a",
+          "./h3[ contains( concat( ' ', normalize-space(@class), ' '), ' r ')]/descendant::a",
+          "./div/h3[ contains( concat( ' ', normalize-space(@class), ' '), ' r ')]/descendant::a",
+          "./div/h3[ contains( concat( ' ', normalize-space(@class), ' '), ' r ')]/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div > ol > li.g",
+          "div > ol > li.g",
+          "div > ol > div > li.g",
+          "div#search div#ires div.g",
+          "div#search div#ires div.g"
+        ],
+        "target" : [
+          "> div > h3.r a",
+          "> h3.r a",
+          "> div > h3.r a",
+          "div.rc h3.r a",
+          "div.rc div.r > a:not(.fl)"
+        ]
+      }
+    },
+    "misspelling" :  {
+      "url"   :"http(s)?:\\/\\/(www([0-9])?|encrypted)\\.(l\\.)?google\\..*\\/",
+      "reload": true,
+      "css" : {
+        "target" : [
+            "#taw .med a.spell"
+          , "#taw .med .spell a"
+        ]
+      }
+    },
+    "digital": {
+      "book": {
+        "author": [
+          "div[data-attrid$=author] span.kno-fv a.fl"
+        ]
+      },
+      "movie": {
+        "director": [
+          "div[data-attrid$=director] span.kno-fv a.fl"
+        ]
+      },
+      "song": {
+        "artist": [
+          "div[data-attrid$=artist] span.kno-fv a.fl"
+        ]
+      }
+    },
+    "product" :  {
+      "url"   :"http(s)?:\\/\\/(www([0-9])?|encrypted)\\.(l\\.)?google\\..*\\/",
+      "reload": true,
+      "css" : {
+        "title" : [
+          "#rhs_block .commercial-unit-desktop-rhs div.Q7Oxbd"
+        ],
+        "reviews" : [
+          "#rhs_block .commercial-unit-desktop-rhs div[class$=review-snippet]"
+        ],
+        "purchase" : [
+          "#rhs_block .commercial-unit-desktop-rhs span[class$=jackpot-merchant] a[id^=vjpm]"
+        ],
+        "similar" : [
+          "#rhs_block .commercial-unit-desktop-rhs div._Qvg span._tlp a"
+        ]
+      }
+    },
+    "pla" :  {
+      "url"   :"http(s)?:\\/\\/(www([0-9])?|encrypted)\\.(l\\.)?google\\..*\\/",
+      "reload": true,
+      "hide": true,
+      "css" : {
+        "block": [
+          "#tvcap .commercial-unit ._PD",
+          "#rhs_block .commercial-unit ._PD",
+          "#rhs_block .pla-unit",
+          "#taw .pla-unit"
+        ],
+        "target" : [
+          "div.pla-unit-title a",
+          "div.pla-unit-title a",
+          "div.pla-unit-title a.pla-unit-title-link",
+          "div.pla-unit-title a.pla-unit-title-link"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http(s)?:\\/\\/(www([0-9])?|encrypted)\\.(l\\.)?google\\..*\\/",
+      "reload": true,
+      "hide": true,
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'tads', ' ' ) ) ]/ol/li",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'tads', ' ' ) ) ]/ol/li",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'tads', ' ' ) ) ]/ol/li",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'mbEnd', ' ' ) ) ]/ol/li",
+          "//table[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'mbEnd', ' ' ) ) ]/tbody/tr/td/ol/li",
+          "//table[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'mbEnd', ' ' ) ) ]/tbody/tr/td/ol/li",
+          "//table[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'mbEnd', ' ' ) ) ]/tbody/tr/td/ol/li"
+        ],
+        "insert" : [
+          "./div/cite",
+          "./div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div/div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'kv', ' ' ) ) ]/cite",
+          "./div/div/div/span[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'a', ' ' ) ) ]",
+          "./div/div/span[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'a', ' ' ) ) ]"
+        ],
+        "target" : [
+          "./descendant::h3/descendant::a",
+          "./div/descendant::h3/descendant::a",
+          "./div/descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a",
+          "./div/descendant::h3/descendant::a",
+          "./div/descendant::div/descendant::div/descendant::a",
+          "./div/descendant::div/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#tadsb > ol > li",
+          "#tads > ol > li",
+          "#tadsb ol > li",
+          "#tads > ol > li",
+          "#tads > ol > li",
+          "#mbEnd > ol > li",
+          "#mbEnd > tbody > tr > td > ol > li",
+          "#mbEnd > tbody > tr > td > ol > li",
+          "#mbEnd > tbody > tr > td > ol > li"
+        ],
+        "target" : [
+          "> div.ad_cclk a:nth-child(2)",
+          "> div.ad_cclk a:nth-child(2)",
+          "h3 a:nth-child(2)",
+          "h3 a:nth-child(2)",
+          "> div h3 a:nth-child(2)",
+          "h3 a:nth-child(2)",
+          "> div h3 a:nth-child(2)",
+          "> div div div a:nth-child(2)",
+          "> div div a:nth-child(2)"
+        ]
+      }
+    }
+  },
+  "amazon": {
+    "urlexp" : "http(s)?:\\/\\/www\\.amazon\\..*\\/gp\\/bit\\/apps\\/web\\/SERP\\/search.*[?#&]q=([^&]+)",
+    "rankometer" :  {
+      "url" : "http(s)?:\\/\\/www\\.amazon\\..*\\/gp\\/bit\\/apps\\/web\\/SERP\\/search",
+      "hide": true,
+      "xpath" : {
+        "block": [
+          "//div/div/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'naturalResult', ' ' ) ) ]"
+        ],
+        "insert" : [
+          "./cite"
+        ],
+        "target" : [
+          "./cite/text()"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div div div.naturalResult"
+        ],
+        "target" : [
+          "> span.naturalResultTitle > a"
+        ]
+      }
+    }
+  },
+  "bing"   : {
+    "urlexp" : "http:\\/\\/www\\.bing\\.com\\/search?.*[?#&]q=([^&]+)",
+    "rankometer" :  {
+      "url"   : "http(s)?:\\/\\/.*((search\\.msn|live)\\.com\\/results.aspx\\?|www\\.bing\\.com\\/search)",
+      "xpath" : {
+        "block": [
+          "descendant-or-self::*[@id = 'b_content']/descendant::ol[ contains( concat( ' ', normalize-space(@id), ' '), ' b_results ')]/descendant::li[ contains( concat( ' ', normalize-space(@class), ' '), ' b_algo ')]",
+          "descendant-or-self::*[@id = 'results']/descendant::ul[ contains( concat( ' ', normalize-space(@class), ' '), ' sb_results ')]/descendant::li/descendant::div[ contains( concat( ' ', normalize-space(@class), ' '), ' sa_cc ')]"
+        ],
+        "insert" : [
+          "./descendant::div[ contains( concat( ' ', normalize-space(@class), ' '), ' b_caption')]/div/descendant::cite",
+          "./descendant::div[ contains( concat( ' ', normalize-space(@class), ' '), ' sb_meta ')]/descendant::cite"
+        ],
+        "target" : [
+          "./descendant::h2/descendant::a",
+          "./descendant::div[ contains( concat( ' ', normalize-space(@class), ' '), ' sb_tlst ')]/descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#b_content #b_results li.b_algo",
+          "#results ul.sb_results li div.sa_cc"
+        ],
+        "target" : [
+          "h2 a",
+          "div.sb_tlst h3 a"
+        ]
+      }
+    },
+    "misspelling" :  {
+      "url"   :"http:\\/\\/.*search\\.msn|live\\.com\\/results.aspx\\?|http:\\/\\/www\\.bing\\.com\\/search",
+      "css" : {
+        "target" : [
+          "#b_results #sp_requery h2 a"
+        ]
+      }
+    },
+    "digital": {
+      "book": {
+        "author": [
+          "div[data-feedbk-ids=Book] .b_vList li:first-child a"
+        ]
+      },
+      "movie": {
+        "director": [
+          "div[data-feedbk-ids=Movie] .b_vList li:nth-child(2) a"
+        ]
+      },
+      "song": {
+        "artist": [
+          "div[data-feedbk-ids=Song] .b_vList li:nth-child(2) a"
+        ]
+      }
+    },
+    "product" :  {
+      "url"   :"http:\\/\\/.*search\\.msn|live\\.com\\/results.aspx\\?|http:\\/\\/www\\.bing\\.com\\/search",
+      "css" : {
+        "title" : [
+          "#b_context .b_subModule .b_entityTitle"
+        ],
+        "reviews" : [
+          "#b_context .b_subModule table tr td a"
+        ],
+        "similar" : [
+          "#b_context .b_subModule .b_hList .square_m > p > a"
+        ]
+      }
+    },
+    "pla" :  {
+      "url"   :"http:\\/\\/.*search\\.msn|live\\.com\\/results.aspx\\?|http:\\/\\/www\\.bing\\.com\\/search",
+      "css" : {
+        "block": [
+          "div.b_slidebar > div.slide",
+          "ul.b_hList > li.square_xb",
+          "ul.b_hList > li.square_xb",
+          "ul.b_hList > li.square_b",
+          "ul.b_hList > li.square_b"
+        ],
+        "target" : [
+          "> .pa_item > a",
+          "> .pa_item > a",
+          "> a",
+          "> .pa_item > a",
+          "> a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http:\\/\\/.*search\\.msn|live\\.com\\/results.aspx\\?|http:\\/\\/www\\.bing\\.com\\/search",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'sb_adsWv2', ' ' ) ) ]/ul/li",
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'sb_adsWv2', ' ' ) ) ]/ul/li",
+          "//li[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'b_ad', ' ' ) ) ]/ul/li",
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'sb_adsNv2', ' ' ) ) ]/ul/li"
+        ],
+        "insert" : [
+          "./div/p/cite",
+          "./div/cite",
+          "./div/div/div/cite",
+          "./div/cite"
+        ],
+        "target" : [
+          "./div/descendant::h3/descendant::a",
+          "./div/descendant::h3/descendant::a",
+          "./div/descendant::h2/descendant::a",
+          "./div/descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div.sb_adsWv2 > ul > li",
+          "div.sb_adsWv2 > ul > li",
+          "li.b_ad > ul > li",
+          "li.b_ad > ul > li",
+          "div.sb_adsWv2 > ul > li"
+        ],
+        "target" : [
+          "> div h3 a",
+          "> div h3 a",
+          "> div h3 a",
+          "> div h2 a",
+          "> div h3 a"
+        ]
+      }
+    }
+  },
+  "yahoo"  : {
+    "urlexp" : "http(s)?:\\/\\/.*search\\.yahoo\\.com\\/search.*[?#&]p=([^&]+)",
+    "rankometer" :  {
+      "url"   :"http(s)?:\\/\\/.*search\\.yahoo\\.com\\/search",
+      "xpath" : {
+        "block": [
+          "//div[@id='results']/descendant::ol/li/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'res', ' ' ) ) ]"
+        ],
+        "insert" : [
+          "./span[ contains( concat( ' ', normalize-space(@class), ' '), ' url ')]"
+        ],
+        "target" : [
+          "./div/descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#web > ol > li > div > div.layoutMiddle",
+          "#results ol > li > div.res",
+          "#results ol > li > div"
+        ],
+        "target" : [
+          "> div.compTitle > h3.title > a",
+          "> div > h3 > a",
+          "> div.compTitle > h3 > a"
+        ]
+      }
+    },
+    "misspelling" :  {
+      "url"   :"http(s)?:\\/\\/.*search\\.yahoo\\.com\\/search",
+      "css" : {
+        "target" : [
+          ".assist .compTitle .stxt"
+        ]
+      }
+    },
+    "digital": {
+      "movie": {
+        "director": [
+          "div[class*=Movies] .compInfo li:nth-child(4) a"
+        ]
+      }
+    },
+    "pla" :  {
+      "url"   :"http(s)?:\\/\\/.*search\\.yahoo\\.com\\/search",
+      "css" : {
+        "block": [
+          "ol[class*='Ads'] li div ul.compImageList > li",
+          "ol li div.layoutCenter ul.compImageList > li",
+          "ol.uuhmz ul.compImageList > li",
+          "ul.shp > li > h4"
+        ],
+        "target" : [
+          "> a",
+          "> a",
+          "> a",
+          "> a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http(s)?:\\/\\/.*search\\.yahoo\\.com\\/search",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'ads', ' ' ) ) ]/ul/li",
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'ads', ' ' ) ) ]/ul/li",
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'ads', ' ' ) ) ]/ul/li"
+        ],
+        "insert" : [
+          "./em",
+          "./div/div/div/em",
+          "./em"
+        ],
+        "target" : [
+          "./a",
+          "./div/div/div/div/a",
+          "./div/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#main > div > ol > li > div > div.layoutMiddle",
+          "#right > div > ol > li > div > div.layoutMiddle",
+          "div.ads > ul > li",
+          "div.ads > ul > li",
+          "div.ads > ul > li",
+          "div.ads > ul > li"
+        ],
+        "target" : [
+          "> div.compTitle > h3.title > a",
+          "> div.compTitle > h3.title > a",
+          "> a",
+          "> div > div > div > div > a",
+          "> div.ad-ttl > a",
+          "> div.vert-ad-ttl > a"
+        ]
+      }
+    }
+  },
+  "baidu"  : {
+    "urlexp" : "http:\\/\\/www\\.baidu\\.com\\/(s|baidu).*[?#&]wd=([^&]+)",
+    "rankometer" :  {
+      "url"   :"http:\\/\\/www\\.baidu\\.com\\/(s|baidu)\\?",
+      "xpath" : {
+        "block": [
+          "//table/tbody/tr/td[ contains( concat( ' ', normalize-space(@class), ' '), ' c-default ')]",
+          "//table/tbody/tr/td[ contains( concat( ' ', normalize-space(@class), ' '), ' f ')]",
+          "//table/tbody/tr/td[ contains( concat( ' ', normalize-space(@class), ' '), ' f ')]",
+          "//table/tbody/tr/td[ contains( concat( ' ', normalize-space(@class), ' '), ' f ')]"
+        ],
+        "insert" : [
+          "./div/span[ contains( concat( ' ', normalize-space(@class), ' '), ' g ')]",
+          "./div/span[ contains( concat( ' ', normalize-space(@class), ' '), ' g ')]",
+          "./font/font[ contains( concat( ' ', normalize-space(@color), ' '), ' #008000 ')]",
+          "./font/span[ contains( concat( ' ', normalize-space(@class), ' '), ' g ')]"
+        ],
+        "target" : [
+          "./descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div div.result"
+        ],
+        "target" : [
+          "> h3 > a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http:\\/\\/www\\.baidu\\.com\\/(s|baidu)\\?",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'container', ' ' ) ) ]/table[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'EC_mr15', ' ' ) ) ]",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'ec_im_container', ' ' ) ) ]/div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'EC_PP', ' ' ) ) ]"
+        ],
+        "insert" : [
+          "./tbody/tr/td/a/font[ contains( concat( ' ', normalize-space(@color), ' ' ),concat( ' ', '#008000', ' ' ) ) ]",
+          "./a/font[ contains( concat( ' ', normalize-space(@color), ' ' ),concat( ' ', '#008000', ' ' ) ) ]"
+        ],
+        "target" : [
+          "./tbody/tr/td[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'taw0', ' ' ) ) ]/a",
+          "./a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "table"
+        ],
+        "target" : [
+          "> tbody > tr:nth-child(2) > td > a"
+        ]
+      }
+    }
+  },
+  "alexa"  : {
+    "urlexp" : "http:\\/\\/search\\.toolbars\\.alexa\\.com\\/.*[?#&]q=([^&]+)",
+    "rankometer" :  {
+      "url"   :"http:\\/\\/search\\.toolbars\\.alexa\\.com",
+      "reload": true,
+      "hide": true,
+      "xpath" : {
+        "block": [
+          "//body/div/div/div[ contains( concat( ' ', normalize-space(@id), ' '), ' content ')]/div/div/ol/li"
+        ],
+        "insert" : [
+          "./a[ contains( concat( ' ', normalize-space(@class), ' '), ' visible-url ')]"
+        ],
+        "target" : [
+          "./a[ contains( concat( ' ', normalize-space(@class), ' '), ' title ')]"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#content > div > div > ol > li"
+        ],
+        "target" : [
+          "> a.title"
+        ]
+      }
+    }
+  },
+  "ask"    : {
+    "rankometer" :  {
+      "url"   :"http:\\/\\/.*www\\.ask\\.com\\/web\\?",
+      "xpath" : {
+        "block": [
+          "descendant-or-self::*[@id = 'teoma-results']/descendant::div/descendant::div[ contains(concat(' ', normalize-space(@class), ' '), ' tsrc_tled ') ]"
+        ],
+        "insert" : [
+          "./div/div/span[ contains( concat( ' ', normalize-space(@class), ' '), ' attrib ')]"
+        ],
+        "target" : [
+          "./div/div/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div.wresult.tsrc_tled"
+        ],
+        "target" : [
+          "> div > h3 > a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http:\\/\\/.*www\\.ask\\.com\\/web\\?",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'spl_ad_plus', ' ' ) ) ]"
+        ],
+        "insert" : [
+          "./div/a[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'attrib', ' ' ) ) ]/span"
+        ],
+        "target" : [
+          "./div/a"
+        ]
+      },
+      "css" : {
+        "block": [
+        ],
+        "target" : [
+        ]
+      }
+    }
+  },
+  "sosogou": {
+    "rankometer" :  {
+      "url"   :"http:\\/\\/(www\\.soso\\.com\\/q\\?|www\\.sogou\\.com\\/web\\?)",
+      "xpath" : {
+        "block": [
+          "//div/div/div[ contains( concat( ' ', normalize-space(@class), ' '), 'result ')]/ol/li/div"
+        ],
+        "insert" : [
+          "./div[ contains( concat( ' ', normalize-space(@class), ' '), ' result_summary ')]/div[ contains( concat( ' ', normalize-space(@class), ' '), ' url ')]/cite"
+        ],
+        "target" : [
+          "./descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#main > div > div.results > div.rb"
+        ],
+        "target" : [
+          "> h3 > a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http:\\/\\/(www\\.soso\\.com\\/q\\?|www\\.sogou\\.com\\/web\\?)",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'ad_zdq', ' ' ) ) ]/ol/li",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'rads', ' ' ) ) ]/ul/li"
+        ],
+        "insert" : [
+          "./p/a/cite",
+          "./p/a/cite"
+        ],
+        "target" : [
+          "./descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "div.sponsored ol > li",
+          "div.right div.b_rb"
+        ],
+        "target" : [
+          "> h3 > a",
+          "> h3 > a"
+        ]
+      }
+    }
+  },
+  "youdao": {
+    "rankometer" :  {
+      "url"   :"http:\\/\\/www\\.youdao\\.com\\/search\\?",
+      "xpath" : {
+        "block": [
+          "//div/div/ol[ contains( concat( ' ', normalize-space(@id), ' '), ' results ')]/li"
+        ],
+        "insert" : [
+          "./div/div/div[ contains( concat( ' ', normalize-space(@class), ' '), ' result-footer ')]/cite"
+        ],
+        "target" : [
+          "./div/div[ contains( concat( ' ', normalize-space(@class), ' '), ' tl ')]/descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+          "#results > li"
+        ],
+        "target" : [
+          "> div > div.tl > h3 > a"
+        ]
+      }
+    },
+    "cba" :  {
+      "url"   :"http:\\/\\/www\\.youdao\\.com\\/search\\?",
+      "xpath" : {
+        "block": [
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'spTop', ' ' ) ) ]/ul/li",
+          "//div[ contains( concat( ' ', normalize-space(@id), ' ' ),concat( ' ', 'splink', ' ' ) ) ]/ul/li"
+        ],
+        "insert" : [
+          "./p/a/span",
+          "./p[ contains( concat( ' ', normalize-space(@class), ' ' ),concat( ' ', 'googleAdsDesc', ' ' ) ) ][3]/a"
+        ],
+        "target" : [
+          "./descendant::h3/descendant::a",
+          "./descendant::h3/descendant::a"
+        ]
+      },
+      "css" : {
+        "block": [
+        ],
+        "target" : [
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+!function(){var e=function(){var e=document.forms[0];if(e&&"string"==typeof e.action&&0===e.action.indexOf(LPVARS.alp_url)&&e.SAMLResponse){var n=e.parentElement;n.removeChild(e),bg.FederatedLogin.validateK1Encryption(e.SAMLResponse.value,function(t){t&&(n.appendChild(e),e.submit())})}},n=new MutationObserver(function(t){document.body&&(e(),n.disconnect())});n.observe(document,{childList:!0,subtree:!0}),document.addEventListener("DOMContentLoaded",e)}();
+//# sourceMappingURL=sourcemaps/extension-federated-login-events.js.map

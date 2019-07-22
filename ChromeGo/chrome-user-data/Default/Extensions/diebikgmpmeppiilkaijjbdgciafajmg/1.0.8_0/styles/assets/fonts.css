@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'PT Sans';
+	src: url('ptsans-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('ptsans-bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Font Awesome';
+	src: url('fontawesome.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

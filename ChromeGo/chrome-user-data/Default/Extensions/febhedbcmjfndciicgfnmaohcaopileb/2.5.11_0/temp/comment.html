@@ -1,0 +1,27 @@
+<!-- 反馈 -->
+<form id="panel_comment" novalidate="novalidate" ms-controller="commentRange">
+
+    <!-- 输入区 -->
+    <div ms-if="!success">
+        <!-- 内容 -->
+        <textarea ms-duplex="content" ms-on-input="changeHeight()" class="form-control" placeholder="请详细描述您所遇到的问题"></textarea>
+        
+        <!-- 网址 -->
+        <input ms-duplex="link" class="form-control" placeholder="请输入商品连接" disabled="disabled"></textarea>
+        
+        <!-- 联系方式 -->
+        <input ms-duplex="email" class="form-control" placeholder="请输入您的email"></textarea>
+
+        <!-- 提交按钮 -->
+        <button type="button" class="btn btn-warning btn-block" ms-click="submit()">提交</button>
+    </div>
+
+    <!-- 错误提示 -->
+    <p class="errortips">
+        {{ errorMsg }}
+    </p>
+    <!-- 成功提示 -->
+    <span ms-if="success" class="success">感谢您的反馈，我们会尽快处理</span>
+    
+</form>
+<!-- /反馈 -->

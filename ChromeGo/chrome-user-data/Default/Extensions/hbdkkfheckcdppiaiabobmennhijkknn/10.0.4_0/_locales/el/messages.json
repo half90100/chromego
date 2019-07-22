@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Χρόνια"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Μήνες"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "Περί του Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Add PageRank button to your site"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Ημερήσιο Reach (ανά εκατομμύριο)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Ημερήσιο Traffic Rank Trend"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Ημερήσιο Pageview ανά χρήστη"
+   },
+   "AlexaRank": {
+      "message": "Alexa Traffic Rank"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Επισκέψεις αναζήτησης (τοις εκατό)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinks"
+   },
+   "Cache": {
+      "message": "Cached"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org πρώτα cached την %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google τελευταία cached την %VALUE%"
+   },
+   "Cancel": {
+      "message": "Ακύρωση"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Στιγμιαίος έλεγχος του PageRank των σελίδων σας online"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "Πόλη"
+   },
+   "ClickMore": {
+      "message": "Πατήστε εδώ για να πάρετε περισσότερες πληροφορίες"
+   },
+   "ClickPR": {
+      "message": "Πατήστε εδώ για να τοποθετήσετε το PageRank icon στην σελίδα σας"
+   },
+   "Close": {
+      "message": "Κλείσε"
+   },
+   "CompeteRank": {
+      "message": "Compete - βαθμός"
+   },
+   "CompeteUV": {
+      "message": "Compete - Μοναδικοί επισκέπτες"
+   },
+   "Content": {
+      "message": "Περιεχόμενα"
+   },
+   "Country": {
+      "message": "Χώρα"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Δημιουργός:"
+   },
+   "DomainInfo": {
+      "message": "Πληροφορίες Domain"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Δωρήστε"
+   },
+   "DonateBitcoin": {
+      "message": "Δωρήστε με Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Χορηγήστε εάν σας αρέσει"
+   },
+   "DonatePaypal": {
+      "message": "Δωρήστε με Paypal"
+   },
+   "DonateSend": {
+      "message": "Παρακαλουμε στείλτε τις δωρεές σας στο "
+   },
+   "DonateTxt": {
+      "message": "Εάν αυτή η επέκταση σας βοήθησε, παρακαλούμε σκεφθείτε να συνεισφέρετε στην κατασκευή του."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Εισάγεται το  email..."
+   },
+   "Feedback": {
+      "message": "Feedback"
+   },
+   "FirstDisplay": {
+      "message": "Η πρώτη σελίδα που θα εμφανίζεται όταν η επέκταση ανοίγει"
+   },
+   "Follow_me": {
+      "message": "Ακολούθησέ με"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Δωρεάν Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Τοποθεσία"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Πατήστε εδώ για να ψάξετε %DOMAIN% από τα περιέχομενα του Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Βοηθήστε να μεταφραστεί στην γλώσσα σας"
+   },
+   "History": {
+      "message": "Ανανέσωση Ιστορικού"
+   },
+   "History_New": {
+      "message": "Τί υπάρχει νέο"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% είναι διαθέσιμο"
+   },
+   "Length": {
+      "message": "Μήκος"
+   },
+   "LinkExternal": {
+      "message": "Eξωτερικά links"
+   },
+   "LinkInternal": {
+      "message": "Εσωτερικά links"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Περισσότερες πληροφορίες"
+   },
+   "MoreIdx": {
+      "message": "Πατήστε εδώ για να δείτε τις σελίδες που έχουν καταλογοποιειθεί από %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Κλικ εδώ για περισσότερες πληροφορίες..."
+   },
+   "MoreLink": {
+      "message": "Κλικ εδώ για να δείτε τα backlinks που έχουν καταλογοποιειθεί από %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% δεν βρέθηκε"
+   },
+   "NotFound2": {
+      "message": "Δεν βρέθηκε"
+   },
+   "NumIndex": {
+      "message": "Σελίδες που έχουν καταλογοποιειθεί από %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Backlinks που έχουν καταλογοποιειθεί από %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Επιλογές"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Σύνδεση"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Πληροφορίες σελίδας"
+   },
+   "PageInteractive": {
+      "message": "Διαδραστική"
+   },
+   "PageLevel1": {
+      "message": "Πολύ γρήγορη"
+   },
+   "PageLevel2": {
+      "message": "Γρήγορη"
+   },
+   "PageLevel3": {
+      "message": "Μέτρια"
+   },
+   "PageLevel4": {
+      "message": "Αργή"
+   },
+   "PageLevel5": {
+      "message": "Πολύ αργη"
+   },
+   "PageLoadEvt": {
+      "message": "Γεγονός φόρτωσης"
+   },
+   "PageLoaded": {
+      "message": "ΠΕριεχόμενο φορτώθηκε"
+   },
+   "PageLong": {
+      "message": "Μήκος"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "Ανακατεύθυνση"
+   },
+   "PageRequest": {
+      "message": "Request"
+   },
+   "PageResponse": {
+      "message": "Αναταπόκριση"
+   },
+   "PageSite": {
+      "message": "Πληροφορίες σάϊτ"
+   },
+   "PageSlowInfo": {
+      "message": "Εάν αυτό το σαιτ είναι δκό σας,ίσως χρειάζεσττε να το ρυθμίσετε ή %LINK%να πάτε σε ένα ταχύτερο σέρβερ\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Ταχύτητα σελίδας"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% των σελίδων στο κόσμο είναι πιό γρήγορες."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% των σελίδων στο κόσμο είναι πιό αργές."
+   },
+   "PageSum": {
+      "message": "Άθροισμα"
+   },
+   "PageTime1": {
+      "message": "Χρόνος φόρτωσης σελίδας:"
+   },
+   "PageTime2": {
+      "message": "%NUM% δευτερόλεπτα"
+   },
+   "PageTimings": {
+      "message": "Χρόνος φόρτωσεως σελίδας (ms)"
+   },
+   "PageWhen": {
+      "message": "Χρόνος έναρξης"
+   },
+   "PagesIndexed": {
+      "message": "Pages indexed"
+   },
+   "Percentage": {
+      "message": "ποσοστό"
+   },
+   "PrPlugin": {
+      "message": "Plug-in για το σαιτ σας"
+   },
+   "PrivacyNote": {
+      "message": "Πολιτική Απορρήτου: Το απόρρητο σας είναι σημαντικό για εμάς. Δεν θα πουλήσουμε ούτε θα νοικιάσουμε ποτέ την διεύθυνση email σας και μπορείτε να απεγγραφείτε οποιαδήποτε στιγμή."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Σας αρέσει αυτη η εφαρμογή;Παρακαλούμε \u003Ca href=\"%LINK%\" target=_blank>βαθμολογήστε την\u003C/a> με 5 αστέρια στο Chrome Web Store. Σας ευχαριστούμε! :-)"
+   },
+   "RateCaution": {
+      "message": "Προσοχή"
+   },
+   "RateExcellent": {
+      "message": "Υπέροχη φήμη"
+   },
+   "RateGood": {
+      "message": "Καλή φήμη"
+   },
+   "RateIt": {
+      "message": "Σας αρέσει αυτη η εφαρμογή? Βαθμολογήστε τη!"
+   },
+   "RateIt2": {
+      "message": "Βαθμολογήστε τη"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Άσημο"
+   },
+   "RateSafe": {
+      "message": "Ασφαλές"
+   },
+   "RateUnsat": {
+      "message": "Μη ικανοποιητική φήμη"
+   },
+   "RateUntested": {
+      "message": "Ανέλεγκτο"
+   },
+   "RateVerypoor": {
+      "message": "Εντελώς άσημο"
+   },
+   "RateWarning": {
+      "message": "Προειδοποίηση"
+   },
+   "Rating": {
+      "message": "Βαθμολόγηση"
+   },
+   "Recommendation": {
+      "message": "Σύσταση"
+   },
+   "SEChina": {
+      "message": "Κινέζικη Μηχανή Αναζητήσεως"
+   },
+   "SEChinaL": {
+      "message": "Μεγαλύτερη Μηχανή Αναζητήσεως στην Κίνα"
+   },
+   "SEJapan": {
+      "message": "Ιαπωνική Μηχανή Αναζητήσεως"
+   },
+   "SEOStats": {
+      "message": "SEO στατιστικά"
+   },
+   "SERussinL": {
+      "message": "Μεγαλύτερη Μηχανή Αναζητήσεως στην Ρωσσία"
+   },
+   "SEWorld": {
+      "message": "Παγκοσμίως μεγαλύτερη Μηχανή Αναζητήσεως"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Σώσιμο και κλείσιμο"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Ασφάλεια σάϊτ"
+   },
+   "Sitewide": {
+      "message": "Site wide"
+   },
+   "Social": {
+      "message": "Κοινωνικά (SNS)"
+   },
+   "SpecURL": {
+      "message": "Specified URL"
+   },
+   "Sub_email": {
+      "message": "Εγγραφείτε μέσω E-mail:"
+   },
+   "Subscribe": {
+      "message": "Εγγραφή"
+   },
+   "SubscribeTo": {
+      "message": "Εγγραφείτε στο ChromeFans.org"
+   },
+   "Support": {
+      "message": "Τεχνική υποστήριξη"
+   },
+   "Tag": {
+      "message": "Ταυτότητα"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP τοποθεσία"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Εργαλείο ελέγχου"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Τάσεις"
+   },
+   "Tool_ScreenRes": {
+      "message": "Στατιστικά αναλύσεως οθόνης"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP ελεγκτής χρηστών"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C ελεγκτής συνδέσμων"
+   },
+   "Tools": {
+      "message": "Εργαλεία"
+   },
+   "Tools_SEO": {
+      "message": "SEO Εργαλεία"
+   },
+   "Tools_Web": {
+      "message": "Web εργαλεία"
+   },
+   "TopHosting": {
+      "message": "Κορυφαία Web Hosting"
+   },
+   "Traffic": {
+      "message": "Επισκεψιμότητα"
+   },
+   "TrafficGraphs": {
+      "message": "Γραφήματα κίνησης"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "Ιστόσελίδα"
+   },
+   "Unranked": {
+      "message": "Αβαθμολόγητο"
+   },
+   "WebmasterTools": {
+      "message": "Εργαλεία για webmasters"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster εργαλεία"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster εργαλεία"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster εργαλεία"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster πηγές μηχανών αναζήτησεως"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster εργαλεία"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Γιατί να γραφτείτε;"
+   },
+   "id": {
+      "message": "el"
+   },
+   "id_folder": {
+      "message": "el"
+   },
+   "md5_calc": {
+      "message": "Δωρεαν MD5 Hash υπολογιστής"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

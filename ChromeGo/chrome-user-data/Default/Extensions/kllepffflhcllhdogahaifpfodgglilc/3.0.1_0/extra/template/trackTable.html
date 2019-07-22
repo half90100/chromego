@@ -1,0 +1,105 @@
+<table id="haitao_ship_table">
+	<tr>
+		<th class="td_num"></th>
+		<th class="td_ship_num" colspan="2">境外运单号</th>
+		<th class="td_ship_st">境外运单状态</th>
+		<th class="td_trans_icon"></th>
+		<th class="td_trans_num">转运单号</th>
+		<th class="td_trans_st">转运状态</th>
+		<th class="td_remark">物品备注</th>
+		<th class="td_del">删除</th>
+	</tr>
+	{{#trackList}}
+	<tr shipNum={{shipNum}} shipStatus={{shipStatus}} transShipStatus={{transShipStatus}}>
+		<td class="td_num">{{orderNum}}</td>
+		<td class="td_ship_icon">
+			{{#if(shipComp==fedex)}}<i class="icon_fedex"></i>{{/if(shipComp==fedex)}}
+			{{#if(shipComp==usps)}}<i class="icon_usps"></i>{{/if(shipComp==usps)}}
+			{{#if(shipComp==ups)}}<i class="icon_ups"></i>{{/if(shipComp==ups)}}
+			{{#if(shipComp==dhl)}}<i class="icon_dhl"></i>{{/if(shipComp==dhl)}}
+		</td>
+		<td class="td_ship_num">
+			{{#if(shipComp==fedex)}}
+				<a target="_blank" href="https://www.fedex.com/fedextrack/index.html?tracknumbers={{shipNum}}&cntry_code=cn" data-stat="icon.ship.tracking1" class="shiplink haitao-stat">{{shipNum}}</a>
+			{{/if(shipComp==fedex)}}
+			{{#if(shipComp==usps)}}
+				<a target="_blank" href="https://tools.usps.com/go/TrackConfirmAction?qtc_tLabels1={{shipNum}}" data-stat="icon.ship.tracking1" class="shiplink haitao-stat">{{shipNum}}</a>
+			{{/if(shipComp==usps)}}
+			{{#if(shipComp==ups)}}
+				<a target="_blank" href="http://wwwapps.ups.com/WebTracking/track?HTMLVersion=5.0&loc=zh_CN&Requester=UPSHome&WBPM_lid=homepage%2Fct1.html_pnl_trk&trackNums={{shipNum}}&track.x=%E8%BF%BD%E8%B8%AA" data-stat="icon.ship.tracking1" class="shiplink haitao-stat">{{shipNum}}</a>
+			{{/if(shipComp==ups)}}
+			{{#if(shipComp==dhl)}}
+				<a target="_blank" href="http://www.cn.dhl.com/content/cn/zh/express/tracking.shtml?brand=DHL&AWB={{shipNum}}%0D%0A" data-stat="icon.ship.tracking1" class="shiplink haitao-stat">{{shipNum}}</a>
+			{{/if(shipComp==dhl)}}
+		</td>
+		<td class="td_ship_st">
+			<a href="javascript:void(0);" class="shipLimit" title="{{shipStatusText}}">{{shipStatusShort}}</a>
+			{{#if(shipStatusRemind==forecast)}}
+			<span class="oper_reminder oper_reminder_forecast" transcomp="{{transComp}}"></span>
+			{{/if(shipStatusRemind==forecast)}}
+			{{#if(shipStatusRemind==delivery)}}
+			<span class="oper_reminder oper_reminder_delivery" transcomp="{{transComp}}"></span>
+			{{/if(shipStatusRemind==delivery)}}
+		</td>
+		<td class="td_trans_icon">
+			<i class="icon_{{transComp}}"></i>
+		</td>
+		<td class="td_trans_num">
+			{{#if(transShipNumTrue==false)}}
+				<span>{{transShipNum}}</span>
+			{{/if(transShipNumTrue==false)}}
+			{{#if(transShipComp==null)}}
+				<span>{{transShipNum}}</span>
+			{{/if(transShipComp==null)}}
+			{{#if(transShipComp==haitaoke)}}
+				<a target="_blank" href="http://app.alipay.com/aop/detail.htm?pageKey=10115_001&appKey=10115"  data-stat="icon.ship.tracking2" class="shiplink haitao-stat">点击查看</a>
+			{{/if(transShipComp==haitaoke)}}
+			{{#if(transShipComp==ems)}}
+				<a target="_blank" href="http://www.ems.com.cn/mailtracking/you_jian_cha_xun.html" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==ems)}}
+			{{#if(transShipComp==ytsd)}}
+				<a target="_blank" href="http://www.yto.net.cn/" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==ytsd)}}
+			{{#if(transShipComp==stsd)}}
+				<a target="_blank" href="http://www.sto.cn/" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==stsd)}}
+			{{#if(transShipComp==yunda)}}
+				<a target="_blank" href="http://www.yundaex.com/" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==yunda)}}
+			{{#if(transShipComp==sf)}}
+				<a target="_blank" href="http://www.sf-express.com/cn/sc/" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==sf)}}
+			{{#if(transShipComp==suer)}}
+				<a target="_blank" href="http://www.sure56.com/" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==suer)}}
+			{{#if(transShipComp==fedex)}}
+				<a target="_blank" href="https://www.fedex.com/fedextrack/index.html?tracknumbers={{transShipNum}}&cntry_code=cn" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==fedex)}}
+			{{#if(transShipComp==usps)}}
+				<a target="_blank" href="https://tools.usps.com/go/TrackConfirmAction?qtc_tLabels1={{transShipNum}}" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==usps)}}
+			{{#if(transShipComp==ups)}}
+				<a target="_blank" href="http://wwwapps.ups.com/WebTracking/track?HTMLVersion=5.0&loc=zh_CN&Requester=UPSHome&WBPM_lid=homepage%2Fct1.html_pnl_trk&trackNums={{transShipNum}}&track.x=%E8%BF%BD%E8%B8%AA" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==ups)}}
+			{{#if(transShipComp==dhl)}}
+				<a target="_blank" href="http://www.cn.dhl.com/content/cn/zh/express/tracking.shtml?brand=DHL&AWB={{transShipNum}}%0D%0A" data-stat="icon.ship.tracking2" class="shiplink haitao-stat">{{transShipNum}}</a>
+			{{/if(transShipComp==dhl)}}
+		</td>
+		<td class="td_trans_st">
+			{{#if(isHaitaoke==true)}}
+				<a target="_blank" href="http://app.alipay.com/aop/detail.htm?pageKey=10115_001&appKey=10115"  data-stat="icon.ship.tracking2" class="shiplink haitao-stat">点击查看</a>
+			{{/if(isHaitaoke==true)}}
+			{{#if(isHaitaoke==false)}}
+				<a href="javascript:void(0);" class="shipLimit" title="{{transShipStatusText}}">{{transShipStatusShort}}</a>
+			{{/if(isHaitaoke==false)}}
+			{{#if(shipStatusRemind==clear)}}
+				<span class="oper_reminder oper_reminder_clear"></span>
+			{{/if(shipStatusRemind==clear)}}
+		</td>
+		<td class="td_remark">{{trackRemark}}</td>
+		<td class="td_del">
+			<div class="haitao_del haitao-stat" data-stat="icon.ship.delete"></div>
+		</td>
+	</tr>
+	{{/trackList}}
+</table>

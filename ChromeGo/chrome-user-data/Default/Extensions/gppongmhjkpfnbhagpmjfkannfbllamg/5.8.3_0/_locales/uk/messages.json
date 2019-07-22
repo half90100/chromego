@@ -1,0 +1,239 @@
+{
+   "categoryName1": {
+      "message": "CMS"
+   },
+   "categoryName10": {
+      "message": "Аналітика"
+   },
+   "categoryName11": {
+      "message": "Блог"
+   },
+   "categoryName12": {
+      "message": "JS фреймворк"
+   },
+   "categoryName13": {
+      "message": "Багтрекер"
+   },
+   "categoryName14": {
+      "message": "Відеопрогравач"
+   },
+   "categoryName15": {
+      "message": "Система коментарів"
+   },
+   "categoryName16": {
+      "message": "Капча"
+   },
+   "categoryName17": {
+      "message": "Шрифт"
+   },
+   "categoryName18": {
+      "message": "Веб-фреймворк"
+   },
+   "categoryName19": {
+      "message": "Інше"
+   },
+   "categoryName2": {
+      "message": "Форум"
+   },
+   "categoryName20": {
+      "message": "HTML редактор"
+   },
+   "categoryName21": {
+      "message": "LMS"
+   },
+   "categoryName22": {
+      "message": "Веб-сервер"
+   },
+   "categoryName23": {
+      "message": "Кешування"
+   },
+   "categoryName24": {
+      "message": "WYSIWYG редактор"
+   },
+   "categoryName25": {
+      "message": "JS графіка"
+   },
+   "categoryName26": {
+      "message": "Мобільний фреймворк"
+   },
+   "categoryName27": {
+      "message": "Мова програмування"
+   },
+   "categoryName28": {
+      "message": "Операційна система"
+   },
+   "categoryName29": {
+      "message": "Пошуковий рушій"
+   },
+   "categoryName3": {
+      "message": "Менеджер БД"
+   },
+   "categoryName30": {
+      "message": "Веб-пошта"
+   },
+   "categoryName31": {
+      "message": "CDN"
+   },
+   "categoryName32": {
+      "message": "Керування маркетингом"
+   },
+   "categoryName33": {
+      "message": "Розширення веб-сервера"
+   },
+   "categoryName34": {
+      "message": "База даних"
+   },
+   "categoryName35": {
+      "message": "Мапа"
+   },
+   "categoryName36": {
+      "message": "Рекламна мережа"
+   },
+   "categoryName37": {
+      "message": "Мережева служба"
+   },
+   "categoryName38": {
+      "message": "Медіасервер"
+   },
+   "categoryName39": {
+      "message": "Веб-камера"
+   },
+   "categoryName4": {
+      "message": "Документація"
+   },
+   "categoryName40": {
+      "message": "Принтер"
+   },
+   "categoryName41": {
+      "message": "Платіжна система"
+   },
+   "categoryName42": {
+      "message": "Менеджер міток"
+   },
+   "categoryName43": {
+      "message": "Paywall"
+   },
+   "categoryName44": {
+      "message": "Системе неперервної інтеграції"
+   },
+   "categoryName45": {
+      "message": "Система SCADA"
+   },
+   "categoryName46": {
+      "message": "Віддалене керування"
+   },
+   "categoryName47": {
+      "message": "Інструмент розробника"
+   },
+   "categoryName48": {
+      "message": "Мережеве сховище"
+   },
+   "categoryName49": {
+      "message": "Потоковий агрегатор"
+   },
+   "categoryName5": {
+      "message": "Віджет"
+   },
+   "categoryName50": {
+      "message": "Керування документами"
+   },
+   "categoryName51": {
+      "message": "Генератор лендінгів"
+   },
+   "categoryName52": {
+      "message": "Чат реального часу"
+   },
+   "categoryName53": {
+      "message": "CRM"
+   },
+   "categoryName54": {
+      "message": "SEO"
+   },
+   "categoryName55": {
+      "message": "Accounting"
+   },
+   "categoryName56": {
+      "message": "Cryptominer"
+   },
+   "categoryName57": {
+      "message": "Static Site Generator"
+   },
+   "categoryName58": {
+      "message": "User Onboarding"
+   },
+   "categoryName59": {
+      "message": "JavaScript Libraries"
+   },
+   "categoryName6": {
+      "message": "Електронна комерція"
+   },
+   "categoryName60": {
+      "message": "Containers"
+   },
+   "categoryName61": {
+      "message": "SaaS"
+   },
+   "categoryName62": {
+      "message": "PaaS"
+   },
+   "categoryName63": {
+      "message": "IaaS"
+   },
+   "categoryName64": {
+      "message": "Reverse Proxy"
+   },
+   "categoryName65": {
+      "message": "Load Balancer"
+   },
+   "categoryName7": {
+      "message": "Фотогалерея"
+   },
+   "categoryName8": {
+      "message": "Вікі"
+   },
+   "categoryName9": {
+      "message": "Панель керування хостингом"
+   },
+   "categoryPin": {
+      "message": "Always show icon"
+   },
+   "github": {
+      "message": "Форкнути на GitHub!"
+   },
+   "noAppsDetected": {
+      "message": "Нічого не знайдено."
+   },
+   "nothingToDo": {
+      "message": "Тут нічого робити."
+   },
+   "optionDynamicIcon": {
+      "message": "Використовувати значок застосунку замість логотипу Wappalyzer"
+   },
+   "optionTracking": {
+      "message": "Анонімно надсилати статистику розпізнавань на сервер для досліджень"
+   },
+   "optionUpgradeMessage": {
+      "message": "Сповіщати про оновлення"
+   },
+   "options": {
+      "message": "Налаштування"
+   },
+   "optionsSave": {
+      "message": "Зберегти налаштування"
+   },
+   "optionsSaved": {
+      "message": "Збережено"
+   },
+   "termsAccept": {
+      "message": "Accept"
+   },
+   "termsContent": {
+      "message": "This extension sends anonymous information about websites you visit, including domain name and identified technologies, to \u003Ca href='https://www.wappalyzer.com'>wappalyzer.com\u003C/a>. This can be disabled in the settings."
+   },
+   "twitter": {
+      "message": "Читайте нас у Twitter"
+   },
+   "website": {
+      "message": "До wappalyzer.com"
+   }
+}

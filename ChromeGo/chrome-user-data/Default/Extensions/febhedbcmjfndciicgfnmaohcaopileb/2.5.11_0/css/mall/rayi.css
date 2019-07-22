@@ -1,0 +1,14 @@
+/* 重置嵌入位置默认值 */
+#smzdm_li{
+    background: none;
+    padding-left:0;
+    color: #000;
+    display: block;
+    border-bottom: none;
+    line-height: 23px;
+    margin-top: 10px;
+}
+/* 修复弹出层计算问题 */
+#smzdm_panel{
+    position: relative;
+}

@@ -1,0 +1,127 @@
+/* bottomBarClose */
+.dialog_detail {
+  background: url('/images/extensions/close_dialog_bottom.png');
+}
+
+/* history */
+.close_icon {
+  background: url('/images/extensions/history_icon.png');
+}
+span.close_icon:hover {
+  background: url('/images/extensions/history_icon_hover.png');
+}
+
+#gwd_lowpri_detail .lowpri_desc {
+  background: url('/images/lowpri_desc.png');
+}
+/* low_price_bottom */
+#gwd-lowpri .low_pri_iocn{
+  background: url('/images/low_price_bottom.png');
+}
+#gwd_lowpri_detail .lowpri_desc {
+  background: url('/images/lowpri_desc.png');
+}
+/*  lowprice_right*/
+.gwd_lowpri_right .lowpri_desc {
+  background: url('/images/lowpri_desc.png');
+}
+.lowp_bg {
+  background: url('/images/low_price_right_1.png');
+}
+/* new_wishlist_1 */
+#gwd_wishlist_div .gwd_wishlist_bg {
+  background-image: url('/images/extensions/gwd_wishlist_bg_1.png');
+}
+.gwd_wishlist_setting_bg {
+  background: url('/images/extensions/gwd_wishlist_setting_up.png') no-repeat;
+}
+/* searchlowpri_bottom */
+#gwd_searchlowpri_detail .searchlowpri_desc {
+  background: url('/images/searchlowpri_desc.png');
+}
+/* topBarClose */
+.dialog_detail {
+  background: url('/images/extensions/close_dialog_top.png');
+}
+
+/* zdm_bottom */
+.zmd_icon{
+  background: url('/images/zdm_icon.png');
+}
+
+/* common 文件夹下面的*/
+/* common_vipsearch */
+#vipsearch_btn {
+  background: url('/images/vip_search_btn.png');
+}
+/* dpInnerLowest */
+.gwd_inner_head .site_icon {
+  background: url('/images/extensions/1211logo.png') no-repeat;
+}
+.gwd_version_xdjf .gwd_inner_head .site_icon {
+  background: url('/images/extensions/bijia_icon_1.png') no-repeat;
+}
+a.inner_page_left em {
+  background: url('/images/extensions/1215back_normal.jpg') no-repeat;
+}
+a.inner_page_left em:hover {
+  background: url('/images/extensions/1215back_hover.jpg') no-repeat;
+}
+.inner_page_right em {
+  background: url('/images/extensions/1215forward_normal.jpg') no-repeat;
+}
+.inner_page_right em:hover {
+  background: url('/images/extensions/1215forward_hover.jpg') no-repeat;
+}
+/* innerlowpri */
+.gwd_inner_head .site_icon {
+  background: url('/images/extensions/1211logo.png') no-repeat;
+}
+.gwd_version_xdjf .gwd_inner_head .site_icon {
+  background: url('/images/extensions/bijia_icon_1.png') no-repeat;
+}
+a.inner_page_left em {
+  background: url('/images/extensions/1215back_normal.jpg') no-repeat;
+}
+a.inner_page_left em:hover {
+  background: url('/images/extensions/1215back_hover.jpg') no-repeat;
+}
+.inner_page_right em {
+  background: url('/images/extensions/1215forward_normal.jpg') no-repeat;
+}
+.inner_page_right em:hover {
+  background: url('/images/extensions/1215forward_hover.jpg') no-repeat;
+}
+/* searchPriRight */
+#gwd_lowpri.gwd_lowpri_right .close_btn{
+  background: url('/images/extensions/gwd_close_icon2.png') 3px 4px no-repeat;
+}
+#gwd_lowpri.gwd_lowpri_right .gwd_site_icon {
+  background: url('/images/extensions/gwd_site_icon2.png') no-repeat;
+}
+.lowp_bg {
+  background: url('/images/extensions/right_low_new1.png');
+}
+.lowp_bg.bg_guess {
+  background: url('/images/extensions/right_guess_new1.png');
+}
+/* updateRemind */
+.update_icon {
+  background: url('/images/extensions/gwd_update_remind.png');
+}
+#remind_close{
+  background: url('/images/extensions/gwd_update_remind_close.png') no-repeat;
+}
+/* versionhtml */
+#gwd_update_now{
+  background: url('/images/gwd_update_now.png') no-repeat;
+}
+#gwd_update_now:hover{
+  background: url('/images/gwd_update_now_hover.png') no-repeat;
+}
+#gwd_update_then{
+  background: url('/images/gwd_update_then.png') no-repeat;
+}
+#gwd_update_then:hover{
+  background: url('/images/gwd_update_then_hover.png') no-repeat;
+}

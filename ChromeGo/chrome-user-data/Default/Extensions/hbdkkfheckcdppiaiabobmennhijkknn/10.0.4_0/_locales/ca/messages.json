@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Afegeix el botó de PageRank al teu web"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Abast diari (per milió)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Rànquing de tendències de tràfic diari"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Pàgines vistes diàries per usuari"
+   },
+   "AlexaRank": {
+      "message": "Alexa Rànquing de tràfic"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Visites de búsqueda (percent)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Links d'entrada"
+   },
+   "Cache": {
+      "message": "En caché"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org primer cop en caché a %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Últim cop de caché a Google %VALUE%"
+   },
+   "Cancel": {
+      "message": "Cancel·la"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Sapiguer el PageRank del web en línea"
+   },
+   "ChromeSeobar": {
+      "message": "Barra d'eines de Chrome SEO"
+   },
+   "City": {
+      "message": "Ciutat"
+   },
+   "ClickMore": {
+      "message": "Prem aquí per saber més informació"
+   },
+   "ClickPR": {
+      "message": "Prem aquí per a posar l'icone de PageRank al teu web"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Competència - Rànquing"
+   },
+   "CompeteUV": {
+      "message": "Competència - Visitants únics"
+   },
+   "Content": {
+      "message": "Content"
+   },
+   "Country": {
+      "message": "País"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Desenvolupat per:"
+   },
+   "DomainInfo": {
+      "message": "Informació del domini"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Donació si t'agrada"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Escriu el teu email..."
+   },
+   "Feedback": {
+      "message": "Comentaris"
+   },
+   "FirstDisplay": {
+      "message": "The first displayed page when extension opened"
+   },
+   "Follow_me": {
+      "message": "Segueix-me"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Free Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocalització"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Prem per a buscar %DOMAIN% en els continguts de Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Ajuda a traduir al teu idioma"
+   },
+   "History": {
+      "message": "Update History"
+   },
+   "History_New": {
+      "message": "What's new"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% disponible"
+   },
+   "Length": {
+      "message": "Length"
+   },
+   "LinkExternal": {
+      "message": "External links"
+   },
+   "LinkInternal": {
+      "message": "Internal links"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "More details"
+   },
+   "MoreIdx": {
+      "message": "Prem per a veure les pàgines indexades amb %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Prem el botó per més detalls..."
+   },
+   "MoreLink": {
+      "message": "Prem per a veure els links d'entrada de %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% no trobat"
+   },
+   "NotFound2": {
+      "message": "Not found"
+   },
+   "NumIndex": {
+      "message": "Pàgines indexades per %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Links d'entrada indexats per %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "Al web"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Connect"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Page Info"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Very fast"
+   },
+   "PageLevel2": {
+      "message": "Fast"
+   },
+   "PageLevel3": {
+      "message": "Average"
+   },
+   "PageLevel4": {
+      "message": "Slow"
+   },
+   "PageLevel5": {
+      "message": "Very slow"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Content loaded"
+   },
+   "PageLong": {
+      "message": "Length"
+   },
+   "PageRank": {
+      "message": "PageRank estatus"
+   },
+   "PageRedirect": {
+      "message": "Redirect"
+   },
+   "PageRequest": {
+      "message": "Request"
+   },
+   "PageResponse": {
+      "message": "Response"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "If this is your site, perhaps you need to optimize the web site or %LINK%migrate to a faster server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Page Speed"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% of web pages in the world are faster."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% of web pages in the world are slower."
+   },
+   "PageSum": {
+      "message": "Sum"
+   },
+   "PageTime1": {
+      "message": "Page Load Time:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Seconds"
+   },
+   "PageTimings": {
+      "message": "Page load timings (ms)"
+   },
+   "PageWhen": {
+      "message": "Start time"
+   },
+   "PagesIndexed": {
+      "message": "Pàgines indexades"
+   },
+   "Percentage": {
+      "message": "Percentage"
+   },
+   "PrPlugin": {
+      "message": "Plug-in pel teu web"
+   },
+   "PrivacyNote": {
+      "message": "PRIVACY POLICY: Your privacy is important to us. We will never sell or rent your email address and you can unsubscribe at any time."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "T'agrada aquesta extensió? Per favor \u003Ca href=\"%LINK%\" target=_blank>valora'ns\u003C/a> amb 5 estrelles a la web de Chrome. Gràcies! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "T'agrada aquesta extensió? Valora-la!"
+   },
+   "RateIt2": {
+      "message": "Valora'ns"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Recommendation"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO Stats"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Desa i tanca"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Lloc"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "URL especifica"
+   },
+   "Sub_email": {
+      "message": "Subscriure's per email:"
+   },
+   "Subscribe": {
+      "message": "Subscribe"
+   },
+   "SubscribeTo": {
+      "message": "Subscribe to ChromeFans.org"
+   },
+   "Support": {
+      "message": "Suport tècnic"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Tools"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Trànsit"
+   },
+   "TrafficGraphs": {
+      "message": "Gràfics de tràfic"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "Direcció URL"
+   },
+   "Unranked": {
+      "message": "Sense rànquing"
+   },
+   "WebmasterTools": {
+      "message": "Eines per a administradors web"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "Mirar el WHOIS"
+   },
+   "Why_sub": {
+      "message": "Perquè subscriure'm?"
+   },
+   "id": {
+      "message": "ca"
+   },
+   "id_folder": {
+      "message": "ca"
+   },
+   "md5_calc": {
+      "message": "Calculador gratuit pel Hash de MD5"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "Programat amb"
+   },
+   "site_compete": {
+      "message": "Rànquing de la competència"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook m'agrada"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Rànquing Quantcast"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Piulades a Twitter"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

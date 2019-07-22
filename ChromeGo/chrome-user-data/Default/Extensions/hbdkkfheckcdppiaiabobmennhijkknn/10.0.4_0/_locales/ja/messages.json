@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Add PageRank button to your site"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Daily Reach (per million)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Daily Traffic Rank Trend"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Daily Pageview per User"
+   },
+   "AlexaRank": {
+      "message": "Alexa Traffic Rank"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Search Visits (percent)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinks"
+   },
+   "Cache": {
+      "message": "Cached"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org first cached on %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google last cached on %VALUE%"
+   },
+   "Cancel": {
+      "message": "キャンセル"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Instantly check PageRank of your web pages online"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO ツールバー"
+   },
+   "City": {
+      "message": "都市"
+   },
+   "ClickMore": {
+      "message": "Click here to get more information"
+   },
+   "ClickPR": {
+      "message": "Click here to put this PageRank icon on your site"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Compete - Rank"
+   },
+   "CompeteUV": {
+      "message": "Compete - Unique Visitors"
+   },
+   "Content": {
+      "message": "Content"
+   },
+   "Country": {
+      "message": "国"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "開発者"
+   },
+   "DomainInfo": {
+      "message": "Domain information"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Donate if you like"
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "メールアドレスを入力してください..."
+   },
+   "Feedback": {
+      "message": "ご意見はこちら"
+   },
+   "FirstDisplay": {
+      "message": "The first displayed page when extension opened"
+   },
+   "Follow_me": {
+      "message": "私をフォロー！"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "フリー オンライン Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolocation 位置情報"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Click here to search %DOMAIN% from the contents of Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Help translate into your language"
+   },
+   "History": {
+      "message": "更新履歴"
+   },
+   "History_New": {
+      "message": "What's new"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% is available"
+   },
+   "Length": {
+      "message": "Length"
+   },
+   "LinkExternal": {
+      "message": "External links"
+   },
+   "LinkInternal": {
+      "message": "Internal links"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "More details"
+   },
+   "MoreIdx": {
+      "message": "Click here to view the pages indexed by %SITE%"
+   },
+   "MoreInfo": {
+      "message": "詳細はボタンをクリックして下さい..."
+   },
+   "MoreLink": {
+      "message": "Click here to view the backlinks indexed by %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% not found"
+   },
+   "NotFound2": {
+      "message": "Not found"
+   },
+   "NumIndex": {
+      "message": "Pages indexed by %SITE%: %SITENAME%"
+   },
+   "NumLink": {
+      "message": "Backlinks indexed by %SITE%: %SITENAME%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "オプション"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Connect"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Page Info"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Very fast"
+   },
+   "PageLevel2": {
+      "message": "Fast"
+   },
+   "PageLevel3": {
+      "message": "Average"
+   },
+   "PageLevel4": {
+      "message": "Slow"
+   },
+   "PageLevel5": {
+      "message": "Very slow"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Content loaded"
+   },
+   "PageLong": {
+      "message": "Length"
+   },
+   "PageRank": {
+      "message": "PageRank ステータス"
+   },
+   "PageRedirect": {
+      "message": "Redirect"
+   },
+   "PageRequest": {
+      "message": "Request"
+   },
+   "PageResponse": {
+      "message": "Response"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "If this is your site, perhaps you need to optimize the web site or %LINK%migrate to a faster server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Page Speed"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% of web pages in the world are faster."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% of web pages in the world are slower."
+   },
+   "PageSum": {
+      "message": "Sum"
+   },
+   "PageTime1": {
+      "message": "Page Load Time:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Seconds"
+   },
+   "PageTimings": {
+      "message": "Page load timings (ms)"
+   },
+   "PageWhen": {
+      "message": "Start time"
+   },
+   "PagesIndexed": {
+      "message": "Pages indexed"
+   },
+   "Percentage": {
+      "message": "Percentage"
+   },
+   "PrPlugin": {
+      "message": "Plug-in for Your Site"
+   },
+   "PrivacyNote": {
+      "message": "PRIVACY POLICY: Your privacy is important to us. We will never sell or rent your email address and you can unsubscribe at any time."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "この拡張機能を気に入りました？ Chrome ウェブ ストアの\u003Ca href=\"%LINK%\" target=_blank>こちら\u003C/a>で 星の評価を！お願い :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "この拡張機能が気に入ったなら、評価して下さい！"
+   },
+   "RateIt2": {
+      "message": "評価して！"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Recommendation"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO 統計情報"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "保存と終了"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Site wide"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "Specified URL"
+   },
+   "Sub_email": {
+      "message": "メールによる購読:"
+   },
+   "Subscribe": {
+      "message": "購読"
+   },
+   "SubscribeTo": {
+      "message": "ChromeFans.org の購読"
+   },
+   "Support": {
+      "message": "Technical support"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google キーワード ツール"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google トレンド"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "ツール"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "トラフィック"
+   },
+   "TrafficGraphs": {
+      "message": "Traffic graphs"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Unranked"
+   },
+   "WebmasterTools": {
+      "message": "ウェブマスター ツール"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu ウェブマスター ツール"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing ウェブマスター ツール"
+   },
+   "Webmaster_Google": {
+      "message": "Google ウェブマスター ツール"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex ウェブマスター ツール"
+   },
+   "Whois": {
+      "message": "WHOIS 検索"
+   },
+   "Why_sub": {
+      "message": "どうして購読するの？"
+   },
+   "id": {
+      "message": "ja"
+   },
+   "id_folder": {
+      "message": "ja"
+   },
+   "md5_calc": {
+      "message": "MD5 ハッシュ計算機"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

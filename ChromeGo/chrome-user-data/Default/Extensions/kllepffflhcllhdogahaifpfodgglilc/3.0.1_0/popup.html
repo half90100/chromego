@@ -1,0 +1,335 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="extra/popup.css" />
+    <script src="js/kissy-1.2.0-min.js"></script>
+    <script src="js/kissy-component.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <div id="haitao_login" class="haitao-clearfix">
+        <div class="haitao_close"></div>
+        <div class="haitao_hasLogin">
+            <span class="login_name"></span>
+            <a href="javascript:void(0);" data-stat="icon.icon.signout" class="logout haitao-stat">退出</a>
+        </div>
+        <a href="javascript:void(0);" data-stat="icon.icon.signin" class="haitao_notLogin haitao-stat">登录</a>
+    </div>
+    <div id="haitao_pop_tab" class="haitao_tab haitao_font">
+        <ul class="ks-switchable-nav">
+            <li class="haitao-stat" data-stat="icon.site.index">海淘热站</li>
+            <li class="haitao-stat" data-stat="icon.ship.index">我的运单<i class="haitao_red_tip"></i>
+            </li>
+            <li class="haitao-stat haitao-jingxuan" data-stat="icon.sale.index"><a href="http://www.etao.com/jingxuan/index.html" target="_blank" class="haitao_detaillink">超值优惠</a></li>
+            <li class="haitao-stat" data-stat="icon.gonglv.index">海淘攻略</li>
+            <li class="haitao-stat zhuanxiang hidden" data-stat="icon.gonglv.index">神器专享</li>
+        </ul>
+        <div class="ks-switchable-content">
+            <div style="display: none">
+                <!--div class="haitao_addr_warn haitao_hidden">
+                    <i></i>
+                    <span>亲爱的神器用户，为了提供更好的海外购物体验，我们新增了一家海淘客转运，同时原有4家转运地址可以自定义保存在神器中。</span>
+                    <a href="http://wanke.etao.com/detail/342227.html" target="_blank" class="haitao_detaillink">查看详情<em></em></a>
+                </div-->
+                <div id="haitao_website">
+                    <a target="_blank" data-stat="icon.site.amazon" href="http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=ethtsq-20" class="haitao_amazon haitao-stat">Amazon</a>
+                    <a target="_blank" data-stat="icon.site.asos" href="http://www.asos.com" class="haitao_asos haitao-stat">asos</a>
+                    <a target="_blank" data-stat="icon.site.nordstrom" href="http://shop.nordstrom.com" class="haitao_nordstrom haitao-stat">nordstrom</a>
+                    <a target="_blank" data-stat="icon.site.walgreens" href="http://www.walgreens.com/" class="haitao_walgreens haitao-stat">walgreens</a>
+                    <a target="_blank" data-stat="icon.site.bhphotovideo" href="http://www.bhphotovideo.com" class="haitao_bhphotovideo haitao-stat">B&amp;H</a>
+                    <a target="_blank" data-stat="icon.site.sixpm" href="http://www.6pm.com/" class="haitao_sixpm haitao-stat">6pm</a>
+                    <a target="_blank" data-stat="icon.site.drugstore" href="http://www.drugstore.com" class="haitao_drugstore haitao-stat">drugstore</a>
+                    <a target="_blank" data-stat="icon.site.gymboree" href="http://www.gymboree.com" class="haitao_gymboree haitao-stat">GYMBOREE</a>
+                    <a target="_blank" data-stat="icon.site.iherb" href="http://www.iherb.com" class="haitao_iherb haitao-stat">iHerb</a>
+                    <a target="_blank" data-stat="icon.site.saksfifthavenue" href="http://www.saksfifthavenue.com" class="haitao_saksfifthavenue haitao-stat">Saks</a>
+                    <a target="_blank" data-stat="icon.site.rei" href="http://www.rei.com/" class="haitao_rei haitao-stat">REI</a>
+                    <a target="_blank" data-stat="icon.site.puritan" href="http://www.puritan.com" class="haitao_puritan haitao-stat">Puritan's Pride</a>
+                    <a target="_blank" data-stat="icon.site.diapers" href="http://www.diapers.com" class="haitao_diapers haitao-stat">diapers</a>
+                    <a target="_blank" data-stat="icon.site.albeebaby" href="http://www.albeebaby.com/" class="haitao_albeebaby haitao-stat">AlbeeBABY</a>
+                    <a target="_blank" data-stat="icon.site.gnc" href="http://www.gnc.com/" class="haitao_gnc haitao-stat">GNC</a>
+                    <a target="_blank" data-stat="icon.site.net-a-porter" href="http://www.net-a-porter.com/" class="haitao_net-a-porter haitao-stat">NET-A-PORTER</a>
+                    <a target="_blank" data-stat="icon.site.shopbop" href="http://www.dpbolvw.net/click-5844139-11248841?url=http%3A%2F%2Fwww.shopbop.com%3Fextid%3Daffprg-%25zp" class="haitao_shopbop haitao-stat">SHOPBOP</a>
+                </div>
+            </div>
+            <div class="" style="display: none">
+
+                <div class="haitao_noship">
+                    <div class="haitao_img_wrap">
+                        <img src="http://img02.taobaocdn.com/tps/i2/T1tFBkFjpfXXXuP9Er-640-220.png" class="haitao_noship_img" />
+                        <div class="haitao_ns_line1">
+                            <span class="haitao_ns_24">亲</span>，还木有运单信息哦~</div>
+                        <div class="haitao_ns_line2">可以
+                            <span class="haitao_ns_add haitao-stat" data-stat="icon.ship.add">添加海淘运单</span>，对运单进行全程跟踪与管理。</div>
+                    </div>
+                    <div class="haitao_indicator"></div>
+                </div>
+                <div class="haitao_shipList"></div>
+                <div class="haitao_addShip haitao-clearfix">
+                    <div class="haitao_addBtn haitao-stat" data-stat="icon.ship.add"> <i></i>
+                        增加运单
+                    </div>
+                    <div class="haitao_addCloseBtn haitao-stat" data-stat="icon.ship.close"> <i></i>
+                        收起增加
+                    </div>
+                    <div class="haitao_limitText">
+                        <span class="haitao_limit_left">亲，您的海淘运单已达10条上限，请删除已完成运单后再添加新运单吧！</span>
+                        <div class="haitao_shipPower">
+                            物流追踪Powered by
+                            <a class="haitao_link haitao-stat" data-stat="icon.ship.htt" target="_blank" href="http://www.haitaotong.com/">海淘通</a>
+                        </div>
+                    </div>
+                    <div class="haitao_addPanel">
+                        <div class="haitao_add_detail">
+                            <select id="haitao_ship_sel" class="haitao_sel">
+                                <option value="null" selected><i class="icon_null"></i>请选择境外物流</option>
+                                <option value="usps"><i class="icon_usps"></i>USPS</option>
+                                <option value="fedex"><i class="icon_fedex"></i>Fedex</option>
+                                <option value="ups"><i class="icon_ups"></i>UPS</option>
+                                <option value="dhl"><i class="icon_dhl"></i>DHL</option>
+                            </select>
+                            <input type="text" class="haitao_input" id="haitao_ship_input" limitlength="30" placeholder="请输入运单号" />
+                            <select id="haitao_trans_sel" class="haitao_sel">
+                                <option value="null" selected>请选择转运公司</option>
+                                <!--option value="haitaoke">海淘客</option-->
+                                <option value="youjia">友家</option>
+                                <option value="banma">斑马</option>
+                                <option value="disifang">递四方</option>
+                                <option value="baitong">百通</option>
+                                <option value="other">其他</option>
+                            </select>
+                            <input type="text" class="haitao_input" id="haitao_remark_input" limitlength="32" placeholder="添加备注（限16个汉字）" />
+                            <div id="haitao_addConfirmBtn" class="haitao-stat" data-stat="icon.ship.confirm">确定添加</div>
+                        </div>
+                        <div class="haitao_add_setting">
+                            <span class="haitao_set_title">设置</span>
+                            自动查询间隔，每
+                            <select id="haitao_queryInterval_sel" class="haitao_sel">
+                                <option value="1" selected>1小时</option>
+                                <option value="3">3小时</option>
+                                <option value="6">6小时</option>
+                                <option value="12">12小时</option>
+                                <option value="24">24小时</option>
+                            </select>
+                            <div class="haitao_shipPower">
+                                物流追踪Powered by
+                                <a class="haitao_link haitao-stat" data-stat="icon.ship.htt" target="_blank" href="http://www.haitaotong.com/">海淘通</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: none">
+                <!--div id="haitao_cuxiao">
+                    <div id="haitao_cuxiao_list">
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/62467" class="ht_cuxiao_item">
+                            <img src="http://gtms01.alicdn.com/tps/i1/T1DiSZFlNaXXcumRvy-500-500.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="Bluefly官网 清仓大促销 商品低至两折！部分商品还有额外6—9折优惠！">Bluefly官网 清仓大促销 商品低至两折！部...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61648" class="ht_cuxiao_item">
+                            <img src="http://gtms04.alicdn.com/tps/i4/T1l.OQFXJcXXXClYvp-463-463.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="高跟鞋必备！德国Compeed Anti-Blister Stick 强效护脚膏 到手约120元">高跟鞋必备！德国Compeed Anti-Blister Sti...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61642" class="ht_cuxiao_item">
+                            <img src="http://gtms04.alicdn.com/tps/i4/T13wmOFiFeXXb3da23-381-381.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="Nordstrom官网 精选女鞋给力促销 低至五折！">Nordstrom官网 精选女鞋给力促销 低至五折...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61610" class="ht_cuxiao_item">
+                            <img src="http://gtms02.alicdn.com/tps/i2/T1.sKNFmFfXXXQip3R-442-442.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="玖熙Nine West官网 季末大促销 多款特价女鞋折扣低至3折！ 还有额外7折优惠！
+                        ">玖熙Nine West官网 季末大促销 多款特价女...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61605" class="ht_cuxiao_item">
+                            <img src="http://gtms01.alicdn.com/tps/i1/T1FL1QFnJdXXaeoFvS-481-481.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="空手接白刃！凯夫拉防刀割手套 8.7折！到手约134元
+                        ">空手接白刃！凯夫拉防刀割手套 8.7折！到手...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61594" class="ht_cuxiao_item">
+                            <img src="http://gtms03.alicdn.com/tps/i3/T1rcOSFmxaXXcqjqw4-450-450.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="白菜价！Timberland天木兰 男式防水短靴 6.1折！到手约446元 还可享额外八折！
+                        ">白菜价！Timberland天木兰 男式防水短靴 6....</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61591" class="ht_cuxiao_item">
+                            <img src="http://gtms04.alicdn.com/tps/i4/T1BZKNFXXfXXagbC2I-400-400.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="吃货福利！Brookside超级水果Acai巴西莓果心黑巧克力 到手约215元
+                        ">吃货福利！Brookside超级水果Acai巴西莓果...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61587" class="ht_cuxiao_item">
+                            <img src="http://gtms01.alicdn.com/tps/i1/T1Ym5QFXRdXXbIZ6Yn-251-251.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="超级大白菜！LA MER 海蓝之谜面霜60毫升 8.8折！到手约1887元
+                        ">超级大白菜！LA MER 海蓝之谜面霜60毫升 8....</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61581" class="ht_cuxiao_item">
+                            <img src="http://gtms04.alicdn.com/tps/i4/T1oKiTFmBXXXa3kG2d-455-455.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="美国医师推荐！天然银杏精华胶囊200粒 9.4折！到手约268元
+                        ">美国医师推荐！天然银杏精华胶囊200粒 9.4...</span>
+                        </a>
+                        <a target="_blank" href="http://blog.haiwai.etao.com/archives/61577" class="ht_cuxiao_item">
+                            <img src="http://gtms01.alicdn.com/tps/i1/T1rDCPFaNdXXbEnE2F-503-503.jpg" class="ht_cuxiao_img">
+                            <span class="ht_cuxiao_text" title="American Eagle官网促销 所有清仓服饰一律5折！上衣跌破百元
+                        ">American Eagle官网促销 所有清仓服饰一律...</span>
+                        </a>
+                    </div>
+                    <div class="haitao_more">
+                        <a target="_blank" href="http://blog.haiwai.etao.com/?spm=0.0.0.0.gSzxXW">更多<i></i></a>
+                    </div>
+                    <div id="haitao_cuxiao_temp"></div>
+                </div-->
+            </div>
+            <div style="display: none">
+                <div id="haitao_gonglv">
+                    <ul class="haitao_shipIntro_list">
+                        <li>
+                            <a target="_blank" href="http://wanke.etao.com/detail/260052.html">
+                                <i class="icon_youjia"></i>友家转运攻略
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wanke.etao.com/detail/260184.html">
+                                <i class="icon_disifang"></i>4px递四方转运攻略
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wanke.etao.com/detail/260212.html">
+                                <i class="icon_banma"></i>斑马转运攻略
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wanke.etao.com/detail/260228.html">
+                                <i class="icon_baitong"></i>百通转运攻略
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="haitao_gonglv_list">
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-26783.html">
+                                海外直邮如何翻译地址？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-26472.html">
+                                教你如何使用支付宝进行海淘
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-26312.html">
+                                没有信用卡能海淘吗？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-26182.html">
+                                海外购物如何比价？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-25499.html">
+                                美国亚马逊的二手货能买吗？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-25296.html">
+                                什么是amazon prime服务？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-23882.html">
+                                如何选择转运公司？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-25114.html">
+                                海淘看不懂英文怎么办？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-24809.html">
+                                海淘鞋子如何选择尺寸？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-24068.html">
+                                海淘用哪个银行信用卡比较好？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-24935.html">
+                                转运公司是干什么的？
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://www.etao.com/youhui/1-24472.html">
+                                国外购物不需要密码吗？
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="haitao_more">
+                        <a target="_blank" href="http://haiwai.etao.com/haitao123.htm?spm=0.0.0.0.ZjwdsY">更多<i></i></a>
+                    </div>
+                    <div class="haitao_qq">
+                        <div class="ht_title">海淘QQ群</div>
+                        <div class="ht_items">
+                            <div class="ht_item">
+                                <a target="_blank" href="http://wp.qq.com/wpa/qunwpa?spm=0.0.0.0.nkI59x&idkey=0415ccd5d16774dbf687b8017208846324f84414db7fb24cd322951432703492" data-spm-anchor-id="0.0.0.0">
+                                    <span class="ht_name">数码群</span>
+                                    <span class="ht_desc">203597641
+                                        <img src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/small.png" />
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="ht_item">
+                                <a target="_blank" href="http://wp.qq.com/wpa/qunwpa?spm=0.0.0.0.nkI59x&idkey=14de30b71e4d61df5615404fd0f48c3bf02c3c54687b590b7930c27d4bb4acce" data-spm-anchor-id="0.0.0.0">
+                                    <span class="ht_name">妈妈群</span>
+                                    <span class="ht_desc">326311804
+                                        <img src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/small.png" />
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="ht_item">
+                                <a target="_blank" href="http://wp.qq.com/wpa/qunwpa?spm=0.0.0.0.nkI59x&idkey=3794b590436e3603a7aec44d5b83bea9c873ae7c7324c3b3d2a492371e19576c" data-spm-anchor-id="0.0.0.0">
+                                    <span class="ht_name">服饰群</span>
+                                    <span class="ht_desc">331279564
+                                        <img src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/small.png" />
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="ht_item">
+                                <a target="_blank" href="http://wp.qq.com/wpa/qunwpa?spm=0.0.0.0.nkI59x&idkey=b2db62fdd1f59370fb0a54ba7d07d38011b96055d3a47ec7c52dc8e36880f21b" data-spm-anchor-id="0.0.0.0">
+                                    <span class="ht_name">美妆群</span>
+                                    <span class="ht_desc">331366669
+                                        <img src="http://0.web.qstatic.com/webqqpic/pubapps/0/50/images/small.png" />
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="haitao_communicate">
+                        <div class="ht_link">
+                            <a target="_blank" href="http://www.etao.com/youhui/1-25872.html" class="ht_link_item ht_link_introduce"><i></i>海淘神器使用说明</a>
+                            <div class="ht_link_item ht_link_share">
+                                <i></i>分享
+                                <div class="ht_share_popup">
+                                    <i class="angle angle-up"><i class="angle-outer"></i><i class="angle-inner"></i></i>
+                                    <a class="btn-share dib" href="http://share.jianghu.taobao.com/share/addShare.htm?url=http://haiwai.etao.com/cool.htm&amp;title=%d3%c3%ba%a3%cc%d4%c9%f1%c6%f7%cf%c2%b5%a5%a3%ac%bf%c9%b6%c0%cf%ed%d7%aa%d4%cb%b7%d1%d3%c5%bb%dd%bc%db%a3%a1%cd%ac%ca%b1%c9%f1%c6%f7%bb%b9%d7%d4%b6%af%bc%c6%cb%e3Amazon%b5%c8%ba%a3%cd%e2%cd%f8%d5%be%b5%c4%c9%cc%c6%b7%b5%bd%ca%d6%bc%db%a1%a2%d7%d4%b6%af%cc%ee%d0%b4%d7%aa%d4%cb%b9%ab%cb%be%b5%d8%d6%b7%a3%ac%c8%ab%b3%cc%d7%b7%d7%d9%ba%a3%cc%d4%b0%fc%b9%fc%d7%b4%cc%ac%a1%a2%d6%d0%d3%a2%ce%c4%b7%ad%d2%eb%a1%a2%b9%fa%bc%ca%b3%df%c2%eb%d7%aa%bb%bb%b5%c8%b9%a6%c4%dc%a1%a3%c8%c3%c4%fa%cf%f1%cc%d4%b1%a6%d2%bb%d1%f9%bc%f2%b5%a5%ba%a3%cc%d4%a3%a1&amp;pic=http://img03.taobaocdn.com/tps/i3/T1LqBqFjhfXXcsm__R-508-326.png" target="_blank"><i class="icon-share icon-share-taojianghu dib"></i>淘江湖</a>
+                                    <a class="btn-share dib" href="http://service.t.sina.com.cn/share/share.php?url=http://haiwai.etao.com/cool.htm&amp;pic=http://img03.taobaocdn.com/tps/i3/T1LqBqFjhfXXcsm__R-508-326.png&amp;title=%d3%c3%ba%a3%cc%d4%c9%f1%c6%f7%cf%c2%b5%a5%a3%ac%bf%c9%b6%c0%cf%ed%d7%aa%d4%cb%b7%d1%d3%c5%bb%dd%bc%db%a3%a1%cd%ac%ca%b1%c9%f1%c6%f7%bb%b9%d7%d4%b6%af%bc%c6%cb%e3Amazon%b5%c8%ba%a3%cd%e2%cd%f8%d5%be%b5%c4%c9%cc%c6%b7%b5%bd%ca%d6%bc%db%a1%a2%d7%d4%b6%af%cc%ee%d0%b4%d7%aa%d4%cb%b9%ab%cb%be%b5%d8%d6%b7%a3%ac%c8%ab%b3%cc%d7%b7%d7%d9%ba%a3%cc%d4%b0%fc%b9%fc%d7%b4%cc%ac%a1%a2%d6%d0%d3%a2%ce%c4%b7%ad%d2%eb%a1%a2%b9%fa%bc%ca%b3%df%c2%eb%d7%aa%bb%bb%b5%c8%b9%a6%c4%dc%a1%a3%c8%c3%c4%fa%cf%f1%cc%d4%b1%a6%d2%bb%d1%f9%bc%f2%b5%a5%ba%a3%cc%d4%a3%a1" target="_blank"><i class="icon-share icon-share-sinaweibo dib"></i>新浪微博</a>
+                                    <a class="btn-share dib" href="http://v.t.qq.com/share/share.php?url=http://haiwai.etao.com/cool.htm&amp;pic=http://img03.taobaocdn.com/tps/i3/T1LqBqFjhfXXcsm__R-508-326.png&amp;title=%d3%c3%ba%a3%cc%d4%c9%f1%c6%f7%cf%c2%b5%a5%a3%ac%bf%c9%b6%c0%cf%ed%d7%aa%d4%cb%b7%d1%d3%c5%bb%dd%bc%db%a3%a1%cd%ac%ca%b1%c9%f1%c6%f7%bb%b9%d7%d4%b6%af%bc%c6%cb%e3Amazon%b5%c8%ba%a3%cd%e2%cd%f8%d5%be%b5%c4%c9%cc%c6%b7%b5%bd%ca%d6%bc%db%a1%a2%d7%d4%b6%af%cc%ee%d0%b4%d7%aa%d4%cb%b9%ab%cb%be%b5%d8%d6%b7%a3%ac%c8%ab%b3%cc%d7%b7%d7%d9%ba%a3%cc%d4%b0%fc%b9%fc%d7%b4%cc%ac%a1%a2%d6%d0%d3%a2%ce%c4%b7%ad%d2%eb%a1%a2%b9%fa%bc%ca%b3%df%c2%eb%d7%aa%bb%bb%b5%c8%b9%a6%c4%dc%a1%a3%c8%c3%c4%fa%cf%f1%cc%d4%b1%a6%d2%bb%d1%f9%bc%f2%b5%a5%ba%a3%cc%d4%a3%a1" target="_blank"><i class="icon-share icon-share-tencentweibo dib"></i>腾讯微博</a>
+                                    <a class="btn-share dib" href="http://www.douban.com/recommend/?href=http://haiwai.etao.com/cool.htm&amp;image=http://img03.taobaocdn.com/tps/i3/T1LqBqFjhfXXcsm__R-508-326.png&amp;title=%d3%c3%ba%a3%cc%d4%c9%f1%c6%f7%cf%c2%b5%a5%a3%ac%bf%c9%b6%c0%cf%ed%d7%aa%d4%cb%b7%d1%d3%c5%bb%dd%bc%db%a3%a1%cd%ac%ca%b1%c9%f1%c6%f7%bb%b9%d7%d4%b6%af%bc%c6%cb%e3Amazon%b5%c8%ba%a3%cd%e2%cd%f8%d5%be%b5%c4%c9%cc%c6%b7%b5%bd%ca%d6%bc%db%a1%a2%d7%d4%b6%af%cc%ee%d0%b4%d7%aa%d4%cb%b9%ab%cb%be%b5%d8%d6%b7%a3%ac%c8%ab%b3%cc%d7%b7%d7%d9%ba%a3%cc%d4%b0%fc%b9%fc%d7%b4%cc%ac%a1%a2%d6%d0%d3%a2%ce%c4%b7%ad%d2%eb%a1%a2%b9%fa%bc%ca%b3%df%c2%eb%d7%aa%bb%bb%b5%c8%b9%a6%c4%dc%a1%a3%c8%c3%c4%fa%cf%f1%cc%d4%b1%a6%d2%bb%d1%f9%bc%f2%b5%a5%ba%a3%cc%d4%a3%a1" target="_blank"><i class="icon-share icon-share-douban dib"></i>豆瓣</a>
+                                    <a class="btn-share dib" href="http://share.renren.com/share/buttonshare.do?link=http://haiwai.etao.com/cool.htm&amp;pic=http://img03.taobaocdn.com/tps/i3/T1LqBqFjhfXXcsm__R-508-326.png&amp;title=%d3%c3%ba%a3%cc%d4%c9%f1%c6%f7%cf%c2%b5%a5%a3%ac%bf%c9%b6%c0%cf%ed%d7%aa%d4%cb%b7%d1%d3%c5%bb%dd%bc%db%a3%a1%cd%ac%ca%b1%c9%f1%c6%f7%bb%b9%d7%d4%b6%af%bc%c6%cb%e3Amazon%b5%c8%ba%a3%cd%e2%cd%f8%d5%be%b5%c4%c9%cc%c6%b7%b5%bd%ca%d6%bc%db%a1%a2%d7%d4%b6%af%cc%ee%d0%b4%d7%aa%d4%cb%b9%ab%cb%be%b5%d8%d6%b7%a3%ac%c8%ab%b3%cc%d7%b7%d7%d9%ba%a3%cc%d4%b0%fc%b9%fc%d7%b4%cc%ac%a1%a2%d6%d0%d3%a2%ce%c4%b7%ad%d2%eb%a1%a2%b9%fa%bc%ca%b3%df%c2%eb%d7%aa%bb%bb%b5%c8%b9%a6%c4%dc%a1%a3%c8%c3%c4%fa%cf%f1%cc%d4%b1%a6%d2%bb%d1%f9%bc%f2%b5%a5%ba%a3%cc%d4%a3%a1" target="_blank"><i class="icon-share icon-share-renren dib"></i>人人网</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: none">
+                <div id="shenqi_zhuanxiang">
+                    <div class="content"></div>
+                    <div class="pagination" id="J_pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,351 @@
+{
+   "app_name": {
+      "description": "the name of the extension",
+      "inMozDTD": true,
+      "message": "Markdown Here"
+   },
+   "app_slogan": {
+      "description": "shown as subtitle for Markdown Here in the browser extensions list",
+      "message": "Markdownで電子メールを美しく"
+   },
+   "context_menu_item": {
+      "description": "Text shown on the context menu.",
+      "inMozDTD": true,
+      "message": "Markdownを有効化/無効化"
+   },
+   "context_menu_item_shortcut": {
+      "description": "The shortcut key for the context menu. Must be one of the letters in the context menu item text. If you excluded '&' in 'context_menu_item_with_shortcut', then you can leave this blank.",
+      "inMozDTD": true,
+      "message": "k"
+   },
+   "context_menu_item_with_shortcut": {
+      "description": "Text shown on the context menu. The '&' comes before the shortcut character. If a shortcut key doesn't make sense for your language/locale/keyboard, you can just leave out the '&'.",
+      "message": "Mar&kdownを有効化/無効化"
+   },
+   "currently_in_use": {
+      "description": "Indicates the syntax highlighting theme that the user is currently using",
+      "message": "現在の設定"
+   },
+   "cursor_into_compose": {
+      "message": "メール作成ボックスにカーソルを置いて下さい。"
+   },
+   "forgot_to_render_back_button": {
+      "description": "Text on the Back (cancel) button of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "inMozDTD": true,
+      "message": "戻る"
+   },
+   "forgot_to_render_prompt_close_hover": {
+      "description": "Text that shows when the user hovers over the 'X' that will close the prompt",
+      "message": "この通知を無視"
+   },
+   "forgot_to_render_prompt_info": {
+      "description": "Informational part of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "Markdownで書かれているようですが、格好良くレンダリングされていません。"
+   },
+   "forgot_to_render_prompt_question": {
+      "description": "Question part of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "それでも送りますか?"
+   },
+   "forgot_to_render_prompt_title": {
+      "description": "Title of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "message": "レンダリングを忘れていませんか？"
+   },
+   "forgot_to_render_send_button": {
+      "description": "Text on the Send (continue) button of the prompt that's shown when it's detected that a user may have forgotten to render the Markdown in their email",
+      "inMozDTD": true,
+      "message": "送る"
+   },
+   "invalid_field": {
+      "description": "Shown in an alert dialog if the user tries to render a field that cannot be rendered",
+      "message": "このテキストフィールドではMarkdownにレンダリングできません。リッチテキストフィールドで行なってください。"
+   },
+   "new_changelist_items": {
+      "description": "Used to highlight the part of the changelist that is new",
+      "message": "新しい機能"
+   },
+   "nothing_to_render": {
+      "description": "Error message shown to user if there's nothing found to revert or render.",
+      "message": "レンダリングするものも元に戻すものも見つかりませんでした。"
+   },
+   "options_page__advanced_title": {
+      "description": "A section title",
+      "message": "その他の先進的機能"
+   },
+   "options_page__advanced_usage": {
+      "message": "さらなる情報や詳細な使い方が知りたいなら、 \u003Ca href=\"https://github.com/adam-p/markdown-here\" target=\"_blank\">Markdown Here project page\u003C/a> をご覧ください。"
+   },
+   "options_page__basic_usage": {
+      "message": "基本的な使い方"
+   },
+   "options_page__changes_saved": {
+      "description": "message that shows when user changes have been saved",
+      "message": "変更を保存しました。"
+   },
+   "options_page__click_toggle": {
+      "description": "A step in the basic usage instructions",
+      "message": "メール画面で右クリックし \"Markdown 切り替え\"を選択しましょう。 (またはツールバーの \u003Cimg src=\"images/icon16.png\"/> ボタンか、 \u003Cspan class=\"hotkey-display-wrapper\"> \u003Cspan class=\"hotkey-display\">\u003Ckbd>CTRL\u003C/kbd>+\u003Ckbd>ALT\u003C/kbd>+\u003Ckbd>M\u003C/kbd>\u003C/span>\u003C/span> を押す。)"
+   },
+   "options_page__contributing_1": {
+      "message": "\u003Cstrong>もしメールにコードブロックを書いたことがあるなら、Markdown Hereをより良くすることができます。\u003C/strong> \u003Ca href=\"https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md\" target=\"_blank\">CONTRIBUTING.md\u003C/a>"
+   },
+   "options_page__contributing_2": {
+      "message": "あなたの言語でMarkdown Hereを使えるように手助けしてください。\u003Ca href=\"https://github.com/adam-p/markdown-here/blob/master/CONTRIBUTING.md#translation\" target=\"_blank\">あなたの翻訳を待っています。\u003C/a>"
+   },
+   "options_page__contributing_title": {
+      "description": "A section title",
+      "message": "開発に協力してください"
+   },
+   "options_page__donate_plea_1": {
+      "message": "もしMarkdown Hereが気に入ったなら、 私が妻のためにお花を買ってあげる(私が長い時間仕事に時間をかけていることにいらいらしないように)手助けをお願いします! \u003Cstrong>ありがとう!\u003C/strong>"
+   },
+   "options_page__donate_plea_2": {
+      "message": "\u003Cstrong>Markdown Hereをより良くする手助けをしてください!\u003C/strong>"
+   },
+   "options_page__donate_plea_3": {
+      "message": "\u003Cstrong>開発の手助けをしてください!\u003C/strong>"
+   },
+   "options_page__donate_plea_4": {
+      "message": "Markdown HereがChrome、 Firefox、 Thunderbird、 Postbox、 Safari、 Opera、 Gmail、 Yahoo、 Hotmail、 Blogger、 Evernote、などなどでの動作を保つのに役立ってるものを知りたいかい？ \u003Cstrong>コーヒーだ!\u003C/strong>"
+   },
+   "options_page__footer_1": {
+      "description": "part of the page footer text",
+      "message": "\u003Cem>Markdown Here\u003C/em> はオープンソースです。 質問をしたり、バグを報告したり、機能追加の要望をしたり、開発に協力するには、 \u003Ca target=\"_blank\" href=\"https://github.com/adam-p/markdown-here\">Github のプロジェクトページ\u003C/a> か \u003Ca target=\"_blank\" href=\"https://groups.google.com/forum/?fromgroups=#!forum/markdown-here\">Google Group\u003C/a> を訪れてください。"
+   },
+   "options_page__footer_2": {
+      "description": "part of the page footer text",
+      "message": "このソフトウェアは \u003Ca target=\"_blank\" href=\"http://adam-p.github.com/\">Adam Pritchard\u003C/a> によって開発されました。"
+   },
+   "options_page__forgot_to_render_1": {
+      "message": "現在Web版GmailとThunderbird (とPostboxとIcedove) でのみ使えます。"
+   },
+   "options_page__forgot_to_render_2": {
+      "message": "メールを送るとき、レンダリングせずに生のMarkdownテキストのまま (つまり、\"Markdown 切り替え\"を押し忘れている) かどうか送信前にチェックします。うっとうしい場合は無効にすることを推奨します。"
+   },
+   "options_page__forgot_to_render_3": {
+      "message": "もしこれを無効にしたほうがいいと思ったなら、 \u003Cem>ぜひ\u003C/em> 理由と改善案をお知らせください。 \u003Ca href=\"https://groups.google.com/forum/#!forum/markdown-here\" target=\"_blank\">Google Groupに投稿する\u003C/a> か \u003Ca href=\"https://github.com/adam-p/markdown-here/issues\" target=\"_blank\">Github でIssueを投げ\u003C/a> てください。お願いします。"
+   },
+   "options_page__forgot_to_render_label": {
+      "description": "Label for the checkbox that enables the forgot-to-render feature",
+      "message": "\u003Cb>\"レンダリング忘れ\" チェックを使う\u003C/b>"
+   },
+   "options_page__gfm_line_breaks_enabled_label": {
+      "description": "Label for the checkbox that enables the support of 'Github-flavored Markdown' line breaks.",
+      "message": "\u003Cb>Enable GFM line breaks.\u003C/b>"
+   },
+   "options_page__ggroup": {
+      "message": "質問や議論、ちょっとしたあいさつは、ぜひ \u003Ca href=\"https://groups.google.com/forum/?fromgroups=#!forum/markdown-here\" target=\"_blank\">markdown-here Google Group\u003C/a> で行いましょう。"
+   },
+   "options_page__header_anchors_enabled_1": {
+      "message": "文書に目次やその他の内部リンクを設置したい場合に便利です。\u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks#wiki-header-anchors\" target=\"_blank\">Wikiにて使い方を確認してください。\u003C/a>"
+   },
+   "options_page__header_anchors_enabled_2": {
+      "message": "\u003Ca href=\"https://github.com/adam-p/markdown-here/issues/155\" target=\"_blank\">Thunderbird で見た目が汚くなる\u003C/a>ため、デフォルトでは無効にされています(また、ほとんどの人はこの機能を必要としないでしょう)。"
+   },
+   "options_page__header_anchors_enabled_label": {
+      "description": "Label for the checkbox that enables the automatic header anchors feature. This means that an 'anchor' is created at every heading (H1, H2, etc.) in the user's Markdown. The user can then create links that will jump to these anchors, like in the table of contents of a document.",
+      "message": "\u003Cb>ヘッダーにアンカーリンクを自動で設定する\u003C/b>"
+   },
+   "options_page__hotkey_alt_key": {
+      "description": "label for the Alt key",
+      "message": "ALT"
+   },
+   "options_page__hotkey_ctrl_key": {
+      "description": "label for the Ctrl key",
+      "message": "CTRL"
+   },
+   "options_page__hotkey_note_1": {
+      "message": "Chrome: 新たなキー設定を有効にするにはページを再読み込みしてください。"
+   },
+   "options_page__hotkey_note_2": {
+      "message": "Firefox と Thunderbird: 新たなキー設定を有効にするにはアプリケーションを再起動してください。"
+   },
+   "options_page__hotkey_note_3": {
+      "message": "ホットキーには英数字のキーを用いる必要があります。 (言語やキーボードによって変わります)"
+   },
+   "options_page__hotkey_note_4": {
+      "message": "WindowsキーとOS Xの &#8984; キーはホットキーには使えません。"
+   },
+   "options_page__hotkey_note_5": {
+      "message": "ホットキーを無効にするには、テキストボックスを空にしてください。"
+   },
+   "options_page__hotkey_plus": {
+      "description": "plus sign that connects the hotkey buttons",
+      "message": "+"
+   },
+   "options_page__hotkey_shift_key": {
+      "description": "label for the Shift key",
+      "message": "SHIFT"
+   },
+   "options_page__hotkey_title": {
+      "description": "A section title",
+      "message": "ホットキー (キーボード・ショートカット)"
+   },
+   "options_page__hotkey_warning": {
+      "description": "warning shown if the user chooses an illegal hotkey value",
+      "message": "そのキーは英数字ですか？"
+   },
+   "options_page__markdown_toggle_button_text": {
+      "description": "button text for Markdown Toggle button",
+      "message": "Markdownを有効化/無効化"
+   },
+   "options_page__mdh_wiki": {
+      "message": "\u003Ca href=\"https://github.com/adam-p/markdown-here/wiki\" target=\"_blank\">Markdown Here wiki\u003C/a> では、 \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Compatibility\" target=\"_blank\">他にどんな環境で動作するか\u003C/a> や、 \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Tips-and-Tricks\" target=\"_blank\">ヒントや小技\u003C/a> などの情報を見ることができます。"
+   },
+   "options_page__next_steps": {
+      "message": "もしMarkdown Hereの目指しているものが気になるなら、 \u003Ca href=\"https://github.com/adam-p/markdown-here#next-steps\" target=\"_blank\">Next Steps ブランチ\u003C/a> のREADMEをご覧ください。"
+   },
+   "options_page__note_default_client_styles": {
+      "message": "いくつかのエディタやメールサービスは独自のスタイリングを行うので、ここでの表示と異なることがあります。"
+   },
+   "options_page__note_options_sync": {
+      "message": "変更は自動で保存されて同期されます。(もしブラウザが同期をサポートするなら)。"
+   },
+   "options_page__note_syntax_styles_after_primary": {
+      "message": "シンタックスハイライティングは基本のスタイリングの後に行われることに注意してください。"
+   },
+   "options_page__notes_title": {
+      "description": "section title",
+      "message": "注釈:"
+   },
+   "options_page__other_donation_options": {
+      "description": "Link to a page that provides other ways to donate",
+      "message": "その他の寄付方法"
+   },
+   "options_page__page_title": {
+      "message": "Markdown Here の設定"
+   },
+   "options_page__pretty_cool": {
+      "description": "A step in the basic usage instructions",
+      "message": "メッセージが綺麗に格好よくなります。 さぁ、友達に送信しよう!"
+   },
+   "options_page__preview_markdown": {
+      "description": "The raw Markdown used for previewing user styling changes. Also shows users what can be done with Markdown. Please note that the double dollar signs ($$) are needed to make a single dollar sign in the application.",
+      "message": "```javascript\u003Cbr>\nfunction syntaxHighlighting() {\u003Cbr>\n&nbsp; var n = 33;\u003Cbr>\n&nbsp; var s = \"hello, こんにちは\";\u003Cbr>\n&nbsp; console.log(s);\u003Cbr>\n}\u003Cbr>\n```\u003Cbr>\n\u003Cbr>\n* plain\u003Cbr>\n* *emphasis*\u003Cbr>\n&nbsp; * **strong emphasis**\u003Cbr>\n&nbsp; &nbsp; * ~~strikethrough~~\u003Cbr>\n* `inline code`\u003Cbr>\n\u003Cbr>\n1. Numbered list\u003Cbr>\n2. [Link](https://www.google.com)\u003Cbr>\n\u003Cbr>\n\u003Cbr>\nAn image: ![Markdown Here logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon24.png)\n\u003Cbr>\n\u003Cbr>\n> Block quote.&nbsp; \u003Cbr>\n> *With* **some** `markdown`.\u003Cbr>\n\u003Cbr>\nIf **TeX Math** support is enabled, this is the quadratic equation:&nbsp;\u003Cbr>\n$$-b \\pm \\sqrt{b^2 - 4ac} \\over 2a$$\u003Cbr>\n\u003Cbr>\n# Header 1\u003Cbr>\n## Header 2\u003Cbr>\n### Header 3\u003Cbr>\n#### Header 4\u003Cbr>\n##### Header 5\u003Cbr>\n###### Header 6\u003Cbr>\n&nbsp; \u003Cbr>\n| Tables        | Are           | Cool  |\u003Cbr>\n| ------------- |:-------------:| -----:|\u003Cbr>\n| column 3 is   | right-aligned | $$1600 |\u003Cbr>\n| column 2 is   | centered      |   $$12 |\u003Cbr>\n| zebra stripes | are neat      |    $$1 |\u003Cbr>\n\u003Cbr>\nHere's a horizontal rule:\u003Cbr>\n\u003Cbr>\n---\u003Cbr>\n\u003Cbr>\n```\u003Cbr>\ncode block\u003Cbr>\nwith no highlighting\u003Cbr>\n```\u003Cbr>\n\u003Cbr>\n"
+   },
+   "options_page__preview_title": {
+      "description": "section title for the Markdown preview section",
+      "message": "プレビュー"
+   },
+   "options_page__primary_css_title": {
+      "description": "section title",
+      "message": "スタイリングCSS"
+   },
+   "options_page__reload_restart": {
+      "description": "A step in the basic usage instructions",
+      "message": "電子メールを開いているページをリロードするか、ブラウザーを再起動してください。"
+   },
+   "options_page__reset_primary_css": {
+      "description": "text on button to reset Primary Styling CSS",
+      "message": "デフォルトに戻す"
+   },
+   "options_page__resources_cheatsheet_link": {
+      "message": "もしMarkdownを使うのが初めてなら、 \u003Ca href=\"https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet\" target=\"_blank\">Markdown Here Cheatsheet\u003C/a> を参照してください。"
+   },
+   "options_page__resources_title": {
+      "description": "A section title",
+      "message": "レファレンスとリンク"
+   },
+   "options_page__start_new_message": {
+      "description": "A step in the basic usage instructions",
+      "message": "電子メールの画面を開きます。"
+   },
+   "options_page__syntax_highlighting_css_title": {
+      "description": "section title",
+      "message": "シンタックスハイライティングCSS"
+   },
+   "options_page__syntax_highlighting_theme_label": {
+      "description": "label for the syntax highlighting theme combox box",
+      "message": "テーマ:"
+   },
+   "options_page__tex_math_customization_1": {
+      "description": "Note: Double dollar signs ($$) are necessary to get a single dollar sign.",
+      "message": "このオプションを有効にすると。— \u003Ccode>$$\u003C/code> — (ドルマーク)で囲まれた文章はTexの数式として解釈されます。 例えば、 \u003Ccode>$$\\Delta$$\u003C/code> はデルタ記号にレンダリングされます。"
+   },
+   "options_page__tex_math_customization_2": {
+      "message": "レンダリングをカスタマイズするには、 \u003Ca href=\"https://developers.google.com/chart/infographics/docs/formulas\" target=\"_blank\">Google Charts documentation\u003C/a> をご覧ください。"
+   },
+   "options_page__tex_math_customization_3": {
+      "message": "TeXの数式についての素晴らしい説明は \u003Ca href=\"https://www.codecogs.com/latex/about.php\" target=\"_blank\">CodeCogs Equation Editor\u003C/a> にあります。"
+   },
+   "options_page__tex_math_customization_4": {
+      "message": "数式は画像にレンダリングされるので、メールを受信する人が画像を閲覧できる設定にしている必要があります。"
+   },
+   "options_page__tex_math_customization_5": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "レンダリングタグをカスタマイズした場合、 \u003Ccode>{mathcode}\u003C/code> と \u003Ccode>{urlmathcode}\u003C/code> の両方をプレースホルダーとして使うことができます。"
+   },
+   "options_page__tex_math_customization_5_1": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}. Note: Double dollar signs ($$) are necessary to get a single dollar sign.",
+      "message": "\u003Ccode>{mathcode}\u003C/code>: \u003Ccode>$$\u003C/code> に囲まれたテキスト -- すなわち、生のTeX数式 (例えば \u003Ccode>\\Delta\u003C/code> )。"
+   },
+   "options_page__tex_math_customization_5_2": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "\u003Ccode>{urlmathcode}\u003C/code>: URLエンコードされたTeX数式 (例えば \u003Ccode>%5CDelta\u003C/code> )。"
+   },
+   "options_page__tex_math_customization_6": {
+      "description": "Please do not translate {mathcode} and {urlmathcode}",
+      "message": "\u003Ccode>&lt;img&gt;\u003C/code> タグをカスタマイズした場合。 できれば\u003Ccode>alt\u003C/code>属性で人間が読める説明を加えてください (たとえば: \u003Ccode>{mathcode}\u003C/code>)。 この値はメールをプレーンテキストとして読む際に代わりに表示され (Gmail や Thunderbird から送った場合) 、目が不自由な方のための文章読み上げ機能で使われます。"
+   },
+   "options_page__tex_math_customization_heading": {
+      "description": "heading for customization and use info",
+      "message": "\u003Cstrong>カスタマイズして使う:\u003C/strong>"
+   },
+   "options_page__tex_math_privacy_heading": {
+      "description": "heading for warnings about TeX math privacy concerns",
+      "message": "\u003Cstrong>プライバシーの問題:\u003C/strong>"
+   },
+   "options_page__tex_math_privacy_issue_1": {
+      "description": "one of the TeX math privacy concerns",
+      "message": "数式の画像を生成するためにGoogleにリクエストを送信します。 これはGoogleにあなたの数式が共有されることを意味します。 また、レンダリングされた画像を取得するためにGoogleにリクエストを送信することも意味します。"
+   },
+   "options_page__tex_math_privacy_issue_2": {
+      "description": "one of the TeX math privacy concerns",
+      "message": "もし数式のレンダリングタグを編集するなら、セキュアな (https://) URLを使うことを推奨します。これはすべてのレンダリングサービスでサポートされているわけではありません。"
+   },
+   "options_page__tex_math_reset_button": {
+      "description": "text on button to reset TeX math option",
+      "message": "デフォルトに戻す"
+   },
+   "options_page__tex_math_title": {
+      "message": "TeXでの数式記述サポート"
+   },
+   "options_page__type_some_markdown": {
+      "description": "A step in the basic usage instructions",
+      "message": "Markdownで電子メールを書いてみましょう。\u003Cbr/>例: \u003Ccode>*Hello* `Markdown` **Here**!\u003C/code>"
+   },
+   "plain_text_compose": {
+      "description": "Shown in an alert dialog if the user has their email compose app set to plain text",
+      "message": "プレーンテキストエディタでは使用できません。Markdown Hereを使うためにはリッチエディタに変更する必要があります。"
+   },
+   "toggle_button_text": {
+      "description": "Text shown underneath the render toggle button. Make it as short as possible.",
+      "inMozDTD": true,
+      "message": "MD 切り替え"
+   },
+   "toggle_button_tooltip": {
+      "description": "text shown when user hovers mouse over Markdown Toggle button",
+      "inMozDTD": true,
+      "message": "クリックでMarkdownにレンダリング"
+   },
+   "toggle_button_tooltip_disabled": {
+      "description": "text shown when user hover mouse over disabled Markdown Toggle button",
+      "inMozDTD": true,
+      "message": "このフィールドではレンダリングできません"
+   },
+   "unrendering_modified_markdown_warning": {
+      "description": "Warning shown to the user if she tries to revert some rendered Markdown that they've modified since rendering. The user will lose their modifications if they proceed.",
+      "message": "このテキストはレンダリング後に変更されています。\nMarkdownに戻した場合、それらの変更は失われます。\n\nMarkdownに戻しますか?"
+   },
+   "upgrade_notification_changes_tooltip": {
+      "description": "Tooltip text on the link that opens the changes list",
+      "message": "クリックでこのリリースでの変更点を確認"
+   },
+   "upgrade_notification_dismiss_tooltip": {
+      "description": "Tooltip text on the link that dismisses the notification",
+      "message": "この通知を無視"
+   },
+   "upgrade_notification_text": {
+      "description": "Text on the notification shown when Markdown Here has been updated",
+      "message": "Markdown Here がアップデートされました"
+   }
+}

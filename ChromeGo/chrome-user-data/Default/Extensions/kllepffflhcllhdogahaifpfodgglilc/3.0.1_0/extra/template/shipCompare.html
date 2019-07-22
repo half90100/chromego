@@ -1,0 +1,97 @@
+<div id="haitao_shipCompare_wrapper">
+	<div id="haitao_shipCompare_head">
+		<table class="haitao_table haitao_shipCompare_table">
+			<tr>
+				<th class="haitao_shipCompare_comp">转运商家</th>
+				<th class="haitao_shipCompare_warehouse">商家仓库</th>
+				<th class="haitao_shipCompare_suitCate">适合品类</th>
+				<th class="haitao_shipCompare_price">
+					<span>转运费
+						<input class="haitao_update_weight" type="input" maxlength="6" value="{{weight}}">磅</th>
+					</span>
+				<th class="haitao_shipCompare_time">
+					<span class="haitao_si_item">到手天数约<i class="triangle_down"></i></span>
+					<div class="haitao_si_tip">
+						<div class="ks-popup-content">天数是指从海外商家发货--用户收到宝贝的时间段</div>
+					</div>
+				</th>
+			</tr>
+		</table>
+	</div>
+	<div id="haitao_shipCompare_detail">
+		<!--div class="haitao_si_help">海淘客需要注册才可以使用，<a target="_blank" href="http://app.alipay.com/aop/detail.htm?pageKey=10115_001&appKey=10115&state=redirectEnd">点击注册</a></div-->
+		<table class="haitao_table haitao_shipCompare_table">
+			{{#shipList}}
+			{{#if(isFirst==true)}}
+			<tr class="empty_tr"></tr>
+			<tr data-id="{{id}}">
+				<td class="haitao_shipCompare_comp">
+					<span class="haitao_shipIcon haitao_shipIcon_{{compId}}"></span>
+					<span class="haitao_ship_name">{{compName}}</span>
+					<a href="javascript:void(0)" class="haitao_si_item haitao_etaoDiscount_img haitao_etaoDiscount_{{isEtaoDiscount}}">{{haitaoText}}</a>
+					{{#if(isYoujia==true)}}
+					<div class="haitao_si_tip">
+						<div class="ks-popup-content">
+							<p>原价：首$8+续$4</p>
+							<p>神器优惠价：<br>首$7.5+续$3.5</p>
+						</div>
+					</div>
+					{{/if(isYoujia==true)}}
+					{{#if(isDisifang==true)}}
+					<div class="haitao_si_tip">
+						<div class="ks-popup-content">
+							<p>原价：首$10+续$5</p>
+							<p>神器优惠价：<br>首$9+续$4.5</p>
+						</div>
+					</div>
+					{{/if(isDisifang==true)}}
+				</td>
+				<td class="haitao_shipCompare_warehouse">{{name}}</td>
+				<td class="haitao_shipCompare_suitCate">
+					<span class="haitao_si_item">{{suitableCate}}</span>
+					<div class="haitao_si_tip">
+						<div class="ks-popup-content">{{suitableCateDetail}}</div>
+					</div>
+				</td>
+				<td class="haitao_shipCompare_price">￥{{shippingCompanyPrice}}</td>
+				<td class="haitao_shipCompare_time">
+					{{#transTimeStat}}
+						{{#t4t1}}
+						<span class="haitao_si_item">{{avg}}</span>
+						<div class="haitao_si_tip">
+							<div class="ks-popup-content">平均{{avg}}天到货<br />浮动{{min}}-{{max}}天</div>
+						</div>
+						{{/t4t1}}
+					{{/transTimeStat}}
+				</td>
+			</tr>
+			{{/if(isFirst==true)}}
+			{{#if(isFirst==false)}}
+			<tr data-id="{{id}}">
+				<td class="haitao_shipCompare_comp empty_td">&nbsp;</td>
+				<td class="haitao_shipCompare_warehouse">{{name}}</td>
+				<td class="haitao_shipCompare_suitCate">
+					<span class="haitao_si_item">{{suitableCate}}</span>
+					<div class="haitao_si_tip"><div class="ks-popup-content">{{suitableCateDetail}}</div></div>
+				</td>
+				<td class="haitao_shipCompare_price">￥{{shippingCompanyPrice}}</td>
+				<td class="haitao_shipCompare_time">
+					{{#transTimeStat}}
+						{{#t4t1}}
+						<span class="haitao_si_item">{{avg}}</span>
+						<div class="haitao_si_tip">
+							<div class="ks-popup-content">平均{{avg}}天到货<br />浮动{{min}}-{{max}}天</div>
+						</div>
+						{{/t4t1}}
+					{{/transTimeStat}}
+				</td>
+			</tr>
+			{{/if(isFirst==false)}}
+		{{/shipList}}
+		</table>
+	</div>
+	<div class="ft">
+		<span class="ft_left">提示：享受了神器优惠价的用户，不可叠加其他渠道的优惠价使用</span>
+		<a target="_blank" href="http://www.etao.com/youhui/1-25872.html">如何使用海淘神器?</a>
+	</div>
+</div>

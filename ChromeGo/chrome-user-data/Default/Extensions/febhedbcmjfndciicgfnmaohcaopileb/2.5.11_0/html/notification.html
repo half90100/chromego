@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>通知窗体</title>
+    <link href="../css/css.css" rel="stylesheet">
+</head>
+<body class="notify_body">
+    <div class="container" ms-controller="notification">
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="logo">
+                    <div class="logo_img">
+                        <!-- 动画效果 -->
+                        <img ms-attr-src="imgSrc" id="msg_picurl"/>
+                    </div>
+                </div>
+                <button class="btn-mini btn-info btn-info2" ms-on-click="toInfo(msg.msg_url)">详情页面</button>
+                <br/>
+                <button ms-if="isBuy" class="btn-mini btn-danger" ms-on-click="toInfo(msg.msg_buyurl)">直达链接</button>
+            </div>
+            <div class="span8" class="info">
+                <div class="info_detail">
+                    <h4>{{title}}</h4>
+                    <em>{{date}}</em>
+                    <p>{{desc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/app.js"></script>
+"source/main.js",
+"source/config/config.js",
+
+"source/lib/avalon.js",
+"source/lib/jquery.js",
+
+"source/src/core/main.js",
+"source/src/core/node.js",
+"source/src/core/pull.js",
+"source/src/core/DBoy.js",
+"source/src/core/emitter.js",
+"source/src/core/route.js",
+"source/src/core/unit.js",
+"source/src/core/callbacks.js",
+"source/src/core/deferred.js",
+"source/src/core/cookie.js",
+"source/src/core/notice.js",
+"source/src/core/database.js",
+"source/src/core/storage.js",
+"source/src/core/ajax.js",
+"source/src/core/ext.js",
+
+"source/src/data/filter.js",
+"source/src/data/b6.js",
+"source/src/data/auto.js",
+"source/src/data/cart.js",
+"source/src/data/favorites.js",
+"source/src/data/message.js",
+"source/src/data/options.js",
+"source/src/data/user.js",
+
+"source/src/ext/maxthon.js",
+
+"source/src/log/main.js",
+"source/src/log/logger.js",
+"source/src/log/model.js",
+"source/src/log/routine.js",
+
+
+"source/plug/dialog.js",
+"source/plug/analytics.js",
+"source/plug/keynote.js",
+
+
+"source/view/background.js",
+"source/view/notification.js",
+"source/view/options.js",
+"source/view/popup.js",
+"source/view/content.js"
+</html>

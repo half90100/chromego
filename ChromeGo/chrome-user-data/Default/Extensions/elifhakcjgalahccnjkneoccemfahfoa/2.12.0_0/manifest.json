@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "common/images/icon19-button-monochrome.png",
+         "38": "common/images/icon38-button-monochrome.png"
+      },
+      "default_title": "__MSG_toggle_button_tooltip__"
+   },
+   "content_scripts": [ {
+      "js": [ "common/utils.js", "common/common-logic.js", "common/jsHtmlToText.js", "common/marked.js", "common/mdh-html-to-text.js", "common/markdown-here.js", "chrome/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_app_slogan__",
+   "homepage_url": "http://markdown-here.com",
+   "icons": {
+      "128": "common/images/icon128.png",
+      "16": "common/images/icon16.png",
+      "32": "common/images/icon32.png",
+      "48": "common/images/icon48.png",
+      "512": "common/images/icon512.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCQiMyTg1rlqn/jQI0OUzX01a53VdIG/sWiNaUHFUJtnqPBQJ1viQKf93Yp8Khe+LdehirVuMmS6rBoXqT45Cifq7nIEFEccE8b8+sBHHZxlH/rsUbh+gtpMZyZt/vblAm96YC+GS8ER3Ie2y4BOzqX+TvJhTnQAWcyrn3vIOtvwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "6",
+   "name": "__MSG_app_name__",
+   "options_page": "common/options.html",
+   "permissions": [ "contextMenus", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.12.0"
+}

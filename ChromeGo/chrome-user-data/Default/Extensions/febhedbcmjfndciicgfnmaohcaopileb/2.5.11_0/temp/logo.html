@@ -1,0 +1,11 @@
+<div ms-controller="logoRange" id="smzdmLogoRange">
+	<site ms-click="smzdmLogoClick()" ms-class-in="menuShow">&nbsp;</site>
+    <ul ms-class="in:menuShow">
+        <li ms-repeat="plugs" ms-if-loop="el.status" ms-class-in="menuShow" ms-class-smzdmactive="el.name == title.name" ms-mouseenter="inTitle(this, el)">
+            <span>{{ el.name }}</span>
+            <section ms-class-smzdmactive="el.name == content.name" ms-mouseleave="outContent()" ms-css-left="left">
+                {{ el.el|html }}
+            </section>
+        </li>
+    </ul>
+</div>

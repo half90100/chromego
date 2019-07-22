@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Years"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Months"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Voeg een PR knop toe aan je site."
+   },
+   "AlexaDR": {
+      "message": "Alexa - Dagelijks berijk (per miljoen)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Dagelijks verkeer rank trend"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Dagelijkse pageviews per bezoeker"
+   },
+   "AlexaRank": {
+      "message": "Alexa Traffic Rank"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Traffic Rank in Country"
+   },
+   "AlexaRankCnt2": {
+      "message": "Alexa Traffic Rank in %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - bezoekers (procent)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinks"
+   },
+   "Cache": {
+      "message": "Cached"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org eerst gecached op %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google laatst gecached op %VALUE%"
+   },
+   "Cancel": {
+      "message": "Annuleren"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Bekijk meteen de pagerank van jouw online websites."
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "Stad"
+   },
+   "ClickMore": {
+      "message": "Klik hier voor meer informatie"
+   },
+   "ClickPR": {
+      "message": "Klik hier om het pagerank icoon op jouw website te weergeven."
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "CompeteRank": {
+      "message": "Compete - Rank"
+   },
+   "CompeteUV": {
+      "message": "Compete - Unieke bezoekers"
+   },
+   "Content": {
+      "message": "Content"
+   },
+   "Country": {
+      "message": "Land"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Ontwerper:"
+   },
+   "DomainInfo": {
+      "message": "Domein informatie"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Donate"
+   },
+   "DonateBitcoin": {
+      "message": "Donate with Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Doneer als je deze extentie goed vindt."
+   },
+   "DonatePaypal": {
+      "message": "Donate with Paypal"
+   },
+   "DonateSend": {
+      "message": "please send donations to"
+   },
+   "DonateTxt": {
+      "message": "If this extension helped you, please consider contributing to its development."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Vul je email in..."
+   },
+   "Feedback": {
+      "message": "Feedback"
+   },
+   "FirstDisplay": {
+      "message": "The first displayed page when extension opened"
+   },
+   "Follow_me": {
+      "message": "Follow me"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Free Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geografische Locatie"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "Klik hier om %DOMAIN% in de content te zoeken van Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Help ons met de vertaling."
+   },
+   "History": {
+      "message": "Update History"
+   },
+   "History_New": {
+      "message": "What's new"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% is beschikbaar"
+   },
+   "Length": {
+      "message": "Length"
+   },
+   "LinkExternal": {
+      "message": "External links"
+   },
+   "LinkInternal": {
+      "message": "Internal links"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "More details"
+   },
+   "MoreIdx": {
+      "message": "Klik hier om de geindexeerde paginas te zien van %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Klik de knop voor meer details..."
+   },
+   "MoreLink": {
+      "message": "klik hier om de geindexeerde backlinks te zien voor %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% niet gevonden"
+   },
+   "NotFound2": {
+      "message": "Not found"
+   },
+   "NumIndex": {
+      "message": "Paginas geindexeerd door %SITENAME%: %VALUE%"
+   },
+   "NumLink": {
+      "message": "Backlinks geindexeerd door %SITENAME%: %VALUE%"
+   },
+   "Onsite": {
+      "message": "On-site"
+   },
+   "Options": {
+      "message": "Options"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Connect"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Page Info"
+   },
+   "PageInteractive": {
+      "message": "Interactive"
+   },
+   "PageLevel1": {
+      "message": "Very fast"
+   },
+   "PageLevel2": {
+      "message": "Fast"
+   },
+   "PageLevel3": {
+      "message": "Average"
+   },
+   "PageLevel4": {
+      "message": "Slow"
+   },
+   "PageLevel5": {
+      "message": "Very slow"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Content loaded"
+   },
+   "PageLong": {
+      "message": "Length"
+   },
+   "PageRank": {
+      "message": "PageRank Status"
+   },
+   "PageRedirect": {
+      "message": "Redirect"
+   },
+   "PageRequest": {
+      "message": "Request"
+   },
+   "PageResponse": {
+      "message": "Response"
+   },
+   "PageSite": {
+      "message": "Site Info"
+   },
+   "PageSlowInfo": {
+      "message": "If this is your site, perhaps you need to optimize the web site or %LINK%migrate to a faster server\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Page Speed"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% of web pages in the world are faster."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% of web pages in the world are slower."
+   },
+   "PageSum": {
+      "message": "Sum"
+   },
+   "PageTime1": {
+      "message": "Page Load Time:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Seconds"
+   },
+   "PageTimings": {
+      "message": "Page load timings (ms)"
+   },
+   "PageWhen": {
+      "message": "Start time"
+   },
+   "PagesIndexed": {
+      "message": "paginas geindexeerd"
+   },
+   "Percentage": {
+      "message": "Percentage"
+   },
+   "PrPlugin": {
+      "message": "Plug-in voor jouw site"
+   },
+   "PrivacyNote": {
+      "message": "PRIVACY POLICY: Your privacy is important to us. We will never sell or rent your email address and you can unsubscribe at any time."
+   },
+   "Rank": {
+      "message": "Rank"
+   },
+   "Rate5Stars": {
+      "message": "Vind je deze extentie top? \u003Ca href=\"%LINK%\" target=_blank>Waardeer het\u003C/a> met 5sterren in de Chrome Web Store. Dank je! :-)"
+   },
+   "RateCaution": {
+      "message": "Caution"
+   },
+   "RateExcellent": {
+      "message": "Excellent reputation"
+   },
+   "RateGood": {
+      "message": "Good reputation"
+   },
+   "RateIt": {
+      "message": "Hoe vind je deze extension? Geef een cijfer!"
+   },
+   "RateIt2": {
+      "message": "Waardeer het"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Poor reputation"
+   },
+   "RateSafe": {
+      "message": "Safe"
+   },
+   "RateUnsat": {
+      "message": "Unsatisfactory reputation"
+   },
+   "RateUntested": {
+      "message": "Untested"
+   },
+   "RateVerypoor": {
+      "message": "Very poor reputation"
+   },
+   "RateWarning": {
+      "message": "Warning"
+   },
+   "Rating": {
+      "message": "Rating"
+   },
+   "Recommendation": {
+      "message": "Recommendation"
+   },
+   "SEChina": {
+      "message": "Chinese search engine"
+   },
+   "SEChinaL": {
+      "message": "Largest search engine in China"
+   },
+   "SEJapan": {
+      "message": "Japanese search engine"
+   },
+   "SEOStats": {
+      "message": "SEO Stats"
+   },
+   "SERussinL": {
+      "message": "Largest search engine in Russia"
+   },
+   "SEWorld": {
+      "message": "World's largest search engine"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Opslaan & sluiten"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Security"
+   },
+   "Sitewide": {
+      "message": "Site wide"
+   },
+   "Social": {
+      "message": "Social (SNS)"
+   },
+   "SpecURL": {
+      "message": "Gespecificeerde URL"
+   },
+   "Sub_email": {
+      "message": "Abboneren met E-mail:"
+   },
+   "Subscribe": {
+      "message": "Subscribe"
+   },
+   "SubscribeTo": {
+      "message": "Subscribe to ChromeFans.org"
+   },
+   "Support": {
+      "message": "Technische support"
+   },
+   "Tag": {
+      "message": "Tag"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP location"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Keyword Tool"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Screen Resolution Statistics"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP User Agent Checker"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Checker"
+   },
+   "Tools": {
+      "message": "Tools"
+   },
+   "Tools_SEO": {
+      "message": "SEO Tools"
+   },
+   "Tools_Web": {
+      "message": "Web Utilities"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Verkeer"
+   },
+   "TrafficGraphs": {
+      "message": "Verkeer grafics"
+   },
+   "TrafficStats": {
+      "message": "Traffic Stats"
+   },
+   "URL": {
+      "message": "Adres"
+   },
+   "Unranked": {
+      "message": "Niet gerankt"
+   },
+   "WebmasterTools": {
+      "message": "Hulpprogramma’s voor webmasters"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Tools"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Tools"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Tools"
+   },
+   "Webmaster_SE": {
+      "message": "Webmaster resources of search engines"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Tools"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Waarom subscriben?"
+   },
+   "id": {
+      "message": "nl"
+   },
+   "id_folder": {
+      "message": "nl"
+   },
+   "md5_calc": {
+      "message": "Gratis MD5 Hash Calculator"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "Gemaakt met"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Rank"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweets"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

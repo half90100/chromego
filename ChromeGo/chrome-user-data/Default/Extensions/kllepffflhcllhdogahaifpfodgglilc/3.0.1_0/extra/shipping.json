@@ -1,0 +1,208 @@
+{
+    "shipCompany": {
+        "youjia": {
+            "id": "youjia",
+            "name": "友家",
+            "lines": [
+                {
+                    "defaultShip": "selected",
+                    "id": "youjia1",
+                    "name": "特拉华免税州仓",
+                    "url": "http://www.youjiaus.net/Help/202/203/201212140435572487.html",
+                    "singlePrice": "7.5",
+                    "singleWeight": "1",
+                    "extendPrice": "3.5",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.5",
+                    "minWeight": "1",
+                    "sepecialProm": "",
+                    "haitaoText": "神器优惠",
+                    "isEtaoDiscount": "true",
+                    "suitableCate": "全部品类",
+                    "suitableCateDetail": "免消费税，无转仓费。",
+                    "promptText": ""
+                },
+                {
+                    "defaultShip": "",
+                    "id": "youjia2",
+                    "name": "加州仓",
+                    "url": "http://www.youjiaus.net/Help/202/203/201212140435572487.html",
+                    "singlePrice": "7.5",
+                    "singleWeight": "1",
+                    "extendPrice": "3.5",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.5",
+                    "minWeight": "1",
+                    "sepecialProm": "",
+                    "haitaoText": "神器优惠",
+                    "isEtaoDiscount": "true",
+                    "suitableCate": "奶粉、食品",
+                    "suitableCateDetail": "奶粉、食品无消费税，其他商品消费税为8.75%",
+                    "promptText": ""
+                }
+            ]
+        },
+        "disifang": {
+            "id": "disifang",
+            "name": "递四方",
+            "lines": [
+                {
+                    "defaultShip": "",
+                    "id": "disifang1",
+                    "name": "俄勒冈免税州仓",
+                    "url": "http://tr.4px.com/price.html?",
+                    "singlePrice": "40.5",
+                    "singleWeight": "1.1",
+                    "extendPrice": "19.8",
+                    "extendWeight": "1.1",
+                    "exchangeRate": "1",
+                    "minWeight": "1.1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "美中普通专线",
+                    "suitableCateDetail": "免消费税，美中专线可以发普通货物，新加坡专线可以发电子产品",
+                    "promptText": ""
+                },
+                {
+                    "defaultShip": "",
+                    "id": "disifang2",
+                    "name": "俄勒冈免税州仓",
+                    "url": "http://tr.4px.com/price.html?",
+                    "singlePrice": "31.5",
+                    "singleWeight": "1.1",
+                    "extendPrice": "20.7",
+                    "extendWeight": "1.1",
+                    "exchangeRate": "1",
+                    "minWeight": "1.1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "奶粉专线",
+                    "suitableCateDetail": "免消费税，美中专线可以发普通货物，新加坡专线可以发电子产品",
+                    "promptText": ""
+                },
+                {
+                    "defaultShip": "",
+                    "id": "disifang3",
+                    "name": "俄勒冈免税州仓",
+                    "url": "http://tr.4px.com/price.html?",
+                    "singlePrice": "95",
+                    "singleWeight": "1.1",
+                    "extendPrice": "21.85",
+                    "extendWeight": "1.1",
+                    "exchangeRate": "1",
+                    "minWeight": "1.1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "新加坡邮政专线",
+                    "suitableCateDetail": "免消费税，美中专线可以发普通货物，新加坡专线可以发电子产品",
+                    "promptText": ""
+                }
+            ]
+        },
+        "banma": {
+            "id": "banma",
+            "name": "斑马",
+            "lines": [
+                {
+                    "defaultShip": "",
+                    "id": "banma1",
+                    "name": "纽约州仓",
+                    "url": "http://www.360zebra.com/Price/pricelist.aspx",
+                    "singlePrice": "13",
+                    "singleWeight": "1",
+                    "extendPrice": "6",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.5",
+                    "minWeight": "1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "衣服、鞋子",
+                    "suitableCateDetail": "衣服和鞋子价格低于$110免消费税，其他商品消费税8.875%",
+                    "promptText": ""
+                },
+                {
+                    "defaultShip": "",
+                    "id": "banma2",
+                    "name": "加州仓库",
+                    "url": "http://www.360zebra.com/Price/pricelist.aspx",
+                    "singlePrice": "13",
+                    "singleWeight": "1",
+                    "extendPrice": "6",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.5",
+                    "minWeight": "1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "奶粉、食品",
+                    "suitableCateDetail": "奶粉、食品无消费，其他商品消费税为8.75%",
+                    "promptText": ""
+                },
+                {
+                    "defaultShip": "",
+                    "id": "banma3",
+                    "name": "特拉华免税州仓",
+                    "url": "http://www.360zebra.com/Price/pricelist.aspx",
+                    "singlePrice": "13",
+                    "singleWeight": "1",
+                    "extendPrice": "6",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.5",
+                    "minWeight": "1",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "全部品类",
+                    "suitableCateDetail": "免消费税，转仓费1美金/磅，需要2-3个工作日转仓到纽约仓",
+                    "promptText": ""
+                }
+            ]
+        },
+        "baitong": {
+            "id": "baitong",
+            "name": "百通",
+            "lines": [
+                {
+                    "defaultShip": "",
+                    "id": "baitong1",
+                    "name": "新泽西仓",
+                    "url": "http://www.buytong.com/NetWork.aspx?type=1&",
+                    "singlePrice": "4",
+                    "singleWeight": "1",
+                    "extendPrice": "4",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.2",
+                    "minWeight": "2",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "保健品，奶粉",
+                    "suitableCateDetail": "保健品，食品，奶粉，服装鞋帽为免消费税，其他商品消费税为6%",
+                    "promptText": "(限2-8磅)"
+                },
+                {
+                    "defaultShip": "",
+                    "id": "baitong2",
+                    "name": "特拉华免税州仓",
+                    "url": "http://www.buytong.com/NetWork.aspx?type=1&",
+                    "singlePrice": "4",
+                    "singleWeight": "1",
+                    "extendPrice": "4",
+                    "extendWeight": "1",
+                    "exchangeRate": "6.2",
+                    "minWeight": "2",
+                    "sepecialProm": "",
+                    "haitaoText": "",
+                    "isEtaoDiscount": "false",
+                    "suitableCate": "全部品类",
+                    "suitableCateDetail": "免消费税，收取入库费：0.5美金/磅。",
+                    "promptText": "(限2-8磅)"
+                }
+            ]
+        }
+    }
+}

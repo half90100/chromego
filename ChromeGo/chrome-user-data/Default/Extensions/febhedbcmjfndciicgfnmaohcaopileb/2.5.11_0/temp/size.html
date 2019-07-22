@@ -1,0 +1,28 @@
+<!-- 尺码 -->
+<div id="panel_size" ms-controller="sizeRange">
+    <div class="panel_size_content">
+        <ul class="panel_size_content_nav">
+            <!-- 分类 -->
+            <span ms-repeat-el="nav" ms-class="sm_active:actionNav == el.name" ms-click="changeNav(el)">
+                {{ el.name }}
+            </span>
+            <li ms-repeat-el="sub" ms-class="sm_active:actionSub == el.name" ms-click="changeSub(el)">
+                {{ el.name }}
+            </li>
+        </ul>
+        
+        <!-- 尺码表 -->
+        <div class="table">
+        <table class="table table-bordered table-condensed table-striped">
+            <tr>
+                <th ms-repeat="title">{{ el }}</th>
+            </tr>
+            <tr ms-repeat-item="list">
+                <td ms-repeat-il="item">{{ il }}</td>
+            </tr>
+        </table>
+        </div>
+        <!-- /尺码表 -->
+    </div>
+</div>
+<!-- /尺码 -->

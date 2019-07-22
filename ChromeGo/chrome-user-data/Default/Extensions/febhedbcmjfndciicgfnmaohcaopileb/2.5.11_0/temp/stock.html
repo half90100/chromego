@@ -1,0 +1,29 @@
+<!-- 库存 -->
+
+<ul id="panel_stock" ms-controller="stockRange" class="row">
+
+
+	<div><b>华北地区</b></div>
+    <span class="clear"></span>
+    <li ms-repeat-val="collect_hb" ms-class-voidtips="val.S === '无货'" ms-class-warningtips="!(val.S === '有货'|| val.S === '无货')">
+    	{{ val.A }}<span>{{ val.S }}</span>--{{ val.P }}
+    </li>
+    
+    
+    <span class="clear"></span>
+    <div><b>华东地区</b></div>
+    <span class="clear"></span>
+    <li ms-repeat-val="collect_hd" ms-class-voidtips="val.S === '无货'" ms-class-warningtips="!(val.S === '有货'|| val.S === '无货')">
+    	{{ val.A }}<span>{{ val.S }}</span>--{{ val.P }}
+    </li>
+
+
+    <span class="clear"></span>
+	<div><b>华南地区</b></div>
+    <span class="clear"></span>
+    <li ms-repeat-val="collect_hn" ms-class-voidtips="val.S === '无货'" ms-class-warningtips="!(val.S === '有货'|| val.S === '无货')">
+    	{{ val.A }}<span>{{ val.S }}</span>--{{ val.P }}
+    </li>
+    
+</ul>
+<!-- 库存 -->

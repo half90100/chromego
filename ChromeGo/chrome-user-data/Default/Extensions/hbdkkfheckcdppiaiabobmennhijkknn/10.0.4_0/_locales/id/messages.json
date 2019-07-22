@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Jam"
+   },
+   "1Day": {
+      "message": "1 Hari"
+   },
+   "1Hour": {
+      "message": "1 Jam"
+   },
+   "2years": {
+      "message": "2 Tahun"
+   },
+   "3Days": {
+      "message": "3 Hari"
+   },
+   "6months": {
+      "message": "6 Bulan"
+   },
+   "7Days": {
+      "message": "7 Hari"
+   },
+   "AboutPageRank": {
+      "message": "About Open SEO Stats"
+   },
+   "AddTo": {
+      "message": "Tambahkan tombol PeringkatHalaman ke situs anda"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Jangkauan Harian (per juta)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Tren Peringkat Trafik Harian"
+   },
+   "AlexaPV": {
+      "message": "Alexa - HalamanTampil per Pengunjung"
+   },
+   "AlexaRank": {
+      "message": "Peringkat Trafik Alexa"
+   },
+   "AlexaRankCnt": {
+      "message": "Peringkat Trafik Alexa di Negara"
+   },
+   "AlexaRankCnt2": {
+      "message": "Peringkat Trafik Alexa di %COUNTRY-NAME%"
+   },
+   "AlexaSV": {
+      "message": "Alexa - Kunjungan melalui Pencarian(persen)"
+   },
+   "AnchorText": {
+      "message": "Teks jangkar"
+   },
+   "Backlinks": {
+      "message": "TautanBalik"
+   },
+   "Cache": {
+      "message": "Tembolok"
+   },
+   "CacheDisable": {
+      "message": "Lumpuhkan Tembolok"
+   },
+   "CacheDuration": {
+      "message": "Durasi Tembolok"
+   },
+   "CacheFirst": {
+      "message": "Ditembolok pertama kali oleh Archive.org pada %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Ditembolok terakhir oleh Google pada %VALUE%"
+   },
+   "Cancel": {
+      "message": "Batal"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Cek PeringkatHalaman dari sebuah halaman web anda secara online"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Toolbar"
+   },
+   "City": {
+      "message": "Kota"
+   },
+   "ClickMore": {
+      "message": "Klik disini untuk mendapatkan informasi lebih banyak"
+   },
+   "ClickPR": {
+      "message": "Klik disini untuk meletakan ikon PeringkatHalaman ini di situs anda"
+   },
+   "Close": {
+      "message": "Tutup"
+   },
+   "CompeteRank": {
+      "message": "Compete - Peringkat"
+   },
+   "CompeteUV": {
+      "message": "Compete - Pengunjung Unik"
+   },
+   "Content": {
+      "message": "Isi"
+   },
+   "Country": {
+      "message": "Negara"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Pengembang"
+   },
+   "DomainInfo": {
+      "message": "Informasi Domain"
+   },
+   "DomainLookup": {
+      "message": "Domain lookup"
+   },
+   "Donate": {
+      "message": "Menyumbang"
+   },
+   "DonateBitcoin": {
+      "message": "Menyumbang dengan Bitcoin"
+   },
+   "DonateIt": {
+      "message": "Menyumbanglah jika anda menyukai"
+   },
+   "DonatePaypal": {
+      "message": "Menyumbang dengan Paypal"
+   },
+   "DonateSend": {
+      "message": "Mohon kirim sumbangan ke"
+   },
+   "DonateTxt": {
+      "message": "Jika ekstensi ini membantu anda, silahkan pertimbangkan memberi kontribusi untuk pengembangannya."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Masukkan E-mail anda..."
+   },
+   "Feedback": {
+      "message": "Tanggapan"
+   },
+   "FirstDisplay": {
+      "message": "Halaman pertama yang ditampilkan saat ekstensi terbuka"
+   },
+   "Follow_me": {
+      "message": "Ikuti Saya"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Gratis Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Geolokasi"
+   },
+   "GooglePR": {
+      "message": "PeringkatHalaman Google"
+   },
+   "GplusPosts": {
+      "message": "Klik disini untuk mencari %DOMAIN% dari isi Google Plus"
+   },
+   "HelpTranslate": {
+      "message": "Bantu terjemahan ke bahasa Anda"
+   },
+   "History": {
+      "message": "Sejarah pembaharuan"
+   },
+   "History_New": {
+      "message": "Apa yang baru"
+   },
+   "HtmlTag_Alt": {
+      "message": "Alt text"
+   },
+   "HtmlTag_Body": {
+      "message": "Body text"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Meta description"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Meta keywords"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Title"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% tersedia"
+   },
+   "Length": {
+      "message": "Panjang"
+   },
+   "LinkExternal": {
+      "message": "Tautan eksternal"
+   },
+   "LinkInternal": {
+      "message": "Tautan internal"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Status tautan"
+   },
+   "MoreDetails": {
+      "message": "Lebih detil"
+   },
+   "MoreIdx": {
+      "message": "Klik disini untuk menampilkan halaman yang terindek oleh %SITE%"
+   },
+   "MoreInfo": {
+      "message": "Klik tombol untuk lebih detil..."
+   },
+   "MoreLink": {
+      "message": "Klik disini untuk menampilkan TautanBalik yang terindek oleh %SITE%"
+   },
+   "NA": {
+      "message": "N/A"
+   },
+   "NotFound": {
+      "message": "%FILE% tidak ditemukan"
+   },
+   "NotFound2": {
+      "message": "Tidak ditemukan"
+   },
+   "NumIndex": {
+      "message": "Halaman diindek oleh %SITE%: %SITENAME%"
+   },
+   "NumLink": {
+      "message": "TautanBalik diindek oleh %SITE%: %SITENAME%"
+   },
+   "Onsite": {
+      "message": "Di-situs"
+   },
+   "Options": {
+      "message": "Pilihan"
+   },
+   "PR": {
+      "message": "PeringkatHalaman"
+   },
+   "PageConnect": {
+      "message": "Tersambung"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Event"
+   },
+   "PageInfo": {
+      "message": "Info Halaman"
+   },
+   "PageInteractive": {
+      "message": "Interaktif"
+   },
+   "PageLevel1": {
+      "message": "Sangat cepat"
+   },
+   "PageLevel2": {
+      "message": "Cepat"
+   },
+   "PageLevel3": {
+      "message": "Rata-rata"
+   },
+   "PageLevel4": {
+      "message": "Lambat"
+   },
+   "PageLevel5": {
+      "message": "Sangat lambat"
+   },
+   "PageLoadEvt": {
+      "message": "Load event"
+   },
+   "PageLoaded": {
+      "message": "Isi yang dimuat"
+   },
+   "PageLong": {
+      "message": "Lama"
+   },
+   "PageRank": {
+      "message": "Status PeringkatHalaman"
+   },
+   "PageRedirect": {
+      "message": "Diarahkan"
+   },
+   "PageRequest": {
+      "message": "Permintaan"
+   },
+   "PageResponse": {
+      "message": "Tanggapan"
+   },
+   "PageSite": {
+      "message": "Info Situs"
+   },
+   "PageSlowInfo": {
+      "message": "Jika ini situs anda, mungkin anda ingin mengoptimalkan situs web atau %LINK%pindah ke server yang lebih cepat\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Kecapatan Halaman"
+   },
+   "PageSpeedFaster": {
+      "message": "%NUM% halaman web di dunia lebih cepat."
+   },
+   "PageSpeedSlower": {
+      "message": "%NUM% halaman web di dunia lebih lambat."
+   },
+   "PageSum": {
+      "message": "Jumlah"
+   },
+   "PageTime1": {
+      "message": "Lama Memuat Halaman:"
+   },
+   "PageTime2": {
+      "message": "%NUM% Detik"
+   },
+   "PageTimings": {
+      "message": "Waktu memuat halaman(ms)"
+   },
+   "PageWhen": {
+      "message": "Waktu mulai"
+   },
+   "PagesIndexed": {
+      "message": "Halaman terindek"
+   },
+   "Percentage": {
+      "message": "Persentase"
+   },
+   "PrPlugin": {
+      "message": "Plug-in untuk situs anda"
+   },
+   "PrivacyNote": {
+      "message": "KEBIJAKAN PRIVASI: Privasi anda sangat penting bagi kami. Kami tidak akan pernah menjual atau menyewakan alamat email anda  dan anda dapat berhenti berlangganan sewaktu-waktu."
+   },
+   "Rank": {
+      "message": "Peringkat"
+   },
+   "Rate5Stars": {
+      "message": "Anda suka ekstensi ini? Silahkan \u003Ca href=\"%LINK%\" target=_blank>memberi penilaian\u003C/a> bintang 5 di Chrome Web Store. Terima kasih! :-)"
+   },
+   "RateCaution": {
+      "message": "Perhatian"
+   },
+   "RateExcellent": {
+      "message": "Reputasi sangat baik"
+   },
+   "RateGood": {
+      "message": "Reputasi baik"
+   },
+   "RateIt": {
+      "message": "Suka ekstensi ini? Nilai!"
+   },
+   "RateIt2": {
+      "message": "Buat penilaian"
+   },
+   "RateNortonsec": {
+      "message": "Norton Secured"
+   },
+   "RatePoor": {
+      "message": "Reputasi buruk"
+   },
+   "RateSafe": {
+      "message": "Simpan"
+   },
+   "RateUnsat": {
+      "message": "Reputasi kurang memuaskan"
+   },
+   "RateUntested": {
+      "message": "Belum teruji"
+   },
+   "RateVerypoor": {
+      "message": "Reputasi sangat buruk"
+   },
+   "RateWarning": {
+      "message": "Peringatan"
+   },
+   "Rating": {
+      "message": "Penilaian"
+   },
+   "Recommendation": {
+      "message": "Rekomendasi"
+   },
+   "SEChina": {
+      "message": "Mesin pencari berbahasa China"
+   },
+   "SEChinaL": {
+      "message": "Mesin pencari terbesar di China"
+   },
+   "SEJapan": {
+      "message": "Mesin pencari berbahasa Jepang"
+   },
+   "SEOStats": {
+      "message": "Status SEO"
+   },
+   "SERussinL": {
+      "message": "Mesin pencari terbesar di Rusia"
+   },
+   "SEWorld": {
+      "message": "Mesin pencari terbesar di dunia"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Simpan & Tutup"
+   },
+   "SecNorton": {
+      "message": "Norton Safe Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee SiteAdvisor"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Keamanan situs"
+   },
+   "Sitewide": {
+      "message": "Site wide"
+   },
+   "Social": {
+      "message": "Sosial (SNS)"
+   },
+   "SpecURL": {
+      "message": "URL yang ditentukan"
+   },
+   "Sub_email": {
+      "message": "Berlangganan lewat E-mail:"
+   },
+   "Subscribe": {
+      "message": "Berlangganan"
+   },
+   "SubscribeTo": {
+      "message": "Berhenti berlangganan ChromeFans.org"
+   },
+   "Support": {
+      "message": "Dukungan teknis"
+   },
+   "Tag": {
+      "message": "Tanda"
+   },
+   "Tool_GEOIP": {
+      "message": "Lokasi Geo IP"
+   },
+   "Tool_GG_Key": {
+      "message": "Peralatan KataKunci Google"
+   },
+   "Tool_GG_Trends": {
+      "message": "Tren Google"
+   },
+   "Tool_ScreenRes": {
+      "message": "Statistik resolusi layar"
+   },
+   "Tool_UserAgent": {
+      "message": "Pengecek HTTP User Agent"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "Pengecek Tautan W3C"
+   },
+   "Tools": {
+      "message": "Alat"
+   },
+   "Tools_SEO": {
+      "message": "Peralatan SEO"
+   },
+   "Tools_Web": {
+      "message": "Peralatan Web"
+   },
+   "TopHosting": {
+      "message": "Top Web Hosting"
+   },
+   "Traffic": {
+      "message": "Lalu Lintas"
+   },
+   "TrafficGraphs": {
+      "message": "Grafik trafik"
+   },
+   "TrafficStats": {
+      "message": "Status trafik"
+   },
+   "URL": {
+      "message": "URL"
+   },
+   "Unranked": {
+      "message": "Tidak terperingkat"
+   },
+   "WebmasterTools": {
+      "message": "Alat Webmaster"
+   },
+   "Webmaster_Baidu": {
+      "message": "Alat Baidu Webmaster"
+   },
+   "Webmaster_Bing": {
+      "message": "Alat Bing Webmaster"
+   },
+   "Webmaster_Google": {
+      "message": "Alat Google Webmaster"
+   },
+   "Webmaster_SE": {
+      "message": "Sumber daya Webmaster dari mesin pencari"
+   },
+   "Webmaster_Yandex": {
+      "message": "Alat Yandex Webmaster"
+   },
+   "Whois": {
+      "message": "WHOIS Lookup"
+   },
+   "Why_sub": {
+      "message": "Mengapa berlangganan?"
+   },
+   "id": {
+      "message": "id"
+   },
+   "id_folder": {
+      "message": "id"
+   },
+   "md5_calc": {
+      "message": "Kalkulator Hash MD5 Gratis"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "DibuatDengan"
+   },
+   "site_compete": {
+      "message": "Peringkat Compete"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook likes"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Peringkat Quantcast"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Kicauan Twitter"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

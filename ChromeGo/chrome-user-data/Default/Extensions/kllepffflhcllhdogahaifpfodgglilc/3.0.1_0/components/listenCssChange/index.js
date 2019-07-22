@@ -1,0 +1,2 @@
+/*! 2014-12-19 11:12:26 */
+KISSY.add("listenCssChange",function(){function a(a,b){function c(a){var c=a.attributeName,d=a.target.getAttribute(c),e=a.oldValue;b(c,d,e)}var d=a,e=!1,f=new WebKitMutationObserver(function(a){a.forEach(c)});f.observe(d,{attributes:!0,subtree:e})}return a});

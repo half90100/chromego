@@ -1,0 +1,47 @@
+<div id="haitao_single_price" class="haitao_font haitao_triangle haitao_tips {{triangle}} {{unfold}}" style="{{pos}}:{{left}}px;top:{{top}}px;">
+	<div class="haitao_tips_title haitao-stat" data-stat="web.detail.price">
+		<span class="haitao_tips_left">到手价：约<span class="haitao_yellow">￥<span class="haitao_total_price">{{totalPrice}}</span></span>（含转运费）<span class="haitao_price_trend"></span></span>
+		<span class="haitao_tips_right">
+			明细<em></em>
+		</span>
+	</div>
+	<div class="haitao_tips_detail">
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">商品单价：</span>
+			<span class="haitao_detail_text">${{price}}<span class="haitao_bz_color">（约￥{{price_rmb}}）</span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">美国境内运费：</span>
+			<span class="haitao_detail_text">${{shippingCost}}<span class="haitao_bz_color">（约￥{{shippingCost_rmb}}）</span></span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">优惠劵：</span>
+			<span class="haitao_detail_text">$-{{discount}}<span class="haitao_bz_color">（约￥{{discount_rmb}}）</span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">当前汇率：</span>
+			<span class="haitao_detail_text">{{currentRate}}<span class="haitao_bz_color">（实时）</span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">商品重量：</span>
+			<span class="haitao_detail_text"><input class="haitao_update_weight" type="input" maxlength="6" value="{{shippingWeight}}">磅<span class="haitao_bz_color haitao_bz_kgtip">（约<span class="haitao_bz_shippingWeight_kg">{{shippingWeight_kg}}</span>kg）</span><span class="haitao_bz_zerotip haitao_bz_color"><i></i>未取到重量，手工输入预估费用！</span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name">国际转运费：</span>
+			<span class="haitao_detail_text">￥<span class="haitao_ship_price">{{shippingCompanyCost}}</span><span class="haitao_bz_color">（<span class="haitao_bz_calShippingWeight">{{shippingCompanyWeight}}</span>磅计价，以转运公司为准）</span><span class="haitao_compare_ship_btn">转运比较</span></span>
+		</div>
+		<div class="haitao_detail_item">
+			<span class="haitao_detail_name"></span>
+			<div class="haitao_sel_transComp"></div>
+			<div class="haitao_sel_transChannel"></div>
+		</div>
+		<div class="haitao_detail_item haitao_detail_prompt_normal">
+			<span class="haitao_detail_name"></span>
+			<span class="haitao_shipDesc"><a href="javascript:void(0)" class="haitao_etaoDiscount_img haitao_etaoDiscount_{{isEtaoDiscount}}">{{haitaoText}}</a>首<span class="haitao_ship_singlePrice">{{moneyUnit}}{{singlePrice}}</span>+续<span class="haitao_ship_extendPrice">{{moneyUnit}}{{extendPrice}}</span><span class="haitao_bz_color haitao_bz_prompt">{{promptText}}</span><span class="haitao_bz_color haitao_specialPrice"></span></span>
+		</div>
+		<div class="haitao_detail_item haitao_detail_prompt_spec">
+			<span class="haitao_bz_prompt">{{promptText}}</span>
+		</div>
+	</div>
+	<div class="haitao_tips_trend"></div>
+</div>

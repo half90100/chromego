@@ -1,0 +1,239 @@
+{
+   "categoryName1": {
+      "message": "Sistem Pengelola Konten"
+   },
+   "categoryName10": {
+      "message": "Analistik"
+   },
+   "categoryName11": {
+      "message": "Blog"
+   },
+   "categoryName12": {
+      "message": "Bingkai Kerja JavaScript"
+   },
+   "categoryName13": {
+      "message": "Pelacak Masalah"
+   },
+   "categoryName14": {
+      "message": "Pemutar Video"
+   },
+   "categoryName15": {
+      "message": "Sistem Komentar"
+   },
+   "categoryName16": {
+      "message": "Captcha"
+   },
+   "categoryName17": {
+      "message": "Font Script"
+   },
+   "categoryName18": {
+      "message": "Bingkai Kerja Web"
+   },
+   "categoryName19": {
+      "message": "Serba Serbi"
+   },
+   "categoryName2": {
+      "message": "Papan Pesan"
+   },
+   "categoryName20": {
+      "message": "Editor"
+   },
+   "categoryName21": {
+      "message": "LMS"
+   },
+   "categoryName22": {
+      "message": "Server Website"
+   },
+   "categoryName23": {
+      "message": "Alat Cache"
+   },
+   "categoryName24": {
+      "message": "Rich Text Editor"
+   },
+   "categoryName25": {
+      "message": "JavaScript Graphics"
+   },
+   "categoryName26": {
+      "message": "Bingkai Kerja Mobile"
+   },
+   "categoryName27": {
+      "message": "Bahasa Pemrograman"
+   },
+   "categoryName28": {
+      "message": "Sistem Operasi"
+   },
+   "categoryName29": {
+      "message": "Mesin Pencari"
+   },
+   "categoryName3": {
+      "message": "Pengelola Basis Data"
+   },
+   "categoryName30": {
+      "message": "Web Mail"
+   },
+   "categoryName31": {
+      "message": "CDN"
+   },
+   "categoryName32": {
+      "message": "Otomasi Pemasaran"
+   },
+   "categoryName33": {
+      "message": "Ekstensi Web Server"
+   },
+   "categoryName34": {
+      "message": "Basis Data"
+   },
+   "categoryName35": {
+      "message": "Peta"
+   },
+   "categoryName36": {
+      "message": "Jaringan Periklanan"
+   },
+   "categoryName37": {
+      "message": "Layanan Jaringan"
+   },
+   "categoryName38": {
+      "message": "Server Media"
+   },
+   "categoryName39": {
+      "message": "Webcam"
+   },
+   "categoryName4": {
+      "message": "Alat Dokumentasi"
+   },
+   "categoryName40": {
+      "message": "Pencetak"
+   },
+   "categoryName41": {
+      "message": "Pemroses Pembayaran"
+   },
+   "categoryName42": {
+      "message": "Pengelola Tag"
+   },
+   "categoryName43": {
+      "message": "Paywall"
+   },
+   "categoryName44": {
+      "message": "Sistem Pembuatan/CI"
+   },
+   "categoryName45": {
+      "message": "Sistem SCADA"
+   },
+   "categoryName46": {
+      "message": "Akses Remote"
+   },
+   "categoryName47": {
+      "message": "Alat Pengembangan"
+   },
+   "categoryName48": {
+      "message": "Penyimpanan Jaringan"
+   },
+   "categoryName49": {
+      "message": "Umpan Pembaca"
+   },
+   "categoryName5": {
+      "message": "Widget"
+   },
+   "categoryName50": {
+      "message": "Sistem Manajemen Dokumen"
+   },
+   "categoryName51": {
+      "message": "Pembuat Laman Landas"
+   },
+   "categoryName52": {
+      "message": "Chat Langsung"
+   },
+   "categoryName53": {
+      "message": "CRM"
+   },
+   "categoryName54": {
+      "message": "SEO"
+   },
+   "categoryName55": {
+      "message": "Accounting"
+   },
+   "categoryName56": {
+      "message": "Cryptominer"
+   },
+   "categoryName57": {
+      "message": "Static Site Generator"
+   },
+   "categoryName58": {
+      "message": "User Onboarding"
+   },
+   "categoryName59": {
+      "message": "JavaScript Libraries"
+   },
+   "categoryName6": {
+      "message": "Toko Online"
+   },
+   "categoryName60": {
+      "message": "Containers"
+   },
+   "categoryName61": {
+      "message": "SaaS"
+   },
+   "categoryName62": {
+      "message": "PaaS"
+   },
+   "categoryName63": {
+      "message": "IaaS"
+   },
+   "categoryName64": {
+      "message": "Reverse Proxy"
+   },
+   "categoryName65": {
+      "message": "Load Balancer"
+   },
+   "categoryName7": {
+      "message": "Galeri Foto"
+   },
+   "categoryName8": {
+      "message": "Wiki"
+   },
+   "categoryName9": {
+      "message": "Panel Hosting"
+   },
+   "categoryPin": {
+      "message": "Always show icon"
+   },
+   "github": {
+      "message": "Salin Wappalyzer di GitHub!"
+   },
+   "noAppsDetected": {
+      "message": "Tidak ada aplikasi yang terdeteksi."
+   },
+   "nothingToDo": {
+      "message": "Tak ada yang dilakukan disini."
+   },
+   "optionDynamicIcon": {
+      "message": "Gunakan ikon aplikasi dan bukan logo Wappalyzer"
+   },
+   "optionTracking": {
+      "message": "Secara anonim kirimkan laporan tentang aplikasi yang terdeteksi ke wappalyzer.com untuk penelitian"
+   },
+   "optionUpgradeMessage": {
+      "message": "Beritahu Tentang Peningkatan Versi"
+   },
+   "options": {
+      "message": "Pilihan"
+   },
+   "optionsSave": {
+      "message": "Simpan pilihan"
+   },
+   "optionsSaved": {
+      "message": "Tersimpan"
+   },
+   "termsAccept": {
+      "message": "Accept"
+   },
+   "termsContent": {
+      "message": "This extension sends anonymous information about websites you visit, including domain name and identified technologies, to \u003Ca href='https://www.wappalyzer.com'>wappalyzer.com\u003C/a>. This can be disabled in the settings."
+   },
+   "twitter": {
+      "message": "Ikuti Wappalyzer di Twitter"
+   },
+   "website": {
+      "message": "Kunjungi wappalyzer.com"
+   }
+}

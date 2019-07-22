@@ -1,0 +1,21 @@
+<!-- 什么值得买——插件 -->
+<div id="smzdm_panel" ms-controller="panelRange">
+    <!-- 选项卡标题 -->
+    <ul>
+        <li id="smzdm_panel_logo">
+            <!-- logo -->
+            <i></i>
+        </li>
+        <li ms-repeat="plugs" ms-if-loop="el.status" ms-class="smzdm_active:el.name == title.name" ms-mouseenter="inTitle($event, el)">
+            <span>{{ el.name|html }}</span>
+
+            <!-- 选项卡内容 -->
+            <section ms-class="smzdm_active:el.name == content.name" ms-mouseleave="outContent()" ms-css-left="left">
+                <!-- 载入模板 -->
+                {{ el.el|html }}
+            </section>
+        </li>
+    </ul>
+    
+</div>
+<!-- /什么值得买——插件 -->

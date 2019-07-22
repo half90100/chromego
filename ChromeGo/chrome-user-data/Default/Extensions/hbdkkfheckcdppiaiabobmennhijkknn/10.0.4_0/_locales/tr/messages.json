@@ -1,0 +1,632 @@
+{
+   "12Hours": {
+      "message": "12 Hours"
+   },
+   "1Day": {
+      "message": "1 Day"
+   },
+   "1Hour": {
+      "message": "1 Hour"
+   },
+   "2years": {
+      "message": "2 Yıl"
+   },
+   "3Days": {
+      "message": "3 Days"
+   },
+   "6months": {
+      "message": "6 Ay"
+   },
+   "7Days": {
+      "message": "7 Days"
+   },
+   "AboutPageRank": {
+      "message": "Open SEO Stats Hakkında"
+   },
+   "AddTo": {
+      "message": "Sitene Pagerank Button Ekle"
+   },
+   "AlexaDR": {
+      "message": "Alexa - Günlük Ziyaretçi (Bir milyonun yüzdesi)"
+   },
+   "AlexaDTRT": {
+      "message": "Alexa - Günlük Trafik Artışları"
+   },
+   "AlexaPV": {
+      "message": "Alexa - Günlük kullanıcı başına sayfa görüntülenmesi"
+   },
+   "AlexaRank": {
+      "message": "Alexa Trafik Sırası"
+   },
+   "AlexaRankCnt": {
+      "message": "Alexa Trafik Ülke Sıralaması"
+   },
+   "AlexaRankCnt2": {
+      "message": "%COUNTRY-NAME% Alexa Trafiği"
+   },
+   "AlexaSV": {
+      "message": "Alexa - ziyaretçi arama (yüzdesi)"
+   },
+   "AnchorText": {
+      "message": "Anchor text"
+   },
+   "Backlinks": {
+      "message": "Backlinkler"
+   },
+   "Cache": {
+      "message": "Arşivlenmiş"
+   },
+   "CacheDisable": {
+      "message": "Disable Cache"
+   },
+   "CacheDuration": {
+      "message": "Cache Duration"
+   },
+   "CacheFirst": {
+      "message": "Archive.org ilk önbellek tarihi %VALUE%"
+   },
+   "CacheLast": {
+      "message": "Google son önbellek tarihi %VALUE%"
+   },
+   "Cancel": {
+      "message": "İptal"
+   },
+   "CheckFullStats": {
+      "message": "Check full web stats of %SITE%"
+   },
+   "CheckOnline": {
+      "message": "Sitenizin Pagerank değerini anında gösterir"
+   },
+   "ChromeSeobar": {
+      "message": "Chrome SEO Araç Çubuğu"
+   },
+   "City": {
+      "message": "Şehir"
+   },
+   "ClickMore": {
+      "message": "Daha fazla bilgi"
+   },
+   "ClickPR": {
+      "message": "Sitenize Pagerank düğmesi koymak için Buraya tıklayın."
+   },
+   "Close": {
+      "message": "Kapat"
+   },
+   "CompeteRank": {
+      "message": "Compete - Sıralaması"
+   },
+   "CompeteUV": {
+      "message": "Compete - organik ziyaretçi"
+   },
+   "Content": {
+      "message": "İçerik"
+   },
+   "Country": {
+      "message": "Ülke"
+   },
+   "DNS": {
+      "message": "DNS"
+   },
+   "DNS1": {
+      "message": "DNS 1"
+   },
+   "DNS2": {
+      "message": "DNS 2"
+   },
+   "Description": {
+      "message": "Shows web rank and SEO stats of current web page, quick access to backlinks, indexed pages and more."
+   },
+   "Developer": {
+      "message": "Geliştirici"
+   },
+   "DomainInfo": {
+      "message": "Domain Bilgisi"
+   },
+   "DomainLookup": {
+      "message": "Domain Araması"
+   },
+   "Donate": {
+      "message": "Bağış yapın"
+   },
+   "DonateBitcoin": {
+      "message": "Bitcoin ile bağış yapın"
+   },
+   "DonateIt": {
+      "message": "Bağış Yapın"
+   },
+   "DonatePaypal": {
+      "message": "Paypal ile bağış yapın"
+   },
+   "DonateSend": {
+      "message": "Bağışınızı aşağıdaki hesap numarasına gönderin"
+   },
+   "DonateTxt": {
+      "message": "Bu eklentiyi beğendiyseniz, bağış yaparak geliştiricisine yardımcı olun."
+   },
+   "EnterURL": {
+      "message": "Enter Website URL"
+   },
+   "Enter_email": {
+      "message": "Mail Adresinizi Yazın..."
+   },
+   "Feedback": {
+      "message": "İletişim"
+   },
+   "FirstDisplay": {
+      "message": "Eklenti açıldığından beri ilk listelenen sayfa"
+   },
+   "Follow_me": {
+      "message": "Takip Et"
+   },
+   "FormerName": {
+      "message": "Former name"
+   },
+   "Free_ping": {
+      "message": "Bedava Online Ping"
+   },
+   "GeoLocation": {
+      "message": "Coğrafi Konum"
+   },
+   "GooglePR": {
+      "message": "Google PageRank"
+   },
+   "GplusPosts": {
+      "message": "%DOMAIN% i google plus içeriğinden ara!"
+   },
+   "HelpTranslate": {
+      "message": "Kendi dilinize çevirmek için yardımcı olun."
+   },
+   "History": {
+      "message": "Güncelleme Geçmişi"
+   },
+   "History_New": {
+      "message": "Neler Yeni"
+   },
+   "HtmlTag_Alt": {
+      "message": "Açıklama"
+   },
+   "HtmlTag_Body": {
+      "message": "İçerik metni"
+   },
+   "HtmlTag_Bold": {
+      "message": "Bold/Strong"
+   },
+   "HtmlTag_CanonicalURL": {
+      "message": "Canonical URL"
+   },
+   "HtmlTag_H1": {
+      "message": "H1"
+   },
+   "HtmlTag_H2": {
+      "message": "H2"
+   },
+   "HtmlTag_Italic": {
+      "message": "Italic/em"
+   },
+   "HtmlTag_MetaDesc": {
+      "message": "Açıklama"
+   },
+   "HtmlTag_MetaKey": {
+      "message": "Anahtar kelimeler"
+   },
+   "HtmlTag_MetaRobots": {
+      "message": "Meta robots"
+   },
+   "HtmlTag_Title": {
+      "message": "Başlık"
+   },
+   "IP": {
+      "message": "IP"
+   },
+   "IsAvailable": {
+      "message": "%FILE% dosyası mevcut"
+   },
+   "Length": {
+      "message": "Süre"
+   },
+   "LinkExternal": {
+      "message": "Harici linkler"
+   },
+   "LinkInternal": {
+      "message": "Site içi linkler"
+   },
+   "LinkNofollow": {
+      "message": "%NUM% nofollow"
+   },
+   "LinksStats": {
+      "message": "Links Stats"
+   },
+   "MoreDetails": {
+      "message": "Daha fazla bilgi"
+   },
+   "MoreIdx": {
+      "message": "%SITE% indexlenmiş sayfaları görüntülemek için buraya tıkla"
+   },
+   "MoreInfo": {
+      "message": "Daha fazla bilgi için butona tıklayınız..."
+   },
+   "MoreLink": {
+      "message": " %SITE% indexlenmiş backlinkleri görüntülemek için buraya tıkla"
+   },
+   "NA": {
+      "message": "Belirsiz"
+   },
+   "NotFound": {
+      "message": "%FILE% Bulunamadı..!"
+   },
+   "NotFound2": {
+      "message": "Not found"
+   },
+   "NumIndex": {
+      "message": "%SITENAME%: %VALUE% indexlenmiş sayfalar"
+   },
+   "NumLink": {
+      "message": "%SITENAME%: %VALUE% indexlenmiş backlinkler"
+   },
+   "Onsite": {
+      "message": "sitede"
+   },
+   "Options": {
+      "message": "Ayarlar"
+   },
+   "PR": {
+      "message": "PageRank"
+   },
+   "PageConnect": {
+      "message": "Bağlantı"
+   },
+   "PageDOM": {
+      "message": "DOM"
+   },
+   "PageEvent": {
+      "message": "Etki"
+   },
+   "PageInfo": {
+      "message": "Sayfa Bilgisi"
+   },
+   "PageInteractive": {
+      "message": "Etkileşim"
+   },
+   "PageLevel1": {
+      "message": "Çok hızlı"
+   },
+   "PageLevel2": {
+      "message": "Hızlı"
+   },
+   "PageLevel3": {
+      "message": "İdare eder"
+   },
+   "PageLevel4": {
+      "message": "Yavaş"
+   },
+   "PageLevel5": {
+      "message": "Çok yavaş"
+   },
+   "PageLoadEvt": {
+      "message": "Yüklenme işlemi"
+   },
+   "PageLoaded": {
+      "message": "İçerik yüklenmesi"
+   },
+   "PageLong": {
+      "message": "Süre"
+   },
+   "PageRank": {
+      "message": "PageRank Durumu"
+   },
+   "PageRedirect": {
+      "message": "Yönlendirme"
+   },
+   "PageRequest": {
+      "message": "İstek"
+   },
+   "PageResponse": {
+      "message": "Cevap"
+   },
+   "PageSite": {
+      "message": "Site Bilgisi"
+   },
+   "PageSlowInfo": {
+      "message": "Bu site sizin ise, sitemizi optimize etmeye ihtiyacınız var yada %LINK% daha hızlı bir sunucu kullanmalısınız\u003C/A>."
+   },
+   "PageSpeed": {
+      "message": "Yüklenme Hızı"
+   },
+   "PageSpeedFaster": {
+      "message": "Siteniz dünyadaki sitelerinden %NUM% daha hızlı."
+   },
+   "PageSpeedSlower": {
+      "message": "Siteniz dünyadaki sitelerinden %NUM% daha yavaş."
+   },
+   "PageSum": {
+      "message": "İşlem"
+   },
+   "PageTime1": {
+      "message": "Sayfa Yüklenme Süresi:"
+   },
+   "PageTime2": {
+      "message": "%NUM% saniye"
+   },
+   "PageTimings": {
+      "message": "Sayfa yüklenme süresi (ms)"
+   },
+   "PageWhen": {
+      "message": "Başlangıç Zamanı"
+   },
+   "PagesIndexed": {
+      "message": "indexlenmiş sayfalar"
+   },
+   "Percentage": {
+      "message": "Yüzde"
+   },
+   "PrPlugin": {
+      "message": "Siten için Eklenti"
+   },
+   "PrivacyNote": {
+      "message": "GİZLİLİK ANLAŞMASI: Gizliliğiniz bizim için önemli. Mail adresinizi başkalarıyla paylaşmayacağız (satış veya kiralama).İstediğiniz zaman haber bildirimine abone olabilirsiniz."
+   },
+   "Rank": {
+      "message": "Sıralama"
+   },
+   "Rate5Stars": {
+      "message": "Eklentiyi sevdin mi? lütfen bize Chrome Web Store de 5 Yıldızlı \u003Ca href=\"%LINK%\" target=_blank>Oy Ver\u003C/a> Teşekkürler! :-)"
+   },
+   "RateCaution": {
+      "message": "Uyarı"
+   },
+   "RateExcellent": {
+      "message": "Mükemmel sonuç"
+   },
+   "RateGood": {
+      "message": "İyi sonuç"
+   },
+   "RateIt": {
+      "message": "Bu eklentiyi beğendiniz mi? Lütfen Oylayın!"
+   },
+   "RateIt2": {
+      "message": "Oy Ver"
+   },
+   "RateNortonsec": {
+      "message": "Norton Güvenli"
+   },
+   "RatePoor": {
+      "message": "Kötü sonuç"
+   },
+   "RateSafe": {
+      "message": "Güvenli"
+   },
+   "RateUnsat": {
+      "message": "İdare eder bir sonuç"
+   },
+   "RateUntested": {
+      "message": "Test edilmemiş"
+   },
+   "RateVerypoor": {
+      "message": "Çok kötü sonuç"
+   },
+   "RateWarning": {
+      "message": "Tehlikeli"
+   },
+   "Rating": {
+      "message": "Oylama"
+   },
+   "Recommendation": {
+      "message": "Tavsiye"
+   },
+   "SEChina": {
+      "message": "Çin arama motoru"
+   },
+   "SEChinaL": {
+      "message": "Çindeki en büyük arama motoru"
+   },
+   "SEJapan": {
+      "message": "Japon arama motoru"
+   },
+   "SEOStats": {
+      "message": "SEO İstatistikleri"
+   },
+   "SERussinL": {
+      "message": "Rusyadaki en büyük arama motoru"
+   },
+   "SEWorld": {
+      "message": "Dünyanın en büyük arama motoru"
+   },
+   "SSEName": {
+      "message": "Social Search Engine"
+   },
+   "SSESearch": {
+      "message": "Social Search:"
+   },
+   "SaveClose": {
+      "message": "Kaydet & Kapat"
+   },
+   "SecNorton": {
+      "message": "Norton Güvenli Web"
+   },
+   "SecSiteadv": {
+      "message": "McAfee Site Yardımcısı"
+   },
+   "SecWot": {
+      "message": "WOT"
+   },
+   "SiteSecurity": {
+      "message": "Site Güvenliği"
+   },
+   "Sitewide": {
+      "message": "Büyük site"
+   },
+   "Social": {
+      "message": "Sosyal (SNS)"
+   },
+   "SpecURL": {
+      "message": "Belirtilmemiş URL"
+   },
+   "Sub_email": {
+      "message": "E-Mail Abonesi Ol:"
+   },
+   "Subscribe": {
+      "message": "Abone ol"
+   },
+   "SubscribeTo": {
+      "message": "ChromeFans.org abonesi ol"
+   },
+   "Support": {
+      "message": "Teknik Destek"
+   },
+   "Tag": {
+      "message": "Etiket"
+   },
+   "Tool_GEOIP": {
+      "message": "Geolocation IP Konum Servisi"
+   },
+   "Tool_GG_Key": {
+      "message": "Google Anahtar Kelime aracı"
+   },
+   "Tool_GG_Trends": {
+      "message": "Google Trends"
+   },
+   "Tool_ScreenRes": {
+      "message": "Ekran Çözünürlüğü Bilgisi"
+   },
+   "Tool_UserAgent": {
+      "message": "HTTP Kontrolü"
+   },
+   "Tool_W3C_LnkChk": {
+      "message": "W3C Link Kontrolü"
+   },
+   "Tools": {
+      "message": "Araçlar"
+   },
+   "Tools_SEO": {
+      "message": "SEO araçları"
+   },
+   "Tools_Web": {
+      "message": "Web Araçları"
+   },
+   "TopHosting": {
+      "message": "En İyi Hosting"
+   },
+   "Traffic": {
+      "message": "Trafik"
+   },
+   "TrafficGraphs": {
+      "message": "Trafik grafiği"
+   },
+   "TrafficStats": {
+      "message": "Trafik İstatistikleri"
+   },
+   "URL": {
+      "message": "URL/Adres"
+   },
+   "Unranked": {
+      "message": "Belirsiz"
+   },
+   "WebmasterTools": {
+      "message": "Web Yöneticisi Araçları"
+   },
+   "Webmaster_Baidu": {
+      "message": "Baidu Webmaster Araçları"
+   },
+   "Webmaster_Bing": {
+      "message": "Bing Webmaster Araçları"
+   },
+   "Webmaster_Google": {
+      "message": "Google Webmaster Araçları"
+   },
+   "Webmaster_SE": {
+      "message": "Arama Motoru Webmaster  Araçları"
+   },
+   "Webmaster_Yandex": {
+      "message": "Yandex Webmaster Araçları"
+   },
+   "Whois": {
+      "message": "WHOIS Kontrolü"
+   },
+   "Why_sub": {
+      "message": "Neden Abone Olmalıyım?"
+   },
+   "id": {
+      "message": "tr"
+   },
+   "id_folder": {
+      "message": "tr"
+   },
+   "md5_calc": {
+      "message": "Bedava Ms5 Hash Hesaplayıcı"
+   },
+   "site_360": {
+      "message": "360"
+   },
+   "site_alexa": {
+      "message": "Alexa"
+   },
+   "site_archive": {
+      "message": "Archive.org"
+   },
+   "site_ask": {
+      "message": "Ask"
+   },
+   "site_baidu": {
+      "message": "Baidu"
+   },
+   "site_bing": {
+      "message": "Bing"
+   },
+   "site_builtwith": {
+      "message": "BuiltWith"
+   },
+   "site_compete": {
+      "message": "Compete Rank"
+   },
+   "site_delicious": {
+      "message": "Delicious"
+   },
+   "site_excite": {
+      "message": "Excite"
+   },
+   "site_facebook": {
+      "message": "Facebook Beğeniler"
+   },
+   "site_ggplus": {
+      "message": "Google Plus"
+   },
+   "site_goo": {
+      "message": "Goo"
+   },
+   "site_google": {
+      "message": "Google"
+   },
+   "site_hinet": {
+      "message": "Hinet"
+   },
+   "site_ose": {
+      "message": "Open Site Explorer"
+   },
+   "site_quantcast": {
+      "message": "Quantcast Sıralaması"
+   },
+   "site_sogou": {
+      "message": "Sogou"
+   },
+   "site_soso": {
+      "message": "Soso"
+   },
+   "site_stumbles": {
+      "message": "StumbleUpon"
+   },
+   "site_twitter": {
+      "message": "Twitter tweetleri"
+   },
+   "site_yahoo": {
+      "message": "Yahoo"
+   },
+   "site_yam": {
+      "message": "Yam"
+   },
+   "site_yandex": {
+      "message": "Yandex"
+   },
+   "site_youdao": {
+      "message": "Youdao"
+   }
+}

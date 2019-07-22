@@ -1,0 +1,118 @@
+{
+   "add_an_event": {
+      "description": "Header that appears just above the form that lets users add custom events.",
+      "message": "Nieuwe afspraak"
+   },
+   "add_to_google_calendar": {
+      "description": "Alt text and/or link text for the link that users click to add event to their calendar.",
+      "message": "Toevoegen aan Google Agenda"
+   },
+   "alert_new_event_added": {
+      "description": "When a new event is added into the user's calendar, an alert message will be displayed for the user to click on it and see the details",
+      "message": "Dit evenement is net toegevoegd aan uw agenda: "
+   },
+   "authorization_explanation": {
+      "description": "A detailed message explaining the OAuth flow.",
+      "message": "Met Google Agenda voor Chrome kunt u uw agenda controleren terwijl u andere websites bezoekt. Hiervoor is toegang tot uw agenda nodig. Dit is een eenmalig vereiste installatiestap voordat u deze app kunt gebruiken."
+   },
+   "authorization_in_progress": {
+      "description": "A message shown after the user clicks on the Authorize button.",
+      "message": "Autoriseren…"
+   },
+   "authorization_required": {
+      "description": "A message shown when the user needs to grant permission for this extension to read events from their calendar.",
+      "message": "Google Agenda Autoriseren"
+   },
+   "calendar_list_header": {
+      "description": "The header for the Options section under which all calendars are shown.",
+      "message": "Agenda's"
+   },
+   "date_format_date_header": {
+      "description": "Date format to be used in '.date-header'.",
+      "message": "dddd, D. MMMM"
+   },
+   "date_format_event_allday": {
+      "description": "Date format to be used for all-day and multi-day events.",
+      "message": "D. MMM, YYYY"
+   },
+   "error_saving_new_event": {
+      "description": "An error message shown when a user-added quick-add event could not be saved.",
+      "message": "Fout bij het opslaan van nieuwe gebeurtenis; Probeer het opnieuw."
+   },
+   "event_title_placeholder": {
+      "description": "Placeholder in the textarea where the user is instructed to type in the title of the event they want to create.",
+      "message": "Bijv. “Eten met vrienden 19 uur”"
+   },
+   "event_title_unknown": {
+      "description": "When a user does not have access to a particular calendar, the event title is not available; this placeholder text is used instead.",
+      "message": "Bezig"
+   },
+   "fetching_feed": {
+      "description": "Tooltip text for when the extension is fetching the feed from the server.",
+      "message": "De afsprakenlijst wordt bijgewerkt."
+   },
+   "google_calendar_extension_desc": {
+      "description": "Description of what this extension does.",
+      "message": "Check makkelijk Google Agenda en voeg nieuwe afspraken toe vanuit websites die je bezoekt."
+   },
+   "google_calendar_extension_name": {
+      "description": "The name of this extension.",
+      "message": "Google Agenda"
+   },
+   "logo_text": {
+      "description": "The name of the Calendar product, including the word Google.",
+      "message": "Google Agenda"
+   },
+   "no_events_today": {
+      "description": "Message shown as a placeholder when there are no events today. It only applies to when there are no events today, not for other dates.",
+      "message": "Geen afspraken vandaag."
+   },
+   "option_show_time_until_next_event": {
+      "description": "The name of the option that tells the user that the extension will display the time on the badge.",
+      "message": "Toon resterende tijd tot de volgende afspraak."
+   },
+   "option_time_until_next_includes_all_day_events": {
+      "description": "The name of the option that ensures all-day events are included when computing the time to next event.",
+      "message": "Omvatten de hele dag duren bij de berekening van de tijd tot de volgende gebeurtenis."
+   },
+   "problems": {
+      "description": "A link that provides troubleshooting information related to authorization.",
+      "message": "Problemen?"
+   },
+   "quick_add_button": {
+      "description": "Text on the button that adds a new event to the calendar from user input.",
+      "message": "Opslaan"
+   },
+   "read_more_at_original_url": {
+      "description": "Descriptive text for a link at the bottom of each event description that asks the user to click on the link for more information.",
+      "message": "Lees meer op de oorspronkelijke site: "
+   },
+   "show_options": {
+      "description": "Alternate text for the icon that opens the Options screen in a new window.",
+      "message": "Opties wijzigen voor deze extensie"
+   },
+   "show_quick_add": {
+      "description": "Alternate text for the icon that shows the text area where users add details of new events.",
+      "message": "Voeg een nieuwe afspraak toe door de gegevens van de afspraak in te typen."
+   },
+   "sync_now": {
+      "description": "Alternate text for the icon that forces syncing the calendar right away.",
+      "message": "Werk de lijst met afspraken bij vanaf de server"
+   },
+   "time_format": {
+      "description": "The header for the Options section under which the 12 hr/24 hr option is shown.",
+      "message": "Tijdweergave"
+   },
+   "toolbar_icon": {
+      "description": "The section of the Options page that deals with the toolbar icon.",
+      "message": "Werkbalk Icoon"
+   },
+   "view_agenda": {
+      "description": "Used in the popup view just before the actual calendar agenda.",
+      "message": "Agenda"
+   },
+   "view_web_calendar": {
+      "description": "A menu item that allows the user to view the full calendar on the Web.",
+      "message": "Bekijk volledige agenda"
+   }
+}

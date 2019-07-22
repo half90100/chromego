@@ -1,0 +1,65 @@
+#shareDialog {
+  max-width: 900px;
+  max-height: 500px;
+}
+
+#shareDialog .checkboxContainer {
+  margin-top: 20px;
+}
+
+#shareDialogRecipients {
+  margin-top: 20px;
+}
+
+#shareDialog .shareDialogFreeWarning {
+  background: #ddd;
+  display: block;
+  font-size: 14px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+#shareDialog .shareDialogFreeWarning.hidden {
+  display: none;
+}
+
+/*
+******* No Existing Shares or Sites *******
+*/
+
+#shareDialog.noShares .dialogRightPane {
+  left: 50%;
+}
+
+#shareDialog.noShares .dialogLeftPane {
+  width: 50%;
+}
+
+#shareItemsContainer {
+  margin-top: 20px;
+}
+
+/*
+******* No Existing Shares *******
+*/
+
+#shareDialog.noShares.site {
+  max-width: 500px;
+}
+
+#shareDialog.noShares.site .dialogRightPane {
+  display: none;
+}
+
+#shareDialog.noShares.site .dialogLeftPane {
+  width: auto;
+  right: 0;
+}
+
+#shareDialog.noShares #shareDialogExistingShareContainer {
+  display: none;
+}
+
+#shareDialog.site #shareDialogItemSearch {
+  display: none;
+}

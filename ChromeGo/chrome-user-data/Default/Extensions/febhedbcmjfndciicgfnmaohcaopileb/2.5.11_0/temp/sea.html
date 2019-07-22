@@ -1,0 +1,72 @@
+<!-- 海淘 -->
+<div id="panel_sea" ms-controller="priceRange">
+<table>
+    <tr>
+        <th>商品单价：</th>
+        <td>
+            <site>约 {{ price.getdollarprice[1] }}元</site>
+            <input ms-value="price.getdollarprice[0]" ms-input="changePrice()" class="form-control input-sm" /> 美元
+        </td>
+    </tr>
+    <tr>
+        <th>当前汇率：</th>
+        <td>
+            <site>约 <input ms-value="price.rate" ms-input="changeRate()" class="form-control input-sm" /></site>
+            （实时{{ price.autoRate }}）
+        </td>
+    </tr>
+    <tr>
+        <th>商品重量：</th>
+        <td>
+            <site>约 <input ms-value="price.weight?price.weight[0]:1" ms-input="changeWeight()" class="form-control input-sm"> 磅</site>
+            （约 {{ price.weight?Math.ceil(price.weight[0]):1 }} kg）
+        </td>
+    </tr>
+    <tr>
+        <th>转运价格：</th>
+        <td>
+            <site>约 ￥{{ price.shippingINT[1] }}</site>
+            （按 {{ price.weight?Math.ceil(price.weight[0]):1 }} 磅计算）
+        </td>
+    </tr>
+    <tr>
+        <th>转运公司：</th>
+        <td>
+            <div class="droplist">
+                <span ms-click="openlist('span1')">{{ item1.name }}</span>
+                <ul ms-visible="select.span1" ms-mouseleave="closelist()">
+                    <li ms-repeat-el1="list1" ms-click="changelist1(el1)">{{ el1.name }}</li>
+                </ul>
+            </div>
+            <div class="droplist">
+                <span ms-click="openlist('span2')">{{ item2.name }}</span>
+                <ul ms-visible="select.span2" ms-mouseleave="closelist()">
+                    <li ms-repeat-el2="list2" ms-click="changelist2(el2)">{{ el2.name }}</li>
+                </ul>
+            </div>
+            <a class="description" ms-mouseenter="openPop()" ms-mouseleave="closePop()">查看说明</a>
+            <div id="popupbox" ms-class="energetic:boxStatus">
+                <p>首重{{ price.type }}{{ price.singlePrice }} 续重{{ price.type }}{{ price.extendPrice }}</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>境内运费：</th>
+        <td>
+            <span ms-if="price.shippingUSA[1] == 0">暂无</span>
+            <span ms-if="price.shippingUSA[1] != 0">
+            约&nbsp;￥{{ price.shippingUSA[1] }}
+            （${{ price.shippingUSA[0] }}）
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td>
+            <input ms-attr-type="copy.type" ms-attr-class="copy.clsName" ms-value="copy.mes" ms-click="copyExt()" ms-blur="copyBl()" />
+            <span>{{ copy.text }}</span>
+        </td>
+    </tr>
+</table>
+</div>
+<!-- 海淘 -->
